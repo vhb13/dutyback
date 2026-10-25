@@ -411,7 +411,7 @@ def report():
 <h1>DutyBack</h1>
 <p class="sub">Getting small importers their struck-down tariffs back, before the deadlines pass</p>
 <p>{esc(AUTHOR)} · {esc(COURSE)} · {esc(DATE)}</p>
-<div class="links"><b>Repo:</b> <span class="mono">{esc(REPO)}</span><br><b>Demo video:</b> {esc(VIDEO)} (about 3 minutes)<br>
+<div class="links"><b>GitHub repo (clone this):</b> <a class="mono" href="{esc(REPO)}">{esc(REPO)}</a><br><b>Demo video:</b> {esc(VIDEO)} (about 3 minutes)<br>
 <b>Run it:</b> <span class="mono">pip install -r requirements.txt && python run.py</span>, then open <span class="mono">localhost:8010</span>. With <span class="mono">PORTKEY_API_KEY</span> in a <span class="mono">.env</span> (in the repo folder or one folder up) the agents run live on <b>gpt-6-luna</b>; with no key it opens in a labeled demo mode that replays real recorded runs.</div>
 
 <h2>2. Motivation</h2>
@@ -602,6 +602,7 @@ def slides():
 
 <section><div class="kick">AI agents · final project</div><h1 style="font-size:2.4em">DutyBack</h1>
 <p>Getting small importers their struck-down tariffs back,<br>before the deadlines pass</p><p style="font-size:.6em">{esc(AUTHOR)} · {esc(DATE)}</p>
+<p style="font-size:.55em">GitHub repo: <a href="{esc(REPO)}">{esc(REPO)}</a></p>
 <p class="src">Synthetic sample companies · not legal advice</p></section>
 
 <section><div class="kick">The problem</div><h2>$166B in struck-down tariffs. Refunds are not automatic.</h2>
@@ -644,7 +645,8 @@ def slides():
 <div class="kpis"><div class="kpi"><b>≈ $35,600</b><span>recoverable today for a $50k importer that hasn't filed</span></div>
 <div class="kpi"><b>≈ $4,500</b><span>pushed past a deadline by waiting 30 days</span></div><div class="kpi"><b>$0</b><span>CBP fee to file in CAPE</span></div></div>
 <ul style="margin-top:22px"><li>Next: real feedback from small importers and a broker (kit ready), ACE report import, OCR, rule-change tracking</li></ul>
-<p class="src">Illustrative model with stated assumptions; sources in the report</p></section>
+<p class="src">Illustrative model with stated assumptions; sources in the report</p>
+<p style="font-size:.55em">Code and setup: <a href="{esc(REPO)}">{esc(REPO)}</a></p></section>
 
 </div></div>
 <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
