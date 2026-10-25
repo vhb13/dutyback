@@ -1,0 +1,7 @@
+# Keep sample paperwork and media byte-exact on every platform
+* text=auto eol=lf
+*.pdf binary
+*.png binary
+*.jpg binary
+*.mp4 binary
+*.zip binary
