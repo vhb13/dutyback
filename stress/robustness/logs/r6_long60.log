@@ -1,0 +1,77 @@
+[screen] running 
+[screen] done 55 pages · 0 suspicious line(s) removed · 0 hidden characters dropped
+[read] running 
+[read] done 60 entries read by 8 Readers in parallel
+[verify] running 
+[verify] done 60/60 entries fully verified
+[check] running 
+[check] done 21 turns · 19 tool calls · 3 issue(s) with a supporting quote
+[repair] running 
+[repair] done 2 entries corrected or added
+[route] running 
+[route] done $126,581.00 can be claimed in CAPE now
+[plan] running 
+[plan] done 6 steps
+routes:
+  PC9-4343194-4  CAPE_NOW                     $  1,778.00  deadline=2026-10-24  flags=[]
+  PC9-4998939-2  PROTEST_BY                   $  1,192.00  deadline=2026-10-24  flags=[]
+  PC9-4463096-2  PROTEST_BY                   $  6,786.00  deadline=2026-10-25  flags=[]
+  PC9-4609099-3  CAPE_NOW                     $  5,044.00  deadline=2026-10-25  flags=[]
+  PC9-4489844-9  CAPE_NOW                     $  2,178.00  deadline=2026-10-31  flags=[]
+  PC9-4665213-5  PROTEST_BY                   $  1,653.00  deadline=2026-11-06  flags=[]
+  PC9-4802496-8  CAPE_NOW                     $  2,007.00  deadline=2026-11-07  flags=[]
+  PC9-4315413-7  PROTEST_BY                   $  2,508.00  deadline=2026-11-08  flags=['amount_from_statement_only']
+  PC9-4126971-4  PROTEST_BY                   $  3,543.00  deadline=2026-11-09  flags=[]
+  PC9-4402522-1  CAPE_NOW                     $  7,779.00  deadline=2026-11-15  flags=[]
+  PC9-4829695-3  CAPE_NOW                     $  5,682.00  deadline=2026-11-16  flags=['amount_from_statement_only']
+  PC9-4173853-2  PROTEST_BY                   $  2,298.00  deadline=2026-11-18  flags=[]
+  PC9-4815002-6  CAPE_NOW                     $  7,011.00  deadline=2026-11-20  flags=[]
+  PC9-4602804-5  PROTEST_BY                   $  3,634.00  deadline=2026-11-23  flags=['amount_from_statement_only']
+  PC9-4380142-4  PROTEST_BY                   $  5,824.00  deadline=2026-11-24  flags=[]
+  PC9-4627113-1  CAPE_NOW                     $  1,368.00  deadline=2026-11-26  flags=[]
+  PC9-4145457-0  PROTEST_BY                   $  2,547.00  deadline=2026-11-27  flags=[]
+  PC9-4774721-5  CAPE_NOW                     $  2,400.00  deadline=2026-11-29  flags=['statement_conflict']
+  PC9-4875525-3  PROTEST_BY                   $  2,085.00  deadline=2026-11-30  flags=['amount_from_statement_only']
+  PC9-4681911-0  CAPE_NOW                     $  1,335.00  deadline=2026-12-09  flags=[]
+  PC9-4927351-7  PROTEST_BY                   $  4,694.00  deadline=2026-12-10  flags=['amount_from_statement_only']
+  PC9-4218505-9  PROTEST_BY                   $  8,499.00  deadline=2026-12-13  flags=[]
+  PC9-4535720-7  PROTEST_BY                   $  4,548.00  deadline=2026-12-23  flags=[]
+  PC9-4601908-3  PROTEST_BY                   $  4,162.00  deadline=2026-12-23  flags=[]
+  PC9-4991801-0  CAPE_NOW                     $  2,340.00  deadline=2026-12-23  flags=[]
+  PC9-4460005-2  CAPE_NOW                     $  4,320.00  deadline=2026-12-24  flags=[]
+  PC9-4873655-4  CAPE_NOW                     $  3,159.00  deadline=2026-12-31  flags=[]
+  PC9-4198283-6  PROTEST_BY                   $  5,168.00  deadline=2027-01-02  flags=[]
+  PC9-4165830-1  CAPE_NOW                     $  5,672.00  deadline=2027-01-07  flags=['amount_from_statement_only']
+  PC9-4893647-8  PROTEST_BY                   $  1,911.00  deadline=2027-01-10  flags=['amount_from_statement_only']
+  PC9-4669989-8  PROTEST_BY                   $  1,500.00  deadline=2027-01-16  flags=[]
+  PC9-4606689-4  PROTEST_BY                   $  4,880.00  deadline=2027-01-17  flags=[]
+  PC9-4758329-1  PROTEST_BY                   $  1,046.00  deadline=2027-01-19  flags=[]
+  PC9-4352218-5  PROTEST_BY                   $  2,907.00  deadline=2027-01-22  flags=[]
+  PC9-4102947-2  PROTEST_BY                   $  3,728.00  deadline=2027-01-26  flags=[]
+  PC9-4962021-8  PROTEST_BY                   $  7,515.00  deadline=2027-01-27  flags=[]
+  PC9-4194615-8  PROTEST_BY                   $  5,348.00  deadline=2027-01-28  flags=[]
+  PC9-4576356-4  PROTEST_BY                   $  1,632.00  deadline=2027-01-28  flags=[]
+  PC9-4987591-2  PROTEST_BY                   $    882.00  deadline=2027-01-31  flags=[]
+  PC9-4781460-5  CLASS_PENDING                $  8,991.00  deadline=None  flags=[]
+  PC9-4804702-3  CAPE_NOW                     $  8,586.00  deadline=None  flags=[]
+  PC9-4149293-2  CAPE_NOW                     $  8,499.00  deadline=None  flags=['amount_from_statement_only']
+  PC9-4406500-8  CLASS_PENDING                $  8,361.00  deadline=None  flags=['amount_from_statement_only']
+  PC9-4213876-3  CAPE_NOW                     $  8,058.00  deadline=None  flags=[]
+  PC9-4392341-0  CAPE_NOW                     $  7,710.00  deadline=None  flags=[]
+  PC9-4469953-3  CLASS_PENDING                $  6,828.00  deadline=None  flags=[]
+  PC9-4498988-9  CAPE_NOW                     $  5,535.00  deadline=None  flags=['amount_from_statement_only']
+  PC9-4920600-4  CAPE_NOW                     $  5,232.00  deadline=None  flags=[]
+  PC9-4650347-1  CAPE_NOW                     $  4,760.00  deadline=None  flags=[]
+  PC9-4909882-9  CLASS_PENDING                $  4,716.00  deadline=None  flags=[]
+  PC9-4565128-5  CAPE_NOW                     $  4,638.00  deadline=None  flags=[]
+  PC9-4746665-9  CAPE_NOW                     $  4,488.00  deadline=None  flags=[]
+  PC9-4718784-3  CAPE_NOW                     $  4,404.00  deadline=None  flags=[]
+  PC9-4932589-6  CAPE_NOW                     $  4,272.00  deadline=None  flags=[]
+  PC9-4998266-0  CLASS_PENDING                $  3,830.00  deadline=None  flags=[]
+  PC9-4653113-3  CAPE_NOW                     $  3,366.00  deadline=None  flags=[]
+  PC9-4582029-3  CAPE_NOW                     $  2,866.00  deadline=None  flags=[]
+  PC9-4321711-3  CLASS_PENDING                $  2,352.00  deadline=None  flags=[]
+  PC9-4166190-1  CAPE_NOW                     $  2,094.00  deadline=None  flags=[]
+  PC9-4664431-1  CLASS_PENDING                $  1,148.00  deadline=None  flags=[]
+CAPE csv entries: 28 | removed lines: 0 | hidden chars: 0 | warnings: []
+saved stress/robustness/results/r6_long60.json | cost 1.6152

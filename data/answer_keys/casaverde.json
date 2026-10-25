@@ -1,0 +1,140 @@
+{
+  "importer": "Casa Verde Imports LLC",
+  "ior": "74-5528190-00",
+  "as_of": "2026-10-24",
+  "cit_plaintiff": false,
+  "entries": [
+    {
+      "key": "C1",
+      "entry_number": "RB2-5530118-4",
+      "entry_type": "01",
+      "entry_date": "2025-03-11",
+      "liquidation_date": "2026-01-20",
+      "ieepa_duty": 4725.0,
+      "total_duty": 6577.2,
+      "expected_route": "CLASS_PENDING",
+      "expected_deadline": null,
+      "expected_flags": [],
+      "note": ""
+    },
+    {
+      "key": "C2",
+      "entry_number": "RB2-5530462-2",
+      "entry_type": "01",
+      "entry_date": "2025-04-08",
+      "liquidation_date": "2026-02-16",
+      "ieepa_duty": 0.0,
+      "total_duty": 0.0,
+      "expected_route": "NO_IEEPA",
+      "expected_deadline": null,
+      "expected_flags": [],
+      "note": "USMCA-qualifying: the IEEPA exemption line shows $0.00 duty, so nothing to refund."
+    },
+    {
+      "key": "C3",
+      "entry_number": "RB2-5531077-9",
+      "entry_type": "01",
+      "entry_date": "2025-06-03",
+      "liquidation_date": "2026-04-13",
+      "ieepa_duty": 3950.0,
+      "total_duty": 3950.0,
+      "expected_route": "CLASS_PENDING",
+      "expected_deadline": null,
+      "expected_flags": [],
+      "note": ""
+    },
+    {
+      "key": "C4",
+      "entry_number": "RB2-5531650-3",
+      "entry_type": "08",
+      "entry_date": "2025-08-19",
+      "liquidation_date": null,
+      "ieepa_duty": 3325.0,
+      "total_duty": 4123.0,
+      "expected_route": "EXCLUDED_TYPE08",
+      "expected_deadline": null,
+      "expected_flags": [],
+      "note": ""
+    },
+    {
+      "key": "C5",
+      "entry_number": "RB2-5532014-6",
+      "entry_type": "01",
+      "entry_date": "2025-09-16",
+      "liquidation_date": null,
+      "ieepa_duty": 8425.0,
+      "total_duty": 8425.0,
+      "expected_route": "ASK_BROKER",
+      "expected_deadline": null,
+      "expected_flags": [],
+      "note": "AD/CVD case pending; CAPE treats these separately."
+    },
+    {
+      "key": "C6",
+      "entry_number": "RB2-5532391-7",
+      "entry_type": "01",
+      "entry_date": "2025-10-07",
+      "liquidation_date": "2026-08-17",
+      "ieepa_duty": 5350.0,
+      "total_duty": 6420.0,
+      "expected_route": "CAPE_NOW",
+      "expected_deadline": "2026-11-05",
+      "expected_flags": [],
+      "note": ""
+    },
+    {
+      "key": "C7",
+      "entry_number": "RB2-5533008-0",
+      "entry_type": "01",
+      "entry_date": "2025-11-18",
+      "liquidation_date": "2026-10-05",
+      "ieepa_duty": 4060.0,
+      "total_duty": 4060.0,
+      "expected_route": "CAPE_NOW",
+      "expected_deadline": "2026-12-24",
+      "expected_flags": [],
+      "note": ""
+    },
+    {
+      "key": "C8",
+      "entry_number": "RB2-5533742-5",
+      "entry_type": "01",
+      "entry_date": "2026-01-27",
+      "liquidation_date": null,
+      "ieepa_duty": 4050.0,
+      "total_duty": 4536.0,
+      "expected_route": "CAPE_NOW",
+      "expected_deadline": null,
+      "expected_flags": [],
+      "note": ""
+    },
+    {
+      "key": "C9",
+      "entry_number": "RB2-5531839-1",
+      "entry_type": "01",
+      "entry_date": "2025-08-26",
+      "liquidation_date": "2026-07-06",
+      "ieepa_duty": 5025.0,
+      "total_duty": 6994.8,
+      "expected_route": "PROTEST_BY",
+      "expected_deadline": "2027-01-02",
+      "expected_flags": [],
+      "note": ""
+    },
+    {
+      "key": "C10",
+      "entry_number": "RB2-5534106-8",
+      "entry_type": "01",
+      "entry_date": "2026-02-17",
+      "liquidation_date": null,
+      "ieepa_duty": 6420.0,
+      "total_duty": 6420.0,
+      "expected_route": "CAPE_NOW",
+      "expected_deadline": null,
+      "expected_flags": [
+        "statement_conflict"
+      ],
+      "note": "The broker email states a different IEEPA total than the line detail; line detail is authoritative."
+    }
+  ]
+}

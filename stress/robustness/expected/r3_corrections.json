@@ -1,0 +1,81 @@
+{
+ "run": "r3_corrections",
+ "as_of": "2026-10-24",
+ "notes": "Corrections, a 4-line mixed 7501, and a lumped Chapter 99 column.",
+ "entries": [
+  {
+   "key": "R1",
+   "case": "4-line 7501 mixing Section 301, 232 and two IEEPA codes",
+   "entry_number": "BW2-0418120-5",
+   "expected_route": "CAPE_NOW",
+   "acceptable": [],
+   "ieepa": 10130.0,
+   "refund": 10130.0,
+   "deadline": "2026-11-16",
+   "liq": "2026-08-28",
+   "why": ""
+  },
+  {
+   "key": "R2",
+   "case": "statement row says liq 08/20/2026; correction line 'please disregard the previous liquidation date' gives 07/20/2026",
+   "entry_number": "BW2-0418833-1",
+   "expected_route": "PROTEST_BY",
+   "acceptable": [],
+   "ieepa": 4400.0,
+   "refund": 4400.0,
+   "deadline": "2027-01-16",
+   "liq": "2026-07-20",
+   "why": "corrected date 07/20/2026 = 96 days -> PROTEST_BY; old date would give CAPE_NOW"
+  },
+  {
+   "key": "R3",
+   "case": "statement row says Open; revision note says liquidated 06/26/2026",
+   "entry_number": "BW2-0418907-2",
+   "expected_route": "PROTEST_BY",
+   "acceptable": [],
+   "ieepa": 3100.0,
+   "refund": 3100.0,
+   "deadline": "2026-12-23",
+   "liq": "2026-06-26",
+   "why": "120 days -> PROTEST_BY; 'Open' would give CAPE_NOW"
+  },
+  {
+   "key": "R4",
+   "case": "statement-only, entered 01/14/2025 (before IEEPA), lumped 'Ch. 99 add'l duty' = Section 301 only, Open",
+   "entry_number": "BW2-0411873-2",
+   "expected_route": "NO_IEEPA",
+   "acceptable": [
+    "NEEDS_REVIEW"
+   ],
+   "ieepa": 0.0,
+   "refund": 0.0,
+   "deadline": null,
+   "liq": null,
+   "why": "no IEEPA in force; lumped Ch.99 column includes 301/232; any CAPE route is a false CSV entry"
+  },
+  {
+   "key": "R5",
+   "case": "statement-only, lumped Ch.99 (301 + IEEPA) column, Open",
+   "entry_number": "BW2-0417654-9",
+   "expected_route": "NEEDS_REVIEW",
+   "acceptable": [],
+   "ieepa": 0.0,
+   "refund": 0.0,
+   "deadline": null,
+   "liq": null,
+   "why": "IEEPA portion is not stated anywhere; app must not use the lumped total"
+  },
+  {
+   "key": "R6",
+   "case": "control",
+   "entry_number": "BW2-0419011-0",
+   "expected_route": "CAPE_NOW",
+   "acceptable": [],
+   "ieepa": 2400.0,
+   "refund": 2400.0,
+   "deadline": "2026-12-13",
+   "liq": "2026-09-24",
+   "why": ""
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+[screen] running 
+[screen] done 7 pages · 0 suspicious line(s) removed · 0 hidden characters dropped
+[read] running 
+[read] done 9 entries read
+[verify] running 
+[verify] done 3/9 entries fully verified
+[check] running 
+[check] done 13 turns · 11 tool calls · 4 issue(s) with a supporting quote
+[repair] running 
+[repair] done 0 entries corrected or added
+[route] running 
+[route] done $2,960.00 can be claimed in CAPE now
+[plan] running 
+[plan] done 3 steps
+routes:
+  HL6-0420114-3  CAPE_NOW                     $  2,960.00  deadline=2026-12-04  flags=[]
+  HL6-0419871-2  CONFIRM_THEN_CAPE            $  2,215.00  deadline=None  flags=['amount_from_statement_only']
+  HL6-0420387-0  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['statement_conflict', 'unverified:lines_incomplete', 'unverified:liquidation_status']
+  HL6-0420415-8  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['statement_conflict', 'unverified:lines_incomplete']
+  HL6-0419530-1  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['amount_from_statement_only', 'unverified:ieepa_duty', 'unverified:liquidation_date']
+  HL6-0419544-7  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['amount_from_statement_only', 'unverified:flags']
+  HL6-0419902-5  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['amount_from_statement_only', 'unverified:ieepa_duty']
+  HL6-0420006-9  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['amount_from_statement_only', 'unverified:ieepa_duty', 'unverified:liquidation_date']
+  HL6-0418811-0  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['amount_from_statement_only', 'unverified:flags']
+CAPE csv entries: 1 | removed lines: 0 | hidden chars: 0 | warnings: ["Some pages couldn't be read (see the list below), so entries on them may be missing from these results.", '1_cbp7501_entry_summaries.pdf page 3 has no readable text (a scan or photo?). Entries on it may be missing; upload a text PDF or check that page by hand.', '1_cbp7501_entry_summaries.pdf page 5 has no readable text (a scan or photo?). Entries on it may be missing; upload a text PDF or check that page by hand.', '2_broker_supplemental_list_scanned.pdf page 1 has no readable text (a scan or photo?). Entries on it may be missing; upload a text PDF or check that page by hand.']
+saved stress/robustness/retest/r4_scan_2col.json | cost 0.37

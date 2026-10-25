@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DutyBack: find your tariff refunds before the deadlines pass</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <div class="logo">D<span>B</span></div>
+    <div>
+      <h1>DutyBack</h1>
+      <p>Find your IEEPA tariff refunds before the deadlines pass.</p>
+    </div>
+  </div>
+  <div class="top-meta">
+    <span id="modePill" class="pill">checking…</span>
+    <span class="pill quiet">Rules as of <b id="snap">…</b></span>
+  </div>
+</header>
+
+<div class="notice">
+  <b>Not legal advice.</b> DutyBack sorts your entries and prepares files for you and your customs broker to review.
+  The tariff refund rules are still changing (a court class was certified on Oct 8, 2026 and an appeal is pending), so every result shows the date of the rules it used.
+</div>
+
+<main>
+  <section id="start" class="card">
+    <h2>1. Your customs paperwork</h2>
+    <p class="muted">Pick a sample importer (made-up companies, synthetic paperwork) or upload your own PDFs: CBP Form 7501 entry summaries, your broker's statement, an ACE report, or an email from your broker.</p>
+    <div id="samples" class="samples"></div>
+    <div class="upload-row">
+      <label class="upload" id="uploadLabel">
+        <input type="file" id="fileInput" accept="application/pdf" multiple>
+        <span>or upload PDFs</span>
+      </label>
+      <span id="fileNames" class="muted small"></span>
+    </div>
+    <div class="run-row">
+      <label class="small">Check deadlines as of <input type="date" id="asOf"></label>
+      <button id="runBtn" class="primary" disabled>Find my refunds</button>
+    </div>
+    <p id="runNote" class="small muted"></p>
+  </section>
+
+  <section id="progress" class="card hidden">
+    <h2>2. Working on it <span id="elapsed" class="muted small"></span></h2>
+    <ol id="steps" class="steps"></ol>
+    <p id="replayNote" class="small muted hidden">Demo mode: this replays a real recorded run (no API key found in .env and Claude Code isn't logged in). Waiting time is shortened.</p>
+    <p id="errorBox" class="error hidden"></p>
+  </section>
+
+  <section id="results" class="hidden">
+    <div class="card headline">
+      <div>
+        <div class="eyebrow" id="resImporter"></div>
+        <h2 id="resHeadline"></h2>
+        <p class="muted small" id="resMeta"></p>
+      </div>
+      <div id="riskBanner" class="risk hidden"></div>
+    </div>
+    <div id="warnBox" class="card warnbox hidden"></div>
+
+    <div id="buckets" class="buckets"></div>
+
+    <div class="card">
+      <div class="tabs" role="tablist">
+        <button class="tab active" data-tab="entries">Entries</button>
+        <button class="tab" data-tab="plan">Action plan</button>
+        <button class="tab" data-tab="timeline">Deadlines</button>
+        <button class="tab" data-tab="files">Downloads</button>
+        <button class="tab" data-tab="how">How this was made</button>
+        <button class="tab" data-tab="rules">The rules</button>
+      </div>
+      <div class="tabpane" id="tab-entries"></div>
+      <div class="tabpane hidden" id="tab-plan"></div>
+      <div class="tabpane hidden" id="tab-timeline"></div>
+      <div class="tabpane hidden" id="tab-files"></div>
+      <div class="tabpane hidden" id="tab-how"></div>
+      <div class="tabpane hidden" id="tab-rules"></div>
+    </div>
+  </section>
+</main>
+
+<aside id="drawer" class="drawer hidden" aria-hidden="true">
+  <div class="drawer-inner">
+    <button class="close" id="drawerClose" aria-label="Close">×</button>
+    <div id="drawerBody"></div>
+  </div>
+</aside>
+
+<footer>
+  DutyBack is a student project. It is not affiliated with U.S. Customs and Border Protection and is not legal advice.
+  Sample companies and paperwork are synthetic. Agents run on gpt-6-luna (course key) or Claude.
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

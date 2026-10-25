@@ -1,0 +1,867 @@
+{
+ "importer": {
+  "name": "Brightwater Lighting Inc.",
+  "ior_number": "27-6610043-00",
+  "cit_plaintiff": false,
+  "cit_case": null,
+  "cit_ior_submitted_date": null,
+  "evidence": "Client: Brightwater Lighting Inc. IOR 27-6610043-00"
+ },
+ "as_of": "2026-10-24",
+ "rules_snapshot": "2026-10-24",
+ "summary": {
+  "as_of": "2026-10-24",
+  "rules_snapshot": "2026-10-24",
+  "entries": 6,
+  "ieepa_paid": 20030.0,
+  "buckets": {
+   "file_now": {
+    "label": "Claim in CAPE now",
+    "count": 2,
+    "amount": 12530.0
+   },
+   "fix_first": {
+    "label": "One step first, then CAPE",
+    "count": 0,
+    "amount": 0.0
+   },
+   "protest": {
+    "label": "Protest route",
+    "count": 0,
+    "amount": 0.0
+   },
+   "broker": {
+    "label": "Talk to your broker",
+    "count": 0,
+    "amount": 0.0
+   },
+   "no_route": {
+    "label": "Waiting on the court",
+    "count": 0,
+    "amount": 0.0
+   },
+   "not_refundable": {
+    "label": "Nothing to refund",
+    "count": 0,
+    "amount": 0.0
+   },
+   "review": {
+    "label": "Check by hand",
+    "count": 4,
+    "amount": 0.0
+   }
+  },
+  "at_risk_this_week": {
+   "count": 0,
+   "amount": 0,
+   "entries": []
+  },
+  "cape_csv_count": 2,
+  "cape_csv_amount": 12530.0
+ },
+ "entries": [
+  {
+   "entry_number": "BW2-0418120-5",
+   "route": "CAPE_NOW",
+   "label": "File in CAPE now",
+   "bucket": "file_now",
+   "ieepa_duty": 10130.0,
+   "refund_amount": 10130.0,
+   "deadline": "2026-11-16",
+   "days_left": 23,
+   "urgent": false,
+   "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+   "flags": [],
+   "in_cape_csv": true,
+   "days_since_liquidation": 57,
+   "entry_type": "01",
+   "entry_date": "2025-10-02",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-08-28",
+   "evidence": {
+    "entry": "BW2-0418120-5 01 ABI/A | BW2-0418120-5 01 10/02/2025 Liquidated 08/28/2026 26,905.00",
+    "liquidation": "BW2-0418120-5 01 10/02/2025 Liquidated 08/28/2026 26,905.00",
+    "flags": null,
+    "ieepa_statement": null
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "LED table lamps",
+     "hts": [
+      {
+       "code": "9405.21.8000",
+       "entered_value": 18200,
+       "rate": 0.039,
+       "duty": 709.8
+      },
+      {
+       "code": "9903.88.03",
+       "entered_value": null,
+       "rate": 0.25,
+       "duty": 4550
+      },
+      {
+       "code": "9903.01.24",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3640
+      },
+      {
+       "code": "9903.01.25",
+       "entered_value": null,
+       "rate": 0.1,
+       "duty": 1820
+      }
+     ]
+    },
+    {
+     "line_no": "002",
+     "description": "Steel floor lamp bases",
+     "hts": [
+      {
+       "code": "9405.99.4090",
+       "entered_value": 9600,
+       "rate": 0.06,
+       "duty": 576
+      },
+      {
+       "code": "9903.88.03",
+       "entered_value": null,
+       "rate": 0.25,
+       "duty": 2400
+      },
+      {
+       "code": "9903.81.91",
+       "entered_value": null,
+       "rate": 0.5,
+       "duty": 4800
+      },
+      {
+       "code": "9903.01.24",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 1920
+      }
+     ]
+    },
+    {
+     "line_no": "003",
+     "description": "Aluminum track light housings",
+     "hts": [
+      {
+       "code": "9405.99.4020",
+       "entered_value": 7400,
+       "rate": 0.06,
+       "duty": 444
+      },
+      {
+       "code": "9903.85.08",
+       "entered_value": null,
+       "rate": 0.5,
+       "duty": 3700
+      },
+      {
+       "code": "9903.01.24",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 1480
+      },
+      {
+       "code": "9903.01.25",
+       "entered_value": null,
+       "rate": 0.1,
+       "duty": 740
+      }
+     ]
+    },
+    {
+     "line_no": "004",
+     "description": "Glass lamp shades",
+     "hts": [
+      {
+       "code": "9405.91.1000",
+       "entered_value": 5300,
+       "rate": 0.06,
+       "duty": 318
+      },
+      {
+       "code": "9903.88.03",
+       "entered_value": null,
+       "rate": 0.25,
+       "duty": 1325
+      },
+      {
+       "code": "9903.01.25",
+       "entered_value": null,
+       "rate": 0.1,
+       "duty": 530
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "BW2-0418120-5",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 2 page(s)"
+    },
+    {
+     "entry": "BW2-0418120-5",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-08-28"
+    },
+    {
+     "entry": "BW2-0418120-5",
+     "check": "IEEPA duty 9903.01.24 $3,640.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "BW2-0418120-5",
+     "check": "IEEPA duty 9903.01.25 $1,820.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "BW2-0418120-5",
+     "check": "IEEPA duty 9903.01.24 $1,920.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "BW2-0418120-5",
+     "check": "IEEPA duty 9903.01.24 $1,480.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "BW2-0418120-5",
+     "check": "IEEPA duty 9903.01.25 $740.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "BW2-0418120-5",
+     "check": "IEEPA duty 9903.01.25 $530.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "BW2-0418120-5",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $28,952.80 vs printed $28,952.80"
+    },
+    {
+     "entry": "BW2-0418120-5",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "BW2-0418120-5",
+   "repaired": false
+  },
+  {
+   "entry_number": "BW2-0419011-0",
+   "route": "CAPE_NOW",
+   "label": "File in CAPE now",
+   "bucket": "file_now",
+   "ieepa_duty": 2400.0,
+   "refund_amount": 2400.0,
+   "deadline": "2026-12-13",
+   "days_left": 50,
+   "urgent": false,
+   "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+   "flags": [],
+   "in_cape_csv": true,
+   "days_since_liquidation": 30,
+   "entry_type": "01",
+   "entry_date": "2025-12-01",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-09-24",
+   "evidence": {
+    "entry": "BW2-0419011-0 01 ABI/A | BW2-0419011-0 01 12/01/2025 Liquidated 09/24/2026 2,400.00",
+    "liquidation": "BW2-0419011-0 01 12/01/2025 Liquidated 09/24/2026 2,400.00",
+    "flags": null,
+    "ieepa_statement": null
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "String lights",
+     "hts": [
+      {
+       "code": "9405.31.0000",
+       "entered_value": 12000,
+       "rate": 0.039,
+       "duty": 468
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 2400
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "BW2-0419011-0",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 2 page(s)"
+    },
+    {
+     "entry": "BW2-0419011-0",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-09-24"
+    },
+    {
+     "entry": "BW2-0419011-0",
+     "check": "IEEPA duty 9903.02.69 $2,400.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "BW2-0419011-0",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $2,868.00 vs printed $2,868.00"
+    },
+    {
+     "entry": "BW2-0419011-0",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "BW2-0419011-0",
+   "repaired": false
+  },
+  {
+   "entry_number": "BW2-0418833-1",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 4400.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 96,
+   "entry_type": "01",
+   "entry_date": "2025-09-15",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-20",
+   "evidence": {
+    "entry": "BW2-0418833-1 01 ABI/A | BW2-0418833-1 01 09/15/2025 Liquidated 08/20/2026 4,400.00",
+    "liquidation": "BW2-0418833-1 01 09/15/2025 Liquidated 08/20/2026 4,400.00 | BW2-0418833-1: please disregard the previous liquidation date (08/20/2026); revised liquidation date is 07/20/2026.",
+    "flags": null,
+    "ieepa_statement": null
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Pendant lights",
+     "hts": [
+      {
+       "code": "9405.11.8010",
+       "entered_value": 22000,
+       "rate": 0.039,
+       "duty": 858
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 4400
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "BW2-0418833-1",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 2 page(s)"
+    },
+    {
+     "entry": "BW2-0418833-1",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-20"
+    },
+    {
+     "entry": "BW2-0418833-1",
+     "check": "IEEPA duty 9903.02.69 $4,400.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "BW2-0418833-1",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $5,258.00 vs printed $5,258.00"
+    },
+    {
+     "entry": "BW2-0418833-1",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "BW2-0418833-1",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:correction, conflict:several liquidation dates"
+    }
+   ],
+   "missed_signs": [
+    "conflict:correction",
+    "conflict:several liquidation dates"
+   ],
+   "printed_entry_number": "BW2-0418833-1",
+   "repaired": false
+  },
+  {
+   "entry_number": "BW2-0418907-2",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 3100.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 120,
+   "entry_type": "01",
+   "entry_date": "2025-08-18",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-06-26",
+   "evidence": {
+    "entry": "BW2-0418907-2 01 ABI/A | BW2-0418907-2 01 08/18/2025 Open - 3,100.00",
+    "liquidation": "BW2-0418907-2 01 08/18/2025 Open - 3,100.00 | BW2-0418907-2: revised - liquidated 06/26/2026 (posted in ACE after our cut-off; 'Open' above is out of date).",
+    "flags": null,
+    "ieepa_statement": null
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Ceiling fans with lights",
+     "hts": [
+      {
+       "code": "8414.51.0090",
+       "entered_value": 15500,
+       "rate": 0.047,
+       "duty": 728.5
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3100
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "BW2-0418907-2",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 2 page(s)"
+    },
+    {
+     "entry": "BW2-0418907-2",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-06-26"
+    },
+    {
+     "entry": "BW2-0418907-2",
+     "check": "IEEPA duty 9903.02.69 $3,100.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "BW2-0418907-2",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $3,828.50 vs printed $3,828.50"
+    },
+    {
+     "entry": "BW2-0418907-2",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "BW2-0418907-2",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:correction, conflict:liquidated and open"
+    }
+   ],
+   "missed_signs": [
+    "conflict:correction",
+    "conflict:liquidated and open"
+   ],
+   "printed_entry_number": "BW2-0418907-2",
+   "repaired": false
+  },
+  {
+   "entry_number": "BW2-0411873-2",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 0.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": null,
+   "entry_type": "01",
+   "entry_date": "2025-01-14",
+   "liquidation_status": "unliquidated",
+   "liquidation_date": null,
+   "evidence": {
+    "entry": "BW2-0411873-2 01 01/14/2025 Open - 7,625.00",
+    "liquidation": "BW2-0411873-2 01 01/14/2025 Open - 7,625.00",
+    "flags": null,
+    "ieepa_statement": null
+   },
+   "source_docs": [
+    "2_broker_statement.pdf"
+   ],
+   "lines": [],
+   "checks": [
+    {
+     "entry": "BW2-0411873-2",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 1 page(s)"
+    },
+    {
+     "entry": "BW2-0411873-2",
+     "check": "'not liquidated' is printed with this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "BW2-0411873-2",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "BW2-0411873-2",
+   "repaired": false
+  },
+  {
+   "entry_number": "BW2-0417654-9",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 0.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": null,
+   "entry_type": "01",
+   "entry_date": "2025-09-03",
+   "liquidation_status": "unliquidated",
+   "liquidation_date": null,
+   "evidence": {
+    "entry": "BW2-0417654-9 01 09/03/2025 Open - 5,980.00",
+    "liquidation": "BW2-0417654-9 01 09/03/2025 Open - 5,980.00",
+    "flags": null,
+    "ieepa_statement": null
+   },
+   "source_docs": [
+    "2_broker_statement.pdf"
+   ],
+   "lines": [],
+   "checks": [
+    {
+     "entry": "BW2-0417654-9",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 1 page(s)"
+    },
+    {
+     "entry": "BW2-0417654-9",
+     "check": "'not liquidated' is printed with this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "BW2-0417654-9",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "BW2-0417654-9",
+   "repaired": false
+  }
+ ],
+ "plan": {
+  "headline": "Two entries totaling $12,530.00 appear eligible for a refund claim in CAPE, and the first deadline is Nov 16, 2026.",
+  "steps": [
+   {
+    "title": "Claim entry BW2-0418120-5 in CAPE",
+    "detail": "This entry appears eligible for a $10,130.00 IEEPA refund. CAPE is the Customs refund claim portal. File by Nov 16, 2026 (23 days left).",
+    "deadline": "2026-11-16",
+    "entries": [
+     "BW2-0418120-5"
+    ]
+   },
+   {
+    "title": "Claim entry BW2-0419011-0 in CAPE",
+    "detail": "This entry appears eligible for a $2,400.00 refund. File by Dec 13, 2026 (50 days left). Filing both entries together is simplest, for a combined $12,530.00.",
+    "deadline": "2026-12-13",
+    "entries": [
+     "BW2-0419011-0"
+    ]
+   },
+   {
+    "title": "Check four entries by hand with your broker",
+    "detail": "We couldn't verify a key fact for these entries, such as the liquidation date (when Customs finalized the duty) or the IEEPA duty amount. We didn't guess, so no refund amount or route is set for them yet. Ask your broker to confirm the details.",
+    "deadline": null,
+    "entries": [
+     "BW2-0418833-1",
+     "BW2-0418907-2",
+     "BW2-0411873-2",
+     "BW2-0417654-9"
+    ]
+   }
+  ],
+  "broker_email_subject": "IEEPA refund claims: Brightwater Lighting Inc. \u2013 CAPE filing and 4 entries to verify",
+  "broker_email_body": "Hi,\n\nI'm reviewing our IEEPA tariff refunds as of Oct 24, 2026. Two entries appear eligible for filing in CAPE:\n\n- BW2-0418120-5: $10,130.00, file by Nov 16, 2026\n- BW2-0419011-0: $2,400.00, file by Dec 13, 2026\n\nTogether that is $12,530.00. Can you confirm these are eligible and file them, or tell me what you need from me?\n\nFour other entries could not be verified from our documents. The liquidation date or the IEEPA duty amount is unclear:\n\n- BW2-0418833-1\n- BW2-0418907-2\n- BW2-0411873-2\n- BW2-0417654-9\n\nCan you check the liquidation date and IEEPA duty paid for each and tell me the best route for them?\n\n\n\nThank you,\nBrightwater Lighting Inc."
+ },
+ "plan_removed_sentences": [
+  "I understand this is not a guarantee of refund and I'm relying on you to confirm."
+ ],
+ "checker": {
+  "issues": [],
+  "summary": "No issues found. All 6 entries are present, and the liquidation statuses and dates match the statement, including its two corrections. The Chapter 99 lines match the 7501s, and BW2-0418120-5 totals $26,905, the same as the statement. No flags are supported by the documents."
+ },
+ "screen": {
+  "removed_lines": [],
+  "hidden_chars_dropped": 0,
+  "errors": [],
+  "pages": 5,
+  "unreadable_pages": [],
+  "skipped": [],
+  "incomplete": false
+ },
+ "warnings": [],
+ "reader_notes": [
+  "ieepa_duty_statement is null for all entries. The broker statement's 'Ch. 99 Add'l Duty' column is not an IEEPA amount. The statement says: 'Ch. 99 Add'l Duty is the total of all Chapter 99 duties on the entry: Section 301, Section 232 and IEEPA duties combined. It is not the IEEPA amount.' To get the IEEPA portion, ask Gulfway for the line detail.",
+  "BW2-0418833-1: the statement table shows liquidated 08/20/2026, but a correction on the same statement replaces it with 07/20/2026. 2026-07-20 was used.",
+  "BW2-0418907-2: the table shows 'Open', but a correction on the same statement says it was liquidated 06/26/2026 and that 'Open' is out of date. Recorded as liquidated 2026-06-26.",
+  "BW2-0411873-2 and BW2-0417654-9 appear only on the broker statement, which lists them as 'Open'. No 7501 was provided, so they have no line, HTS or rate detail. Their Ch. 99 totals are 7,625.00 and 5,980.00.",
+  "Chapter 99 rows on the 7501s show no entered value of their own, so entered_value is null for those rows.",
+  "BW2-0418120-5: the Ch. 99 duties on the 7501 add up to 26,905.00, the same as the broker statement.",
+  "No document shows surety payment, protests, drawback, reconciliation, AD/CVD, or a Court of International Trade case, so all of those are false/null."
+ ],
+ "incomplete": false,
+ "files": {
+  "cape_csv": "Entry Number\nBW204181205\nBW204190110\n",
+  "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//DutyBack//IEEPA refund deadlines//EN\r\nCALSCALE:GREGORIAN\r\nX-WR-CALNAME:Tariff refund deadlines - Brightwater Lighting Inc.\r\nBEGIN:VEVENT\r\nUID:BW2-0418120-5-CAPE_NOW@dutyback.local\r\nDTSTAMP:20261025T005234Z\r\nDTSTART;VALUE=DATE:20261116\r\nDTEND;VALUE=DATE:20261117\r\nSUMMARY:Last day for CAPE: entry BW2-0418120-5 ($10\\,130.00)\r\nDESCRIPTION:File in CAPE now. Eligible for CAPE: unliquidated\\, or liquidated 80 days ago or less (CSMS #68340863). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: BW2-0418120-5\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: BW2-0418120-5\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:BW2-0419011-0-CAPE_NOW@dutyback.local\r\nDTSTAMP:20261025T005234Z\r\nDTSTART;VALUE=DATE:20261213\r\nDTEND;VALUE=DATE:20261214\r\nSUMMARY:Last day for CAPE: entry BW2-0419011-0 ($2\\,400.00)\r\nDESCRIPTION:File in CAPE now. Eligible for CAPE: unliquidated\\, or liquidated 80 days ago or less (CSMS #68340863). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: BW2-0419011-0\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: BW2-0419011-0\r\nEND:VALARM\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+ },
+ "agents": [
+  {
+   "agent": "reader",
+   "model": "opus",
+   "seconds": 30.7,
+   "input_tokens": 2,
+   "output_tokens": 4356,
+   "cache_read_tokens": 2307,
+   "cache_write_tokens": 2959,
+   "cost_usd": 0.1113,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-opus-5-5"
+  },
+  {
+   "agent": "checker",
+   "model": "sonnet",
+   "seconds": 13.9,
+   "input_tokens": 4,
+   "output_tokens": 1843,
+   "cache_read_tokens": 4056,
+   "cache_write_tokens": 4195,
+   "cost_usd": 0.0356,
+   "turns": 9,
+   "tool_calls": [
+    {
+     "tool": "get_extraction",
+     "input": {}
+    },
+    {
+     "tool": "list_entry_numbers_in_documents",
+     "input": {}
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 1
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 2
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 3
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 4
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "2_broker_statement.pdf",
+      "page": 1
+     }
+    }
+   ],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-sonnet-5-5"
+  },
+  {
+   "agent": "reader (repair)",
+   "model": "opus",
+   "seconds": 15.4,
+   "input_tokens": 2,
+   "output_tokens": 1922,
+   "cache_read_tokens": 2307,
+   "cache_write_tokens": 3092,
+   "cost_usd": 0.0636,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-opus-5-5"
+  },
+  {
+   "agent": "advisor",
+   "model": "sonnet",
+   "seconds": 7.6,
+   "input_tokens": 2,
+   "output_tokens": 925,
+   "cache_read_tokens": 905,
+   "cache_write_tokens": 1875,
+   "cost_usd": 0.0168,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-sonnet-5-5"
+  }
+ ],
+ "totals": {
+  "seconds": 67.8,
+  "cost_usd": 0.2273,
+  "input_tokens": 21706,
+  "output_tokens": 9046,
+  "tool_calls": 7
+ },
+ "steps": [
+  {
+   "key": "screen",
+   "title": "Safety screen",
+   "who": "Code"
+  },
+  {
+   "key": "read",
+   "title": "Read the paperwork",
+   "who": "Reader agent"
+  },
+  {
+   "key": "verify",
+   "title": "Match the extracted facts to the documents",
+   "who": "Code"
+  },
+  {
+   "key": "check",
+   "title": "Double-check with tools",
+   "who": "Checker agent"
+  },
+  {
+   "key": "repair",
+   "title": "Re-read anything flagged",
+   "who": "Reader agent + code"
+  },
+  {
+   "key": "route",
+   "title": "Sort entries and compute refunds",
+   "who": "Rules engine (code)"
+  },
+  {
+   "key": "plan",
+   "title": "Write the action plan",
+   "who": "Advisor agent + code"
+  }
+ ]
+}

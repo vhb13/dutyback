@@ -1,0 +1,47 @@
+[screen] running 
+[screen] done 35 pages · 0 suspicious line(s) removed · 0 hidden characters dropped
+[read] running 
+[read] done 30 entries read by 6 Readers in parallel
+[verify] running 
+[verify] done 30/30 entries fully verified
+[check] running 
+[check] done 16 turns · 14 tool calls · 20 issue(s) with a supporting quote
+[repair] running 
+[repair] done 19 entries corrected or added
+[route] running 
+[route] done $22,005.00 can be claimed in CAPE now
+[plan] running 
+[plan] done 3 steps
+routes:
+  CG4-5501889-1  PROTEST_BY                   $  2,506.00  deadline=2027-01-14  flags=[]
+  CG4-5368929-3  PROTEST_BY                   $  3,640.00  deadline=2027-01-15  flags=[]
+  CG4-5572165-2  PROTEST_BY                   $  1,044.00  deadline=2027-01-16  flags=[]
+  CG4-5823538-7  PROTEST_BY                   $  1,378.00  deadline=2027-01-17  flags=[]
+  CG4-5672950-4  PROTEST_BY                   $  4,476.00  deadline=2027-01-18  flags=[]
+  CG4-5704628-8  PROTEST_BY                   $  1,306.00  deadline=2027-01-19  flags=[]
+  CG4-5135762-5  PROTEST_BY                   $  3,438.00  deadline=2027-01-20  flags=[]
+  CG4-5231709-6  PROTEST_BY                   $  3,348.00  deadline=2027-01-21  flags=[]
+  CG4-5798418-3  PROTEST_BY                   $  2,250.00  deadline=2027-01-22  flags=[]
+  CG4-5712851-4  PROTEST_BY                   $  1,428.00  deadline=2027-01-23  flags=[]
+  CG4-5101287-9  PROTEST_BY                   $  2,354.00  deadline=2027-01-24  flags=[]
+  CG4-5449332-1  PROTEST_BY                   $  4,428.00  deadline=2027-01-25  flags=[]
+  CG4-5226715-1  PROTEST_BY                   $  3,768.00  deadline=2027-01-26  flags=[]
+  CG4-5730710-4  PROTEST_BY                   $  4,506.00  deadline=2027-01-27  flags=[]
+  CG4-5567341-9  PROTEST_BY                   $  3,190.00  deadline=2027-01-28  flags=[]
+  CG4-5452472-8  PROTEST_BY                   $  4,010.00  deadline=2027-01-29  flags=[]
+  CG4-5486503-9  PROTEST_BY                   $  2,080.00  deadline=2027-01-30  flags=[]
+  CG4-5340474-7  PROTEST_BY                   $  2,782.00  deadline=2027-01-31  flags=[]
+  CG4-5710382-0  CAPE_NOW                     $  4,906.00  deadline=None  flags=[]
+  CG4-5715043-4  CAPE_NOW                     $  4,304.00  deadline=None  flags=[]
+  CG4-5785470-7  CLASS_PENDING                $  4,266.00  deadline=None  flags=[]
+  CG4-5950874-7  CAPE_NOW                     $  3,144.00  deadline=None  flags=[]
+  CG4-5667806-9  CLASS_PENDING                $  3,024.00  deadline=None  flags=[]
+  CG4-5542816-6  CLASS_PENDING                $  2,780.00  deadline=None  flags=[]
+  CG4-5276691-1  CAPE_NOW                     $  2,542.00  deadline=None  flags=[]
+  CG4-5718104-8  CLASS_PENDING                $  2,426.00  deadline=None  flags=[]
+  CG4-5740127-0  CAPE_NOW                     $  2,146.00  deadline=None  flags=[]
+  CG4-5688071-5  CAPE_NOW                     $  1,752.00  deadline=None  flags=[]
+  CG4-5199160-2  CAPE_NOW                     $  1,609.00  deadline=None  flags=[]
+  CG4-5709773-8  CAPE_NOW                     $  1,602.00  deadline=None  flags=[]
+CAPE csv entries: 8 | removed lines: 0 | hidden chars: 0 | warnings: []
+saved stress/robustness/results/r7_stale_statement.json | cost 1.3234

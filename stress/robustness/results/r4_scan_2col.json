@@ -1,0 +1,893 @@
+{
+ "importer": {
+  "name": "Harbor Lane Ceramics Co.",
+  "ior_number": "93-1180462-00",
+  "cit_plaintiff": false,
+  "cit_case": null,
+  "cit_ior_submitted_date": null,
+  "evidence": "26. Importer of Record No. Importer of Record Name | 93-1180462-00 Harbor Lane Ceramics Co. | Client: Harbor Lane Ceramics Co. IOR 93-1180462-00 Prepared 10/22/2026"
+ },
+ "as_of": "2026-10-24",
+ "rules_snapshot": "2026-10-24",
+ "summary": {
+  "as_of": "2026-10-24",
+  "rules_snapshot": "2026-10-24",
+  "entries": 9,
+  "ieepa_paid": 29070.0,
+  "buckets": {
+   "file_now": {
+    "label": "Claim in CAPE now",
+    "count": 5,
+    "amount": 17315.0
+   },
+   "fix_first": {
+    "label": "One step first, then CAPE",
+    "count": 0,
+    "amount": 0.0
+   },
+   "protest": {
+    "label": "Protest route",
+    "count": 2,
+    "amount": 8775.0
+   },
+   "broker": {
+    "label": "Talk to your broker",
+    "count": 1,
+    "amount": 2980.0
+   },
+   "no_route": {
+    "label": "Waiting on the court",
+    "count": 0,
+    "amount": 0.0
+   },
+   "not_refundable": {
+    "label": "Nothing to refund",
+    "count": 1,
+    "amount": 0.0
+   },
+   "review": {
+    "label": "Check by hand",
+    "count": 0,
+    "amount": 0.0
+   }
+  },
+  "at_risk_this_week": {
+   "count": 1,
+   "amount": 6780.0,
+   "entries": [
+    "HL6-0419530-1"
+   ]
+  },
+  "cape_csv_count": 5,
+  "cape_csv_amount": 17315.0
+ },
+ "entries": [
+  {
+   "entry_number": "HL6-0419530-1",
+   "route": "CAPE_NOW",
+   "label": "File in CAPE now",
+   "bucket": "file_now",
+   "ieepa_duty": 6780.0,
+   "refund_amount": 6780.0,
+   "deadline": "2026-10-24",
+   "days_left": 0,
+   "urgent": true,
+   "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+   "flags": [
+    "amount_from_statement_only"
+   ],
+   "in_cape_csv": true,
+   "days_since_liquidation": 80,
+   "entry_type": "01",
+   "entry_date": null,
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-08-05",
+   "evidence": {
+    "entry": "Entry HL6-0419530-1 (type 01) Entry HL6-0419544-7 (type 01)",
+    "liquidation": "Entry HL6-0419530-1 (type 01) Entry HL6-0419544-7 (type 01) | Status: Liquidated 08/05/2026 Status: Liquidated 08/04/2026",
+    "flags": null,
+    "ieepa_statement": "IEEPA duty: $6,780.00 IEEPA duty: $3,750.00"
+   },
+   "source_docs": [
+    "3_broker_statement_two_column.pdf"
+   ],
+   "lines": [],
+   "checks": [
+    {
+     "entry": "HL6-0419530-1",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 1 page(s)"
+    },
+    {
+     "entry": "HL6-0419530-1",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-08-05 / quote: Entry HL6-0419530-1 (type 01) Entry HL6-0419544-7 (type 01) | Status: Liquidated 08/05/202"
+    },
+    {
+     "entry": "HL6-0419530-1",
+     "check": "stated IEEPA amount is printed with this entry",
+     "ok": true,
+     "detail": "$6,780.00"
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "HL6-0418811-0",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 5025.0,
+   "refund_amount": 5025.0,
+   "deadline": "2026-11-16",
+   "days_left": 23,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [
+    "amount_from_statement_only"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 157,
+   "entry_type": "01",
+   "entry_date": null,
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-05-20",
+   "evidence": {
+    "entry": "Entry HL6-0418811-0 (type 01)",
+    "liquidation": "Entry HL6-0418811-0 (type 01) | Status: Liquidated 09/10/2026 | Status: Liquidated 05/20/2026",
+    "flags": null,
+    "ieepa_statement": "IEEPA duty: $2,980.00 | IEEPA duty: $5,025.00"
+   },
+   "source_docs": [
+    "3_broker_statement_two_column.pdf"
+   ],
+   "lines": [],
+   "checks": [
+    {
+     "entry": "HL6-0418811-0",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 1 page(s)"
+    },
+    {
+     "entry": "HL6-0418811-0",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-05-20 / quote: Entry HL6-0418811-0 (type 01) | Status: Liquidated 09/10/2026 | Status: Liquidated 05/20/2"
+    },
+    {
+     "entry": "HL6-0418811-0",
+     "check": "stated IEEPA amount is printed with this entry",
+     "ok": true,
+     "detail": "$5,025.00"
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "HL6-0420114-3",
+   "route": "CAPE_NOW",
+   "label": "File in CAPE now",
+   "bucket": "file_now",
+   "ieepa_duty": 2960.0,
+   "refund_amount": 2960.0,
+   "deadline": "2026-12-04",
+   "days_left": 41,
+   "urgent": false,
+   "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+   "flags": [],
+   "in_cape_csv": true,
+   "days_since_liquidation": 39,
+   "entry_type": "01",
+   "entry_date": "2025-11-04",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-09-15",
+   "evidence": {
+    "entry": "HL6-0420114-3 01 ABI/A | Entry HL6-0420114-3 (type 01)",
+    "liquidation": "Entry HL6-0420114-3 (type 01) | IEEPA duty: $4,120.00 | Status: Liquidated 09/15/2026",
+    "flags": null,
+    "ieepa_statement": "Status: Liquidated 09/15/2026 | IEEPA duty: $2,960.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "3_broker_statement_two_column.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Stoneware mugs",
+     "hts": [
+      {
+       "code": "6912.00.4810",
+       "entered_value": 14800,
+       "rate": 0.098,
+       "duty": 1450.4
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 2960
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "HL6-0420114-3",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 2 page(s)"
+    },
+    {
+     "entry": "HL6-0420114-3",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-09-15 / quote: Entry HL6-0420114-3 (type 01) | IEEPA duty: $4,120.00 | Status: Liquidated 09/15/2026"
+    },
+    {
+     "entry": "HL6-0420114-3",
+     "check": "IEEPA duty 9903.02.69 $2,960.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "HL6-0419902-5",
+   "route": "CAPE_NOW",
+   "label": "File in CAPE now",
+   "bucket": "file_now",
+   "ieepa_duty": 4120.0,
+   "refund_amount": 4120.0,
+   "deadline": "2026-12-19",
+   "days_left": 56,
+   "urgent": false,
+   "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+   "flags": [
+    "amount_from_statement_only"
+   ],
+   "in_cape_csv": true,
+   "days_since_liquidation": 24,
+   "entry_type": "01",
+   "entry_date": null,
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-09-30",
+   "evidence": {
+    "entry": "Entry HL6-0419902-5 (type 01)",
+    "liquidation": "Entry HL6-0419902-5 (type 01) | Status: Liquidated 09/30/2026",
+    "flags": null,
+    "ieepa_statement": "Entry HL6-0420114-3 (type 01) | IEEPA duty: $4,120.00"
+   },
+   "source_docs": [
+    "3_broker_statement_two_column.pdf"
+   ],
+   "lines": [],
+   "checks": [
+    {
+     "entry": "HL6-0419902-5",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 1 page(s)"
+    },
+    {
+     "entry": "HL6-0419902-5",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-09-30 / quote: Entry HL6-0419902-5 (type 01) | Status: Liquidated 09/30/2026"
+    },
+    {
+     "entry": "HL6-0419902-5",
+     "check": "stated IEEPA amount is printed with this entry",
+     "ok": true,
+     "detail": "$4,120.00"
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "HL6-0419544-7",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 3750.0,
+   "refund_amount": 3750.0,
+   "deadline": "2027-01-31",
+   "days_left": 99,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [
+    "amount_from_statement_only"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 81,
+   "entry_type": "01",
+   "entry_date": null,
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-08-04",
+   "evidence": {
+    "entry": "Entry HL6-0419530-1 (type 01) Entry HL6-0419544-7 (type 01)",
+    "liquidation": "Entry HL6-0419530-1 (type 01) Entry HL6-0419544-7 (type 01) | Status: Liquidated 08/05/2026 Status: Liquidated 08/04/2026",
+    "flags": null,
+    "ieepa_statement": "IEEPA duty: $6,780.00 IEEPA duty: $3,750.00"
+   },
+   "source_docs": [
+    "3_broker_statement_two_column.pdf"
+   ],
+   "lines": [],
+   "checks": [
+    {
+     "entry": "HL6-0419544-7",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 1 page(s)"
+    },
+    {
+     "entry": "HL6-0419544-7",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-08-04 / quote: Entry HL6-0419530-1 (type 01) Entry HL6-0419544-7 (type 01) | Status: Liquidated 08/05/202"
+    },
+    {
+     "entry": "HL6-0419544-7",
+     "check": "stated IEEPA amount is printed with this entry",
+     "ok": true,
+     "detail": "$3,750.00"
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "HL6-0420006-9",
+   "route": "EXCLUDED_SURETY",
+   "label": "Not via CAPE: surety paid",
+   "bucket": "broker",
+   "ieepa_duty": 2980.0,
+   "refund_amount": 2980.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "CBP says not to file a CAPE declaration for entries where a surety paid the IEEPA duties.",
+   "flags": [
+    "amount_from_statement_only"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 44,
+   "entry_type": "01",
+   "entry_date": null,
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-09-10",
+   "evidence": {
+    "entry": "Entry HL6-0420006-9 (type 01)",
+    "liquidation": "Entry HL6-0420006-9 (type 01) | Status: Liquidated 09/10/2026",
+    "flags": "Duties incl. IEEPA paid by surety | after missed ACH; surety claim open.",
+    "ieepa_statement": "IEEPA duty: $2,980.00"
+   },
+   "source_docs": [
+    "3_broker_statement_two_column.pdf"
+   ],
+   "lines": [],
+   "checks": [
+    {
+     "entry": "HL6-0420006-9",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 1 page(s)"
+    },
+    {
+     "entry": "HL6-0420006-9",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-09-10 / quote: Entry HL6-0420006-9 (type 01) | Status: Liquidated 09/10/2026"
+    },
+    {
+     "entry": "HL6-0420006-9",
+     "check": "flags are quoted next to this entry",
+     "ok": true,
+     "detail": "surety_paid_ieepa / quote: Duties incl. IEEPA paid by surety | after missed ACH; surety claim open."
+    },
+    {
+     "entry": "HL6-0420006-9",
+     "check": "stated IEEPA amount is printed with this entry",
+     "ok": true,
+     "detail": "$2,980.00"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "HL6-0419871-2",
+   "route": "CAPE_NOW",
+   "label": "File in CAPE now",
+   "bucket": "file_now",
+   "ieepa_duty": 2215.0,
+   "refund_amount": 2215.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+   "flags": [
+    "amount_from_statement_only"
+   ],
+   "in_cape_csv": true,
+   "days_since_liquidation": null,
+   "entry_type": "01",
+   "entry_date": null,
+   "liquidation_status": "unliquidated",
+   "liquidation_date": null,
+   "evidence": {
+    "entry": "Entry HL6-0419871-2 (type 01) Status: Open / unliquidated",
+    "liquidation": "Entry HL6-0419871-2 (type 01) Status: Open / unliquidated | Status: Open / unliquidated IEEPA duty: $4,220.00 | Awaiting liquidation.",
+    "flags": null,
+    "ieepa_statement": "IEEPA duty: $2,215.00 Multi-page 7501; see attached."
+   },
+   "source_docs": [
+    "3_broker_statement_two_column.pdf"
+   ],
+   "lines": [],
+   "checks": [
+    {
+     "entry": "HL6-0419871-2",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 1 page(s)"
+    },
+    {
+     "entry": "HL6-0419871-2",
+     "check": "'not liquidated' is quoted next to this entry",
+     "ok": true,
+     "detail": "quote: Entry HL6-0419871-2 (type 01) Status: Open / unliquidated | Status: Open / unliquidated IE"
+    },
+    {
+     "entry": "HL6-0419871-2",
+     "check": "stated IEEPA amount is printed with this entry",
+     "ok": true,
+     "detail": "$2,215.00"
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "HL6-0420387-0",
+   "route": "CAPE_NOW",
+   "label": "File in CAPE now",
+   "bucket": "file_now",
+   "ieepa_duty": 1240.0,
+   "refund_amount": 1240.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+   "flags": [
+    "statement_conflict"
+   ],
+   "in_cape_csv": true,
+   "days_since_liquidation": null,
+   "entry_type": "01",
+   "entry_date": "2026-01-20",
+   "liquidation_status": "unliquidated",
+   "liquidation_date": null,
+   "evidence": {
+    "entry": "HL6-0420387-0 01 ABI/A | Entry HL6-0420387-0 (type 01)",
+    "liquidation": "Entry HL6-0420387-0 (type 01) | Status: Open / unliquidated IEEPA duty: $4,220.00",
+    "flags": null,
+    "ieepa_statement": "Status: Open / unliquidated IEEPA duty: $4,220.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "3_broker_statement_two_column.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Porcelain dinner plates",
+     "hts": [
+      {
+       "code": "6911.10.3810",
+       "entered_value": 12400,
+       "rate": 0.08,
+       "duty": 992
+      },
+      {
+       "code": "9903.88.03",
+       "entered_value": null,
+       "rate": 0.25,
+       "duty": 3100
+      },
+      {
+       "code": "9903.01.24",
+       "entered_value": null,
+       "rate": 0.1,
+       "duty": 1240
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "HL6-0420387-0",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 2 page(s)"
+    },
+    {
+     "entry": "HL6-0420387-0",
+     "check": "'not liquidated' is quoted next to this entry",
+     "ok": true,
+     "detail": "quote: Entry HL6-0420387-0 (type 01) | Status: Open / unliquidated IEEPA duty: $4,220.00"
+    },
+    {
+     "entry": "HL6-0420387-0",
+     "check": "IEEPA duty 9903.01.24 $1,240.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "HL6-0420415-8",
+   "route": "NO_IEEPA",
+   "label": "Nothing to refund",
+   "bucket": "not_refundable",
+   "ieepa_duty": 0.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "No IEEPA duty was paid on this entry (Section 301 and 232 duties are not part of this refund).",
+   "flags": [
+    "statement_conflict"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 57,
+   "entry_type": "01",
+   "entry_date": "2025-10-28",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-08-28",
+   "evidence": {
+    "entry": "HL6-0420415-8 01 ABI/A | Entry HL6-0420415-8 (type 01)",
+    "liquidation": "Entry HL6-0420415-8 (type 01) | Status: Liquidated 08/28/2026",
+    "flags": null,
+    "ieepa_statement": "IEEPA duty: $3,360.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "3_broker_statement_two_column.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Ceramic planters",
+     "hts": [
+      {
+       "code": "6912.00.5000",
+       "entered_value": 9800,
+       "rate": 0.06,
+       "duty": 588
+      },
+      {
+       "code": "9903.88.03",
+       "entered_value": null,
+       "rate": 0.25,
+       "duty": 2450
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "HL6-0420415-8",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 2 page(s)"
+    },
+    {
+     "entry": "HL6-0420415-8",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-08-28 / quote: Entry HL6-0420415-8 (type 01) | Status: Liquidated 08/28/2026"
+    }
+   ],
+   "repaired": false
+  }
+ ],
+ "plan": {
+  "headline": "Harbor Lane Ceramics: $29,070 in IEEPA duties paid across 9 entries. One CAPE claim (CBP's refund portal) for $6,780 is due today, Oct 24, 2026.",
+  "steps": [
+   {
+    "title": "Today: claim entry HL6-0419530-1 in CAPE",
+    "detail": "This entry appears eligible for $6,780 and its deadline is today. Ask your broker to file it right away, or file it yourself if you can.",
+    "deadline": "2026-10-24",
+    "entries": [
+     "HL6-0419530-1"
+    ]
+   },
+   {
+    "title": "File a protest for HL6-0418811-0",
+    "detail": "This entry was finalized (liquidated) too long ago for CAPE, which would reject it. A protest, a formal written challenge to CBP, appears to be the route for $5,025.",
+    "deadline": "2026-11-16",
+    "entries": [
+     "HL6-0418811-0"
+    ]
+   },
+   {
+    "title": "Claim entry HL6-0420114-3 in CAPE",
+    "detail": "This entry appears eligible for $2,960 through CAPE.",
+    "deadline": "2026-12-04",
+    "entries": [
+     "HL6-0420114-3"
+    ]
+   },
+   {
+    "title": "Claim entry HL6-0419902-5 in CAPE",
+    "detail": "This entry appears eligible for $4,120 through CAPE.",
+    "deadline": "2026-12-19",
+    "entries": [
+     "HL6-0419902-5"
+    ]
+   },
+   {
+    "title": "File a protest for HL6-0419544-7",
+    "detail": "Like the earlier protest entry, CAPE will reject this one, but it is still inside the protest window. It appears to be a $3,750 protest candidate.",
+    "deadline": "2027-01-31",
+    "entries": [
+     "HL6-0419544-7"
+    ]
+   },
+   {
+    "title": "Claim two more entries in CAPE (no deadline given)",
+    "detail": "These appear eligible for $2,215 and $1,240. The $1,240 entry has a conflict with your statement, so confirm that amount with your broker first. Together with the three CAPE entries above, your CAPE total is $17,315.",
+    "deadline": null,
+    "entries": [
+     "HL6-0419871-2",
+     "HL6-0420387-0"
+    ]
+   },
+   {
+    "title": "Talk to your broker about the surety-paid entry",
+    "detail": "CBP says not to file a CAPE claim when a surety (the insurer behind your customs bond) paid the duties. Ask your broker how to recover the $2,980 on HL6-0420006-9.",
+    "deadline": null,
+    "entries": [
+     "HL6-0420006-9"
+    ]
+   },
+   {
+    "title": "Confirm there's nothing to refund on HL6-0420415-8",
+    "detail": "No IEEPA duty appears to have been paid on this entry, so there is nothing to claim. Your statement conflicts with that, so ask your broker to double-check.",
+    "deadline": null,
+    "entries": [
+     "HL6-0420415-8"
+    ]
+   }
+  ],
+  "broker_email_subject": "IEEPA refunds: action needed today on HL6-0419530-1 and next steps for our other entries",
+  "broker_email_body": "Hello,\n\nI'm reviewing our IEEPA tariff refunds and would like your help. The entries below appear eligible, but please confirm each one.\n\n1. Due today, Oct 24, 2026: please file entry HL6-0419530-1 in CAPE ($6,780).\n\n2. Protests (these entries were liquidated too long ago for CAPE):\n- HL6-0418811-0 ($5,025), protest by Nov 16, 2026\n- HL6-0419544-7 ($3,750), protest by Jan 31, 2027\n\n3. Other CAPE filings:\n- HL6-0420114-3 ($2,960), by Dec 4, 2026\n- HL6-0419902-5 ($4,120), by Dec 19, 2026\n- HL6-0419871-2 ($2,215), no deadline listed\n- HL6-0420387-0 ($1,240), no deadline listed. My statement conflicts with the system on this one, so please verify it.\n\n4. Surety-paid entry: HL6-0420006-9 ($2,980). CBP says not to file a CAPE declaration when a surety paid the duties. How should we pursue this one?\n\n5. HL6-0420415-8: it looks like no IEEPA duty was paid. My statement conflicts with that, so please double-check.\n\nMost of these amounts come from my statement only, so please verify them against your records. Please also let me know what you need from me and when you can file.\n\nThank you,\nHarbor Lane Ceramics Co."
+ },
+ "plan_removed_sentences": [],
+ "checker": {
+  "issues": [
+   {
+    "entry_number": "HL6-0420006-9",
+    "kind": "missed_flag",
+    "detail": "The statement says surety paid the duties after a missed ACH, and the surety claim is still open. The extraction has no surety-paid flag.",
+    "quote": "Duties incl. IEEPA paid by surety after missed ACH; surety claim open.",
+    "grounded": true
+   },
+   {
+    "entry_number": "HL6-0420387-0",
+    "kind": "conflict",
+    "detail": "The statement gives IEEPA duty of $4,220, which the extraction copied. The 7501 line detail shows only one IEEPA line, 9903.01.24 at $1,240. The $3,100 line is 9903.88.03, a Section 301 line, not IEEPA. The IEEPA total therefore disagrees with the line detail by $2,980. The 7501 is marked 'page 1 of 2', and the second page (p3) is blank in the tool, so I could not check for more lines. Needs review. Do not treat 9903.88.03 as IEEPA.",
+    "quote": "9903.88.03 25% 3,100.00 / 9903.01.24 10% 1,240.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "HL6-0420415-8",
+    "kind": "conflict",
+    "detail": "The statement gives IEEPA duty of $3,360, which the extraction copied. The only Chapter 99 line on the visible 7501 page is 9903.88.03 at $2,450, a Section 301 line, not IEEPA. No IEEPA 9903.01.xx or 9903.02.xx line is visible, so the stated total is unsupported. The 7501 is marked 'page 1 of 2', and the second page (p5) is blank in the tool. The extraction has no IEEPA line for this entry.",
+    "quote": "9903.88.03 25% 2,450.00",
+    "grounded": true
+   }
+  ],
+  "summary": "Three problems found among the 9 entries. All 9 entry numbers in the documents appear in the extraction. 0420114-3 checks out: 9903.02.69 at $2,960 matches the statement and the liquidation date. (1) HL6-0420006-9 is missing a surety-paid flag. (2) HL6-0420387-0 has a stated IEEPA total of $4,220, but the visible line detail shows only $1,240 of IEEPA duty. (3) HL6-0420415-8 has a stated IEEPA total of $3,360 but no visible IEEPA line, only a Section 301 line. The second pages of the two multi-page 7501s (p3 and p5) came back blank, so those two entries need a manual check. The other entries (0419530-1, 0419544-7, 0419902-5, 0419871-2, 0418811-0) have no 7501 detail, only statement data. I found no problems with their status or dates."
+ },
+ "screen": {
+  "removed_lines": [],
+  "hidden_chars_dropped": 0,
+  "errors": [],
+  "pages": 7
+ },
+ "warnings": [],
+ "reader_notes": [
+  "Document 2_broker_supplemental_list_scanned.pdf has no extractable text (page 1 is blank or an image only). Any entries it lists are not captured here. It needs OCR or a manual look.",
+  "1_cbp7501_entry_summaries.pdf pages 3 and 5 are blank. The 7501s for HL6-0420387-0 and HL6-0420415-8 are marked 'page 1 of 2', so their second pages (which may have more lines or HTS rows) are missing. Only the lines shown on page 1 are extracted.",
+  "The broker statement uses two columns that the text extraction interleaved. I matched statuses, dates and IEEPA amounts to entries by line order and column position. Please check these against the original layout: HL6-0419902-5 (Liquidated 09/30/2026, $4,120.00), HL6-0420114-3 (Liquidated 09/15/2026, $2,960.00), HL6-0420387-0 (Open, $4,220.00), HL6-0419871-2 (Open, $2,215.00), HL6-0420006-9 (Liquidated 09/10/2026, $2,980.00) and HL6-0418811-0 (Liquidated 05/20/2026, $5,025.00).",
+  "HL6-0420114-3: the statement's $2,960.00 matches the 9903.02.69 duty on the 7501, which supports the column reading. For HL6-0420387-0, the statement's $4,220.00 does not match any amount on the 7501 page we have (9903.01.24 shows $1,240.00). For HL6-0420415-8, the statement's $3,360.00 does not appear on the 7501 page we have. The page 2s may explain both differences.",
+  "The statement says 'Duties incl. IEEPA paid by surety after missed ACH; surety claim open.' Because of the two-column layout, it is unclear whether this refers to HL6-0420006-9 or HL6-0418811-0, so surety_paid_ieepa is left false for both. Please check the original.",
+  "The statement lines 'Liquidated in ACE on the date shown.' and 'No protest filed; eligible items reviewed.' do not clearly belong to one column. They don't change any flags, because no protest is recorded for any entry.",
+  "No document mentions a Court of International Trade case, drawback, reconciliation or AD/CVD."
+ ],
+ "files": {
+  "cape_csv": "Entry Number\nHL604195301\nHL604201143\nHL604199025\nHL604198712\nHL604203870\n",
+  "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//DutyBack//IEEPA refund deadlines//EN\r\nCALSCALE:GREGORIAN\r\nX-WR-CALNAME:Tariff refund deadlines - Harbor Lane Ceramics Co.\r\nBEGIN:VEVENT\r\nUID:HL6-0419530-1-CAPE_NOW@dutyback.local\r\nDTSTAMP:20261025T003309Z\r\nDTSTART;VALUE=DATE:20261024\r\nDTEND;VALUE=DATE:20261025\r\nSUMMARY:Last day for CAPE: entry HL6-0419530-1 ($6\\,780.00)\r\nDESCRIPTION:File in CAPE now. Eligible for CAPE: unliquidated\\, or liquidated 80 days ago or less (CSMS #68340863). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: HL6-0419530-1\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: HL6-0419530-1\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:HL6-0418811-0-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T003309Z\r\nDTSTART;VALUE=DATE:20261116\r\nDTEND;VALUE=DATE:20261117\r\nSUMMARY:Protest deadline: entry HL6-0418811-0 ($5\\,025.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: HL6-0418811-0\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: HL6-0418811-0\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:HL6-0420114-3-CAPE_NOW@dutyback.local\r\nDTSTAMP:20261025T003309Z\r\nDTSTART;VALUE=DATE:20261204\r\nDTEND;VALUE=DATE:20261205\r\nSUMMARY:Last day for CAPE: entry HL6-0420114-3 ($2\\,960.00)\r\nDESCRIPTION:File in CAPE now. Eligible for CAPE: unliquidated\\, or liquidated 80 days ago or less (CSMS #68340863). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: HL6-0420114-3\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: HL6-0420114-3\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:HL6-0419902-5-CAPE_NOW@dutyback.local\r\nDTSTAMP:20261025T003309Z\r\nDTSTART;VALUE=DATE:20261219\r\nDTEND;VALUE=DATE:20261220\r\nSUMMARY:Last day for CAPE: entry HL6-0419902-5 ($4\\,120.00)\r\nDESCRIPTION:File in CAPE now. Eligible for CAPE: unliquidated\\, or liquidated 80 days ago or less (CSMS #68340863). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: HL6-0419902-5\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: HL6-0419902-5\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:HL6-0419544-7-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T003309Z\r\nDTSTART;VALUE=DATE:20270131\r\nDTEND;VALUE=DATE:20270201\r\nSUMMARY:Protest deadline: entry HL6-0419544-7 ($3\\,750.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: HL6-0419544-7\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: HL6-0419544-7\r\nEND:VALARM\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+ },
+ "agents": [
+  {
+   "agent": "reader",
+   "model": "opus",
+   "seconds": 48.2,
+   "input_tokens": 2,
+   "output_tokens": 6537,
+   "cache_read_tokens": 2307,
+   "cache_write_tokens": 2519,
+   "cost_usd": 0.1514,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-opus-5-5"
+  },
+  {
+   "agent": "checker",
+   "model": "sonnet",
+   "seconds": 16.3,
+   "input_tokens": 6,
+   "output_tokens": 2292,
+   "cache_read_tokens": 9693,
+   "cache_write_tokens": 5923,
+   "cost_usd": 0.0476,
+   "turns": 13,
+   "tool_calls": [
+    {
+     "tool": "get_extraction",
+     "input": {}
+    },
+    {
+     "tool": "list_entry_numbers_in_documents",
+     "input": {}
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 1
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 2
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 3
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 4
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 5
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "2_broker_supplemental_list_scanned.pdf",
+      "page": 1
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "3_broker_statement_two_column.pdf",
+      "page": 1
+     }
+    },
+    {
+     "tool": "search_documents",
+     "input": {
+      "text": "9903"
+     }
+    },
+    {
+     "tool": "search_documents",
+     "input": {
+      "text": "protest"
+     }
+    }
+   ],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-sonnet-5-5"
+  },
+  {
+   "agent": "reader (repair)",
+   "model": "opus",
+   "seconds": 53.1,
+   "input_tokens": 2,
+   "output_tokens": 6213,
+   "cache_read_tokens": 2307,
+   "cache_write_tokens": 3007,
+   "cost_usd": 0.1488,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-opus-5-5"
+  },
+  {
+   "agent": "advisor",
+   "model": "sonnet",
+   "seconds": 14.3,
+   "input_tokens": 2,
+   "output_tokens": 2054,
+   "cache_read_tokens": 905,
+   "cache_write_tokens": 2419,
+   "cost_usd": 0.0303,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-sonnet-5-5"
+  }
+ ],
+ "totals": {
+  "seconds": 131.9,
+  "cost_usd": 0.3781,
+  "input_tokens": 29092,
+  "output_tokens": 17096,
+  "tool_calls": 11
+ },
+ "steps": [
+  {
+   "key": "screen",
+   "title": "Safety screen",
+   "who": "Code"
+  },
+  {
+   "key": "read",
+   "title": "Read the paperwork",
+   "who": "Reader agent"
+  },
+  {
+   "key": "verify",
+   "title": "Match every fact to the documents",
+   "who": "Code"
+  },
+  {
+   "key": "check",
+   "title": "Double-check with tools",
+   "who": "Checker agent"
+  },
+  {
+   "key": "repair",
+   "title": "Re-read anything flagged",
+   "who": "Reader agent + code"
+  },
+  {
+   "key": "route",
+   "title": "Sort entries and compute refunds",
+   "who": "Rules engine (code)"
+  },
+  {
+   "key": "plan",
+   "title": "Write the action plan",
+   "who": "Advisor agent + code"
+  }
+ ]
+}

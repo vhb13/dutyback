@@ -1,0 +1,777 @@
+{
+ "importer": {
+  "name": "Quill & Ember Home LLC",
+  "ior_number": "61-2047719-00",
+  "cit_plaintiff": false,
+  "cit_case": null,
+  "cit_ior_submitted_date": null,
+  "evidence": "Client: Quill & Ember Home LLC IOR 61-2047719-00"
+ },
+ "as_of": "2026-10-24",
+ "rules_snapshot": "2026-10-24",
+ "summary": {
+  "as_of": "2026-10-24",
+  "rules_snapshot": "2026-10-24",
+  "entries": 8,
+  "ieepa_paid": 25110.0,
+  "buckets": {
+   "file_now": {
+    "label": "Claim in CAPE now",
+    "count": 2,
+    "amount": 6070.0
+   },
+   "fix_first": {
+    "label": "One step first, then CAPE",
+    "count": 1,
+    "amount": 3880.0
+   },
+   "protest": {
+    "label": "Protest route",
+    "count": 2,
+    "amount": 5240.0
+   },
+   "broker": {
+    "label": "Talk to your broker",
+    "count": 1,
+    "amount": 4250.0
+   },
+   "no_route": {
+    "label": "Waiting on the court",
+    "count": 0,
+    "amount": 0.0
+   },
+   "not_refundable": {
+    "label": "Nothing to refund",
+    "count": 0,
+    "amount": 0.0
+   },
+   "review": {
+    "label": "Check by hand",
+    "count": 2,
+    "amount": 0.0
+   }
+  },
+  "at_risk_this_week": {
+   "count": 0,
+   "amount": 0,
+   "entries": []
+  },
+  "cape_csv_count": 2,
+  "cape_csv_amount": 6070.0
+ },
+ "entries": [
+  {
+   "entry_number": "QE8-0413540-6",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 3640.0,
+   "refund_amount": 3640.0,
+   "deadline": "2026-11-08",
+   "days_left": 15,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [
+    "amount_from_statement_only"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 165,
+   "entry_type": "01",
+   "entry_date": null,
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-05-12",
+   "evidence": {
+    "entry": "QE8-0413540-6 01 Liquidated 3,640.00",
+    "liquidation": "QE8-0413540-6 01 Liquidated 3,640.00 | 05/12/2026",
+    "flags": null,
+    "ieepa_statement": "QE8-0413540-6 01 Liquidated 3,640.00"
+   },
+   "source_docs": [
+    "2_broker_statement.pdf"
+   ],
+   "lines": [],
+   "checks": [
+    {
+     "entry": "QE8-0413540-6",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 1 page(s)"
+    },
+    {
+     "entry": "QE8-0413540-6",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-05-12 / quote: QE8-0413540-6 01 Liquidated 3,640.00 | 05/12/2026"
+    },
+    {
+     "entry": "QE8-0413540-6",
+     "check": "stated IEEPA amount is printed with this entry",
+     "ok": true,
+     "detail": "$3,640.00"
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "QE8-0415250-8",
+   "route": "WITHDRAW_PROTEST_THEN_CAPE",
+   "label": "Withdraw protest, then CAPE",
+   "bucket": "fix_first",
+   "ieepa_duty": 3880.0,
+   "refund_amount": 3880.0,
+   "deadline": "2026-11-20",
+   "days_left": 27,
+   "urgent": false,
+   "reason": "A protest filed only for the IEEPA refund can be withdrawn so the entry can go in CAPE, while it is within 80 days of liquidation.",
+   "flags": [
+    "amount_from_statement_only"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 53,
+   "entry_type": "01",
+   "entry_date": null,
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-09-01",
+   "evidence": {
+    "entry": "QE8-0415250-8 01 Liquidated 3,880.00 Protest filed 09/20/2026",
+    "liquidation": "QE8-0415250-8 01 Liquidated 3,880.00 Protest filed 09/20/2026 | 09/01/2026 (IEEPA duties only); status",
+    "flags": "QE8-0415250-8 01 Liquidated 3,880.00 Protest filed 09/20/2026 | 09/01/2026 (IEEPA duties only); status | OPEN",
+    "ieepa_statement": "QE8-0415250-8 01 Liquidated 3,880.00"
+   },
+   "source_docs": [
+    "2_broker_statement.pdf"
+   ],
+   "lines": [],
+   "checks": [
+    {
+     "entry": "QE8-0415250-8",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 1 page(s)"
+    },
+    {
+     "entry": "QE8-0415250-8",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-09-01 / quote: QE8-0415250-8 01 Liquidated 3,880.00 Protest filed 09/20/2026 | 09/01/2026 (IEEPA duties o"
+    },
+    {
+     "entry": "QE8-0415250-8",
+     "check": "flags are quoted next to this entry",
+     "ok": true,
+     "detail": "open_protest, protest_ieepa_only / quote: QE8-0415250-8 01 Liquidated 3,880.00 Protest filed 09/20/2026 | 09/01/2026 (IEEPA duties o"
+    },
+    {
+     "entry": "QE8-0415250-8",
+     "check": "stated IEEPA amount is printed with this entry",
+     "ok": true,
+     "detail": "$3,880.00"
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "QE8-0415702-7",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 1600.0,
+   "refund_amount": 1600.0,
+   "deadline": "2027-01-06",
+   "days_left": 74,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 106,
+   "entry_type": "01",
+   "entry_date": "2025-06-02",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-10",
+   "evidence": {
+    "entry": "QE8-0415702- 01 ABI/A | 7 | QE8-0415702-7 01 Liquidated 1,600.00",
+    "liquidation": "QE8-0415702-7 01 Liquidated 1,600.00 | 07/10/2026",
+    "flags": null,
+    "ieepa_statement": "QE8-0415702-7 01 Liquidated 1,600.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Glass candle holders",
+     "hts": [
+      {
+       "code": "7013.99.5000",
+       "entered_value": 16000,
+       "rate": 0.06,
+       "duty": 960
+      },
+      {
+       "code": "9903.01.25",
+       "entered_value": null,
+       "rate": 0.1,
+       "duty": 1600
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "QE8-0415702-7",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 1 page(s)"
+    },
+    {
+     "entry": "QE8-0415702-7",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-07-10 / quote: QE8-0415702-7 01 Liquidated 1,600.00 | 07/10/2026"
+    },
+    {
+     "entry": "QE8-0415702-7",
+     "check": "IEEPA duty 9903.01.25 $1,600.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "QE8-0416018-4",
+   "route": "EXCLUDED_SURETY",
+   "label": "Not via CAPE: surety paid",
+   "bucket": "broker",
+   "ieepa_duty": 4250.0,
+   "refund_amount": 4250.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "CBP says not to file a CAPE declaration for entries where a surety paid the IEEPA duties.",
+   "flags": [
+    "amount_from_statement_only"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 52,
+   "entry_type": "01",
+   "entry_date": null,
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-09-02",
+   "evidence": {
+    "entry": "QE8-0416018-4 01 Liquidated 4,250.00 Duties incl. IEEPA paid by",
+    "liquidation": "QE8-0416018-4 01 Liquidated 4,250.00 Duties incl. IEEPA paid by | 09/02/2026 surety after missed ACH;",
+    "flags": "QE8-0416018-4 01 Liquidated 4,250.00 Duties incl. IEEPA paid by | 09/02/2026 surety after missed ACH; | surety claim open",
+    "ieepa_statement": "QE8-0416018-4 01 Liquidated 4,250.00"
+   },
+   "source_docs": [
+    "2_broker_statement.pdf"
+   ],
+   "lines": [],
+   "checks": [
+    {
+     "entry": "QE8-0416018-4",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 1 page(s)"
+    },
+    {
+     "entry": "QE8-0416018-4",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-09-02 / quote: QE8-0416018-4 01 Liquidated 4,250.00 Duties incl. IEEPA paid by | 09/02/2026 surety after "
+    },
+    {
+     "entry": "QE8-0416018-4",
+     "check": "flags are quoted next to this entry",
+     "ok": true,
+     "detail": "surety_paid_ieepa / quote: QE8-0416018-4 01 Liquidated 4,250.00 Duties incl. IEEPA paid by | 09/02/2026 surety after "
+    },
+    {
+     "entry": "QE8-0416018-4",
+     "check": "stated IEEPA amount is printed with this entry",
+     "ok": true,
+     "detail": "$4,250.00"
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "QE8-0416475-1",
+   "route": "CAPE_NOW",
+   "label": "File in CAPE now",
+   "bucket": "file_now",
+   "ieepa_duty": 3180.0,
+   "refund_amount": 3180.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+   "flags": [
+    "amount_from_statement_only"
+   ],
+   "in_cape_csv": true,
+   "days_since_liquidation": null,
+   "entry_type": "01",
+   "entry_date": null,
+   "liquidation_status": "unliquidated",
+   "liquidation_date": null,
+   "evidence": {
+    "entry": "QE8-0416475-1 01 Open 3,180.00",
+    "liquidation": "QE8-0416475-1 01 Open 3,180.00 | (unliquidated)",
+    "flags": null,
+    "ieepa_statement": "QE8-0416475-1 01 Open 3,180.00"
+   },
+   "source_docs": [
+    "2_broker_statement.pdf"
+   ],
+   "lines": [],
+   "checks": [
+    {
+     "entry": "QE8-0416475-1",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 1 page(s)"
+    },
+    {
+     "entry": "QE8-0416475-1",
+     "check": "'not liquidated' is quoted next to this entry",
+     "ok": true,
+     "detail": "quote: QE8-0416475-1 01 Open 3,180.00 | (unliquidated)"
+    },
+    {
+     "entry": "QE8-0416475-1",
+     "check": "stated IEEPA amount is printed with this entry",
+     "ok": true,
+     "detail": "$3,180.00"
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "316-4471902-5",
+   "route": "CAPE_NOW",
+   "label": "File in CAPE now",
+   "bucket": "file_now",
+   "ieepa_duty": 2890.0,
+   "refund_amount": 2890.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+   "flags": [
+    "amount_from_statement_only"
+   ],
+   "in_cape_csv": true,
+   "days_since_liquidation": null,
+   "entry_type": "01",
+   "entry_date": null,
+   "liquidation_status": "unliquidated",
+   "liquidation_date": null,
+   "evidence": {
+    "entry": "316-4471902-5 01 Open 2,890.00 Filed by our Chicago office | (unliquidated) under filer code 316",
+    "liquidation": "316-4471902-5 01 Open 2,890.00 Filed by our Chicago office | (unliquidated) under filer code 316",
+    "flags": null,
+    "ieepa_statement": "316-4471902-5 01 Open 2,890.00"
+   },
+   "source_docs": [
+    "2_broker_statement.pdf"
+   ],
+   "lines": [],
+   "checks": [
+    {
+     "entry": "316-4471902-5",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 1 page(s)"
+    },
+    {
+     "entry": "316-4471902-5",
+     "check": "'not liquidated' is quoted next to this entry",
+     "ok": true,
+     "detail": "quote: 316-4471902-5 01 Open 2,890.00 Filed by our Chicago office | (unliquidated) under filer co"
+    },
+    {
+     "entry": "316-4471902-5",
+     "check": "stated IEEPA amount is printed with this entry",
+     "ok": true,
+     "detail": "$2,890.00"
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "QE8-0414106-2",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 4200.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:liquidation_date"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 57,
+   "entry_type": "01",
+   "entry_date": "2025-09-09",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-08-28",
+   "evidence": {
+    "entry": "QE8 0414106 2 01 ABI/A",
+    "liquidation": "QE8 0414106 01 Liquidated 4,200.00 | 2 08/28/2026",
+    "flags": null,
+    "ieepa_statement": "QE8 0414106 01 Liquidated 4,200.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Scented candles",
+     "hts": [
+      {
+       "code": "3406.00.0000",
+       "entered_value": 21000,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 4200
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "QE8-0414106-2",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 1 page(s)"
+    },
+    {
+     "entry": "QE8-0414106-2",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": false,
+     "detail": "2026-08-28 / quote: QE8 0414106 01 Liquidated 4,200.00 | 2 08/28/2026"
+    },
+    {
+     "entry": "QE8-0414106-2",
+     "check": "IEEPA duty 9903.02.69 $4,200.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "QE8-0414288-6",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 1470.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:liquidation_status"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": null,
+   "entry_type": "01",
+   "entry_date": "2026-01-06",
+   "liquidation_status": "unliquidated",
+   "liquidation_date": null,
+   "evidence": {
+    "entry": "QE8 0414288 6 01 ABI/A",
+    "liquidation": "QE8 0414288 01 Open 1,470.00 | 6 (unliquidated)",
+    "flags": null,
+    "ieepa_statement": "QE8 0414288 01 Open 1,470.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Linen napkins",
+     "hts": [
+      {
+       "code": "6302.53.0010",
+       "entered_value": 9800,
+       "rate": 0.115,
+       "duty": 1127
+      },
+      {
+       "code": "9903.02.20",
+       "entered_value": null,
+       "rate": 0.15,
+       "duty": 1470
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "QE8-0414288-6",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 1 page(s)"
+    },
+    {
+     "entry": "QE8-0414288-6",
+     "check": "'not liquidated' is quoted next to this entry",
+     "ok": false,
+     "detail": "quote: QE8 0414288 01 Open 1,470.00 | 6 (unliquidated)"
+    },
+    {
+     "entry": "QE8-0414288-6",
+     "check": "IEEPA duty 9903.02.20 $1,470.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    }
+   ],
+   "repaired": false
+  }
+ ],
+ "plan": {
+  "headline": "Two protests are due soon: one on Nov 8, 2026 and one on Nov 20, 2026. Two entries are ready for CAPE now.",
+  "steps": [
+   {
+    "title": "File a protest on QE8-0413540-6 (due Nov 8, 2026)",
+    "detail": "This entry was liquidated (CBP's final calculation of duties) more than 80 days ago, so CAPE will reject it. It appears eligible for a protest, which is a formal request to CBP to correct the duties. The amount is $3,640.00, taken from your statement only.",
+    "deadline": "2026-11-08",
+    "entries": [
+     "QE8-0413540-6"
+    ]
+   },
+   {
+    "title": "Withdraw the protest on QE8-0415250-8, then file in CAPE (by Nov 20, 2026)",
+    "detail": "A protest filed only for the IEEPA refund can be withdrawn so the entry can go into CAPE (CBP's refund claim system), but only within 80 days of liquidation. This entry is $3,880.00, taken from your statement only. Ask your broker to handle the withdrawal first.",
+    "deadline": "2026-11-20",
+    "entries": [
+     "QE8-0415250-8"
+    ]
+   },
+   {
+    "title": "File a protest on QE8-0415702-7 (due Jan 6, 2027)",
+    "detail": "This entry was liquidated more than 80 days ago, so CAPE will reject it. It is still inside the 180-day protest window, and it appears eligible for a protest for $1,600.00.",
+    "deadline": "2027-01-06",
+    "entries": [
+     "QE8-0415702-7"
+    ]
+   },
+   {
+    "title": "Claim two entries in CAPE now",
+    "detail": "These two entries appear eligible for CAPE, for a total of $6,070.00. Your broker can submit them, or you can if you file yourself.",
+    "deadline": null,
+    "entries": [
+     "QE8-0416475-1",
+     "316-4471902-5"
+    ]
+   },
+   {
+    "title": "Talk to your broker about QE8-0416018-4",
+    "detail": "CBP says not to file a CAPE declaration when a surety (the bond company) paid the IEEPA duties. Ask your broker how to recover the $4,250.00, which comes from your statement only.",
+    "deadline": null,
+    "entries": [
+     "QE8-0416018-4"
+    ]
+   },
+   {
+    "title": "Check two entries by hand",
+    "detail": "We couldn't verify key facts for these entries in your documents, so we didn't guess a route or amount. Ask your broker for the liquidation details.",
+    "deadline": null,
+    "entries": [
+     "QE8-0414106-2",
+     "QE8-0414288-6"
+    ]
+   }
+  ],
+  "broker_email_subject": "IEEPA refunds: protests due Nov 8 and Nov 20, plus CAPE filings for Quill & Ember Home LLC",
+  "broker_email_body": "Hi,\n\nI'm reviewing our IEEPA tariff refunds as of Oct 24, 2026. Could you help with the following? Please confirm each item, since this is not legal advice and I want to be sure the routes are right.\n\n1. Protest, due Nov 8, 2026: QE8-0413540-6 ($3,640.00). It was liquidated more than 80 days ago, so CAPE would reject it.\n\n2. Withdraw protest, then CAPE, by Nov 20, 2026: QE8-0415250-8 ($3,880.00). Can you withdraw the protest and then file it in CAPE?\n\n3. Protest, due Jan 6, 2027: QE8-0415702-7 ($1,600.00).\n\n4. CAPE now: QE8-0416475-1 ($3,180.00) and 316-4471902-5 ($2,890.00). Together that is $6,070.00. They appear eligible.\n\n5. Surety paid: QE8-0416018-4 ($4,250.00). CBP says not to file in CAPE for these. What are our options?\n\n6. Needs checking: QE8-0414106-2 and QE8-0414288-6. We couldn't verify the liquidation date or status. Can you confirm them?\n\nSeveral amounts come from our statements only, so please verify them against CBP records.\n\nThank you,\nQuill & Ember Home LLC"
+ },
+ "plan_removed_sentences": [],
+ "checker": {
+  "issues": [],
+  "summary": "No issues found. The extraction's 8 entries match the documents. The Chapter 99 lines, IEEPA amounts, liquidation statuses and flags are all supported, and the statement totals agree with the 7501 line detail where line detail exists."
+ },
+ "screen": {
+  "removed_lines": [],
+  "hidden_chars_dropped": 0,
+  "errors": [],
+  "pages": 4
+ },
+ "warnings": [],
+ "reader_notes": [
+  "Broker statement 'Client Refund Status Report' is dated 10/20/2026. All liquidation statuses and dates come from this report.",
+  "QE8 0414106 2 and QE8 0414288 6: in the broker report the check digit (2 / 6) is printed on the next line below the entry number. I matched these rows to the 7501 entries.",
+  "QE8-0415702-7: on 7501 page 3 the check digit '7' is printed on the line below 'QE8-0415702-'. The number is taken as printed in full in the broker report.",
+  "316-4471902-5 was filed under filer code 316 (the broker's Chicago office), not QE8. There is no 7501 for it in these documents.",
+  "Five entries appear only in the broker report, with no 7501: 316-4471902-5, QE8-0416475-1, QE8-0416018-4, QE8-0415250-8 and QE8-0413540-6. Their entry dates and line/HTS details are not given, so lines are empty and entry_date is null.",
+  "QE8-0416018-4: the report says duties including IEEPA were paid by the surety after a missed ACH, and that a surety claim is open.",
+  "QE8-0415250-8: the report says a protest was filed 09/20/2026 (IEEPA duties only), status OPEN.",
+  "No document says anything about a Court of International Trade case or the plaintiff's importer number being submitted. CIT fields are left false/null.",
+  "Chapter 99 rows (9903.02.69, 9903.02.20, 9903.01.25) are copied as printed. Their rates and duties are shown, but no entered value is printed on those rows."
+ ],
+ "files": {
+  "cape_csv": "Entry Number\nQE804164751\n31644719025\n",
+  "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//DutyBack//IEEPA refund deadlines//EN\r\nCALSCALE:GREGORIAN\r\nX-WR-CALNAME:Tariff refund deadlines - Quill & Ember Home LLC\r\nBEGIN:VEVENT\r\nUID:QE8-0413540-6-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T003021Z\r\nDTSTART;VALUE=DATE:20261108\r\nDTEND;VALUE=DATE:20261109\r\nSUMMARY:Protest deadline: entry QE8-0413540-6 ($3\\,640.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: QE8-0413540-6\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: QE8-0413540-6\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:QE8-0415250-8-WITHDRAW_PROTEST_THEN_CAPE@dutyback.local\r\nDTSTAMP:20261025T003021Z\r\nDTSTART;VALUE=DATE:20261120\r\nDTEND;VALUE=DATE:20261121\r\nSUMMARY:Last day for CAPE: entry QE8-0415250-8 ($3\\,880.00)\r\nDESCRIPTION:Withdraw protest\\, then CAPE. A protest filed only for the IEEPA refund can be withdrawn so the entry can go in CAPE\\, while it is within 80 days of liquidation. Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: QE8-0415250-8\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: QE8-0415250-8\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:QE8-0415702-7-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T003021Z\r\nDTSTART;VALUE=DATE:20270106\r\nDTEND;VALUE=DATE:20270107\r\nSUMMARY:Protest deadline: entry QE8-0415702-7 ($1\\,600.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: QE8-0415702-7\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: QE8-0415702-7\r\nEND:VALARM\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+ },
+ "agents": [
+  {
+   "agent": "reader",
+   "model": "opus",
+   "seconds": 33.3,
+   "input_tokens": 2,
+   "output_tokens": 4578,
+   "cache_read_tokens": 2307,
+   "cache_write_tokens": 2196,
+   "cost_usd": 0.1096,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-opus-5-5"
+  },
+  {
+   "agent": "checker",
+   "model": "sonnet",
+   "seconds": 11.0,
+   "input_tokens": 4,
+   "output_tokens": 1407,
+   "cache_read_tokens": 3380,
+   "cache_write_tokens": 3950,
+   "cost_usd": 0.0302,
+   "turns": 8,
+   "tool_calls": [
+    {
+     "tool": "get_extraction",
+     "input": {}
+    },
+    {
+     "tool": "list_entry_numbers_in_documents",
+     "input": {}
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 1
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 2
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 3
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "2_broker_statement.pdf",
+      "page": 1
+     }
+    }
+   ],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-sonnet-5-5"
+  },
+  {
+   "agent": "reader (repair)",
+   "model": "opus",
+   "seconds": 16.3,
+   "input_tokens": 2,
+   "output_tokens": 1981,
+   "cache_read_tokens": 2307,
+   "cache_write_tokens": 2290,
+   "cost_usd": 0.0584,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-opus-5-5"
+  },
+  {
+   "agent": "advisor",
+   "model": "sonnet",
+   "seconds": 10.6,
+   "input_tokens": 2,
+   "output_tokens": 1422,
+   "cache_read_tokens": 905,
+   "cache_write_tokens": 2259,
+   "cost_usd": 0.0234,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-sonnet-5-5"
+  }
+ ],
+ "totals": {
+  "seconds": 71.2,
+  "cost_usd": 0.2216,
+  "input_tokens": 19604,
+  "output_tokens": 9388,
+  "tool_calls": 6
+ },
+ "steps": [
+  {
+   "key": "screen",
+   "title": "Safety screen",
+   "who": "Code"
+  },
+  {
+   "key": "read",
+   "title": "Read the paperwork",
+   "who": "Reader agent"
+  },
+  {
+   "key": "verify",
+   "title": "Match every fact to the documents",
+   "who": "Code"
+  },
+  {
+   "key": "check",
+   "title": "Double-check with tools",
+   "who": "Checker agent"
+  },
+  {
+   "key": "repair",
+   "title": "Re-read anything flagged",
+   "who": "Reader agent + code"
+  },
+  {
+   "key": "route",
+   "title": "Sort entries and compute refunds",
+   "who": "Rules engine (code)"
+  },
+  {
+   "key": "plan",
+   "title": "Write the action plan",
+   "who": "Advisor agent + code"
+  }
+ ]
+}

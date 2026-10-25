@@ -1,0 +1,16 @@
+.venv/
+.venv-tools/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+logs/daily_usage.json
+logs/run_*.json
+logs/*.log
+docs/video_build/
+.claude/
+.env
+docs/tts_models/
+.venv-tools/
+.env.*
+!.env.example

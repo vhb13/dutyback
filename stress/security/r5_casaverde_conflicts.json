@@ -1,0 +1,1000 @@
+{
+ "importer": {
+  "name": "Casa Verde Imports LLC",
+  "ior_number": "74-5528190-00",
+  "cit_plaintiff": false,
+  "cit_case": null,
+  "cit_ior_submitted_date": null,
+  "evidence": "Importer: 74-5528190-00 Casa Verde Imports LLC \u00b7 Filer: RB2 \u00b7 Synthetic sample"
+ },
+ "as_of": "2026-10-24",
+ "rules_snapshot": "2026-10-24",
+ "summary": {
+  "as_of": "2026-10-24",
+  "rules_snapshot": "2026-10-24",
+  "entries": 10,
+  "ieepa_paid": 45330.0,
+  "buckets": {
+   "file_now": {
+    "label": "Claim in CAPE now",
+    "count": 7,
+    "amount": 36655.0
+   },
+   "fix_first": {
+    "label": "One step first, then CAPE",
+    "count": 0,
+    "amount": 0.0
+   },
+   "protest": {
+    "label": "Protest route",
+    "count": 0,
+    "amount": 0.0
+   },
+   "broker": {
+    "label": "Talk to your broker",
+    "count": 0,
+    "amount": 0.0
+   },
+   "no_route": {
+    "label": "Waiting on the court",
+    "count": 2,
+    "amount": 8675.0
+   },
+   "not_refundable": {
+    "label": "Nothing to refund",
+    "count": 1,
+    "amount": 0.0
+   },
+   "review": {
+    "label": "Check by hand",
+    "count": 0,
+    "amount": 0.0
+   }
+  },
+  "at_risk_this_week": {
+   "count": 1,
+   "amount": 5025.0,
+   "entries": [
+    "RB2-5531839-1"
+   ]
+  },
+  "cape_csv_count": 7,
+  "cape_csv_amount": 36655.0
+ },
+ "entries": [
+  {
+   "entry_number": "RB2-5531839-1",
+   "route": "CAPE_NOW",
+   "label": "File in CAPE now",
+   "bucket": "file_now",
+   "ieepa_duty": 5025.0,
+   "refund_amount": 5025.0,
+   "deadline": "2026-10-25",
+   "days_left": 1,
+   "urgent": true,
+   "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+   "flags": [],
+   "in_cape_csv": true,
+   "days_since_liquidation": 79,
+   "entry_type": "01",
+   "entry_date": "2025-08-26",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-08-06",
+   "evidence": {
+    "entry": "RB255318391 01 2025-08-26 1 6912004810 MX 20100.00 0.098 1969.80 Talavera pottery planters | RB255318391 01 2025-08-26 1 99030101 MX 0.250 5025.00",
+    "liquidation": "RB255318391 liquidated on July 6, 2026. | Two corrections from ACE this morning: RB255318391 actually liquidated on August 6, 2026, not July 6 - the July date | was a typo on our side.",
+    "flags": null,
+    "ieepa_statement": null
+   },
+   "source_docs": [
+    "1_ace_es003_line_details.pdf",
+    "2_broker_email.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "1",
+     "description": "Talavera pottery planters",
+     "hts": [
+      {
+       "code": "6912004810",
+       "entered_value": 20100,
+       "rate": 0.098,
+       "duty": 1969.8
+      },
+      {
+       "code": "99030101",
+       "entered_value": null,
+       "rate": 0.25,
+       "duty": 5025
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "RB2-5531839-1",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 2 page(s)"
+    },
+    {
+     "entry": "RB2-5531839-1",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-08-06 / quote: RB255318391 liquidated on July 6, 2026. | Two corrections from ACE this morning: RB2553183"
+    },
+    {
+     "entry": "RB2-5531839-1",
+     "check": "IEEPA duty 99030101 $5,025.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "RB2-5532391-7",
+   "route": "CAPE_NOW",
+   "label": "File in CAPE now",
+   "bucket": "file_now",
+   "ieepa_duty": 5350.0,
+   "refund_amount": 5350.0,
+   "deadline": "2026-11-05",
+   "days_left": 12,
+   "urgent": true,
+   "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+   "flags": [],
+   "in_cape_csv": true,
+   "days_since_liquidation": 68,
+   "entry_type": "01",
+   "entry_date": "2025-10-07",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-08-17",
+   "evidence": {
+    "entry": "RB255323917 01 2025-10-07 1 7013375000 MX 21400.00 0.050 1070.00 Blown glass drinkware | RB255323917 01 2025-10-07 1 99030101 MX 0.250 5350.00",
+    "liquidation": "RB255323917 (the glassware) liquidated on August 17, 2026",
+    "flags": null,
+    "ieepa_statement": null
+   },
+   "source_docs": [
+    "1_ace_es003_line_details.pdf",
+    "2_broker_email.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "1",
+     "description": "Blown glass drinkware",
+     "hts": [
+      {
+       "code": "7013375000",
+       "entered_value": 21400,
+       "rate": 0.05,
+       "duty": 1070
+      },
+      {
+       "code": "99030101",
+       "entered_value": null,
+       "rate": 0.25,
+       "duty": 5350
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "RB2-5532391-7",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 2 page(s)"
+    },
+    {
+     "entry": "RB2-5532391-7",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-08-17 / quote: RB255323917 (the glassware) liquidated on August 17, 2026"
+    },
+    {
+     "entry": "RB2-5532391-7",
+     "check": "IEEPA duty 99030101 $5,350.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "RB2-5533008-0",
+   "route": "CAPE_NOW",
+   "label": "File in CAPE now",
+   "bucket": "file_now",
+   "ieepa_duty": 4060.0,
+   "refund_amount": 4060.0,
+   "deadline": "2026-12-24",
+   "days_left": 61,
+   "urgent": false,
+   "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+   "flags": [],
+   "in_cape_csv": true,
+   "days_since_liquidation": 19,
+   "entry_type": "01",
+   "entry_date": "2025-11-18",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-10-05",
+   "evidence": {
+    "entry": "RB255330080 01 2025-11-18 1 1702202000 CA 11600.00 0.000 0.00 Maple syrup, retail bottles | RB255330080 01 2025-11-18 1 99030110 CA 0.350 4060.00",
+    "liquidation": "syrup entry RB255330080 liquidated on October 5, 2026.",
+    "flags": null,
+    "ieepa_statement": null
+   },
+   "source_docs": [
+    "1_ace_es003_line_details.pdf",
+    "2_broker_email.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "1",
+     "description": "Maple syrup, retail bottles",
+     "hts": [
+      {
+       "code": "1702202000",
+       "entered_value": 11600,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "99030110",
+       "entered_value": null,
+       "rate": 0.35,
+       "duty": 4060
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "RB2-5533008-0",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 2 page(s)"
+    },
+    {
+     "entry": "RB2-5533008-0",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-10-05 / quote: syrup entry RB255330080 liquidated on October 5, 2026."
+    },
+    {
+     "entry": "RB2-5533008-0",
+     "check": "IEEPA duty 99030110 $4,060.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "RB2-5532014-6",
+   "route": "CAPE_NOW",
+   "label": "File in CAPE now",
+   "bucket": "file_now",
+   "ieepa_duty": 8425.0,
+   "refund_amount": 8425.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+   "flags": [],
+   "in_cape_csv": true,
+   "days_since_liquidation": null,
+   "entry_type": "01",
+   "entry_date": "2025-09-16",
+   "liquidation_status": "unliquidated",
+   "liquidation_date": null,
+   "evidence": {
+    "entry": "RB255320146 01 2025-09-16 1 9403509045 MX 33700.00 0.000 0.00 Wooden bedroom furniture | RB255320146 01 2025-09-16 1 99030101 MX 0.250 8425.00",
+    "liquidation": "Also, the AD/CVD case on RB255320146 was closed on October 1, so its liquidation is no longer suspended and the | AD/CVD flag no longer applies. That entry is still unliquidated.",
+    "flags": null,
+    "ieepa_statement": null
+   },
+   "source_docs": [
+    "1_ace_es003_line_details.pdf",
+    "2_broker_email.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "1",
+     "description": "Wooden bedroom furniture",
+     "hts": [
+      {
+       "code": "9403509045",
+       "entered_value": 33700,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "99030101",
+       "entered_value": null,
+       "rate": 0.25,
+       "duty": 8425
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "RB2-5532014-6",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 2 page(s)"
+    },
+    {
+     "entry": "RB2-5532014-6",
+     "check": "'not liquidated' is quoted next to this entry",
+     "ok": true,
+     "detail": "quote: Also, the AD/CVD case on RB255320146 was closed on October 1, so its liquidation is no lon"
+    },
+    {
+     "entry": "RB2-5532014-6",
+     "check": "IEEPA duty 99030101 $8,425.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "RB2-5534106-8",
+   "route": "CAPE_NOW",
+   "label": "File in CAPE now",
+   "bucket": "file_now",
+   "ieepa_duty": 6420.0,
+   "refund_amount": 6420.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+   "flags": [
+    "statement_conflict"
+   ],
+   "in_cape_csv": true,
+   "days_since_liquidation": null,
+   "entry_type": "01",
+   "entry_date": "2026-02-17",
+   "liquidation_status": "unliquidated",
+   "liquidation_date": null,
+   "evidence": {
+    "entry": "RB255341068 01 2026-02-17 1 0901110055 BR 16050.00 0.000 0.00 Green coffee beans | RB255341068 01 2026-02-17 1 99030125 BR 0.100 1605.00 | RB255341068 01 2026-02-17 1 99030177 BR 0.300 4815.00",
+    "liquidation": "The coffee entry RB255341068 from February is also unliquidated.",
+    "flags": null,
+    "ieepa_statement": "The coffee entry RB255341068 from February is also unliquidated. By my math the IEEPA portion on that one was | about $6,402.00, but double-check against the line detail."
+   },
+   "source_docs": [
+    "1_ace_es003_line_details.pdf",
+    "2_broker_email.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "1",
+     "description": "Green coffee beans",
+     "hts": [
+      {
+       "code": "0901110055",
+       "entered_value": 16050,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "99030125",
+       "entered_value": null,
+       "rate": 0.1,
+       "duty": 1605
+      },
+      {
+       "code": "99030177",
+       "entered_value": null,
+       "rate": 0.3,
+       "duty": 4815
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "RB2-5534106-8",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 2 page(s)"
+    },
+    {
+     "entry": "RB2-5534106-8",
+     "check": "'not liquidated' is quoted next to this entry",
+     "ok": true,
+     "detail": "quote: The coffee entry RB255341068 from February is also unliquidated."
+    },
+    {
+     "entry": "RB2-5534106-8",
+     "check": "IEEPA duty 99030125 $1,605.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "RB2-5534106-8",
+     "check": "IEEPA duty 99030177 $4,815.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "RB2-5530118-4",
+   "route": "CLASS_PENDING",
+   "label": "Class member, refund pending",
+   "bucket": "no_route",
+   "ieepa_duty": 4725.0,
+   "refund_amount": 4725.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "Finally liquidated (more than 180 days, no protest). The Court of International Trade certified a class of importers who have not sued (Freestyle World, Oct 8, 2026), but no refund order yet, and CAPE Phase 3 is only for importers with their own suit. For a large balance, ask a customs attorney about filing your own suit (deadline around Feb 2027).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 277,
+   "entry_type": "01",
+   "entry_date": "2025-03-11",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-01-20",
+   "evidence": {
+    "entry": "RB255301184 01 2025-03-11 1 6912004810 MX 18900.00 0.098 1852.20 Talavera pottery planters | RB255301184 01 2025-03-11 1 99030101 MX 0.250 4725.00",
+    "liquidation": "Older ones: RB255301184 (the Talavera planters from March 2025) liquidated on January 20, 2026.",
+    "flags": null,
+    "ieepa_statement": null
+   },
+   "source_docs": [
+    "1_ace_es003_line_details.pdf",
+    "2_broker_email.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "1",
+     "description": "Talavera pottery planters",
+     "hts": [
+      {
+       "code": "6912004810",
+       "entered_value": 18900,
+       "rate": 0.098,
+       "duty": 1852.2
+      },
+      {
+       "code": "99030101",
+       "entered_value": null,
+       "rate": 0.25,
+       "duty": 4725
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "RB2-5530118-4",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 2 page(s)"
+    },
+    {
+     "entry": "RB2-5530118-4",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-01-20 / quote: Older ones: RB255301184 (the Talavera planters from March 2025) liquidated on January 20, "
+    },
+    {
+     "entry": "RB2-5530118-4",
+     "check": "IEEPA duty 99030101 $4,725.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "RB2-5533742-5",
+   "route": "CAPE_NOW",
+   "label": "File in CAPE now",
+   "bucket": "file_now",
+   "ieepa_duty": 4050.0,
+   "refund_amount": 4050.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+   "flags": [],
+   "in_cape_csv": true,
+   "days_since_liquidation": null,
+   "entry_type": "01",
+   "entry_date": "2026-01-27",
+   "liquidation_status": "unliquidated",
+   "liquidation_date": null,
+   "evidence": {
+    "entry": "RB255337425 01 2026-01-27 1 5702991500 MX 16200.00 0.030 486.00 Hand-woven cotton rugs | RB255337425 01 2026-01-27 1 99030101 MX 0.250 4050.00",
+    "liquidation": "RB255337425 (rugs) has not liquidated yet.",
+    "flags": null,
+    "ieepa_statement": null
+   },
+   "source_docs": [
+    "1_ace_es003_line_details.pdf",
+    "2_broker_email.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "1",
+     "description": "Hand-woven cotton rugs",
+     "hts": [
+      {
+       "code": "5702991500",
+       "entered_value": 16200,
+       "rate": 0.03,
+       "duty": 486
+      },
+      {
+       "code": "99030101",
+       "entered_value": null,
+       "rate": 0.25,
+       "duty": 4050
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "RB2-5533742-5",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 2 page(s)"
+    },
+    {
+     "entry": "RB2-5533742-5",
+     "check": "'not liquidated' is quoted next to this entry",
+     "ok": true,
+     "detail": "quote: RB255337425 (rugs) has not liquidated yet."
+    },
+    {
+     "entry": "RB2-5533742-5",
+     "check": "IEEPA duty 99030101 $4,050.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "RB2-5531077-9",
+   "route": "CLASS_PENDING",
+   "label": "Class member, refund pending",
+   "bucket": "no_route",
+   "ieepa_duty": 3950.0,
+   "refund_amount": 3950.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "Finally liquidated (more than 180 days, no protest). The Court of International Trade certified a class of importers who have not sued (Freestyle World, Oct 8, 2026), but no refund order yet, and CAPE Phase 3 is only for importers with their own suit. For a large balance, ask a customs attorney about filing your own suit (deadline around Feb 2027).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 194,
+   "entry_type": "01",
+   "entry_date": "2025-06-03",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-04-13",
+   "evidence": {
+    "entry": "RB255310779 01 2025-06-03 1 1702204000 CA 15800.00 0.000 0.00 Maple syrup, bulk | RB255310779 01 2025-06-03 1 99030110 CA 0.250 3950.00",
+    "liquidation": "The Canadian syrup entry RB255310779 liquidated on April 13, | 2026. We did not protest any of these.",
+    "flags": null,
+    "ieepa_statement": null
+   },
+   "source_docs": [
+    "1_ace_es003_line_details.pdf",
+    "2_broker_email.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "1",
+     "description": "Maple syrup, bulk",
+     "hts": [
+      {
+       "code": "1702204000",
+       "entered_value": 15800,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "99030110",
+       "entered_value": null,
+       "rate": 0.25,
+       "duty": 3950
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "RB2-5531077-9",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 2 page(s)"
+    },
+    {
+     "entry": "RB2-5531077-9",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-04-13 / quote: The Canadian syrup entry RB255310779 liquidated on April 13, | 2026. We did not protest an"
+    },
+    {
+     "entry": "RB2-5531077-9",
+     "check": "IEEPA duty 99030110 $3,950.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "RB2-5531650-3",
+   "route": "CAPE_NOW",
+   "label": "File in CAPE now",
+   "bucket": "file_now",
+   "ieepa_duty": 3325.0,
+   "refund_amount": 3325.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+   "flags": [],
+   "in_cape_csv": true,
+   "days_since_liquidation": null,
+   "entry_type": "01",
+   "entry_date": "2025-08-19",
+   "liquidation_status": "unliquidated",
+   "liquidation_date": null,
+   "evidence": {
+    "entry": "RB255316503 08 2025-08-19 1 6912004400 MX 13300.00 0.060 798.00 Ceramic dinnerware (duty defer | RB255316503 08 2025-08-19 1 99030101 MX 0.250 3325.00 | And RB255316503 was converted by CBP from type 08 to a regular type 01 consumption entry;",
+    "liquidation": "RB255316503 is your type 08 duty deferral entry from August 2025; it is still open. | And RB255316503 was converted by CBP from type 08 to a regular type 01 consumption entry; | it is still open.",
+    "flags": null,
+    "ieepa_statement": null
+   },
+   "source_docs": [
+    "1_ace_es003_line_details.pdf",
+    "2_broker_email.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "1",
+     "description": "Ceramic dinnerware (duty defer",
+     "hts": [
+      {
+       "code": "6912004400",
+       "entered_value": 13300,
+       "rate": 0.06,
+       "duty": 798
+      },
+      {
+       "code": "99030101",
+       "entered_value": null,
+       "rate": 0.25,
+       "duty": 3325
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "RB2-5531650-3",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 2 page(s)"
+    },
+    {
+     "entry": "RB2-5531650-3",
+     "check": "'not liquidated' is quoted next to this entry",
+     "ok": true,
+     "detail": "quote: RB255316503 is your type 08 duty deferral entry from August 2025; it is still open. | And "
+    },
+    {
+     "entry": "RB2-5531650-3",
+     "check": "IEEPA duty 99030101 $3,325.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "RB2-5530462-2",
+   "route": "NO_IEEPA",
+   "label": "Nothing to refund",
+   "bucket": "not_refundable",
+   "ieepa_duty": 0.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "No IEEPA duty was paid on this entry (Section 301 and 232 duties are not part of this refund).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 250,
+   "entry_type": "01",
+   "entry_date": "2025-04-08",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-02-16",
+   "evidence": {
+    "entry": "RB255304622 01 2025-04-08 1 9401790050 MX 24600.00 0.000 0.00 Wrought iron patio chairs (USM | RB255304622 01 2025-04-08 1 99030104 MX 0.000 0.00",
+    "liquidation": "RB255304622 (the USMCA patio chairs) liquidated February 16, 2026.",
+    "flags": null,
+    "ieepa_statement": null
+   },
+   "source_docs": [
+    "1_ace_es003_line_details.pdf",
+    "2_broker_email.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "1",
+     "description": "Wrought iron patio chairs (USM",
+     "hts": [
+      {
+       "code": "9401790050",
+       "entered_value": 24600,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "99030104",
+       "entered_value": null,
+       "rate": 0,
+       "duty": 0
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "RB2-5530462-2",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 2 page(s)"
+    },
+    {
+     "entry": "RB2-5530462-2",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-02-16 / quote: RB255304622 (the USMCA patio chairs) liquidated February 16, 2026."
+    }
+   ],
+   "repaired": false
+  }
+ ],
+ "plan": {
+  "headline": "7 of your 10 entries ($36,655) appear eligible to claim in CAPE now, and one ($5,025) is due tomorrow, Oct 25, 2026.",
+  "steps": [
+   {
+    "title": "Claim RB2-5531839-1 in CAPE today",
+    "detail": "This entry appears eligible for a $5,025 refund, but its deadline is tomorrow (Oct 25, 2026). CAPE is Customs' online refund claim process, so ask your broker to file it right away.",
+    "deadline": "2026-10-25",
+    "entries": [
+     "RB2-5531839-1"
+    ]
+   },
+   {
+    "title": "Claim RB2-5532391-7 in CAPE",
+    "detail": "This entry appears eligible for $5,350 and must be claimed by Nov 5, 2026.",
+    "deadline": "2026-11-05",
+    "entries": [
+     "RB2-5532391-7"
+    ]
+   },
+   {
+    "title": "Claim RB2-5533008-0 in CAPE",
+    "detail": "This entry appears eligible for $4,060 and must be claimed by Dec 24, 2026.",
+    "deadline": "2026-12-24",
+    "entries": [
+     "RB2-5533008-0"
+    ]
+   },
+   {
+    "title": "Claim your other four CAPE-eligible entries",
+    "detail": "Don't wait, though, and ask your broker to include them in the same filing. RB2-5534106-8 was flagged with a statement conflict, so ask your broker to check it before filing.",
+    "deadline": null,
+    "entries": [
+     "RB2-5532014-6",
+     "RB2-5534106-8",
+     "RB2-5533742-5",
+     "RB2-5531650-3"
+    ]
+   },
+   {
+    "title": "Two entries are waiting on the court",
+    "detail": "These entries ($8,675 in total) are finally liquidated, meaning Customs closed them out. They can't use CAPE now. A court has certified a class of importers who haven't sued, but no refund order exists yet. If the balance matters to you, ask a customs attorney about filing your own suit (deadline around Feb 2027).",
+    "deadline": null,
+    "entries": [
+     "RB2-5530118-4",
+     "RB2-5531077-9"
+    ]
+   },
+   {
+    "title": "No action needed on one entry",
+    "detail": "No IEEPA duty was paid on this entry, so there is nothing to refund. Section 301 and 232 duties are not part of this refund.",
+    "deadline": null,
+    "entries": [
+     "RB2-5530462-2"
+    ]
+   }
+  ],
+  "broker_email_subject": "Urgent: CAPE filings for IEEPA refunds - Casa Verde Imports (one due Oct 25)",
+  "broker_email_body": "Hi,\n\nOur review shows 7 Casa Verde Imports LLC entries that appear eligible for IEEPA refunds through CAPE, totaling $36,655. Please file them as soon as possible, in this order:\n\n1. RB2-5531839-1 ($5,025), deadline Oct 25, 2026. Please file today if you can.\n2. RB2-5532391-7 ($5,350), deadline Nov 5, 2026.\n3. RB2-5533008-0 ($4,060), deadline Dec 24, 2026.\n4. RB2-5532014-6 ($8,425), RB2-5534106-8 ($6,420), RB2-5533742-5 ($4,050) and RB2-5531650-3 ($3,325). No deadline was listed for these.\n\nEntry RB2-5534106-8 was flagged with a statement conflict. Could you check that before filing?\n\nTwo entries, RB2-5530118-4 ($4,725) and RB2-5531077-9 ($3,950), are finally liquidated and can't use CAPE right now. Could you tell me whether you see any other option, or whether I should talk to a customs attorney about filing our own suit (deadline around Feb 2027)?\n\nPlease confirm once the claims are filed, and let me know if any of this looks wrong. I understand that none of these refunds is guaranteed.\n\nThank you,\nCasa Verde Imports LLC"
+ },
+ "plan_removed_sentences": [
+  "These four entries appear eligible for $22,220 in total, and no deadline was listed."
+ ],
+ "checker": {
+  "issues": [
+   {
+    "entry_number": "RB2-5534106-8",
+    "kind": "conflict",
+    "detail": "The extraction copied the broker's approximate IEEPA total of $6,402 as stated_ieepa. The line detail has 99030125 at $1,605.00 and 99030177 at $4,815.00, which add up to $6,420.00. The broker's figure transposes digits and disagrees with the lines, so the mismatch should be flagged. The line-detail total is the one to rely on.",
+    "quote": "By my math the IEEPA portion on that one was about $6,402.00, but double-check against the line detail.",
+    "grounded": true
+   }
+  ],
+  "summary": "I checked all 10 entries against the line detail and the broker email. Nine are correct. That includes the later email corrections: RB255318391 liquidated 2026-08-06, RB255316503 was converted from type 08 to 01 and is still open, and the AD/CVD case on RB255320146 is closed. One issue remains. On RB2-5534106-8 the stated IEEPA total of $6,402 disagrees with the line detail, which sums to $6,420."
+ },
+ "screen": {
+  "removed_lines": [],
+  "hidden_chars_dropped": 0,
+  "errors": [],
+  "pages": 2
+ },
+ "warnings": [],
+ "reader_notes": [
+  "Chapter 99 numbers appear in the ES-003 export without dots (e.g., 99030101), and the HTS numbers are copied exactly as printed. The Chapter 99 rows show no entered value, so entered_value is null for them.",
+  "Some descriptions are cut off in the ES-003 export ('Wrought iron patio chairs (USM', 'Ceramic dinnerware (duty defer'). They are copied as printed.",
+  "RB255316503: the ES-003 export shows type 08, but the broker's email (Oct 22, 2026) says CBP converted it from type 08 to a regular type 01 consumption entry. Type 01 is recorded based on that later statement. Both texts are quoted in the evidence.",
+  "RB255318391: the email first gives a liquidation date of July 6, 2026, then corrects it to August 6, 2026 ('the July date was a typo'). The corrected date is used.",
+  "RB255320146: the email first says liquidation is suspended because of an AD/CVD case. It then says the case closed on October 1 and 'the AD/CVD flag no longer applies'. AD/CVD is set to false, and the entry is still unliquidated. The year of 'October 1' isn't stated.",
+  "RB255341068: the broker states the IEEPA portion is 'about $6,402.00' and that figure is recorded as stated. The line detail shows 9903 rows of 1,605.00 + 4,815.00 = 6,420.00, which doesn't match the stated figure. This may be a transposition, but that isn't confirmed.",
+  "RB255301184, RB255304622, RB255310779: the email says 'We did not protest any of these.' No document mentions a protest for any other entry.",
+  "The email says 'Nothing was paid by the surety, and we have no drawback or reconciliation on your account.' The surety, drawback and reconciliation flags are false for all entries.",
+  "The documents don't say whether the importer is a plaintiff at the Court of International Trade or give a CIT case number, so those fields are left empty or false.",
+  "The broker's offer in the email to file CAPE for a flat fee was not acted on."
+ ],
+ "files": {
+  "cape_csv": "Entry Number\nRB255318391\nRB255323917\nRB255330080\nRB255320146\nRB255341068\nRB255337425\nRB255316503\n",
+  "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//DutyBack//IEEPA refund deadlines//EN\r\nCALSCALE:GREGORIAN\r\nX-WR-CALNAME:Tariff refund deadlines - Casa Verde Imports LLC\r\nBEGIN:VEVENT\r\nUID:RB2-5531839-1-CAPE_NOW@dutyback.local\r\nDTSTAMP:20261025T003055Z\r\nDTSTART;VALUE=DATE:20261025\r\nDTEND;VALUE=DATE:20261026\r\nSUMMARY:Last day for CAPE: entry RB2-5531839-1 ($5\\,025.00)\r\nDESCRIPTION:File in CAPE now. Eligible for CAPE: unliquidated\\, or liquidated 80 days ago or less (CSMS #68340863). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: RB2-5531839-1\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: RB2-5531839-1\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:RB2-5532391-7-CAPE_NOW@dutyback.local\r\nDTSTAMP:20261025T003055Z\r\nDTSTART;VALUE=DATE:20261105\r\nDTEND;VALUE=DATE:20261106\r\nSUMMARY:Last day for CAPE: entry RB2-5532391-7 ($5\\,350.00)\r\nDESCRIPTION:File in CAPE now. Eligible for CAPE: unliquidated\\, or liquidated 80 days ago or less (CSMS #68340863). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: RB2-5532391-7\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: RB2-5532391-7\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:RB2-5533008-0-CAPE_NOW@dutyback.local\r\nDTSTAMP:20261025T003055Z\r\nDTSTART;VALUE=DATE:20261224\r\nDTEND;VALUE=DATE:20261225\r\nSUMMARY:Last day for CAPE: entry RB2-5533008-0 ($4\\,060.00)\r\nDESCRIPTION:File in CAPE now. Eligible for CAPE: unliquidated\\, or liquidated 80 days ago or less (CSMS #68340863). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: RB2-5533008-0\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: RB2-5533008-0\r\nEND:VALARM\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+ },
+ "agents": [
+  {
+   "agent": "reader",
+   "model": "opus",
+   "seconds": 46.6,
+   "input_tokens": 2,
+   "output_tokens": 6684,
+   "cache_read_tokens": 2307,
+   "cache_write_tokens": 2393,
+   "cost_usd": 0.1533,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-opus-5-5"
+  },
+  {
+   "agent": "checker",
+   "model": "sonnet",
+   "seconds": 10.5,
+   "input_tokens": 4,
+   "output_tokens": 1165,
+   "cache_read_tokens": 4048,
+   "cache_write_tokens": 3884,
+   "cost_usd": 0.0276,
+   "turns": 6,
+   "tool_calls": [
+    {
+     "tool": "get_extraction",
+     "input": {}
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_ace_es003_line_details.pdf",
+      "page": 1
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "2_broker_email.pdf",
+      "page": 1
+     }
+    },
+    {
+     "tool": "list_entry_numbers_in_documents",
+     "input": {}
+    }
+   ],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-sonnet-5-5"
+  },
+  {
+   "agent": "reader (repair)",
+   "model": "opus",
+   "seconds": 15.8,
+   "input_tokens": 2,
+   "output_tokens": 1823,
+   "cache_read_tokens": 2307,
+   "cache_write_tokens": 2559,
+   "cost_usd": 0.0574,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-opus-5-5"
+  },
+  {
+   "agent": "advisor",
+   "model": "sonnet",
+   "seconds": 14.5,
+   "input_tokens": 2,
+   "output_tokens": 1999,
+   "cache_read_tokens": 905,
+   "cache_write_tokens": 2559,
+   "cost_usd": 0.0303,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-sonnet-5-5"
+  }
+ ],
+ "totals": {
+  "seconds": 87.4,
+  "cost_usd": 0.2686,
+  "input_tokens": 20972,
+  "output_tokens": 11671,
+  "tool_calls": 4
+ },
+ "steps": [
+  {
+   "key": "screen",
+   "title": "Safety screen",
+   "who": "Code"
+  },
+  {
+   "key": "read",
+   "title": "Read the paperwork",
+   "who": "Reader agent"
+  },
+  {
+   "key": "verify",
+   "title": "Match every fact to the documents",
+   "who": "Code"
+  },
+  {
+   "key": "check",
+   "title": "Double-check with tools",
+   "who": "Checker agent"
+  },
+  {
+   "key": "repair",
+   "title": "Re-read anything flagged",
+   "who": "Reader agent + code"
+  },
+  {
+   "key": "route",
+   "title": "Sort entries and compute refunds",
+   "who": "Rules engine (code)"
+  },
+  {
+   "key": "plan",
+   "title": "Write the action plan",
+   "who": "Advisor agent + code"
+  }
+ ]
+}

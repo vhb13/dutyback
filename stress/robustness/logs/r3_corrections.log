@@ -1,0 +1,23 @@
+[screen] running 
+[screen] done 5 pages · 1 suspicious line(s) removed · 0 hidden characters dropped
+[read] running 
+[read] done 6 entries read
+[verify] running 
+[verify] done 6/6 entries fully verified
+[check] running 
+[check] done 9 turns · 7 tool calls · 0 issue(s) with a supporting quote
+[repair] running 
+[repair] done nothing to re-read
+[route] running 
+[route] done $16,930.00 can be claimed in CAPE now
+[plan] running 
+[plan] done 5 steps
+routes:
+  BW2-0418833-1  CAPE_NOW                     $  4,400.00  deadline=2026-11-08  flags=[]
+  BW2-0418120-5  CAPE_NOW                     $ 10,130.00  deadline=2026-11-16  flags=[]
+  BW2-0419011-0  CAPE_NOW                     $  2,400.00  deadline=2026-12-13  flags=[]
+  BW2-0418907-2  PROTEST_BY                   $  3,100.00  deadline=2026-12-23  flags=[]
+  BW2-0411873-2  NEEDS_REVIEW                 $      0.00  deadline=None  flags=[]
+  BW2-0417654-9  NEEDS_REVIEW                 $      0.00  deadline=None  flags=[]
+CAPE csv entries: 3 | removed lines: 1 | hidden chars: 0 | warnings: []
+saved stress/robustness/results/r3_corrections.json | cost 0.1651

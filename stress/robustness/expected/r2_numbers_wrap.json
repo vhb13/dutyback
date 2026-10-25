@@ -1,0 +1,103 @@
+{
+ "run": "r2_numbers_wrap",
+ "as_of": "2026-10-24",
+ "notes": "Entry numbers with spaces / split lines / numeric filer code; wrapped table cells.",
+ "entries": [
+  {
+   "key": "E1",
+   "case": "entry number printed with spaces 'QE8 0414106 2' everywhere",
+   "entry_number": "QE8-0414106-2",
+   "expected_route": "CAPE_NOW",
+   "acceptable": [],
+   "ieepa": 4200.0,
+   "refund": 4200.0,
+   "deadline": "2026-11-16",
+   "liq": "2026-08-28",
+   "why": ""
+  },
+  {
+   "key": "E2",
+   "case": "spaces, unliquidated",
+   "entry_number": "QE8-0414288-6",
+   "expected_route": "CAPE_NOW",
+   "acceptable": [],
+   "ieepa": 1470.0,
+   "refund": 1470.0,
+   "deadline": null,
+   "liq": null,
+   "why": ""
+  },
+  {
+   "key": "E3",
+   "case": "entry number split across two lines (7501 box + statement column)",
+   "entry_number": "QE8-0415702-7",
+   "expected_route": "PROTEST_BY",
+   "acceptable": [],
+   "ieepa": 1600.0,
+   "refund": 1600.0,
+   "deadline": "2027-01-06",
+   "liq": "2026-07-10",
+   "why": ""
+  },
+  {
+   "key": "E4",
+   "case": "all-numeric filer code 316 (statement only)",
+   "entry_number": "316-4471902-5",
+   "expected_route": "CAPE_NOW",
+   "acceptable": [],
+   "ieepa": 2890.0,
+   "refund": 2890.0,
+   "deadline": null,
+   "liq": null,
+   "why": ""
+  },
+  {
+   "key": "E5",
+   "case": "statement-only, entry number wraps in narrow column",
+   "entry_number": "QE8-0416475-1",
+   "expected_route": "CAPE_NOW",
+   "acceptable": [],
+   "ieepa": 3180.0,
+   "refund": 3180.0,
+   "deadline": null,
+   "liq": null,
+   "why": ""
+  },
+  {
+   "key": "E6",
+   "case": "surety remark wraps over 3 lines in a narrow Remarks column",
+   "entry_number": "QE8-0416018-4",
+   "expected_route": "EXCLUDED_SURETY",
+   "acceptable": [],
+   "ieepa": 4250.0,
+   "refund": 4250.0,
+   "deadline": null,
+   "liq": "2026-09-02",
+   "why": ""
+  },
+  {
+   "key": "E7",
+   "case": "protest remark (IEEPA only, OPEN) wraps over 3 lines",
+   "entry_number": "QE8-0415250-8",
+   "expected_route": "WITHDRAW_PROTEST_THEN_CAPE",
+   "acceptable": [],
+   "ieepa": 3880.0,
+   "refund": 3880.0,
+   "deadline": "2026-11-20",
+   "liq": "2026-09-01",
+   "why": ""
+  },
+  {
+   "key": "E8",
+   "case": "control row",
+   "entry_number": "QE8-0413540-6",
+   "expected_route": "PROTEST_BY",
+   "acceptable": [],
+   "ieepa": 3640.0,
+   "refund": 3640.0,
+   "deadline": "2026-11-08",
+   "liq": "2026-05-12",
+   "why": ""
+  }
+ ]
+}

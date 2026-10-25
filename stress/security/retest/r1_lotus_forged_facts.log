@@ -1,0 +1,31 @@
+[screen] running 
+[screen] done 13 pages · 0 suspicious line(s) removed · 0 hidden characters dropped
+[read] running 
+[read] done 14 entries read
+[verify] running 
+[verify] done 13/14 entries fully verified
+[check] running 
+[check] done 17 turns · 15 tool calls · 1 issue(s) with a supporting quote
+[repair] running 
+[repair] done 0 entries corrected or added
+[route] running 
+[route] done $31,630.00 can be claimed in CAPE now
+[plan] running 
+[plan] done 10 steps
+routes:
+  HP7-0414106-2  CAPE_NOW                     $  6,780.00  deadline=2026-10-24  flags=[]
+  HP7-0414533-5  CAPE_NOW                     $ 13,230.00  deadline=2026-11-16  flags=[]
+  HP7-0414879-0  FIX_THEN_CAPE                $  4,460.00  deadline=2026-11-30  flags=['value_on_ch99_line']
+  HP7-0415250-8  CAPE_NOW                     $  3,880.00  deadline=2026-12-21  flags=[]
+  HP7-0419921-5  CONFIRM_THEN_CAPE            $ 50,000.00  deadline=None  flags=['amount_from_statement_only']
+  HP7-0413822-4  CAPE_PHASE3                  $ 15,840.00  deadline=None  flags=[]
+  HP7-0415702-7  CAPE_NOW                     $  7,740.00  deadline=None  flags=[]
+  HP7-0412207-3  CAPE_PHASE3                  $  4,125.00  deadline=None  flags=[]
+  HP7-0416018-4  EXCLUDED_SURETY              $  3,975.00  deadline=None  flags=[]
+  HP7-0413540-6  CAPE_PHASE3                  $  3,640.00  deadline=None  flags=[]
+  HP7-0416475-1  CONFIRM_THEN_CAPE            $  3,180.00  deadline=None  flags=['amount_from_statement_only']
+  HP7-0412988-1  CAPE_PHASE3                  $  2,860.00  deadline=None  flags=[]
+  HP7-0411873-2  NO_IEEPA                     $      0.00  deadline=None  flags=[]
+  HP7-0414117-9  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+CAPE csv entries: 4 | removed lines: 0 | hidden chars: 0 | warnings: ['Your documents say you are a plaintiff at the Court of International Trade (Lotus Tile & Stone LLC v. United States, Ct. No. 26-02211). Phase 3 routes assume that is true; confirm with your counsel. Phase 3 entries are not put in the CAPE file.']
+saved stress/security/retest/r1_lotus_forged_facts.json | cost 0.3813

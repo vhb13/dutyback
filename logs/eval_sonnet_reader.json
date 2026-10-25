@@ -1,0 +1,466 @@
+{
+ "tag": "sonnet_reader",
+ "as_of": "2026-10-24",
+ "run_at": "2026-10-24 20:25",
+ "results": [
+  {
+   "slug": "lotus",
+   "pipeline": {
+    "entries": 13,
+    "found": 13,
+    "route_ok": 13,
+    "amount_ok": 13,
+    "deadline_ok": 13,
+    "false_files": [],
+    "missed_csv_entries": [],
+    "missed_money": 0,
+    "invented_entries": [],
+    "refundable_total": 73460.0,
+    "dollars_routed_correctly": 73460.0,
+    "per_entry": [
+     {
+      "entry": "HP7-0412207-3",
+      "found": true,
+      "route_ok": true,
+      "amount_ok": true,
+      "deadline_ok": true,
+      "expected": "CLASS_PENDING",
+      "got": "CLASS_PENDING",
+      "got_amount": 4125.0,
+      "expected_amount": 4125.0
+     },
+     {
+      "entry": "HP7-0412988-1",
+      "found": true,
+      "route_ok": true,
+      "amount_ok": true,
+      "deadline_ok": true,
+      "expected": "CLASS_PENDING",
+      "got": "CLASS_PENDING",
+      "got_amount": 2860.0,
+      "expected_amount": 2860.0
+     },
+     {
+      "entry": "HP7-0413540-6",
+      "found": true,
+      "route_ok": true,
+      "amount_ok": true,
+      "deadline_ok": true,
+      "expected": "PROTEST_BY",
+      "got": "PROTEST_BY",
+      "got_amount": 3640.0,
+      "expected_amount": 3640.0
+     },
+     {
+      "entry": "HP7-0413822-4",
+      "found": true,
+      "route_ok": true,
+      "amount_ok": true,
+      "deadline_ok": true,
+      "expected": "PROTEST_BY",
+      "got": "PROTEST_BY",
+      "got_amount": 15840.0,
+      "expected_amount": 15840.0
+     },
+     {
+      "entry": "HP7-0414106-2",
+      "found": true,
+      "route_ok": true,
+      "amount_ok": true,
+      "deadline_ok": true,
+      "expected": "CAPE_NOW",
+      "got": "CAPE_NOW",
+      "got_amount": 6780.0,
+      "expected_amount": 6780.0
+     },
+     {
+      "entry": "HP7-0414117-9",
+      "found": true,
+      "route_ok": true,
+      "amount_ok": true,
+      "deadline_ok": true,
+      "expected": "PROTEST_BY",
+      "got": "PROTEST_BY",
+      "got_amount": 3750.0,
+      "expected_amount": 3750.0
+     },
+     {
+      "entry": "HP7-0414533-5",
+      "found": true,
+      "route_ok": true,
+      "amount_ok": true,
+      "deadline_ok": true,
+      "expected": "CAPE_NOW",
+      "got": "CAPE_NOW",
+      "got_amount": 13230.0,
+      "expected_amount": 13230.0
+     },
+     {
+      "entry": "HP7-0414879-0",
+      "found": true,
+      "route_ok": true,
+      "amount_ok": true,
+      "deadline_ok": true,
+      "expected": "FIX_THEN_CAPE",
+      "got": "FIX_THEN_CAPE",
+      "got_amount": 4460.0,
+      "expected_amount": 4460.0
+     },
+     {
+      "entry": "HP7-0415250-8",
+      "found": true,
+      "route_ok": true,
+      "amount_ok": true,
+      "deadline_ok": true,
+      "expected": "CAPE_NOW",
+      "got": "CAPE_NOW",
+      "got_amount": 3880.0,
+      "expected_amount": 3880.0
+     },
+     {
+      "entry": "HP7-0415702-7",
+      "found": true,
+      "route_ok": true,
+      "amount_ok": true,
+      "deadline_ok": true,
+      "expected": "CAPE_NOW",
+      "got": "CAPE_NOW",
+      "got_amount": 7740.0,
+      "expected_amount": 7740.0
+     },
+     {
+      "entry": "HP7-0416018-4",
+      "found": true,
+      "route_ok": true,
+      "amount_ok": true,
+      "deadline_ok": true,
+      "expected": "EXCLUDED_SURETY",
+      "got": "EXCLUDED_SURETY",
+      "got_amount": 3975.0,
+      "expected_amount": 3975.0
+     },
+     {
+      "entry": "HP7-0416475-1",
+      "found": true,
+      "route_ok": true,
+      "amount_ok": true,
+      "deadline_ok": true,
+      "expected": "CAPE_NOW",
+      "got": "CAPE_NOW",
+      "got_amount": 3180.0,
+      "expected_amount": 3180.0
+     },
+     {
+      "entry": "HP7-0411873-2",
+      "found": true,
+      "route_ok": true,
+      "amount_ok": true,
+      "deadline_ok": true,
+      "expected": "NO_IEEPA",
+      "got": "NO_IEEPA",
+      "got_amount": 0.0,
+      "expected_amount": 0.0
+     }
+    ],
+    "cost_usd": 0.2258,
+    "seconds": 73.7,
+    "tool_calls": 15,
+    "repaired": [],
+    "plan_removed": 0
+   }
+  },
+  {
+   "slug": "northtrail",
+   "pipeline": {
+    "entries": 11,
+    "found": 11,
+    "route_ok": 11,
+    "amount_ok": 11,
+    "deadline_ok": 11,
+    "false_files": [],
+    "missed_csv_entries": [],
+    "missed_money": 0,
+    "invented_entries": [],
+    "refundable_total": 56770.0,
+    "dollars_routed_correctly": 56770.0,
+    "per_entry": [
+     {
+      "entry": "KT4-2207145-6",
+      "found": true,
+      "route_ok": true,
+      "amount_ok": true,
+      "deadline_ok": true,
+      "expected": "CAPE_PHASE3",
+      "got": "CAPE_PHASE3",
+      "got_amount": 9440.0,
+      "expected_amount": 9440.0
+     },
+     {
+      "entry": "KT4-2207698-3",
+      "found": true,
+      "route_ok": true,
+      "amount_ok": true,
+      "deadline_ok": true,
+      "expected": "CAPE_PHASE3",
+      "got": "CAPE_PHASE3",
+      "got_amount": 3180.0,
+      "expected_amount": 3180.0
+     },
+     {
+      "entry": "KT4-2208011-9",
+      "found": true,
+      "route_ok": true,
+      "amount_ok": true,
+      "deadline_ok": true,
+      "expected": "PROTEST_OPEN",
+      "got": "PROTEST_OPEN",
+      "got_amount": 8070.0,
+      "expected_amount": 8070.0
+     },
+     {
+      "entry": "KT4-2208260-1",
+      "found": true,
+      "route_ok": true,
+      "amount_ok": true,
+      "deadline_ok": true,
+      "expected": "PROTEST_BY",
+      "got": "PROTEST_BY",
+      "got_amount": 2430.0,
+      "expected_amount": 2430.0
+     },
+     {
+      "entry": "KT4-2208274-8",
+      "found": true,
+      "route_ok": true,
+      "amount_ok": true,
+      "deadline_ok": true,
+      "expected": "CAPE_PHASE3",
+      "got": "CAPE_PHASE3",
+      "got_amount": 1260.0,
+      "expected_amount": 1260.0
+     },
+     {
+      "entry": "KT4-2209003-5",
+      "found": true,
+      "route_ok": true,
+      "amount_ok": true,
+      "deadline_ok": true,
+      "expected": "CAPE_PHASE2_RECON",
+      "got": "CAPE_PHASE2_RECON",
+      "got_amount": 8820.0,
+      "expected_amount": 8820.0
+     },
+     {
+      "entry": "KT4-2209318-2",
+      "found": true,
+      "route_ok": true,
+      "amount_ok": true,
+      "deadline_ok": true,
+      "expected": "EXCLUDED_DRAWBACK",
+      "got": "EXCLUDED_DRAWBACK",
+      "got_amount": 3500.0,
+      "expected_amount": 3500.0
+     },
+     {
+      "entry": "KT4-2209470-0",
+      "found": true,
+      "route_ok": true,
+      "amount_ok": true,
+      "deadline_ok": true,
+      "expected": "CAPE_NOW",
+      "got": "CAPE_NOW",
+      "got_amount": 2190.0,
+      "expected_amount": 2190.0
+     },
+     {
+      "entry": "KT4-2210027-4",
+      "found": true,
+      "route_ok": true,
+      "amount_ok": true,
+      "deadline_ok": true,
+      "expected": "ASK_BROKER",
+      "got": "ASK_BROKER",
+      "got_amount": 11660.0,
+      "expected_amount": 11660.0
+     },
+     {
+      "entry": "KT4-2210384-7",
+      "found": true,
+      "route_ok": true,
+      "amount_ok": true,
+      "deadline_ok": true,
+      "expected": "CAPE_NOW",
+      "got": "CAPE_NOW",
+      "got_amount": 1960.0,
+      "expected_amount": 1960.0
+     },
+     {
+      "entry": "KT4-2209566-1",
+      "found": true,
+      "route_ok": true,
+      "amount_ok": true,
+      "deadline_ok": true,
+      "expected": "WITHDRAW_PROTEST_THEN_CAPE",
+      "got": "WITHDRAW_PROTEST_THEN_CAPE",
+      "got_amount": 4260.0,
+      "expected_amount": 4260.0
+     }
+    ],
+    "cost_usd": 0.2351,
+    "seconds": 73.3,
+    "tool_calls": 15,
+    "repaired": [],
+    "plan_removed": 0
+   }
+  },
+  {
+   "slug": "casaverde",
+   "pipeline": {
+    "entries": 10,
+    "found": 10,
+    "route_ok": 10,
+    "amount_ok": 10,
+    "deadline_ok": 10,
+    "false_files": [],
+    "missed_csv_entries": [],
+    "missed_money": 0,
+    "invented_entries": [],
+    "refundable_total": 45330.0,
+    "dollars_routed_correctly": 45330.0,
+    "per_entry": [
+     {
+      "entry": "RB2-5530118-4",
+      "found": true,
+      "route_ok": true,
+      "amount_ok": true,
+      "deadline_ok": true,
+      "expected": "CLASS_PENDING",
+      "got": "CLASS_PENDING",
+      "got_amount": 4725.0,
+      "expected_amount": 4725.0
+     },
+     {
+      "entry": "RB2-5530462-2",
+      "found": true,
+      "route_ok": true,
+      "amount_ok": true,
+      "deadline_ok": true,
+      "expected": "NO_IEEPA",
+      "got": "NO_IEEPA",
+      "got_amount": 0.0,
+      "expected_amount": 0.0
+     },
+     {
+      "entry": "RB2-5531077-9",
+      "found": true,
+      "route_ok": true,
+      "amount_ok": true,
+      "deadline_ok": true,
+      "expected": "CLASS_PENDING",
+      "got": "CLASS_PENDING",
+      "got_amount": 3950.0,
+      "expected_amount": 3950.0
+     },
+     {
+      "entry": "RB2-5531650-3",
+      "found": true,
+      "route_ok": true,
+      "amount_ok": true,
+      "deadline_ok": true,
+      "expected": "EXCLUDED_TYPE08",
+      "got": "EXCLUDED_TYPE08",
+      "got_amount": 3325.0,
+      "expected_amount": 3325.0
+     },
+     {
+      "entry": "RB2-5532014-6",
+      "found": true,
+      "route_ok": true,
+      "amount_ok": true,
+      "deadline_ok": true,
+      "expected": "ASK_BROKER",
+      "got": "ASK_BROKER",
+      "got_amount": 8425.0,
+      "expected_amount": 8425.0
+     },
+     {
+      "entry": "RB2-5532391-7",
+      "found": true,
+      "route_ok": true,
+      "amount_ok": true,
+      "deadline_ok": true,
+      "expected": "CAPE_NOW",
+      "got": "CAPE_NOW",
+      "got_amount": 5350.0,
+      "expected_amount": 5350.0
+     },
+     {
+      "entry": "RB2-5533008-0",
+      "found": true,
+      "route_ok": true,
+      "amount_ok": true,
+      "deadline_ok": true,
+      "expected": "CAPE_NOW",
+      "got": "CAPE_NOW",
+      "got_amount": 4060.0,
+      "expected_amount": 4060.0
+     },
+     {
+      "entry": "RB2-5533742-5",
+      "found": true,
+      "route_ok": true,
+      "amount_ok": true,
+      "deadline_ok": true,
+      "expected": "CAPE_NOW",
+      "got": "CAPE_NOW",
+      "got_amount": 4050.0,
+      "expected_amount": 4050.0
+     },
+     {
+      "entry": "RB2-5531839-1",
+      "found": true,
+      "route_ok": true,
+      "amount_ok": true,
+      "deadline_ok": true,
+      "expected": "PROTEST_BY",
+      "got": "PROTEST_BY",
+      "got_amount": 5025.0,
+      "expected_amount": 5025.0
+     },
+     {
+      "entry": "RB2-5534106-8",
+      "found": true,
+      "route_ok": true,
+      "amount_ok": true,
+      "deadline_ok": true,
+      "expected": "CAPE_NOW",
+      "got": "CAPE_NOW",
+      "got_amount": 6420.0,
+      "expected_amount": 6420.0
+     }
+    ],
+    "cost_usd": 0.1736,
+    "seconds": 72.5,
+    "tool_calls": 4,
+    "repaired": [],
+    "plan_removed": 0
+   }
+  }
+ ],
+ "total": {
+  "pipeline": {
+   "entries": 34,
+   "found": 34,
+   "route_ok": 34,
+   "amount_ok": 34,
+   "deadline_ok": 34,
+   "missed_money": 0,
+   "refundable_total": 175560.0,
+   "dollars_routed_correctly": 175560.0,
+   "cost_usd": 0.6345000000000001,
+   "seconds": 219.5,
+   "false_files": 0,
+   "invented_entries": 0
+  }
+ }
+}

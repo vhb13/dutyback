@@ -1,0 +1,1554 @@
+{
+ "slug": "lotus",
+ "recorded_at": "2026-10-25 07:39",
+ "as_of": "2026-10-24",
+ "step_seconds": {
+  "screen": 0.3,
+  "read": 51.4,
+  "verify": 0.0,
+  "check": 14.2,
+  "repair": 11.0,
+  "route": 0.0,
+  "plan": 18.1
+ },
+ "step_details": {
+  "screen": "13 pages \u00b7 0 suspicious line(s) removed \u00b7 0 hidden characters dropped",
+  "read": "13 entries read",
+  "verify": "13/13 entries fully verified",
+  "check": "17 turns \u00b7 15 tool calls \u00b7 1 issue(s) with a supporting quote",
+  "repair": "0 entries corrected or added",
+  "route": "$31,630.00 can be claimed in CAPE now",
+  "plan": "12 steps \u00b7 1 sentence(s) removed by the number check"
+ },
+ "result": {
+  "importer": {
+   "name": "Lotus Tile & Stone LLC",
+   "ior_number": "84-2917365-00",
+   "cit_plaintiff": false,
+   "cit_case": null,
+   "cit_ior_submitted_date": null,
+   "evidence": "Client: Lotus Tile & Stone LLC IOR: 84-2917365-00 Prepared: 10/22/2026"
+  },
+  "as_of": "2026-10-24",
+  "rules_snapshot": "2026-10-24",
+  "summary": {
+   "as_of": "2026-10-24",
+   "rules_snapshot": "2026-10-24",
+   "entries": 13,
+   "ieepa_paid": 73460.0,
+   "buckets": {
+    "file_now": {
+     "label": "Claim in CAPE now",
+     "count": 4,
+     "amount": 31630.0
+    },
+    "fix_first": {
+     "label": "One step first, then CAPE",
+     "count": 2,
+     "amount": 7640.0
+    },
+    "protest": {
+     "label": "Protest route",
+     "count": 3,
+     "amount": 23230.0
+    },
+    "broker": {
+     "label": "Talk to your broker",
+     "count": 1,
+     "amount": 3975.0
+    },
+    "no_route": {
+     "label": "Waiting on the court",
+     "count": 2,
+     "amount": 6985.0
+    },
+    "not_refundable": {
+     "label": "Nothing to refund",
+     "count": 1,
+     "amount": 0.0
+    },
+    "review": {
+     "label": "Check by hand",
+     "count": 0,
+     "amount": 0.0
+    }
+   },
+   "at_risk_this_week": {
+    "count": 1,
+    "amount": 6780.0,
+    "entries": [
+     "HP7-0414106-2"
+    ]
+   },
+   "cape_csv_count": 4,
+   "cape_csv_amount": 31630.0
+  },
+  "entries": [
+   {
+    "entry_number": "HP7-0414106-2",
+    "route": "CAPE_NOW",
+    "label": "File in CAPE now",
+    "bucket": "file_now",
+    "ieepa_duty": 6780.0,
+    "refund_amount": 6780.0,
+    "deadline": "2026-10-24",
+    "days_left": 0,
+    "urgent": true,
+    "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+    "flags": [],
+    "in_cape_csv": true,
+    "days_since_liquidation": 80,
+    "entry_type": "01",
+    "entry_date": "2025-09-09",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-08-05",
+    "evidence": {
+     "entry": "HP7-0414106-2 01 ABI/A | HP7-0414106-2 01 09/09/2025 Liquidated 08/05/2026 9,661.50 6,780.00",
+     "liquidation": "HP7-0414106-2 01 09/09/2025 Liquidated 08/05/2026 9,661.50 6,780.00",
+     "flags": null,
+     "ieepa_statement": "HP7-0414106-2 01 09/09/2025 Liquidated 08/05/2026 9,661.50 6,780.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Glazed porcelain floor tile 30x60",
+      "hts": [
+       {
+        "code": "6907.21.1005",
+        "entered_value": 33900,
+        "rate": 0.085,
+        "duty": 2881.5
+       },
+       {
+        "code": "9903.02.69",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 6780
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "HP7-0414106-2",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "HP7-0414106-2",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-08-05"
+     },
+     {
+      "entry": "HP7-0414106-2",
+      "check": "IEEPA duty 9903.02.69 $6,780.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "HP7-0414106-2",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $9,661.50 vs printed $9,661.50"
+     },
+     {
+      "entry": "HP7-0414106-2",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "HP7-0414106-2",
+    "repaired": false
+   },
+   {
+    "entry_number": "HP7-0414533-5",
+    "route": "CAPE_NOW",
+    "label": "File in CAPE now",
+    "bucket": "file_now",
+    "ieepa_duty": 13230.0,
+    "refund_amount": 13230.0,
+    "deadline": "2026-11-16",
+    "days_left": 23,
+    "urgent": false,
+    "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+    "flags": [],
+    "in_cape_csv": true,
+    "days_since_liquidation": 57,
+    "entry_type": "01",
+    "entry_date": "2025-10-01",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-08-28",
+    "evidence": {
+     "entry": "HP7-0414533-5 01 ABI/A | HP7-0414533-5 01 10/01/2025 Liquidated 08/28/2026 26,415.90 13,230.00",
+     "liquidation": "HP7-0414533-5 01 10/01/2025 Liquidated 08/28/2026 26,415.90 13,230.00",
+     "flags": null,
+     "ieepa_statement": "HP7-0414533-5 01 10/01/2025 Liquidated 08/28/2026 26,415.90 13,230.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Quartz surface slabs",
+      "hts": [
+       {
+        "code": "6810.99.0080",
+        "entered_value": 44100,
+        "rate": 0.049,
+        "duty": 2160.9
+       },
+       {
+        "code": "9903.88.03",
+        "entered_value": null,
+        "rate": 0.25,
+        "duty": 11025
+       },
+       {
+        "code": "9903.01.24",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 8820
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 4410
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "HP7-0414533-5",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "HP7-0414533-5",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-08-28"
+     },
+     {
+      "entry": "HP7-0414533-5",
+      "check": "IEEPA duty 9903.01.24 $8,820.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "HP7-0414533-5",
+      "check": "IEEPA duty 9903.01.25 $4,410.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "HP7-0414533-5",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $26,415.90 vs printed $26,415.90"
+     },
+     {
+      "entry": "HP7-0414533-5",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "HP7-0414533-5",
+    "repaired": false
+   },
+   {
+    "entry_number": "HP7-0413540-6",
+    "route": "PROTEST_BY",
+    "label": "File a protest",
+    "bucket": "protest",
+    "ieepa_duty": 3640.0,
+    "refund_amount": 3640.0,
+    "deadline": "2026-11-22",
+    "days_left": 29,
+    "urgent": false,
+    "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 151,
+    "entry_type": "01",
+    "entry_date": "2025-07-14",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-05-26",
+    "evidence": {
+     "entry": "HP7-0413540-6 01 ABI/A | HP7-0413540-6 01 07/14/2025 Liquidated 05/26/2026 6,734.00 3,640.00",
+     "liquidation": "HP7-0413540-6 01 07/14/2025 Liquidated 05/26/2026 6,734.00 3,640.00",
+     "flags": null,
+     "ieepa_statement": "HP7-0413540-6 01 07/14/2025 Liquidated 05/26/2026 6,734.00 3,640.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Porcelain tile, unglazed",
+      "hts": [
+       {
+        "code": "6907.21.9011",
+        "entered_value": 36400,
+        "rate": 0.085,
+        "duty": 3094
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 3640
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "HP7-0413540-6",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "HP7-0413540-6",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-05-26"
+     },
+     {
+      "entry": "HP7-0413540-6",
+      "check": "IEEPA duty 9903.01.25 $3,640.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "HP7-0413540-6",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $6,734.00 vs printed $6,734.00"
+     },
+     {
+      "entry": "HP7-0413540-6",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "HP7-0413540-6",
+    "repaired": false
+   },
+   {
+    "entry_number": "HP7-0414879-0",
+    "route": "FIX_THEN_CAPE",
+    "label": "Fix, then file in CAPE",
+    "bucket": "fix_first",
+    "ieepa_duty": 4460.0,
+    "refund_amount": 4460.0,
+    "deadline": "2026-11-30",
+    "days_left": 37,
+    "urgent": false,
+    "reason": "A goods value is reported on a Chapter 99 line. CAPE rejects that entry until the value sits on the Chapter 1-97 line.",
+    "flags": [
+     "value_on_ch99_line"
+    ],
+    "in_cape_csv": false,
+    "days_since_liquidation": 43,
+    "entry_type": "01",
+    "entry_date": "2025-10-20",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-09-11",
+    "evidence": {
+     "entry": "HP7-0414879-0 01 ABI/A | HP7-0414879-0 01 10/20/2025 Liquidated 09/11/2026 6,355.50 4,460.00",
+     "liquidation": "HP7-0414879-0 01 10/20/2025 Liquidated 09/11/2026 6,355.50 4,460.00",
+     "flags": null,
+     "ieepa_statement": "HP7-0414879-0 01 10/20/2025 Liquidated 09/11/2026 6,355.50 4,460.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Porcelain step treads",
+      "hts": [
+       {
+        "code": "6907.21.1005",
+        "entered_value": 22300,
+        "rate": 0.085,
+        "duty": 1895.5
+       },
+       {
+        "code": "9903.02.69",
+        "entered_value": 22300,
+        "rate": 0.2,
+        "duty": 4460
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "HP7-0414879-0",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "HP7-0414879-0",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-09-11"
+     },
+     {
+      "entry": "HP7-0414879-0",
+      "check": "IEEPA duty 9903.02.69 $4,460.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "HP7-0414879-0",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $6,355.50 vs printed $6,355.50"
+     },
+     {
+      "entry": "HP7-0414879-0",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "HP7-0414879-0",
+    "repaired": false
+   },
+   {
+    "entry_number": "HP7-0413822-4",
+    "route": "PROTEST_BY",
+    "label": "File a protest",
+    "bucket": "protest",
+    "ieepa_duty": 15840.0,
+    "refund_amount": 15840.0,
+    "deadline": "2026-12-12",
+    "days_left": 49,
+    "urgent": false,
+    "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 131,
+    "entry_type": "01",
+    "entry_date": "2025-08-05",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-06-15",
+    "evidence": {
+     "entry": "HP7-0413822-4 01 ABI/A | HP7-0413822-4 01 08/05/2025 Liquidated 06/15/2026 21,753.60 15,840.00",
+     "liquidation": "HP7-0413822-4 01 08/05/2025 Liquidated 06/15/2026 21,753.60 15,840.00",
+     "flags": null,
+     "ieepa_statement": "HP7-0413822-4 01 08/05/2025 Liquidated 06/15/2026 21,753.60 15,840.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Granite slabs, polished",
+      "hts": [
+       {
+        "code": "6802.93.0010",
+        "entered_value": 52800,
+        "rate": 0.037,
+        "duty": 1953.6
+       },
+       {
+        "code": "9903.88.15",
+        "entered_value": null,
+        "rate": 0.075,
+        "duty": 3960
+       },
+       {
+        "code": "9903.01.24",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 10560
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 5280
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "HP7-0413822-4",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "HP7-0413822-4",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-06-15"
+     },
+     {
+      "entry": "HP7-0413822-4",
+      "check": "IEEPA duty 9903.01.24 $10,560.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "HP7-0413822-4",
+      "check": "IEEPA duty 9903.01.25 $5,280.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "HP7-0413822-4",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $21,753.60 vs printed $21,753.60"
+     },
+     {
+      "entry": "HP7-0413822-4",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "HP7-0413822-4",
+    "repaired": false
+   },
+   {
+    "entry_number": "HP7-0415250-8",
+    "route": "CAPE_NOW",
+    "label": "File in CAPE now",
+    "bucket": "file_now",
+    "ieepa_duty": 3880.0,
+    "refund_amount": 3880.0,
+    "deadline": "2026-12-21",
+    "days_left": 58,
+    "urgent": false,
+    "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+    "flags": [],
+    "in_cape_csv": true,
+    "days_since_liquidation": 22,
+    "entry_type": "01",
+    "entry_date": "2025-11-12",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-10-02",
+    "evidence": {
+     "entry": "HP7-0415250-8 01 ABI/A | HP7-0415250-8 01 11/12/2025 Liquidated 10/02/2026 3,880.00 3,880.00",
+     "liquidation": "HP7-0415250-8 01 11/12/2025 Liquidated 10/02/2026 3,880.00 3,880.00",
+     "flags": null,
+     "ieepa_statement": "HP7-0415250-8 01 11/12/2025 Liquidated 10/02/2026 3,880.00 3,880.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Ceramic sinks",
+      "hts": [
+       {
+        "code": "6910.10.0030",
+        "entered_value": 19400,
+        "rate": 0,
+        "duty": 0
+       },
+       {
+        "code": "9903.01.24",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 1940
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 1940
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "HP7-0415250-8",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "HP7-0415250-8",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-10-02"
+     },
+     {
+      "entry": "HP7-0415250-8",
+      "check": "IEEPA duty 9903.01.24 $1,940.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "HP7-0415250-8",
+      "check": "IEEPA duty 9903.01.25 $1,940.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "HP7-0415250-8",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $3,880.00 vs printed $3,880.00"
+     },
+     {
+      "entry": "HP7-0415250-8",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "HP7-0415250-8",
+    "repaired": false
+   },
+   {
+    "entry_number": "HP7-0414117-9",
+    "route": "PROTEST_BY",
+    "label": "File a protest",
+    "bucket": "protest",
+    "ieepa_duty": 3750.0,
+    "refund_amount": 3750.0,
+    "deadline": "2027-01-31",
+    "days_left": 99,
+    "urgent": false,
+    "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 81,
+    "entry_type": "01",
+    "entry_date": "2025-09-10",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-08-04",
+    "evidence": {
+     "entry": "HP7-0414117-9 01 ABI/A | HP7-0414117-9 01 09/10/2025 Liquidated 08/04/2026 5,625.00 3,750.00",
+     "liquidation": "HP7-0414117-9 01 09/10/2025 Liquidated 08/04/2026 5,625.00 3,750.00",
+     "flags": null,
+     "ieepa_statement": "HP7-0414117-9 01 09/10/2025 Liquidated 08/04/2026 5,625.00 3,750.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Mosaic tile sheets",
+      "hts": [
+       {
+        "code": "6907.40.0000",
+        "entered_value": 18750,
+        "rate": 0.1,
+        "duty": 1875
+       },
+       {
+        "code": "9903.02.69",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 3750
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "HP7-0414117-9",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "HP7-0414117-9",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-08-04"
+     },
+     {
+      "entry": "HP7-0414117-9",
+      "check": "IEEPA duty 9903.02.69 $3,750.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "HP7-0414117-9",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $5,625.00 vs printed $5,625.00"
+     },
+     {
+      "entry": "HP7-0414117-9",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "HP7-0414117-9",
+    "repaired": false
+   },
+   {
+    "entry_number": "HP7-0415702-7",
+    "route": "CAPE_NOW",
+    "label": "File in CAPE now",
+    "bucket": "file_now",
+    "ieepa_duty": 7740.0,
+    "refund_amount": 7740.0,
+    "deadline": null,
+    "days_left": null,
+    "urgent": false,
+    "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+    "flags": [],
+    "in_cape_csv": true,
+    "days_since_liquidation": null,
+    "entry_type": "01",
+    "entry_date": "2025-12-03",
+    "liquidation_status": "unliquidated",
+    "liquidation_date": null,
+    "evidence": {
+     "entry": "HP7-0415702-7 01 ABI/A | HP7-0415702-7 01 12/03/2025 Open - 11,029.50 7,740.00",
+     "liquidation": "HP7-0415702-7 01 12/03/2025 Open - 11,029.50 7,740.00",
+     "flags": null,
+     "ieepa_statement": "HP7-0415702-7 01 12/03/2025 Open - 11,029.50 7,740.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Glazed porcelain floor tile 60x60",
+      "hts": [
+       {
+        "code": "6907.21.1005",
+        "entered_value": 38700,
+        "rate": 0.085,
+        "duty": 3289.5
+       },
+       {
+        "code": "9903.02.69",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 7740
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "HP7-0415702-7",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "HP7-0415702-7",
+      "check": "'not liquidated' is printed with this entry",
+      "ok": true,
+      "detail": ""
+     },
+     {
+      "entry": "HP7-0415702-7",
+      "check": "IEEPA duty 9903.02.69 $7,740.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "HP7-0415702-7",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $11,029.50 vs printed $11,029.50"
+     },
+     {
+      "entry": "HP7-0415702-7",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "HP7-0415702-7",
+    "repaired": false
+   },
+   {
+    "entry_number": "HP7-0412207-3",
+    "route": "CLASS_PENDING",
+    "label": "Class member, refund pending",
+    "bucket": "no_route",
+    "ieepa_duty": 4125.0,
+    "refund_amount": 4125.0,
+    "deadline": null,
+    "days_left": null,
+    "urgent": false,
+    "reason": "Finally liquidated (more than 180 days, no protest). The Court of International Trade certified a class of importers who have not sued (Freestyle World, Oct 8, 2026), but there is no refund order yet, and CAPE Phase 3 is only for importers with their own suit. The class may not cover IEEPA duties on goods from Brazil or India. For a large balance, ask a customs attorney about your own suit (the deadline is about two years after payment, from Feb 2027 at the earliest).",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 299,
+    "entry_type": "01",
+    "entry_date": "2025-02-18",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2025-12-29",
+    "evidence": {
+     "entry": "HP7-0412207-3 01 ABI/A | HP7-0412207-3 01 02/18/2025 Liquidated 12/29/2025 7,631.25 4,125.00",
+     "liquidation": "HP7-0412207-3 01 02/18/2025 Liquidated 12/29/2025 7,631.25 4,125.00",
+     "flags": null,
+     "ieepa_statement": "HP7-0412207-3 01 02/18/2025 Liquidated 12/29/2025 7,631.25 4,125.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Glazed porcelain floor tile 60x60",
+      "hts": [
+       {
+        "code": "6907.21.1005",
+        "entered_value": 41250,
+        "rate": 0.085,
+        "duty": 3506.25
+       },
+       {
+        "code": "9903.01.24",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 4125
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "HP7-0412207-3",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "HP7-0412207-3",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2025-12-29"
+     },
+     {
+      "entry": "HP7-0412207-3",
+      "check": "IEEPA duty 9903.01.24 $4,125.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "HP7-0412207-3",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $7,631.25 vs printed $7,631.25"
+     },
+     {
+      "entry": "HP7-0412207-3",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "HP7-0412207-3",
+    "repaired": false
+   },
+   {
+    "entry_number": "HP7-0416018-4",
+    "route": "EXCLUDED_SURETY",
+    "label": "Not via CAPE: surety paid",
+    "bucket": "broker",
+    "ieepa_duty": 3975.0,
+    "refund_amount": 3975.0,
+    "deadline": null,
+    "days_left": null,
+    "urgent": false,
+    "reason": "CBP says not to file a CAPE declaration for entries where a surety paid the IEEPA duties.",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": null,
+    "entry_type": "01",
+    "entry_date": "2026-01-15",
+    "liquidation_status": "unliquidated",
+    "liquidation_date": null,
+    "evidence": {
+     "entry": "HP7-0416018-4 01 ABI/A | HP7-0416018-4 01 01/15/2026 Open - 6,227.50 3,975.00",
+     "liquidation": "HP7-0416018-4 01 01/15/2026 Open - 6,227.50 3,975.00",
+     "flags": "HP7-0416018-4 01 01/15/2026 Open - 6,227.50 3,975.00 | Note: Duties incl. IEEPA paid by surety after missed ACH; surety claim open",
+     "ieepa_statement": "HP7-0416018-4 01 01/15/2026 Open - 6,227.50 3,975.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Porcelain tile, Italy",
+      "hts": [
+       {
+        "code": "6907.21.1005",
+        "entered_value": 26500,
+        "rate": 0.085,
+        "duty": 2252.5
+       },
+       {
+        "code": "9903.02.20",
+        "entered_value": null,
+        "rate": 0.15,
+        "duty": 3975
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "HP7-0416018-4",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "HP7-0416018-4",
+      "check": "'not liquidated' is printed with this entry",
+      "ok": true,
+      "detail": ""
+     },
+     {
+      "entry": "HP7-0416018-4",
+      "check": "flags are quoted next to this entry",
+      "ok": true,
+      "detail": "surety_paid_ieepa / quote: HP7-0416018-4 01 01/15/2026 Open - 6,227.50 3,975.00 | Note: Duties incl. IEEPA paid by su"
+     },
+     {
+      "entry": "HP7-0416018-4",
+      "check": "IEEPA duty 9903.02.20 $3,975.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "HP7-0416018-4",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $6,227.50 vs printed $6,227.50"
+     },
+     {
+      "entry": "HP7-0416018-4",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "HP7-0416018-4",
+    "repaired": false
+   },
+   {
+    "entry_number": "HP7-0416475-1",
+    "route": "CONFIRM_THEN_CAPE",
+    "label": "Confirm amount, then CAPE",
+    "bucket": "fix_first",
+    "ieepa_duty": 3180.0,
+    "refund_amount": 3180.0,
+    "deadline": null,
+    "days_left": null,
+    "urgent": false,
+    "reason": "This entry appears only in a broker statement or email, with no 7501 or ACE line detail to check the IEEPA duty against. Get the entry summary from your broker, then file it in CAPE.",
+    "flags": [
+     "amount_from_statement_only"
+    ],
+    "in_cape_csv": false,
+    "days_since_liquidation": null,
+    "entry_type": "01",
+    "entry_date": "2026-02-10",
+    "liquidation_status": "unliquidated",
+    "liquidation_date": null,
+    "evidence": {
+     "entry": "HP7-0416475-1 01 02/10/2026 Open - 5,300.00 3,180.00",
+     "liquidation": "HP7-0416475-1 01 02/10/2026 Open - 5,300.00 3,180.00",
+     "flags": null,
+     "ieepa_statement": "Entry No. Type Entry Dt Liq. Status Liq. Date Total Duty IEEPA (9903.01/.02) | HP7-0416475-1 01 02/10/2026 Open - 5,300.00 3,180.00"
+    },
+    "source_docs": [
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [],
+    "checks": [
+     {
+      "entry": "HP7-0416475-1",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 1 page(s)"
+     },
+     {
+      "entry": "HP7-0416475-1",
+      "check": "'not liquidated' is printed with this entry",
+      "ok": true,
+      "detail": ""
+     },
+     {
+      "entry": "HP7-0416475-1",
+      "check": "stated IEEPA amount is printed with this entry",
+      "ok": true,
+      "detail": "$3,180.00"
+     },
+     {
+      "entry": "HP7-0416475-1",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "HP7-0416475-1",
+    "repaired": false
+   },
+   {
+    "entry_number": "HP7-0412988-1",
+    "route": "CLASS_PENDING",
+    "label": "Class member, refund pending",
+    "bucket": "no_route",
+    "ieepa_duty": 2860.0,
+    "refund_amount": 2860.0,
+    "deadline": null,
+    "days_left": null,
+    "urgent": false,
+    "reason": "Finally liquidated (more than 180 days, no protest). The Court of International Trade certified a class of importers who have not sued (Freestyle World, Oct 8, 2026), but there is no refund order yet, and CAPE Phase 3 is only for importers with their own suit. The class may not cover IEEPA duties on goods from Brazil or India. For a large balance, ask a customs attorney about your own suit (the deadline is about two years after payment, from Feb 2027 at the earliest).",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 236,
+    "entry_type": "01",
+    "entry_date": "2025-04-22",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-03-02",
+    "evidence": {
+     "entry": "HP7-0412988-1 01 ABI/A | HP7-0412988-1 01 04/22/2025 Liquidated 03/02/2026 5,720.00 2,860.00",
+     "liquidation": "HP7-0412988-1 01 04/22/2025 Liquidated 03/02/2026 5,720.00 2,860.00",
+     "flags": null,
+     "ieepa_statement": "HP7-0412988-1 01 04/22/2025 Liquidated 03/02/2026 5,720.00 2,860.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Ceramic wall tile, glazed",
+      "hts": [
+       {
+        "code": "6907.22.0000",
+        "entered_value": 28600,
+        "rate": 0.1,
+        "duty": 2860
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 2860
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "HP7-0412988-1",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "HP7-0412988-1",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-03-02"
+     },
+     {
+      "entry": "HP7-0412988-1",
+      "check": "IEEPA duty 9903.01.25 $2,860.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "HP7-0412988-1",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $5,720.00 vs printed $5,720.00"
+     },
+     {
+      "entry": "HP7-0412988-1",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "HP7-0412988-1",
+    "repaired": false
+   },
+   {
+    "entry_number": "HP7-0411873-2",
+    "route": "NO_IEEPA",
+    "label": "Nothing to refund",
+    "bucket": "not_refundable",
+    "ieepa_duty": 0.0,
+    "refund_amount": 0.0,
+    "deadline": null,
+    "days_left": null,
+    "urgent": false,
+    "reason": "No IEEPA duty was paid on this entry (Section 301 and 232 duties are not part of this refund).",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 327,
+    "entry_type": "01",
+    "entry_date": "2025-01-21",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2025-12-01",
+    "evidence": {
+     "entry": "HP7-0411873-2 01 ABI/A | HP7-0411873-2 01 01/21/2025 Liquidated 12/01/2025 3,416.00 0.00",
+     "liquidation": "HP7-0411873-2 01 01/21/2025 Liquidated 12/01/2025 3,416.00 0.00",
+     "flags": null,
+     "ieepa_statement": "HP7-0411873-2 01 01/21/2025 Liquidated 12/01/2025 3,416.00 0.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Granite slabs, polished",
+      "hts": [
+       {
+        "code": "6802.93.0010",
+        "entered_value": 30500,
+        "rate": 0.037,
+        "duty": 1128.5
+       },
+       {
+        "code": "9903.88.15",
+        "entered_value": null,
+        "rate": 0.075,
+        "duty": 2287.5
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "HP7-0411873-2",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "HP7-0411873-2",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2025-12-01"
+     },
+     {
+      "entry": "HP7-0411873-2",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $3,416.00 vs printed $3,416.00"
+     },
+     {
+      "entry": "HP7-0411873-2",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "HP7-0411873-2",
+    "repaired": false
+   }
+  ],
+  "plan": {
+   "headline": "Lotus Tile & Stone: 13 entries reviewed, $73,460 in IEEPA duties paid. One $6,780 entry has a deadline of Oct 24, 2026, so act on it first.",
+   "steps": [
+    {
+     "title": "Claim entry HP7-0414106-2 in CAPE today",
+     "detail": "This $6,780 entry appears eligible for CAPE, CBP's refund portal, but its deadline is Oct 24, 2026. If that date has passed, ask your broker right away whether it can still be filed.",
+     "deadline": "2026-10-24",
+     "entries": [
+      "HP7-0414106-2"
+     ]
+    },
+    {
+     "title": "Claim entry HP7-0414533-5 in CAPE",
+     "detail": "This $13,230 entry appears eligible for CAPE and should be filed before Nov 16, 2026.",
+     "deadline": "2026-11-16",
+     "entries": [
+      "HP7-0414533-5"
+     ]
+    },
+    {
+     "title": "File a protest on entry HP7-0413540-6",
+     "detail": "This $3,640 entry was settled (liquidated) too long ago for CAPE, so CAPE will reject it. A protest is a formal request to CBP to correct the entry, and it must be filed by Nov 22, 2026.",
+     "deadline": "2026-11-22",
+     "entries": [
+      "HP7-0413540-6"
+     ]
+    },
+    {
+     "title": "Fix entry HP7-0414879-0, then file it in CAPE",
+     "detail": "A goods value is reported on a Chapter 99 line, and CAPE rejects the entry until that value is moved to the Chapter 1-97 line. Ask your broker to correct it, then file this $4,460 entry by Nov 30, 2026.",
+     "deadline": "2026-11-30",
+     "entries": [
+      "HP7-0414879-0"
+     ]
+    },
+    {
+     "title": "File a protest on entry HP7-0413822-4",
+     "detail": "This is your largest protest, at $15,840. It is too old for CAPE but still inside the protest window, which closes Dec 12, 2026.",
+     "deadline": "2026-12-12",
+     "entries": [
+      "HP7-0413822-4"
+     ]
+    },
+    {
+     "title": "Claim entry HP7-0415250-8 in CAPE",
+     "detail": "This $3,880 entry appears eligible for CAPE and should be filed by Dec 21, 2026.",
+     "deadline": "2026-12-21",
+     "entries": [
+      "HP7-0415250-8"
+     ]
+    },
+    {
+     "title": "File a protest on entry HP7-0414117-9",
+     "detail": "This $3,750 entry is too old for CAPE but can still be protested until Jan 31, 2027.",
+     "deadline": "2027-01-31",
+     "entries": [
+      "HP7-0414117-9"
+     ]
+    },
+    {
+     "title": "Claim entry HP7-0415702-7 in CAPE",
+     "detail": "This $7,740 entry appears eligible for CAPE. No deadline was given, so file it with the others.",
+     "deadline": null,
+     "entries": [
+      "HP7-0415702-7"
+     ]
+    },
+    {
+     "title": "Get paperwork for entry HP7-0416475-1, then file in CAPE",
+     "detail": "This $3,180 entry shows up only in a broker statement, so the IEEPA amount can't be checked. Ask your broker for the entry summary (the 7501), then file it in CAPE.",
+     "deadline": null,
+     "entries": [
+      "HP7-0416475-1"
+     ]
+    },
+    {
+     "title": "Ask your broker about entry HP7-0416018-4",
+     "detail": "CBP says not to file it in CAPE, so ask your broker how to handle it.",
+     "deadline": null,
+     "entries": [
+      "HP7-0416018-4"
+     ]
+    },
+    {
+     "title": "Wait on two finally-settled entries",
+     "detail": "These two entries total $6,985. A court class of importers who haven't sued was certified on Oct 8, 2026, but there is no refund order yet and CAPE doesn't cover them. The class may not cover goods from Brazil or India. For a large balance, ask a customs attorney about your own lawsuit.",
+     "deadline": null,
+     "entries": [
+      "HP7-0412207-3",
+      "HP7-0412988-1"
+     ]
+    },
+    {
+     "title": "No action on entry HP7-0411873-2",
+     "detail": "No IEEPA duty was paid on this entry, so there is nothing to refund. Section 301 and 232 duties are not part of this refund.",
+     "deadline": null,
+     "entries": [
+      "HP7-0411873-2"
+     ]
+    }
+   ],
+   "broker_email_subject": "IEEPA refunds: CAPE filings, protests and fixes needed for Lotus Tile & Stone",
+   "broker_email_body": "Hi,\n\nI've reviewed our IEEPA tariff refund situation. Could you help with the items below? Please confirm each against your own records. Several have near-term deadlines.\n\n1. File in CAPE now (these appear eligible):\n- HP7-0414106-2 ($6,780). The deadline is Oct 24, 2026. If that date has passed, please tell me right away whether it can still be filed.\n- HP7-0414533-5 ($13,230), deadline Nov 16, 2026\n- HP7-0415250-8 ($3,880), deadline Dec 21, 2026\n- HP7-0415702-7 ($7,740)\n\n2. Correct first, then file in CAPE:\n- HP7-0414879-0 ($4,460). A goods value is reported on a Chapter 99 line. Please move it to the Chapter 1-97 line so CAPE will accept it. The deadline is Nov 30, 2026.\n\n3. File protests (these entries were liquidated too long ago for CAPE):\n- HP7-0413540-6 ($3,640), deadline Nov 22, 2026\n- HP7-0413822-4 ($15,840), deadline Dec 12, 2026\n- HP7-0414117-9 ($3,750), deadline Jan 31, 2027\n\n4. Need your input:\n- HP7-0416475-1 ($3,180). It appears only in a statement. Please send the entry summary (7501) so we can confirm the IEEPA amount, then file it in CAPE.\n- HP7-0416018-4 ($3,975). A surety paid the IEEPA duties, and CBP says not to file these in CAPE. How should we handle it?\n\nPlease let me know what you need from me and what your fees are for each item.\n\nThank you,\nLotus Tile & Stone LLC"
+  },
+  "plan_removed_sentences": [
+   "A surety (the company that guarantees your duties) paid the IEEPA duties on this $3,975 entry."
+  ],
+  "checker": {
+   "issues": [
+    {
+     "entry_number": "HP7-0416475-1",
+     "kind": "other",
+     "detail": "The only source for this entry is the broker statement. No 7501 is in the documents, so there are no Chapter 99 lines to support the 3,180 IEEPA figure, and the extraction's chapter99 list is empty. The 3,180 is an unverified statement-only amount. It needs the 7501 line detail before it is relied on.",
+     "quote": "HP7-0416475-1 01 02/10/2026 Open - 5,300.00 3,180.00\nNote: 7501 copy not yet sent to client",
+     "grounded": true
+    }
+   ],
+   "summary": "I compared all 13 extracted entries against the 7501s and the broker statement. All 13 entries are present, and the liquidation statuses and dates match the statement. The Chapter 99 lines and amounts match the 7501s. The 9903.88.xx lines are correctly treated as Section 301, not IEEPA, and the IEEPA totals agree with the statement. The surety-paid flag on HP7-0416018-4 is supported by the statement note. The only open point is HP7-0416475-1: it has no 7501, so its 3,180 IEEPA amount can't be checked against line detail."
+  },
+  "screen": {
+   "removed_lines": [],
+   "hidden_chars_dropped": 0,
+   "errors": [],
+   "pages": 13,
+   "unreadable_pages": [],
+   "skipped": [],
+   "incomplete": false
+  },
+  "warnings": [],
+  "reader_notes": [
+   "The surety note ('Duties incl. IEEPA paid by surety after missed ACH; surety claim open') is printed right under the HP7-0416018-4 row and above the HP7-0416475-1 row. Each note on the statement seems to follow the entry it describes, so it was linked to HP7-0416018-4. That link is an interpretation and should be checked with the broker.",
+   "HP7-0416475-1 appears only on the broker statement. The statement says '7501 copy not yet sent to client', so it has no line or HTS details. Its lines list is empty.",
+   "Chapter 99 rows usually show no entered value on the 7501s, so entered_value is null for them. The exception is HP7-0414879-0, where 9903.02.69 shows 22,300.00, and that value was copied.",
+   "No document mentions protests, drawback, reconciliation, AD/CVD, or a Court of International Trade case. Those flags are false, and the CIT fields are null.",
+   "HP7-0411873-2 shows an IEEPA amount of 0.00 on the broker statement. Its 7501 lists only 9903.88.15 (Section 301), and the broker statement says its IEEPA column excludes Section 301/232 duties."
+  ],
+  "incomplete": false,
+  "files": {
+   "cape_csv": "Entry Number\nHP704141062\nHP704145335\nHP704152508\nHP704157027\n",
+   "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//DutyBack//IEEPA refund deadlines//EN\r\nCALSCALE:GREGORIAN\r\nX-WR-CALNAME:Tariff refund deadlines - Lotus Tile & Stone LLC\r\nBEGIN:VEVENT\r\nUID:HP7-0414106-2-CAPE_NOW@dutyback.local\r\nDTSTAMP:20261025T113959Z\r\nDTSTART;VALUE=DATE:20261024\r\nDTEND;VALUE=DATE:20261025\r\nSUMMARY:Last day for CAPE: entry HP7-0414106-2 ($6\\,780.00)\r\nDESCRIPTION:File in CAPE now. Eligible for CAPE: unliquidated\\, or liquidated 80 days ago or less (CSMS #68340863). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: HP7-0414106-2\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: HP7-0414106-2\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:HP7-0414533-5-CAPE_NOW@dutyback.local\r\nDTSTAMP:20261025T113959Z\r\nDTSTART;VALUE=DATE:20261116\r\nDTEND;VALUE=DATE:20261117\r\nSUMMARY:Last day for CAPE: entry HP7-0414533-5 ($13\\,230.00)\r\nDESCRIPTION:File in CAPE now. Eligible for CAPE: unliquidated\\, or liquidated 80 days ago or less (CSMS #68340863). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: HP7-0414533-5\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: HP7-0414533-5\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:HP7-0413540-6-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T113959Z\r\nDTSTART;VALUE=DATE:20261122\r\nDTEND;VALUE=DATE:20261123\r\nSUMMARY:Protest deadline: entry HP7-0413540-6 ($3\\,640.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: HP7-0413540-6\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: HP7-0413540-6\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:HP7-0414879-0-FIX_THEN_CAPE@dutyback.local\r\nDTSTAMP:20261025T113959Z\r\nDTSTART;VALUE=DATE:20261130\r\nDTEND;VALUE=DATE:20261201\r\nSUMMARY:Last day for CAPE: entry HP7-0414879-0 ($4\\,460.00)\r\nDESCRIPTION:Fix\\, then file in CAPE. A goods value is reported on a Chapter 99 line. CAPE rejects that entry until the value sits on the Chapter 1-97 line. Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: HP7-0414879-0\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: HP7-0414879-0\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:HP7-0413822-4-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T113959Z\r\nDTSTART;VALUE=DATE:20261212\r\nDTEND;VALUE=DATE:20261213\r\nSUMMARY:Protest deadline: entry HP7-0413822-4 ($15\\,840.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: HP7-0413822-4\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: HP7-0413822-4\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:HP7-0415250-8-CAPE_NOW@dutyback.local\r\nDTSTAMP:20261025T113959Z\r\nDTSTART;VALUE=DATE:20261221\r\nDTEND;VALUE=DATE:20261222\r\nSUMMARY:Last day for CAPE: entry HP7-0415250-8 ($3\\,880.00)\r\nDESCRIPTION:File in CAPE now. Eligible for CAPE: unliquidated\\, or liquidated 80 days ago or less (CSMS #68340863). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: HP7-0415250-8\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: HP7-0415250-8\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:HP7-0414117-9-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T113959Z\r\nDTSTART;VALUE=DATE:20270131\r\nDTEND;VALUE=DATE:20270201\r\nSUMMARY:Protest deadline: entry HP7-0414117-9 ($3\\,750.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: HP7-0414117-9\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: HP7-0414117-9\r\nEND:VALARM\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+  },
+  "agents": [
+   {
+    "agent": "reader",
+    "model": "opus",
+    "seconds": 51.2,
+    "input_tokens": 2,
+    "output_tokens": 7494,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 9189,
+    "cost_usd": 0.2234,
+    "turns": 2,
+    "tool_calls": [],
+    "ok": true,
+    "error": null,
+    "model_id": "claude-opus-5-5"
+   },
+   {
+    "agent": "checker",
+    "model": "sonnet",
+    "seconds": 14.2,
+    "input_tokens": 6,
+    "output_tokens": 2030,
+    "cache_read_tokens": 6652,
+    "cache_write_tokens": 12058,
+    "cost_usd": 0.0692,
+    "turns": 17,
+    "tool_calls": [
+     {
+      "tool": "get_extraction",
+      "input": {}
+     },
+     {
+      "tool": "list_entry_numbers_in_documents",
+      "input": {}
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "2_broker_duty_statement.pdf",
+       "page": 1
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 1
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 2
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 3
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 4
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 5
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 6
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 7
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 8
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 9
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 10
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 11
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 12
+      }
+     }
+    ],
+    "ok": true,
+    "error": null,
+    "model_id": "claude-sonnet-5-5"
+   },
+   {
+    "agent": "reader (repair)",
+    "model": "opus",
+    "seconds": 11.0,
+    "input_tokens": 2,
+    "output_tokens": 1222,
+    "cache_read_tokens": 2307,
+    "cache_write_tokens": 7028,
+    "cost_usd": 0.0811,
+    "turns": 2,
+    "tool_calls": [],
+    "ok": true,
+    "error": null,
+    "model_id": "claude-opus-5-5"
+   },
+   {
+    "agent": "advisor",
+    "model": "sonnet",
+    "seconds": 18.1,
+    "input_tokens": 2,
+    "output_tokens": 2892,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 4022,
+    "cost_usd": 0.045,
+    "turns": 2,
+    "tool_calls": [],
+    "ok": true,
+    "error": null,
+    "model_id": "claude-sonnet-5-5"
+   }
+  ],
+  "totals": {
+   "seconds": 95.1,
+   "cost_usd": 0.4187,
+   "input_tokens": 41268,
+   "output_tokens": 13638,
+   "tool_calls": 15
+  },
+  "steps": [
+   {
+    "key": "screen",
+    "title": "Safety screen",
+    "who": "Code"
+   },
+   {
+    "key": "read",
+    "title": "Read the paperwork",
+    "who": "Reader agent"
+   },
+   {
+    "key": "verify",
+    "title": "Match the extracted facts to the documents",
+    "who": "Code"
+   },
+   {
+    "key": "check",
+    "title": "Double-check with tools",
+    "who": "Checker agent"
+   },
+   {
+    "key": "repair",
+    "title": "Re-read anything flagged",
+    "who": "Reader agent + code"
+   },
+   {
+    "key": "route",
+    "title": "Sort entries and compute refunds",
+    "who": "Rules engine (code)"
+   },
+   {
+    "key": "plan",
+    "title": "Write the action plan",
+    "who": "Advisor agent + code"
+   }
+  ]
+ }
+}

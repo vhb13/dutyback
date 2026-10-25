@@ -1,0 +1,57 @@
+[screen] running 
+[screen] done 44 pages · 0 suspicious line(s) removed · 0 hidden characters dropped
+[read] running 
+[read] done 40 entries read by 6 Readers in parallel
+[verify] running 
+[verify] done 4/40 entries fully verified
+[check] running 
+[check] done 15 turns · 13 tool calls · 36 issue(s) with a supporting quote
+[repair] running 
+[repair] done 36 entries corrected or added
+[route] running 
+[route] done $12,372.00 can be claimed in CAPE now
+[plan] running 
+[plan] done 3 steps
+routes:
+  DP1-6449054-3  CAPE_NOW                     $  3,864.00  deadline=None  flags=[]
+  DP1-6833397-5  CAPE_NOW                     $  3,692.00  deadline=None  flags=[]
+  DP1-6290550-0  CAPE_NOW                     $  2,730.00  deadline=None  flags=[]
+  DP1-6750145-7  CAPE_NOW                     $  2,086.00  deadline=None  flags=[]
+  DP1-6183723-6  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+  DP1-6620710-6  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+  DP1-6667724-6  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+  DP1-6512239-6  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+  DP1-6553307-4  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+  DP1-6111258-9  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+  DP1-6966068-5  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+  DP1-6428713-4  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+  DP1-6738044-4  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+  DP1-6398967-2  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+  DP1-6836376-7  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+  DP1-6736493-3  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+  DP1-6892809-8  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+  DP1-6642906-7  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+  DP1-6870643-7  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+  DP1-6438777-8  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+  DP1-6386137-4  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+  DP1-6877866-8  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+  DP1-6970009-0  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+  DP1-6513231-6  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+  DP1-6320420-3  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+  DP1-6928768-4  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+  DP1-6233559-1  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+  DP1-6216263-8  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+  DP1-6622537-9  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+  DP1-6974768-0  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+  DP1-6355303-7  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+  DP1-6758413-0  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+  DP1-6422373-2  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+  DP1-6501621-4  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+  DP1-6396695-5  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+  DP1-6454971-1  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+  DP1-6990126-4  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+  DP1-6940939-1  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+  DP1-6966475-2  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+  DP1-6198254-0  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:flags']
+CAPE csv entries: 4 | removed lines: 0 | hidden chars: 0 | warnings: []
+saved stress/robustness/results/r8_stale_x36.json | cost 1.7697

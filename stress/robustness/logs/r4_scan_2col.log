@@ -1,0 +1,26 @@
+[screen] running 
+[screen] done 7 pages · 0 suspicious line(s) removed · 0 hidden characters dropped
+[read] running 
+[read] done 9 entries read
+[verify] running 
+[verify] done 9/9 entries fully verified
+[check] running 
+[check] done 13 turns · 11 tool calls · 3 issue(s) with a supporting quote
+[repair] running 
+[repair] done 1 entry corrected or added
+[route] running 
+[route] done $17,315.00 can be claimed in CAPE now
+[plan] running 
+[plan] done 8 steps
+routes:
+  HL6-0419530-1  CAPE_NOW                     $  6,780.00  deadline=2026-10-24  flags=['amount_from_statement_only']
+  HL6-0418811-0  PROTEST_BY                   $  5,025.00  deadline=2026-11-16  flags=['amount_from_statement_only']
+  HL6-0420114-3  CAPE_NOW                     $  2,960.00  deadline=2026-12-04  flags=[]
+  HL6-0419902-5  CAPE_NOW                     $  4,120.00  deadline=2026-12-19  flags=['amount_from_statement_only']
+  HL6-0419544-7  PROTEST_BY                   $  3,750.00  deadline=2027-01-31  flags=['amount_from_statement_only']
+  HL6-0420006-9  EXCLUDED_SURETY              $  2,980.00  deadline=None  flags=['amount_from_statement_only']
+  HL6-0419871-2  CAPE_NOW                     $  2,215.00  deadline=None  flags=['amount_from_statement_only']
+  HL6-0420387-0  CAPE_NOW                     $  1,240.00  deadline=None  flags=['statement_conflict']
+  HL6-0420415-8  NO_IEEPA                     $      0.00  deadline=None  flags=['statement_conflict']
+CAPE csv entries: 5 | removed lines: 0 | hidden chars: 0 | warnings: []
+saved stress/robustness/results/r4_scan_2col.json | cost 0.3781

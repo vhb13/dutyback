@@ -1,0 +1,1008 @@
+{
+ "importer": {
+  "name": "Zephyr Outdoor Supply LLC",
+  "ior_number": "52-8830417-00",
+  "cit_plaintiff": false,
+  "cit_case": null,
+  "cit_ior_submitted_date": null,
+  "evidence": "26. Importer of Record No. Importer of Record Name\n52-8830417-00 Zephyr Outdoor Supply LLC"
+ },
+ "as_of": "2026-10-24",
+ "rules_snapshot": "2026-10-24",
+ "summary": {
+  "as_of": "2026-10-24",
+  "rules_snapshot": "2026-10-24",
+  "entries": 10,
+  "ieepa_paid": 42050.0,
+  "buckets": {
+   "file_now": {
+    "label": "Claim in CAPE now",
+    "count": 1,
+    "amount": 4410.0
+   },
+   "fix_first": {
+    "label": "One step first, then CAPE",
+    "count": 0,
+    "amount": 0.0
+   },
+   "protest": {
+    "label": "Protest route",
+    "count": 1,
+    "amount": 2860.0
+   },
+   "broker": {
+    "label": "Talk to your broker",
+    "count": 0,
+    "amount": 0.0
+   },
+   "no_route": {
+    "label": "Waiting on the court",
+    "count": 0,
+    "amount": 0.0
+   },
+   "not_refundable": {
+    "label": "Nothing to refund",
+    "count": 0,
+    "amount": 0.0
+   },
+   "review": {
+    "label": "Check by hand",
+    "count": 8,
+    "amount": 0.0
+   }
+  },
+  "at_risk_this_week": {
+   "count": 0,
+   "amount": 0,
+   "entries": []
+  },
+  "cape_csv_count": 1,
+  "cape_csv_amount": 4410.0
+ },
+ "entries": [
+  {
+   "entry_number": "ZT5-0412988-1",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 2860.0,
+   "refund_amount": 2860.0,
+   "deadline": "2027-01-23",
+   "days_left": 91,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 89,
+   "entry_type": "01",
+   "entry_date": "2025-04-22",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-27",
+   "evidence": {
+    "entry": "ZT5-0412988-1 01 ABI/A",
+    "liquidation": "ZT5-0412988-1 liquidated on 2026-07-27.",
+    "flags": null,
+    "ieepa_statement": null
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "3_broker_email.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Rain jackets",
+     "hts": [
+      {
+       "code": "6201.40.7580",
+       "entered_value": 28600,
+       "rate": 0.071,
+       "duty": 2030.6
+      },
+      {
+       "code": "9903.01.25",
+       "entered_value": null,
+       "rate": 0.1,
+       "duty": 2860
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "ZT5-0412988-1",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 2 page(s)"
+    },
+    {
+     "entry": "ZT5-0412988-1",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-07-27 / quote: ZT5-0412988-1 liquidated on 2026-07-27."
+    },
+    {
+     "entry": "ZT5-0412988-1",
+     "check": "IEEPA duty 9903.01.25 $2,860.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "ZT5-0415702-7",
+   "route": "CAPE_NOW",
+   "label": "File in CAPE now",
+   "bucket": "file_now",
+   "ieepa_duty": 4410.0,
+   "refund_amount": 4410.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+   "flags": [
+    "amount_from_statement_only"
+   ],
+   "in_cape_csv": true,
+   "days_since_liquidation": null,
+   "entry_type": "01",
+   "entry_date": null,
+   "liquidation_status": "unliquidated",
+   "liquidation_date": null,
+   "evidence": {
+    "entry": "ZT5-0415702-7 (December entry, ours too) is still open - not liquidated. The IEEPA duty on it was $4,410.00.",
+    "liquidation": "ZT5-0415702-7 (December entry, ours too) is still open - not liquidated.",
+    "flags": null,
+    "ieepa_statement": "ZT5-0415702-7 (December entry, ours too) is still open - not liquidated. The IEEPA duty on it was $4,410.00."
+   },
+   "source_docs": [
+    "3_broker_email.pdf"
+   ],
+   "lines": [],
+   "checks": [
+    {
+     "entry": "ZT5-0415702-7",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 1 page(s)"
+    },
+    {
+     "entry": "ZT5-0415702-7",
+     "check": "'not liquidated' is quoted next to this entry",
+     "ok": true,
+     "detail": "quote: ZT5-0415702-7 (December entry, ours too) is still open - not liquidated."
+    },
+    {
+     "entry": "ZT5-0415702-7",
+     "check": "stated IEEPA amount is printed with this entry",
+     "ok": true,
+     "detail": "$4,410.00"
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "ZT5-0414106-2",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 6780.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:liquidation_date"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 80,
+   "entry_type": "01",
+   "entry_date": "2025-09-09",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-08-05",
+   "evidence": {
+    "entry": "ZT5-0414106-2 01 ABI/A | ZT5-0414106-2 liquidated on 05-Aug-2026.",
+    "liquidation": "ZT5-0414106-2 liquidated on 05-Aug-2026.",
+    "flags": null,
+    "ieepa_statement": null
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "3_broker_email.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Camping lanterns",
+     "hts": [
+      {
+       "code": "9405.40.8440",
+       "entered_value": 33900,
+       "rate": 0.039,
+       "duty": 1322.1
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 6780
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "ZT5-0414106-2",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 2 page(s)"
+    },
+    {
+     "entry": "ZT5-0414106-2",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": false,
+     "detail": "2026-08-05 / quote: ZT5-0414106-2 liquidated on 05-Aug-2026."
+    },
+    {
+     "entry": "ZT5-0414106-2",
+     "check": "IEEPA duty 9903.02.69 $6,780.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "ZT5-0414288-6",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 4300.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:liquidation_date"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 40,
+   "entry_type": "01",
+   "entry_date": "2025-10-06",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-09-14",
+   "evidence": {
+    "entry": "ZT5-0414288-6 01 ABI/A | ZT5-0414288-6 01 10/6/25 Liquidated 9/14/26 $4,300",
+    "liquidation": "ZT5-0414288-6 01 10/6/25 Liquidated 9/14/26 $4,300",
+    "flags": null,
+    "ieepa_statement": "ZT5-0414288-6 01 10/6/25 Liquidated 9/14/26 $4,300"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Hiking backpacks",
+     "hts": [
+      {
+       "code": "4202.92.3031",
+       "entered_value": 21500,
+       "rate": 0.176,
+       "duty": 3784
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 4300
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "ZT5-0414288-6",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 2 page(s)"
+    },
+    {
+     "entry": "ZT5-0414288-6",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": false,
+     "detail": "2026-09-14 / quote: ZT5-0414288-6 01 10/6/25 Liquidated 9/14/26 $4,300"
+    },
+    {
+     "entry": "ZT5-0414288-6",
+     "check": "IEEPA duty 9903.02.69 $4,300.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "ZT5-0413540-6",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 1840.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:liquidation_date"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 143,
+   "entry_type": "01",
+   "entry_date": "2025-07-14",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-06-03",
+   "evidence": {
+    "entry": "ZT5-0413540-6 01 ABI/A | ZT5-0413540-6 liquidated 3rd June 2026.",
+    "liquidation": "ZT5-0413540-6 liquidated 3rd June 2026.",
+    "flags": null,
+    "ieepa_statement": null
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "3_broker_email.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Tent poles, aluminum",
+     "hts": [
+      {
+       "code": "6306.22.9030",
+       "entered_value": 18400,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "9903.01.25",
+       "entered_value": null,
+       "rate": 0.1,
+       "duty": 1840
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "ZT5-0413540-6",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 2 page(s)"
+    },
+    {
+     "entry": "ZT5-0413540-6",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": false,
+     "detail": "2026-06-03 / quote: ZT5-0413540-6 liquidated 3rd June 2026."
+    },
+    {
+     "entry": "ZT5-0413540-6",
+     "check": "IEEPA duty 9903.01.25 $1,840.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "ZT5-0414533-5",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 7800.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:liquidation_date"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 64,
+   "entry_type": "01",
+   "entry_date": "2025-10-01",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-08-21",
+   "evidence": {
+    "entry": "ZT5-0414533-5 01 ABI/A | ZT5-0414533-5 liquidated Aug. 21, 2026.",
+    "liquidation": "ZT5-0414533-5 liquidated Aug. 21, 2026.",
+    "flags": null,
+    "ieepa_statement": null
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "3_broker_email.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Sleeping bags",
+     "hts": [
+      {
+       "code": "9404.30.8000",
+       "entered_value": 26000,
+       "rate": 0.09,
+       "duty": 2340
+      },
+      {
+       "code": "9903.01.24",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 5200
+      },
+      {
+       "code": "9903.01.25",
+       "entered_value": null,
+       "rate": 0.1,
+       "duty": 2600
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "ZT5-0414533-5",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 2 page(s)"
+    },
+    {
+     "entry": "ZT5-0414533-5",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": false,
+     "detail": "2026-08-21 / quote: ZT5-0414533-5 liquidated Aug. 21, 2026."
+    },
+    {
+     "entry": "ZT5-0414533-5",
+     "check": "IEEPA duty 9903.01.24 $5,200.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "ZT5-0414533-5",
+     "check": "IEEPA duty 9903.01.25 $2,600.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "ZT5-0414879-0",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 2900.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:liquidation_date"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 78,
+   "entry_type": "01",
+   "entry_date": "2025-10-20",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-08-07",
+   "evidence": {
+    "entry": "ZT5-0414879-0 01 ABI/A | ZT5-0414879-0 Liquidated 07/08/2026 2,900.00",
+    "liquidation": "US entry liquidation status (from broker portal). ALL DATES ARE DD/MM/YYYY. | ZT5-0414879-0 Liquidated 07/08/2026 2,900.00",
+    "flags": null,
+    "ieepa_statement": "ZT5-0414879-0 Liquidated 07/08/2026 2,900.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "4_toronto_office_status_notice.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Trekking poles",
+     "hts": [
+      {
+       "code": "6602.00.0000",
+       "entered_value": 14500,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 2900
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "ZT5-0414879-0",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 2 page(s)"
+    },
+    {
+     "entry": "ZT5-0414879-0",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": false,
+     "detail": "2026-08-07 / quote: US entry liquidation status (from broker portal). ALL DATES ARE DD/MM/YYYY. | ZT5-0414879-"
+    },
+    {
+     "entry": "ZT5-0414879-0",
+     "check": "IEEPA duty 9903.02.69 $2,900.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "ZT5-0415250-8",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 3880.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:liquidation_date"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 31,
+   "entry_type": "01",
+   "entry_date": "2025-11-12",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-09-23",
+   "evidence": {
+    "entry": "ZT5-0415250-8 01 ABI/A | ZT5-0415250-8 Liquidated 23/09/2026 3,880.00",
+    "liquidation": "US entry liquidation status (from broker portal). ALL DATES ARE DD/MM/YYYY. | ZT5-0415250-8 Liquidated 23/09/2026 3,880.00",
+    "flags": null,
+    "ieepa_statement": "ZT5-0415250-8 Liquidated 23/09/2026 3,880.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "4_toronto_office_status_notice.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Camp stoves",
+     "hts": [
+      {
+       "code": "7321.11.1060",
+       "entered_value": 19400,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "9903.01.24",
+       "entered_value": null,
+       "rate": 0.1,
+       "duty": 1940
+      },
+      {
+       "code": "9903.01.25",
+       "entered_value": null,
+       "rate": 0.1,
+       "duty": 1940
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "ZT5-0415250-8",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 2 page(s)"
+    },
+    {
+     "entry": "ZT5-0415250-8",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": false,
+     "detail": "2026-09-23 / quote: US entry liquidation status (from broker portal). ALL DATES ARE DD/MM/YYYY. | ZT5-0415250-"
+    },
+    {
+     "entry": "ZT5-0415250-8",
+     "check": "IEEPA duty 9903.01.24 $1,940.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "ZT5-0415250-8",
+     "check": "IEEPA duty 9903.01.25 $1,940.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "ZT5-0416018-4",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 5300.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "amount_from_statement_only",
+    "unverified:ieepa_duty"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": null,
+   "entry_type": "01",
+   "entry_date": "2026-01-15",
+   "liquidation_status": "unliquidated",
+   "liquidation_date": null,
+   "evidence": {
+    "entry": "ZT5-0416018-4 01 1/15/26 Open - $5,300",
+    "liquidation": "ZT5-0416018-4 01 1/15/26 Open - $5,300",
+    "flags": null,
+    "ieepa_statement": "ZT5-0416018-4 01 1/15/26 Open - $5,300"
+   },
+   "source_docs": [
+    "2_broker_statement.pdf"
+   ],
+   "lines": [],
+   "checks": [
+    {
+     "entry": "ZT5-0416018-4",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 1 page(s)"
+    },
+    {
+     "entry": "ZT5-0416018-4",
+     "check": "'not liquidated' is quoted next to this entry",
+     "ok": true,
+     "detail": "quote: ZT5-0416018-4 01 1/15/26 Open - $5,300"
+    },
+    {
+     "entry": "ZT5-0416018-4",
+     "check": "stated IEEPA amount is printed with this entry",
+     "ok": false,
+     "detail": "$5,300.00"
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "ZT5-0416475-1",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 1980.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "amount_from_statement_only",
+    "unverified:ieepa_duty",
+    "unverified:liquidation_date"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 22,
+   "entry_type": "01",
+   "entry_date": "2026-02-10",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-10-02",
+   "evidence": {
+    "entry": "ZT5-0416475-1 01 2/10/26 Liquidated 10/2/26 $1,980",
+    "liquidation": "ZT5-0416475-1 01 2/10/26 Liquidated 10/2/26 $1,980",
+    "flags": null,
+    "ieepa_statement": "ZT5-0416475-1 01 2/10/26 Liquidated 10/2/26 $1,980"
+   },
+   "source_docs": [
+    "2_broker_statement.pdf"
+   ],
+   "lines": [],
+   "checks": [
+    {
+     "entry": "ZT5-0416475-1",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 1 page(s)"
+    },
+    {
+     "entry": "ZT5-0416475-1",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": false,
+     "detail": "2026-10-02 / quote: ZT5-0416475-1 01 2/10/26 Liquidated 10/2/26 $1,980"
+    },
+    {
+     "entry": "ZT5-0416475-1",
+     "check": "stated IEEPA amount is printed with this entry",
+     "ok": false,
+     "detail": "$1,980.00"
+    }
+   ],
+   "repaired": false
+  }
+ ],
+ "plan": {
+  "headline": "The other 8 need a quick check by hand.",
+  "steps": [
+   {
+    "title": "File a protest for one entry before Jan 23, 2027",
+    "detail": "Entry ZT5-0412988-1 (appears eligible for $2,860) was finalized (\"liquidated\") too long ago for CAPE, the refund portal, to accept it. It still appears to be inside the 180-day window to file a protest, which is a formal challenge to Customs. You have 91 days left, so ask your broker to file it.",
+    "deadline": "2027-01-23",
+    "entries": [
+     "ZT5-0412988-1"
+    ]
+   },
+   {
+    "title": "Claim one entry in CAPE now",
+    "detail": "Entry ZT5-0415702-7 appears eligible for $4,410 through CAPE, the Customs refund portal. It has no hard deadline, but filing sooner is better. The amount comes only from your statement, so ask your broker to confirm it.",
+    "deadline": null,
+    "entries": [
+     "ZT5-0415702-7"
+    ]
+   },
+   {
+    "title": "Get the missing facts for 8 entries",
+    "detail": "For these entries, we couldn't verify the liquidation date (when Customs finalized the entry) or the IEEPA duty paid. The app won't guess, so no route or amount is set. Ask your broker for the entry summaries or liquidation notices, because some may turn out to be eligible.",
+    "deadline": null,
+    "entries": [
+     "ZT5-0414106-2",
+     "ZT5-0414288-6",
+     "ZT5-0413540-6",
+     "ZT5-0414533-5",
+     "ZT5-0414879-0",
+     "ZT5-0415250-8",
+     "ZT5-0416018-4",
+     "ZT5-0416475-1"
+    ]
+   },
+   {
+    "title": "Confirm everything with your broker",
+    "detail": "This plan is not legal advice, and no refund is guaranteed. Have your broker confirm each route and amount before filing.",
+    "deadline": null,
+    "entries": []
+   }
+  ],
+  "broker_email_subject": "IEEPA tariff refunds: Zephyr Outdoor Supply LLC, next steps",
+  "broker_email_body": "Hi,\n\nI ran our entries through a refund check as of Oct 24, 2026. Could you help with the following?\n\n1. Protest: Entry ZT5-0412988-1 appears eligible for $2,860, but it was liquidated more than 80 days ago, so CAPE would likely reject it. It looks inside the 180-day protest window, which ends Jan 23, 2027. Can you file a protest for it?\n\n2. CAPE: Entry ZT5-0415702-7 appears eligible for $4,410 in CAPE. That amount comes only from our statement. Can you confirm it and file the claim?\n\n3. Missing information: I couldn't verify the liquidation date and/or the IEEPA duty for these entries. Can you send the entry summaries or liquidation notices, and tell me whether they are eligible?\n- ZT5-0414106-2\n- ZT5-0414288-6\n- ZT5-0413540-6\n- ZT5-0414533-5\n- ZT5-0414879-0\n- ZT5-0415250-8\n- ZT5-0416018-4\n- ZT5-0416475-1\n\nPlease also confirm the routes and amounts above before we file anything.\n\nThanks,\nZephyr Outdoor Supply LLC"
+ },
+ "plan_removed_sentences": [
+  "Two of your 10 entries appear eligible for IEEPA tariff refunds, about $7,270 in total."
+ ],
+ "checker": {
+  "issues": [],
+  "summary": "I found no problems with the extraction. All 10 entries in the documents are in the extraction. The liquidation statuses and dates match the sources. That includes the Toronto notice, which is DD/MM/YYYY, so 07/08/2026 is 2026-08-07 and 23/09/2026 is 2026-09-23. The Chapter 99 lines and amounts match the 7501 pages for the seven entries that have one. The stated IEEPA totals match the line detail. No flags are warranted. The email says there are no protests, surety claims or drawback. The \"Surety No. 457\" on the 7501s is a surety code, not a surety payment. Entries ZT5-0416018-4, ZT5-0416475-1 and ZT5-0415702-7 have no 7501 page, so their empty Chapter 99 lists are expected. Their IEEPA totals come from the broker statement and email."
+ },
+ "screen": {
+  "removed_lines": [],
+  "hidden_chars_dropped": 0,
+  "errors": [],
+  "pages": 10
+ },
+ "warnings": [],
+ "reader_notes": [
+  "The Toronto office notice (doc 4) says its dates are DD/MM/YYYY. So 07/08/2026 for ZT5-0414879-0 was read as 2026-08-07, and 23/09/2026 for ZT5-0415250-8 was read as 2026-09-23.",
+  "The broker statement (doc 2) writes dates as M/D/YY. Dates like 9/14/26 and 1/15/26 only make sense that way, so '10/2/26' for ZT5-0416475-1 was read as 2026-10-02. It is still an inference from the format, not something the document states.",
+  "The broker email (doc 3) uses several date formats: 05-Aug-2026, 3rd June 2026, Aug. 21, 2026 and 2026-07-27. Each was converted to YYYY-MM-DD.",
+  "ZT5-0415702-7 appears only in the broker email, described as a 'December entry'. No exact entry date or entry type is given there. Entry type '01' is an assumption: the email does not state a type. The entry date is left null.",
+  "ZT5-0416018-4, ZT5-0416475-1 and ZT5-0415702-7 have no CBP 7501 in the documents, so no HTS lines are given for them. Their IEEPA amounts come only from the broker statement or email. The broker statement says its amounts are rounded to whole dollars.",
+  "Entry type '01' for ZT5-0416018-4 and ZT5-0416475-1 comes from the broker statement's Type column.",
+  "The type column on each 7501 reads '01 ABI/A'. The entry type was recorded as '01'.",
+  "The 7501 Chapter 99 rows (9903.01.24, 9903.01.25, 9903.02.69) show no entered value, so entered_value is null for them. They were copied as printed.",
+  "The broker email says: 'No protests, no surety claims, no drawback on your account.' No document mentions a reconciliation flag or AD/CVD. All flags are false.",
+  "No document says Zephyr Outdoor Supply LLC is a plaintiff at the Court of International Trade or gives a CIT case or IOR submission date."
+ ],
+ "files": {
+  "cape_csv": "Entry Number\nZT504157027\n",
+  "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//DutyBack//IEEPA refund deadlines//EN\r\nCALSCALE:GREGORIAN\r\nX-WR-CALNAME:Tariff refund deadlines - Zephyr Outdoor Supply LLC\r\nBEGIN:VEVENT\r\nUID:ZT5-0412988-1-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T003053Z\r\nDTSTART;VALUE=DATE:20270123\r\nDTEND;VALUE=DATE:20270124\r\nSUMMARY:Protest deadline: entry ZT5-0412988-1 ($2\\,860.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: ZT5-0412988-1\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: ZT5-0412988-1\r\nEND:VALARM\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+ },
+ "agents": [
+  {
+   "agent": "reader",
+   "model": "opus",
+   "seconds": 39.7,
+   "input_tokens": 2,
+   "output_tokens": 5595,
+   "cache_read_tokens": 2307,
+   "cache_write_tokens": 4209,
+   "cost_usd": 0.146,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-opus-5-5"
+  },
+  {
+   "agent": "checker",
+   "model": "sonnet",
+   "seconds": 11.9,
+   "input_tokens": 6,
+   "output_tokens": 1478,
+   "cache_read_tokens": 8480,
+   "cache_write_tokens": 7226,
+   "cost_usd": 0.0445,
+   "turns": 14,
+   "tool_calls": [
+    {
+     "tool": "get_extraction",
+     "input": {}
+    },
+    {
+     "tool": "list_entry_numbers_in_documents",
+     "input": {}
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "2_broker_statement.pdf",
+      "page": 1
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "3_broker_email.pdf",
+      "page": 1
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "4_toronto_office_status_notice.pdf",
+      "page": 1
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 1
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 2
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 3
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 4
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 5
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 6
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 7
+     }
+    }
+   ],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-sonnet-5-5"
+  },
+  {
+   "agent": "reader (repair)",
+   "model": "opus",
+   "seconds": 39.9,
+   "input_tokens": 2,
+   "output_tokens": 5515,
+   "cache_read_tokens": 2307,
+   "cache_write_tokens": 4562,
+   "cost_usd": 0.1473,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-opus-5-5"
+  },
+  {
+   "agent": "advisor",
+   "model": "sonnet",
+   "seconds": 10.9,
+   "input_tokens": 2,
+   "output_tokens": 1379,
+   "cache_read_tokens": 905,
+   "cache_write_tokens": 2536,
+   "cost_usd": 0.024,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-sonnet-5-5"
+  }
+ ],
+ "totals": {
+  "seconds": 102.5,
+  "cost_usd": 0.3618,
+  "input_tokens": 32544,
+  "output_tokens": 13967,
+  "tool_calls": 12
+ },
+ "steps": [
+  {
+   "key": "screen",
+   "title": "Safety screen",
+   "who": "Code"
+  },
+  {
+   "key": "read",
+   "title": "Read the paperwork",
+   "who": "Reader agent"
+  },
+  {
+   "key": "verify",
+   "title": "Match every fact to the documents",
+   "who": "Code"
+  },
+  {
+   "key": "check",
+   "title": "Double-check with tools",
+   "who": "Checker agent"
+  },
+  {
+   "key": "repair",
+   "title": "Re-read anything flagged",
+   "who": "Reader agent + code"
+  },
+  {
+   "key": "route",
+   "title": "Sort entries and compute refunds",
+   "who": "Rules engine (code)"
+  },
+  {
+   "key": "plan",
+   "title": "Write the action plan",
+   "who": "Advisor agent + code"
+  }
+ ]
+}

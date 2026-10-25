@@ -1,0 +1,6359 @@
+{
+ "slug": "meridian",
+ "recorded_at": "2026-10-25 07:44",
+ "as_of": "2026-10-24",
+ "step_seconds": {
+  "screen": 0.7,
+  "read": 117.3,
+  "verify": 0.0,
+  "check": 47.1,
+  "repair": 30.7,
+  "route": 0.0,
+  "plan": 31.9
+ },
+ "step_details": {
+  "screen": "49 pages \u00b7 0 suspicious line(s) removed \u00b7 0 hidden characters dropped",
+  "read": "48 entries read by 6 Readers in parallel",
+  "verify": "47/48 entries fully verified",
+  "check": "53 turns \u00b7 51 tool calls \u00b7 4 issue(s) with a supporting quote",
+  "repair": "1 entry corrected or added",
+  "route": "$58,592.50 can be claimed in CAPE now",
+  "plan": "17 steps \u00b7 1 sentence(s) removed by the number check"
+ },
+ "result": {
+  "importer": {
+   "name": "Meridian Home Goods Co.",
+   "ior_number": "36-4471902-00",
+   "cit_plaintiff": false,
+   "cit_case": null,
+   "cit_ior_submitted_date": null,
+   "evidence": "12/07/2025 36-4471902-00 | Importer of Record Name | Meridian Home Goods Co."
+  },
+  "as_of": "2026-10-24",
+  "rules_snapshot": "2026-10-24",
+  "summary": {
+   "as_of": "2026-10-24",
+   "rules_snapshot": "2026-10-24",
+   "entries": 48,
+   "ieepa_paid": 156042.5,
+   "buckets": {
+    "file_now": {
+     "label": "Claim in CAPE now",
+     "count": 14,
+     "amount": 58592.5
+    },
+    "fix_first": {
+     "label": "One step first, then CAPE",
+     "count": 2,
+     "amount": 4084.5
+    },
+    "protest": {
+     "label": "Protest route",
+     "count": 15,
+     "amount": 57426.5
+    },
+    "broker": {
+     "label": "Talk to your broker",
+     "count": 4,
+     "amount": 19795.5
+    },
+    "no_route": {
+     "label": "Waiting on the court",
+     "count": 7,
+     "amount": 16143.5
+    },
+    "not_refundable": {
+     "label": "Nothing to refund",
+     "count": 6,
+     "amount": 0.0
+    },
+    "review": {
+     "label": "Check by hand",
+     "count": 0,
+     "amount": 0.0
+    }
+   },
+   "at_risk_this_week": {
+    "count": 7,
+    "amount": 21024.0,
+    "entries": [
+     "MH3-7844589-8",
+     "MH3-8879176-4",
+     "MH3-8887739-0",
+     "MH3-4166789-8",
+     "MH3-8623443-3",
+     "MH3-5093576-0",
+     "MH3-9708001-4"
+    ]
+   },
+   "cape_csv_count": 14,
+   "cape_csv_amount": 58592.5
+  },
+  "entries": [
+   {
+    "entry_number": "MH3-7844589-8",
+    "route": "CAPE_NOW",
+    "label": "File in CAPE now",
+    "bucket": "file_now",
+    "ieepa_duty": 6450.0,
+    "refund_amount": 6450.0,
+    "deadline": "2026-10-24",
+    "days_left": 0,
+    "urgent": true,
+    "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+    "flags": [],
+    "in_cape_csv": true,
+    "days_since_liquidation": 80,
+    "entry_type": "01",
+    "entry_date": "2025-09-25",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-08-05",
+    "evidence": {
+     "entry": "MH3-7844589-8 01 ABI",
+     "liquidation": "MH3-7844589-8 01 09/25/2025 Liquidated 08/05/2026 7,052.04 6,450.00",
+     "flags": null,
+     "ieepa_statement": "MH3-7844589-8 01 09/25/2025 Liquidated 08/05/2026 7,052.04 6,450.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p6",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Stoneware dinner plates",
+      "hts": [
+       {
+        "code": "6912.00.4400",
+        "entered_value": 7740,
+        "rate": 0.06,
+        "duty": 464.4
+       },
+       {
+        "code": "9903.01.24",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 1548
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 774
+       }
+      ]
+     },
+     {
+      "line_no": "002",
+      "description": "Aluminum baking sheets",
+      "hts": [
+       {
+        "code": "7615.10.7125",
+        "entered_value": 4440,
+        "rate": 0.031,
+        "duty": 137.64
+       },
+       {
+        "code": "9903.01.24",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 888
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 444
+       }
+      ]
+     },
+     {
+      "line_no": "003",
+      "description": "Wooden picture frames",
+      "hts": [
+       {
+        "code": "4414.90.0000",
+        "entered_value": 9320,
+        "rate": 0,
+        "duty": 0
+       },
+       {
+        "code": "9903.01.24",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 1864
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 932
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-7844589-8",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-7844589-8",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-08-05"
+     },
+     {
+      "entry": "MH3-7844589-8",
+      "check": "IEEPA duty 9903.01.24 $1,548.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-7844589-8",
+      "check": "IEEPA duty 9903.01.25 $774.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-7844589-8",
+      "check": "IEEPA duty 9903.01.24 $888.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-7844589-8",
+      "check": "IEEPA duty 9903.01.25 $444.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-7844589-8",
+      "check": "IEEPA duty 9903.01.24 $1,864.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-7844589-8",
+      "check": "IEEPA duty 9903.01.25 $932.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-7844589-8",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $7,052.04 vs printed $7,052.04"
+     },
+     {
+      "entry": "MH3-7844589-8",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-7844589-8",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-8879176-4",
+    "route": "PROTEST_BY",
+    "label": "File a protest",
+    "bucket": "protest",
+    "ieepa_duty": 1963.0,
+    "refund_amount": 1963.0,
+    "deadline": "2026-10-24",
+    "days_left": 0,
+    "urgent": true,
+    "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 180,
+    "entry_type": "01",
+    "entry_date": "2025-06-15",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-04-27",
+    "evidence": {
+     "entry": "MH3-8879176-4 01 ABI",
+     "liquidation": "MH3-8879176-4 01 06/15/2025 Liquidated 04/27/2026 2,437.00 1,963.00",
+     "flags": null,
+     "ieepa_statement": "MH3-8879176-4 01 06/15/2025 Liquidated 04/27/2026 2,437.00 1,963.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p.44",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Stoneware dinner plates",
+      "hts": [
+       {
+        "code": "6912.00.4400",
+        "entered_value": 7900,
+        "rate": 0.06,
+        "duty": 474
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 790
+       }
+      ]
+     },
+     {
+      "line_no": "002",
+      "description": "Stainless flatware",
+      "hts": [
+       {
+        "code": "8215.20.0000",
+        "entered_value": 11730,
+        "rate": 0,
+        "duty": 0
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 1173
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-8879176-4",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-8879176-4",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-04-27"
+     },
+     {
+      "entry": "MH3-8879176-4",
+      "check": "IEEPA duty 9903.01.25 $790.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-8879176-4",
+      "check": "IEEPA duty 9903.01.25 $1,173.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-8879176-4",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $2,437.00 vs printed $2,437.00"
+     },
+     {
+      "entry": "MH3-8879176-4",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-8879176-4",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-8887739-0",
+    "route": "PROTEST_BY",
+    "label": "File a protest",
+    "bucket": "protest",
+    "ieepa_duty": 1255.0,
+    "refund_amount": 1255.0,
+    "deadline": "2026-10-24",
+    "days_left": 0,
+    "urgent": true,
+    "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 180,
+    "entry_type": "01",
+    "entry_date": "2025-06-17",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-04-27",
+    "evidence": {
+     "entry": "MH3-8887739-0 01 ABI",
+     "liquidation": "MH3-8887739-0 01 06/17/2025 Liquidated 04/27/2026 1,585.33 1,255.00",
+     "flags": null,
+     "ieepa_statement": "MH3-8887739-0 01 06/17/2025 Liquidated 04/27/2026 1,585.33 1,255.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p.15",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "LED table lamps",
+      "hts": [
+       {
+        "code": "9405.21.8000",
+        "entered_value": 8470,
+        "rate": 0.039,
+        "duty": 330.33
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 847
+       }
+      ]
+     },
+     {
+      "line_no": "002",
+      "description": "Wooden picture frames",
+      "hts": [
+       {
+        "code": "4414.90.0000",
+        "entered_value": 4080,
+        "rate": 0,
+        "duty": 0
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 408
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-8887739-0",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-8887739-0",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-04-27"
+     },
+     {
+      "entry": "MH3-8887739-0",
+      "check": "IEEPA duty 9903.01.25 $847.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-8887739-0",
+      "check": "IEEPA duty 9903.01.25 $408.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-8887739-0",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $1,585.33 vs printed $1,585.33"
+     },
+     {
+      "entry": "MH3-8887739-0",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-8887739-0",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-4166789-8",
+    "route": "CAPE_NOW",
+    "label": "File in CAPE now",
+    "bucket": "file_now",
+    "ieepa_duty": 5643.0,
+    "refund_amount": 5643.0,
+    "deadline": "2026-10-25",
+    "days_left": 1,
+    "urgent": true,
+    "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+    "flags": [],
+    "in_cape_csv": true,
+    "days_since_liquidation": 79,
+    "entry_type": "01",
+    "entry_date": "2025-09-26",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-08-06",
+    "evidence": {
+     "entry": "MH3-4166789-8 01 ABI",
+     "liquidation": "MH3-4166789-8 01 09/26/2025 Liquidated 08/06/2026 6,803.50 5,643.00",
+     "flags": null,
+     "ieepa_statement": "MH3-4166789-8 01 09/26/2025 Liquidated 08/06/2026 6,803.50 5,643.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p.24",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Stainless flatware",
+      "hts": [
+       {
+        "code": "8215.20.0000",
+        "entered_value": 5530,
+        "rate": 0,
+        "duty": 0
+       },
+       {
+        "code": "9903.02.20",
+        "entered_value": null,
+        "rate": 0.15,
+        "duty": 829.5
+       }
+      ]
+     },
+     {
+      "line_no": "002",
+      "description": "LED table lamps",
+      "hts": [
+       {
+        "code": "9405.21.8000",
+        "entered_value": 14870,
+        "rate": 0.039,
+        "duty": 579.93
+       },
+       {
+        "code": "9903.02.20",
+        "entered_value": null,
+        "rate": 0.15,
+        "duty": 2230.5
+       }
+      ]
+     },
+     {
+      "line_no": "003",
+      "description": "LED table lamps",
+      "hts": [
+       {
+        "code": "9405.21.8000",
+        "entered_value": 12430,
+        "rate": 0.039,
+        "duty": 484.77
+       },
+       {
+        "code": "9903.02.20",
+        "entered_value": null,
+        "rate": 0.15,
+        "duty": 1864.5
+       }
+      ]
+     },
+     {
+      "line_no": "004",
+      "description": "Steel cookware sets",
+      "hts": [
+       {
+        "code": "7323.93.0045",
+        "entered_value": 4790,
+        "rate": 0.02,
+        "duty": 95.8
+       },
+       {
+        "code": "9903.02.20",
+        "entered_value": null,
+        "rate": 0.15,
+        "duty": 718.5
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-4166789-8",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-4166789-8",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-08-06"
+     },
+     {
+      "entry": "MH3-4166789-8",
+      "check": "IEEPA duty 9903.02.20 $829.50 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-4166789-8",
+      "check": "IEEPA duty 9903.02.20 $2,230.50 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-4166789-8",
+      "check": "IEEPA duty 9903.02.20 $1,864.50 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-4166789-8",
+      "check": "IEEPA duty 9903.02.20 $718.50 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-4166789-8",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $6,803.50 vs printed $6,803.50"
+     },
+     {
+      "entry": "MH3-4166789-8",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-4166789-8",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-8623443-3",
+    "route": "CAPE_NOW",
+    "label": "File in CAPE now",
+    "bucket": "file_now",
+    "ieepa_duty": 1365.0,
+    "refund_amount": 1365.0,
+    "deadline": "2026-10-25",
+    "days_left": 1,
+    "urgent": true,
+    "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+    "flags": [],
+    "in_cape_csv": true,
+    "days_since_liquidation": 79,
+    "entry_type": "01",
+    "entry_date": "2025-09-23",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-08-06",
+    "evidence": {
+     "entry": "MH3-8623443-3 01 ABI",
+     "liquidation": "MH3-8623443-3 01 09/23/2025 Liquidated 08/06/2026 1,692.60 1,365.00",
+     "flags": null,
+     "ieepa_statement": "MH3-8623443-3 01 09/23/2025 Liquidated 08/06/2026 1,692.60 1,365.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p.33",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Glass storage jars",
+      "hts": [
+       {
+        "code": "7013.49.6000",
+        "entered_value": 5460,
+        "rate": 0.06,
+        "duty": 327.6
+       },
+       {
+        "code": "9903.02.26",
+        "entered_value": null,
+        "rate": 0.25,
+        "duty": 1365
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-8623443-3",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-8623443-3",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-08-06"
+     },
+     {
+      "entry": "MH3-8623443-3",
+      "check": "IEEPA duty 9903.02.26 $1,365.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-8623443-3",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $1,692.60 vs printed $1,692.60"
+     },
+     {
+      "entry": "MH3-8623443-3",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-8623443-3",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-5093576-0",
+    "route": "PROTEST_BY",
+    "label": "File a protest",
+    "bucket": "protest",
+    "ieepa_duty": 1796.0,
+    "refund_amount": 1796.0,
+    "deadline": "2026-10-26",
+    "days_left": 2,
+    "urgent": true,
+    "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 178,
+    "entry_type": "01",
+    "entry_date": "2025-06-17",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-04-29",
+    "evidence": {
+     "entry": "MH3-5093576-0 01 ABI",
+     "liquidation": "MH3-5093576-0 01 06/17/2025 Liquidated 04/29/2026 7,310.42 1,796.00",
+     "flags": null,
+     "ieepa_statement": "MH3-5093576-0 01 06/17/2025 Liquidated 04/29/2026 7,310.42 1,796.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p.43",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Aluminum baking sheets",
+      "hts": [
+       {
+        "code": "7615.10.7125",
+        "entered_value": 9420,
+        "rate": 0.031,
+        "duty": 292.02
+       },
+       {
+        "code": "9903.85.08",
+        "entered_value": null,
+        "rate": 0.5,
+        "duty": 4710
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 942
+       }
+      ]
+     },
+     {
+      "line_no": "002",
+      "description": "Ceramic vases",
+      "hts": [
+       {
+        "code": "6913.90.5000",
+        "entered_value": 8540,
+        "rate": 0.06,
+        "duty": 512.4
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 854
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-5093576-0",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-5093576-0",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-04-29"
+     },
+     {
+      "entry": "MH3-5093576-0",
+      "check": "IEEPA duty 9903.01.25 $942.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-5093576-0",
+      "check": "IEEPA duty 9903.01.25 $854.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-5093576-0",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $7,310.42 vs printed $7,310.42"
+     },
+     {
+      "entry": "MH3-5093576-0",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-5093576-0",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-9708001-4",
+    "route": "PROTEST_BY",
+    "label": "File a protest",
+    "bucket": "protest",
+    "ieepa_duty": 2552.0,
+    "refund_amount": 2552.0,
+    "deadline": "2026-10-30",
+    "days_left": 6,
+    "urgent": true,
+    "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 174,
+    "entry_type": "01",
+    "entry_date": "2025-06-23",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-05-03",
+    "evidence": {
+     "entry": "MH3-9708001-4 01 ABI",
+     "liquidation": "MH3-9708001-4 01 06/23/2025 Liquidated 05/03/2026 4,083.20 2,552.00",
+     "flags": null,
+     "ieepa_statement": "MH3-9708001-4 01 06/23/2025 Liquidated 05/03/2026 4,083.20 2,552.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p.32",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Glass storage jars",
+      "hts": [
+       {
+        "code": "7013.49.6000",
+        "entered_value": 14980,
+        "rate": 0.06,
+        "duty": 898.8
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 1498
+       }
+      ]
+     },
+     {
+      "line_no": "002",
+      "description": "Glass storage jars",
+      "hts": [
+       {
+        "code": "7013.49.6000",
+        "entered_value": 10540,
+        "rate": 0.06,
+        "duty": 632.4
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 1054
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-9708001-4",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-9708001-4",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-05-03"
+     },
+     {
+      "entry": "MH3-9708001-4",
+      "check": "IEEPA duty 9903.01.25 $1,498.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-9708001-4",
+      "check": "IEEPA duty 9903.01.25 $1,054.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-9708001-4",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $4,083.20 vs printed $4,083.20"
+     },
+     {
+      "entry": "MH3-9708001-4",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-9708001-4",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-1610153-4",
+    "route": "PROTEST_BY",
+    "label": "File a protest",
+    "bucket": "protest",
+    "ieepa_duty": 1190.0,
+    "refund_amount": 1190.0,
+    "deadline": "2026-11-06",
+    "days_left": 13,
+    "urgent": true,
+    "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 167,
+    "entry_type": "01",
+    "entry_date": "2025-06-26",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-05-10",
+    "evidence": {
+     "entry": "MH3-1610153-4 01 ABI",
+     "liquidation": "MH3-1610153-4 01 06/26/2025 Liquidated 05/10/2026 1,190.00 1,190.00",
+     "flags": null,
+     "ieepa_statement": "MH3-1610153-4 01 06/26/2025 Liquidated 05/10/2026 1,190.00 1,190.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p.27",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Wool area rugs",
+      "hts": [
+       {
+        "code": "5701.10.9000",
+        "entered_value": 8320,
+        "rate": 0,
+        "duty": 0
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 832
+       }
+      ]
+     },
+     {
+      "line_no": "002",
+      "description": "Wool area rugs",
+      "hts": [
+       {
+        "code": "5701.10.9000",
+        "entered_value": 3580,
+        "rate": 0,
+        "duty": 0
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 358
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-1610153-4",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-1610153-4",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-05-10"
+     },
+     {
+      "entry": "MH3-1610153-4",
+      "check": "IEEPA duty 9903.01.25 $832.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-1610153-4",
+      "check": "IEEPA duty 9903.01.25 $358.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-1610153-4",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $1,190.00 vs printed $1,190.00"
+     },
+     {
+      "entry": "MH3-1610153-4",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-1610153-4",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-1945236-0",
+    "route": "PROTEST_BY",
+    "label": "File a protest",
+    "bucket": "protest",
+    "ieepa_duty": 5349.0,
+    "refund_amount": 5349.0,
+    "deadline": "2026-11-07",
+    "days_left": 14,
+    "urgent": true,
+    "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 166,
+    "entry_type": "01",
+    "entry_date": "2025-06-28",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-05-11",
+    "evidence": {
+     "entry": "MH3-1945236-0 01 ABI",
+     "liquidation": "MH3-1945236-0 01 06/28/2025 Liquidated 05/11/2026 19,148.06 5,349.00",
+     "flags": null,
+     "ieepa_statement": "MH3-1945236-0 01 06/28/2025 Liquidated 05/11/2026 19,148.06 5,349.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p4",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Steel cookware sets",
+      "hts": [
+       {
+        "code": "7323.93.0045",
+        "entered_value": 11470,
+        "rate": 0.02,
+        "duty": 229.4
+       },
+       {
+        "code": "9903.88.03",
+        "entered_value": null,
+        "rate": 0.25,
+        "duty": 2867.5
+       },
+       {
+        "code": "9903.81.91",
+        "entered_value": null,
+        "rate": 0.5,
+        "duty": 5735
+       },
+       {
+        "code": "9903.01.24",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 2294
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 1147
+       }
+      ]
+     },
+     {
+      "line_no": "002",
+      "description": "Aluminum baking sheets",
+      "hts": [
+       {
+        "code": "7615.10.7125",
+        "entered_value": 6360,
+        "rate": 0.031,
+        "duty": 197.16
+       },
+       {
+        "code": "9903.88.03",
+        "entered_value": null,
+        "rate": 0.25,
+        "duty": 1590
+       },
+       {
+        "code": "9903.85.08",
+        "entered_value": null,
+        "rate": 0.5,
+        "duty": 3180
+       },
+       {
+        "code": "9903.01.24",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 1272
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 636
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-1945236-0",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-1945236-0",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-05-11"
+     },
+     {
+      "entry": "MH3-1945236-0",
+      "check": "IEEPA duty 9903.01.24 $2,294.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-1945236-0",
+      "check": "IEEPA duty 9903.01.25 $1,147.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-1945236-0",
+      "check": "IEEPA duty 9903.01.24 $1,272.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-1945236-0",
+      "check": "IEEPA duty 9903.01.25 $636.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-1945236-0",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $19,148.06 vs printed $19,148.06"
+     },
+     {
+      "entry": "MH3-1945236-0",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-1945236-0",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-5335406-1",
+    "route": "PROTEST_BY",
+    "label": "File a protest",
+    "bucket": "protest",
+    "ieepa_duty": 3939.0,
+    "refund_amount": 3939.0,
+    "deadline": "2026-11-10",
+    "days_left": 17,
+    "urgent": false,
+    "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 163,
+    "entry_type": "01",
+    "entry_date": "2025-06-30",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-05-14",
+    "evidence": {
+     "entry": "MH3-5335406-1 01 ABI",
+     "liquidation": "MH3-5335406-1 01 06/30/2025 Liquidated 05/14/2026 11,570.88 3,939.00",
+     "flags": null,
+     "ieepa_statement": "MH3-5335406-1 01 06/30/2025 Liquidated 05/14/2026 11,570.88 3,939.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p.26",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Steel cookware sets",
+      "hts": [
+       {
+        "code": "7323.93.0045",
+        "entered_value": 12320,
+        "rate": 0.02,
+        "duty": 246.4
+       },
+       {
+        "code": "9903.81.91",
+        "entered_value": null,
+        "rate": 0.5,
+        "duty": 6160
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 1232
+       }
+      ]
+     },
+     {
+      "line_no": "002",
+      "description": "Glass storage jars",
+      "hts": [
+       {
+        "code": "7013.49.6000",
+        "entered_value": 12830,
+        "rate": 0.06,
+        "duty": 769.8
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 1283
+       }
+      ]
+     },
+     {
+      "line_no": "003",
+      "description": "Bamboo cutting boards",
+      "hts": [
+       {
+        "code": "4419.11.0000",
+        "entered_value": 14240,
+        "rate": 0.032,
+        "duty": 455.68
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 1424
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-5335406-1",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-5335406-1",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-05-14"
+     },
+     {
+      "entry": "MH3-5335406-1",
+      "check": "IEEPA duty 9903.01.25 $1,232.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-5335406-1",
+      "check": "IEEPA duty 9903.01.25 $1,283.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-5335406-1",
+      "check": "IEEPA duty 9903.01.25 $1,424.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-5335406-1",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $11,570.88 vs printed $11,570.88"
+     },
+     {
+      "entry": "MH3-5335406-1",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-5335406-1",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-6829430-9",
+    "route": "PROTEST_BY",
+    "label": "File a protest",
+    "bucket": "protest",
+    "ieepa_duty": 1356.0,
+    "refund_amount": 1356.0,
+    "deadline": "2026-11-26",
+    "days_left": 33,
+    "urgent": false,
+    "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 147,
+    "entry_type": "01",
+    "entry_date": "2025-07-16",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-05-30",
+    "evidence": {
+     "entry": "MH3-6829430-9 01 ABI",
+     "liquidation": "MH3-6829430-9 01 07/16/2025 Liquidated 05/30/2026 2,588.40 1,356.00",
+     "flags": null,
+     "ieepa_statement": "MH3-6829430-9 01 07/16/2025 Liquidated 05/30/2026 2,588.40 1,356.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p.19",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Steel cookware sets",
+      "hts": [
+       {
+        "code": "7323.93.0045",
+        "entered_value": 2370,
+        "rate": 0.02,
+        "duty": 47.4
+       },
+       {
+        "code": "9903.81.91",
+        "entered_value": null,
+        "rate": 0.5,
+        "duty": 1185
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 237
+       }
+      ]
+     },
+     {
+      "line_no": "002",
+      "description": "Wool area rugs",
+      "hts": [
+       {
+        "code": "5701.10.9000",
+        "entered_value": 11190,
+        "rate": 0,
+        "duty": 0
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 1119
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-6829430-9",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-6829430-9",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-05-30"
+     },
+     {
+      "entry": "MH3-6829430-9",
+      "check": "IEEPA duty 9903.01.25 $237.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-6829430-9",
+      "check": "IEEPA duty 9903.01.25 $1,119.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-6829430-9",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $2,588.40 vs printed $2,588.40"
+     },
+     {
+      "entry": "MH3-6829430-9",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-6829430-9",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-5397498-2",
+    "route": "WITHDRAW_PROTEST_THEN_CAPE",
+    "label": "Withdraw protest, then CAPE",
+    "bucket": "fix_first",
+    "ieepa_duty": 2610.0,
+    "refund_amount": 2610.0,
+    "deadline": "2026-12-03",
+    "days_left": 40,
+    "urgent": false,
+    "reason": "A protest filed only for the IEEPA refund can be withdrawn so the entry can go in CAPE, while it is within 80 days of liquidation.",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 40,
+    "entry_type": "01",
+    "entry_date": "2025-08-05",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-09-14",
+    "evidence": {
+     "entry": "MH3-5397498-2 01 ABI",
+     "liquidation": "MH3-5397498-2 01 08/05/2025 Liquidated 09/14/2026 3,449.28 2,610.00",
+     "flags": "MH3-5397498-2 01 08/05/2025 Liquidated 09/14/2026 3,449.28 2,610.00 | Note: Protest filed 10/04/2026 (IEEPA duties only); status OPEN",
+     "ieepa_statement": "MH3-5397498-2 01 08/05/2025 Liquidated 09/14/2026 3,449.28 2,610.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p.25",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Ceramic vases",
+      "hts": [
+       {
+        "code": "6913.90.5000",
+        "entered_value": 6020,
+        "rate": 0.06,
+        "duty": 361.2
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 602
+       }
+      ]
+     },
+     {
+      "line_no": "002",
+      "description": "Stainless flatware",
+      "hts": [
+       {
+        "code": "8215.20.0000",
+        "entered_value": 5140,
+        "rate": 0,
+        "duty": 0
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 514
+       }
+      ]
+     },
+     {
+      "line_no": "003",
+      "description": "Bamboo cutting boards",
+      "hts": [
+       {
+        "code": "4419.11.0000",
+        "entered_value": 14940,
+        "rate": 0.032,
+        "duty": 478.08
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 1494
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-5397498-2",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-5397498-2",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-09-14"
+     },
+     {
+      "entry": "MH3-5397498-2",
+      "check": "flags are quoted next to this entry",
+      "ok": true,
+      "detail": "open_protest, protest_ieepa_only / quote: MH3-5397498-2 01 08/05/2025 Liquidated 09/14/2026 3,449.28 2,610.00 | Note: Protest filed "
+     },
+     {
+      "entry": "MH3-5397498-2",
+      "check": "IEEPA duty 9903.01.25 $602.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-5397498-2",
+      "check": "IEEPA duty 9903.01.25 $514.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-5397498-2",
+      "check": "IEEPA duty 9903.01.25 $1,494.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-5397498-2",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $3,449.28 vs printed $3,449.28"
+     },
+     {
+      "entry": "MH3-5397498-2",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-5397498-2",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-9005801-3",
+    "route": "FIX_THEN_CAPE",
+    "label": "Fix, then file in CAPE",
+    "bucket": "fix_first",
+    "ieepa_duty": 1474.5,
+    "refund_amount": 1474.5,
+    "deadline": "2026-12-10",
+    "days_left": 47,
+    "urgent": false,
+    "reason": "A goods value is reported on a Chapter 99 line. CAPE rejects that entry until the value sits on the Chapter 1-97 line.",
+    "flags": [
+     "value_on_ch99_line"
+    ],
+    "in_cape_csv": false,
+    "days_since_liquidation": 33,
+    "entry_type": "01",
+    "entry_date": "2025-12-18",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-09-21",
+    "evidence": {
+     "entry": "MH3-9005801-3 01 ABI",
+     "liquidation": "MH3-9005801-3 01 12/18/2025 Liquidated 09/21/2026 1,474.50 1,474.50",
+     "flags": null,
+     "ieepa_statement": "MH3-9005801-3 01 12/18/2025 Liquidated 09/21/2026 1,474.50 1,474.50"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p.34",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Stainless flatware",
+      "hts": [
+       {
+        "code": "8215.20.0000",
+        "entered_value": 9830,
+        "rate": 0,
+        "duty": 0
+       },
+       {
+        "code": "9903.02.20",
+        "entered_value": 9830,
+        "rate": 0.15,
+        "duty": 1474.5
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-9005801-3",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-9005801-3",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-09-21"
+     },
+     {
+      "entry": "MH3-9005801-3",
+      "check": "IEEPA duty 9903.02.20 $1,474.50 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-9005801-3",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $1,474.50 vs printed $1,474.50"
+     },
+     {
+      "entry": "MH3-9005801-3",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-9005801-3",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-3663534-3",
+    "route": "CAPE_NOW",
+    "label": "File in CAPE now",
+    "bucket": "file_now",
+    "ieepa_duty": 9314.0,
+    "refund_amount": 9314.0,
+    "deadline": "2026-12-23",
+    "days_left": 60,
+    "urgent": false,
+    "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+    "flags": [],
+    "in_cape_csv": true,
+    "days_since_liquidation": 20,
+    "entry_type": "01",
+    "entry_date": "2025-11-23",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-10-04",
+    "evidence": {
+     "entry": "MH3-3663534-3 01 ABI",
+     "liquidation": "MH3-3663534-3 01 11/23/2025 Liquidated 10/04/2026 11,330.60 9,314.00",
+     "flags": null,
+     "ieepa_statement": "MH3-3663534-3 01 11/23/2025 Liquidated 10/04/2026 11,330.60 9,314.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p.31",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Wooden picture frames",
+      "hts": [
+       {
+        "code": "4414.90.0000",
+        "entered_value": 12960,
+        "rate": 0,
+        "duty": 0
+       },
+       {
+        "code": "9903.02.61",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 2592
+       }
+      ]
+     },
+     {
+      "line_no": "002",
+      "description": "Ceramic vases",
+      "hts": [
+       {
+        "code": "6913.90.5000",
+        "entered_value": 12920,
+        "rate": 0.06,
+        "duty": 775.2
+       },
+       {
+        "code": "9903.02.61",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 2584
+       }
+      ]
+     },
+     {
+      "line_no": "003",
+      "description": "Ceramic vases",
+      "hts": [
+       {
+        "code": "6913.90.5000",
+        "entered_value": 12670,
+        "rate": 0.06,
+        "duty": 760.2
+       },
+       {
+        "code": "9903.02.61",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 2534
+       }
+      ]
+     },
+     {
+      "line_no": "004",
+      "description": "Stoneware dinner plates",
+      "hts": [
+       {
+        "code": "6912.00.4400",
+        "entered_value": 8020,
+        "rate": 0.06,
+        "duty": 481.2
+       },
+       {
+        "code": "9903.02.61",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 1604
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-3663534-3",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-3663534-3",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-10-04"
+     },
+     {
+      "entry": "MH3-3663534-3",
+      "check": "IEEPA duty 9903.02.61 $2,592.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-3663534-3",
+      "check": "IEEPA duty 9903.02.61 $2,584.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-3663534-3",
+      "check": "IEEPA duty 9903.02.61 $2,534.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-3663534-3",
+      "check": "IEEPA duty 9903.02.61 $1,604.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-3663534-3",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $11,330.60 vs printed $11,330.60"
+     },
+     {
+      "entry": "MH3-3663534-3",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-3663534-3",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-6919989-3",
+    "route": "PROTEST_BY",
+    "label": "File a protest",
+    "bucket": "protest",
+    "ieepa_duty": 2215.5,
+    "refund_amount": 2215.5,
+    "deadline": "2026-12-24",
+    "days_left": 61,
+    "urgent": false,
+    "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 119,
+    "entry_type": "01",
+    "entry_date": "2025-08-15",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-06-27",
+    "evidence": {
+     "entry": "MH3-6919989-3 01 ABI",
+     "liquidation": "MH3-6919989-3 01 08/15/2025 Liquidated 06/27/2026 3,040.85 2,215.50",
+     "flags": null,
+     "ieepa_statement": "MH3-6919989-3 01 08/15/2025 Liquidated 06/27/2026 3,040.85 2,215.50"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p.14",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "LED table lamps",
+      "hts": [
+       {
+        "code": "9405.21.8000",
+        "entered_value": 9350,
+        "rate": 0.039,
+        "duty": 364.65
+       },
+       {
+        "code": "9903.02.20",
+        "entered_value": null,
+        "rate": 0.15,
+        "duty": 1402.5
+       }
+      ]
+     },
+     {
+      "line_no": "002",
+      "description": "Polyester throw blankets",
+      "hts": [
+       {
+        "code": "6301.40.0020",
+        "entered_value": 5420,
+        "rate": 0.085,
+        "duty": 460.7
+       },
+       {
+        "code": "9903.02.20",
+        "entered_value": null,
+        "rate": 0.15,
+        "duty": 813
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-6919989-3",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-6919989-3",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-06-27"
+     },
+     {
+      "entry": "MH3-6919989-3",
+      "check": "IEEPA duty 9903.02.20 $1,402.50 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-6919989-3",
+      "check": "IEEPA duty 9903.02.20 $813.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-6919989-3",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $3,040.85 vs printed $3,040.85"
+     },
+     {
+      "entry": "MH3-6919989-3",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-6919989-3",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-8367202-1",
+    "route": "PROTEST_BY",
+    "label": "File a protest",
+    "bucket": "protest",
+    "ieepa_duty": 11067.0,
+    "refund_amount": 11067.0,
+    "deadline": "2027-01-09",
+    "days_left": 77,
+    "urgent": false,
+    "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 103,
+    "entry_type": "01",
+    "entry_date": "2025-09-01",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-07-13",
+    "evidence": {
+     "entry": "MH3-8367202-1 01 ABI",
+     "liquidation": "MH3-8367202-1 01 09/01/2025 Liquidated 07/13/2026 22,499.25 11,067.00",
+     "flags": null,
+     "ieepa_statement": "MH3-8367202-1 01 09/01/2025 Liquidated 07/13/2026 22,499.25 11,067.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p.12",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Stoneware dinner plates",
+      "hts": [
+       {
+        "code": "6912.00.4400",
+        "entered_value": 13210,
+        "rate": 0.06,
+        "duty": 792.6
+       },
+       {
+        "code": "9903.88.03",
+        "entered_value": null,
+        "rate": 0.25,
+        "duty": 3302.5
+       },
+       {
+        "code": "9903.01.24",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 2642
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 1321
+       }
+      ]
+     },
+     {
+      "line_no": "002",
+      "description": "Steel cookware sets",
+      "hts": [
+       {
+        "code": "7323.93.0045",
+        "entered_value": 8210,
+        "rate": 0.02,
+        "duty": 164.2
+       },
+       {
+        "code": "9903.88.03",
+        "entered_value": null,
+        "rate": 0.25,
+        "duty": 2052.5
+       },
+       {
+        "code": "9903.81.91",
+        "entered_value": null,
+        "rate": 0.5,
+        "duty": 4105
+       },
+       {
+        "code": "9903.01.24",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 1642
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 821
+       }
+      ]
+     },
+     {
+      "line_no": "003",
+      "description": "Polyester throw blankets",
+      "hts": [
+       {
+        "code": "6301.40.0020",
+        "entered_value": 3490,
+        "rate": 0.085,
+        "duty": 296.65
+       },
+       {
+        "code": "9903.01.24",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 698
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 349
+       }
+      ]
+     },
+     {
+      "line_no": "004",
+      "description": "Stoneware dinner plates",
+      "hts": [
+       {
+        "code": "6912.00.4400",
+        "entered_value": 11980,
+        "rate": 0.06,
+        "duty": 718.8
+       },
+       {
+        "code": "9903.01.24",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 2396
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 1198
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-8367202-1",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-8367202-1",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-07-13"
+     },
+     {
+      "entry": "MH3-8367202-1",
+      "check": "IEEPA duty 9903.01.24 $2,642.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-8367202-1",
+      "check": "IEEPA duty 9903.01.25 $1,321.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-8367202-1",
+      "check": "IEEPA duty 9903.01.24 $1,642.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-8367202-1",
+      "check": "IEEPA duty 9903.01.25 $821.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-8367202-1",
+      "check": "IEEPA duty 9903.01.24 $698.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-8367202-1",
+      "check": "IEEPA duty 9903.01.25 $349.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-8367202-1",
+      "check": "IEEPA duty 9903.01.24 $2,396.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-8367202-1",
+      "check": "IEEPA duty 9903.01.25 $1,198.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-8367202-1",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $22,499.25 vs printed $22,499.25"
+     },
+     {
+      "entry": "MH3-8367202-1",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-8367202-1",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-6820604-6",
+    "route": "CAPE_NOW",
+    "label": "File in CAPE now",
+    "bucket": "file_now",
+    "ieepa_duty": 8840.0,
+    "refund_amount": 8840.0,
+    "deadline": "2027-01-10",
+    "days_left": 78,
+    "urgent": false,
+    "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+    "flags": [],
+    "in_cape_csv": true,
+    "days_since_liquidation": 2,
+    "entry_type": "01",
+    "entry_date": "2025-12-08",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-10-22",
+    "evidence": {
+     "entry": "MH3-6820604-6 01 ABI",
+     "liquidation": "MH3-6820604-6 01 12/08/2025 Liquidated 10/22/2026 31,882.48 8,840.00",
+     "flags": null,
+     "ieepa_statement": "MH3-6820604-6 01 12/08/2025 Liquidated 10/22/2026 31,882.48 8,840.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p1",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Cotton bath towels",
+      "hts": [
+       {
+        "code": "6302.60.0020",
+        "entered_value": 6320,
+        "rate": 0.091,
+        "duty": 575.12
+       },
+       {
+        "code": "9903.88.03",
+        "entered_value": null,
+        "rate": 0.25,
+        "duty": 1580
+       },
+       {
+        "code": "9903.01.24",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 632
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 632
+       }
+      ]
+     },
+     {
+      "line_no": "002",
+      "description": "Aluminum baking sheets",
+      "hts": [
+       {
+        "code": "7615.10.7125",
+        "entered_value": 14130,
+        "rate": 0.031,
+        "duty": 438.03
+       },
+       {
+        "code": "9903.88.03",
+        "entered_value": null,
+        "rate": 0.25,
+        "duty": 3532.5
+       },
+       {
+        "code": "9903.85.08",
+        "entered_value": null,
+        "rate": 0.5,
+        "duty": 7065
+       },
+       {
+        "code": "9903.01.24",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 1413
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 1413
+       }
+      ]
+     },
+     {
+      "line_no": "003",
+      "description": "Stainless flatware",
+      "hts": [
+       {
+        "code": "8215.20.0000",
+        "entered_value": 9820,
+        "rate": 0,
+        "duty": 0
+       },
+       {
+        "code": "9903.88.03",
+        "entered_value": null,
+        "rate": 0.25,
+        "duty": 2455
+       },
+       {
+        "code": "9903.01.24",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 982
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 982
+       }
+      ]
+     },
+     {
+      "line_no": "004",
+      "description": "Aluminum baking sheets",
+      "hts": [
+       {
+        "code": "7615.10.7125",
+        "entered_value": 13930,
+        "rate": 0.031,
+        "duty": 431.83
+       },
+       {
+        "code": "9903.85.08",
+        "entered_value": null,
+        "rate": 0.5,
+        "duty": 6965
+       },
+       {
+        "code": "9903.01.24",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 1393
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 1393
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-6820604-6",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-6820604-6",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-10-22"
+     },
+     {
+      "entry": "MH3-6820604-6",
+      "check": "IEEPA duty 9903.01.24 $632.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-6820604-6",
+      "check": "IEEPA duty 9903.01.25 $632.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-6820604-6",
+      "check": "IEEPA duty 9903.01.24 $1,413.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-6820604-6",
+      "check": "IEEPA duty 9903.01.25 $1,413.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-6820604-6",
+      "check": "IEEPA duty 9903.01.24 $982.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-6820604-6",
+      "check": "IEEPA duty 9903.01.25 $982.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-6820604-6",
+      "check": "IEEPA duty 9903.01.24 $1,393.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-6820604-6",
+      "check": "IEEPA duty 9903.01.25 $1,393.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-6820604-6",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $31,882.48 vs printed $31,882.48"
+     },
+     {
+      "entry": "MH3-6820604-6",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-6820604-6",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-8628656-4",
+    "route": "CAPE_NOW",
+    "label": "File in CAPE now",
+    "bucket": "file_now",
+    "ieepa_duty": 2202.0,
+    "refund_amount": 2202.0,
+    "deadline": "2027-01-11",
+    "days_left": 79,
+    "urgent": false,
+    "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+    "flags": [],
+    "in_cape_csv": true,
+    "days_since_liquidation": 1,
+    "entry_type": "01",
+    "entry_date": "2025-12-13",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-10-23",
+    "evidence": {
+     "entry": "MH3-8628656-4 01 ABI",
+     "liquidation": "MH3-8628656-4 01 12/13/2025 Liquidated 10/23/2026 2,495.60 2,202.00",
+     "flags": null,
+     "ieepa_statement": "MH3-8628656-4 01 12/13/2025 Liquidated 10/23/2026 2,495.60 2,202.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p.28",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Steel cookware sets",
+      "hts": [
+       {
+        "code": "7323.93.0045",
+        "entered_value": 3900,
+        "rate": 0.02,
+        "duty": 78
+       },
+       {
+        "code": "9903.02.20",
+        "entered_value": null,
+        "rate": 0.15,
+        "duty": 585
+       }
+      ]
+     },
+     {
+      "line_no": "002",
+      "description": "Steel cookware sets",
+      "hts": [
+       {
+        "code": "7323.93.0045",
+        "entered_value": 10780,
+        "rate": 0.02,
+        "duty": 215.6
+       },
+       {
+        "code": "9903.02.20",
+        "entered_value": null,
+        "rate": 0.15,
+        "duty": 1617
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-8628656-4",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-8628656-4",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-10-23"
+     },
+     {
+      "entry": "MH3-8628656-4",
+      "check": "IEEPA duty 9903.02.20 $585.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-8628656-4",
+      "check": "IEEPA duty 9903.02.20 $1,617.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-8628656-4",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $2,495.60 vs printed $2,495.60"
+     },
+     {
+      "entry": "MH3-8628656-4",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-8628656-4",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-2437037-2",
+    "route": "PROTEST_BY",
+    "label": "File a protest",
+    "bucket": "protest",
+    "ieepa_duty": 4366.0,
+    "refund_amount": 4366.0,
+    "deadline": "2027-01-16",
+    "days_left": 84,
+    "urgent": false,
+    "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 96,
+    "entry_type": "01",
+    "entry_date": "2025-09-07",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-07-20",
+    "evidence": {
+     "entry": "MH3-2437037-2 01 ABI",
+     "liquidation": "MH3-2437037-2 01 09/07/2025 Liquidated 07/20/2026 9,845.77 4,366.00",
+     "flags": null,
+     "ieepa_statement": "MH3-2437037-2 01 09/07/2025 Liquidated 07/20/2026 9,845.77 4,366.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p.38",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Steel cookware sets",
+      "hts": [
+       {
+        "code": "7323.93.0045",
+        "entered_value": 2850,
+        "rate": 0.02,
+        "duty": 57
+       },
+       {
+        "code": "9903.81.91",
+        "entered_value": null,
+        "rate": 0.5,
+        "duty": 1425
+       },
+       {
+        "code": "9903.02.69",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 570
+       }
+      ]
+     },
+     {
+      "line_no": "002",
+      "description": "Aluminum baking sheets",
+      "hts": [
+       {
+        "code": "7615.10.7125",
+        "entered_value": 6070,
+        "rate": 0.031,
+        "duty": 188.17
+       },
+       {
+        "code": "9903.85.08",
+        "entered_value": null,
+        "rate": 0.5,
+        "duty": 3035
+       },
+       {
+        "code": "9903.02.69",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 1214
+       }
+      ]
+     },
+     {
+      "line_no": "003",
+      "description": "Ceramic vases",
+      "hts": [
+       {
+        "code": "6913.90.5000",
+        "entered_value": 12910,
+        "rate": 0.06,
+        "duty": 774.6
+       },
+       {
+        "code": "9903.02.69",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 2582
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-2437037-2",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-2437037-2",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-07-20"
+     },
+     {
+      "entry": "MH3-2437037-2",
+      "check": "IEEPA duty 9903.02.69 $570.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-2437037-2",
+      "check": "IEEPA duty 9903.02.69 $1,214.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-2437037-2",
+      "check": "IEEPA duty 9903.02.69 $2,582.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-2437037-2",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $9,845.77 vs printed $9,845.77"
+     },
+     {
+      "entry": "MH3-2437037-2",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-2437037-2",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-5190509-4",
+    "route": "PROTEST_BY",
+    "label": "File a protest",
+    "bucket": "protest",
+    "ieepa_duty": 7485.0,
+    "refund_amount": 7485.0,
+    "deadline": "2027-01-18",
+    "days_left": 86,
+    "urgent": false,
+    "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 94,
+    "entry_type": "01",
+    "entry_date": "2025-09-07",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-07-22",
+    "evidence": {
+     "entry": "MH3-5190509-4 01 ABI",
+     "liquidation": "MH3-5190509-4 01 09/07/2025 Liquidated 07/22/2026 8,103.00 7,485.00",
+     "flags": null,
+     "ieepa_statement": "MH3-5190509-4 01 09/07/2025 Liquidated 07/22/2026 8,103.00 7,485.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p.29",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Stainless flatware",
+      "hts": [
+       {
+        "code": "8215.20.0000",
+        "entered_value": 3930,
+        "rate": 0,
+        "duty": 0
+       },
+       {
+        "code": "9903.02.26",
+        "entered_value": null,
+        "rate": 0.25,
+        "duty": 982.5
+       }
+      ]
+     },
+     {
+      "line_no": "002",
+      "description": "Stainless flatware",
+      "hts": [
+       {
+        "code": "8215.20.0000",
+        "entered_value": 15710,
+        "rate": 0,
+        "duty": 0
+       },
+       {
+        "code": "9903.02.26",
+        "entered_value": null,
+        "rate": 0.25,
+        "duty": 3927.5
+       }
+      ]
+     },
+     {
+      "line_no": "003",
+      "description": "Ceramic vases",
+      "hts": [
+       {
+        "code": "6913.90.5000",
+        "entered_value": 10300,
+        "rate": 0.06,
+        "duty": 618
+       },
+       {
+        "code": "9903.02.26",
+        "entered_value": null,
+        "rate": 0.25,
+        "duty": 2575
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-5190509-4",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-5190509-4",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-07-22"
+     },
+     {
+      "entry": "MH3-5190509-4",
+      "check": "IEEPA duty 9903.02.26 $982.50 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-5190509-4",
+      "check": "IEEPA duty 9903.02.26 $3,927.50 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-5190509-4",
+      "check": "IEEPA duty 9903.02.26 $2,575.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-5190509-4",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $8,103.00 vs printed $8,103.00"
+     },
+     {
+      "entry": "MH3-5190509-4",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-5190509-4",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-4925392-8",
+    "route": "PROTEST_BY",
+    "label": "File a protest",
+    "bucket": "protest",
+    "ieepa_duty": 2733.0,
+    "refund_amount": 2733.0,
+    "deadline": "2027-01-26",
+    "days_left": 94,
+    "urgent": false,
+    "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 86,
+    "entry_type": "01",
+    "entry_date": "2025-09-16",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-07-30",
+    "evidence": {
+     "entry": "MH3-4925392-8 01 ABI",
+     "liquidation": "MH3-4925392-8 01 09/16/2025 Liquidated 07/30/2026 3,023.29 2,733.00",
+     "flags": null,
+     "ieepa_statement": "MH3-4925392-8 01 09/16/2025 Liquidated 07/30/2026 3,023.29 2,733.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p.40",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Cotton bath towels",
+      "hts": [
+       {
+        "code": "6302.60.0020",
+        "entered_value": 3190,
+        "rate": 0.091,
+        "duty": 290.29
+       },
+       {
+        "code": "9903.02.20",
+        "entered_value": null,
+        "rate": 0.15,
+        "duty": 478.5
+       }
+      ]
+     },
+     {
+      "line_no": "002",
+      "description": "Wool area rugs",
+      "hts": [
+       {
+        "code": "5701.10.9000",
+        "entered_value": 15030,
+        "rate": 0,
+        "duty": 0
+       },
+       {
+        "code": "9903.02.20",
+        "entered_value": null,
+        "rate": 0.15,
+        "duty": 2254.5
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-4925392-8",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-4925392-8",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-07-30"
+     },
+     {
+      "entry": "MH3-4925392-8",
+      "check": "IEEPA duty 9903.02.20 $478.50 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-4925392-8",
+      "check": "IEEPA duty 9903.02.20 $2,254.50 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-4925392-8",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $3,023.29 vs printed $3,023.29"
+     },
+     {
+      "entry": "MH3-4925392-8",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-4925392-8",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-7059891-5",
+    "route": "PROTEST_BY",
+    "label": "File a protest",
+    "bucket": "protest",
+    "ieepa_duty": 6770.0,
+    "refund_amount": 6770.0,
+    "deadline": "2027-01-31",
+    "days_left": 99,
+    "urgent": false,
+    "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 81,
+    "entry_type": "01",
+    "entry_date": "2025-09-24",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-08-04",
+    "evidence": {
+     "entry": "MH3-7059891-5 01 ABI",
+     "liquidation": "MH3-7059891-5 01 09/24/2025 Liquidated 08/04/2026 7,962.48 6,770.00",
+     "flags": null,
+     "ieepa_statement": "MH3-7059891-5 01 09/24/2025 Liquidated 08/04/2026 7,962.48 6,770.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p10",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Glass storage jars",
+      "hts": [
+       {
+        "code": "7013.49.6000",
+        "entered_value": 11640,
+        "rate": 0.06,
+        "duty": 698.4
+       },
+       {
+        "code": "9903.01.01",
+        "entered_value": null,
+        "rate": 0.25,
+        "duty": 2910
+       }
+      ]
+     },
+     {
+      "line_no": "002",
+      "description": "Bamboo cutting boards",
+      "hts": [
+       {
+        "code": "4419.11.0000",
+        "entered_value": 15440,
+        "rate": 0.032,
+        "duty": 494.08
+       },
+       {
+        "code": "9903.01.01",
+        "entered_value": null,
+        "rate": 0.25,
+        "duty": 3860
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-7059891-5",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-7059891-5",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-08-04"
+     },
+     {
+      "entry": "MH3-7059891-5",
+      "check": "IEEPA duty 9903.01.01 $2,910.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-7059891-5",
+      "check": "IEEPA duty 9903.01.01 $3,860.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-7059891-5",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $7,962.48 vs printed $7,962.48"
+     },
+     {
+      "entry": "MH3-7059891-5",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-7059891-5",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-2222500-3",
+    "route": "CAPE_PHASE2_RECON",
+    "label": "File in CAPE (Phase 2)",
+    "bucket": "file_now",
+    "ieepa_duty": 8096.0,
+    "refund_amount": 8096.0,
+    "deadline": null,
+    "days_left": null,
+    "urgent": false,
+    "reason": "Flagged for reconciliation with no type 09 filed yet, and unliquidated or liquidated 80 days ago or less: covered by CAPE Phase 2, open since June 29, 2026 (CSMS #69066837).",
+    "flags": [],
+    "in_cape_csv": true,
+    "days_since_liquidation": null,
+    "entry_type": "01",
+    "entry_date": "2025-11-13",
+    "liquidation_status": "unliquidated",
+    "liquidation_date": null,
+    "evidence": {
+     "entry": "MH3-2222500-3 01 ABI",
+     "liquidation": "MH3-2222500-3 01 11/13/2025 Open - 14,666.75 8,096.00",
+     "flags": "Importer of Record Name Reconciliation flag | Meridian Home Goods Co. Y (NAFTA/value recon flagged)",
+     "ieepa_statement": "MH3-2222500-3 01 11/13/2025 Open - 14,666.75 8,096.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p.11",
+     "1_cbp7501_entry_summaries.pdf p11",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Bamboo cutting boards",
+      "hts": [
+       {
+        "code": "4419.11.0000",
+        "entered_value": 3390,
+        "rate": 0.032,
+        "duty": 108.48
+       },
+       {
+        "code": "9903.02.61",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 678
+       }
+      ]
+     },
+     {
+      "line_no": "002",
+      "description": "Wooden picture frames",
+      "hts": [
+       {
+        "code": "4414.90.0000",
+        "entered_value": 13000,
+        "rate": 0,
+        "duty": 0
+       },
+       {
+        "code": "9903.02.61",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 2600
+       }
+      ]
+     },
+     {
+      "line_no": "003",
+      "description": "Aluminum baking sheets",
+      "hts": [
+       {
+        "code": "7615.10.7125",
+        "entered_value": 12170,
+        "rate": 0.031,
+        "duty": 377.27
+       },
+       {
+        "code": "9903.85.08",
+        "entered_value": null,
+        "rate": 0.5,
+        "duty": 6085
+       },
+       {
+        "code": "9903.02.61",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 2434
+       }
+      ]
+     },
+     {
+      "line_no": "004",
+      "description": "Stainless flatware",
+      "hts": [
+       {
+        "code": "8215.20.0000",
+        "entered_value": 11920,
+        "rate": 0,
+        "duty": 0
+       },
+       {
+        "code": "9903.02.61",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 2384
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-2222500-3",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-2222500-3",
+      "check": "'not liquidated' is printed with this entry",
+      "ok": true,
+      "detail": ""
+     },
+     {
+      "entry": "MH3-2222500-3",
+      "check": "flags are quoted next to this entry",
+      "ok": true,
+      "detail": "reconciliation_flag / quote: Importer of Record Name Reconciliation flag | Meridian Home Goods Co. Y (NAFTA/value recon"
+     },
+     {
+      "entry": "MH3-2222500-3",
+      "check": "IEEPA duty 9903.02.61 $678.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-2222500-3",
+      "check": "IEEPA duty 9903.02.61 $2,600.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-2222500-3",
+      "check": "IEEPA duty 9903.02.61 $2,434.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-2222500-3",
+      "check": "IEEPA duty 9903.02.61 $2,384.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-2222500-3",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $14,666.75 vs printed $14,666.75"
+     },
+     {
+      "entry": "MH3-2222500-3",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-2222500-3",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-6191079-5",
+    "route": "ASK_BROKER",
+    "label": "Ask your broker",
+    "bucket": "broker",
+    "ieepa_duty": 7731.0,
+    "refund_amount": 7731.0,
+    "deadline": null,
+    "days_left": null,
+    "urgent": false,
+    "reason": "Not in CAPE today: AD/CVD entries (still under evaluation by CBP), warehouse entries (types 21 and 22, rejected since July 7, 2026), temporary importation under bond (type 23), or reconciliation entries (type 09). Ask your broker how CBP is treating it.",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 206,
+    "entry_type": "01",
+    "entry_date": "2025-05-22",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-04-01",
+    "evidence": {
+     "entry": "MH3-6191079-5 01 ABI | MH3-6191079-5 01 05/22/2025 Liquidated 04/01/2026 13,780.80 7,731.00",
+     "liquidation": "MH3-6191079-5 01 05/22/2025 Liquidated 04/01/2026 13,780.80 7,731.00 | Note: AD/CVD case pending - liquidation suspended",
+     "flags": "Note: AD/CVD case pending - liquidation suspended",
+     "ieepa_statement": "MH3-6191079-5 01 05/22/2025 Liquidated 04/01/2026 13,780.80 7,731.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Wool area rugs",
+      "hts": [
+       {
+        "code": "5701.10.9000",
+        "entered_value": 4980,
+        "rate": 0,
+        "duty": 0
+       },
+       {
+        "code": "9903.88.03",
+        "entered_value": null,
+        "rate": 0.25,
+        "duty": 1245
+       },
+       {
+        "code": "9903.01.24",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 996
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 498
+       }
+      ]
+     },
+     {
+      "line_no": "002",
+      "description": "Wooden picture frames",
+      "hts": [
+       {
+        "code": "4414.90.0000",
+        "entered_value": 11550,
+        "rate": 0,
+        "duty": 0
+       },
+       {
+        "code": "9903.01.24",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 2310
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 1155
+       }
+      ]
+     },
+     {
+      "line_no": "003",
+      "description": "Steel cookware sets",
+      "hts": [
+       {
+        "code": "7323.93.0045",
+        "entered_value": 9240,
+        "rate": 0.02,
+        "duty": 184.8
+       },
+       {
+        "code": "9903.88.03",
+        "entered_value": null,
+        "rate": 0.25,
+        "duty": 2310
+       },
+       {
+        "code": "9903.81.91",
+        "entered_value": null,
+        "rate": 0.25,
+        "duty": 2310
+       },
+       {
+        "code": "9903.01.24",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 1848
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 924
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-6191079-5",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-6191079-5",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-04-01"
+     },
+     {
+      "entry": "MH3-6191079-5",
+      "check": "flags are quoted next to this entry",
+      "ok": true,
+      "detail": "adcvd / quote: Note: AD/CVD case pending - liquidation suspended"
+     },
+     {
+      "entry": "MH3-6191079-5",
+      "check": "IEEPA duty 9903.01.24 $996.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-6191079-5",
+      "check": "IEEPA duty 9903.01.25 $498.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-6191079-5",
+      "check": "IEEPA duty 9903.01.24 $2,310.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-6191079-5",
+      "check": "IEEPA duty 9903.01.25 $1,155.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-6191079-5",
+      "check": "IEEPA duty 9903.01.24 $1,848.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-6191079-5",
+      "check": "IEEPA duty 9903.01.25 $924.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-6191079-5",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $13,780.80 vs printed $13,780.80"
+     },
+     {
+      "entry": "MH3-6191079-5",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-6191079-5",
+    "repaired": true
+   },
+   {
+    "entry_number": "MH3-3945930-7",
+    "route": "CAPE_NOW",
+    "label": "File in CAPE now",
+    "bucket": "file_now",
+    "ieepa_duty": 6108.0,
+    "refund_amount": 6108.0,
+    "deadline": null,
+    "days_left": null,
+    "urgent": false,
+    "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+    "flags": [],
+    "in_cape_csv": true,
+    "days_since_liquidation": null,
+    "entry_type": "01",
+    "entry_date": "2026-01-25",
+    "liquidation_status": "unliquidated",
+    "liquidation_date": null,
+    "evidence": {
+     "entry": "MH3-3945930-7 01 ABI",
+     "liquidation": "MH3-3945930-7 01 01/25/2026 Open - 6,717.57 6,108.00",
+     "flags": null,
+     "ieepa_statement": "MH3-3945930-7 01 01/25/2026 Open - 6,717.57 6,108.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p.39",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "LED table lamps",
+      "hts": [
+       {
+        "code": "9405.21.8000",
+        "entered_value": 15630,
+        "rate": 0.039,
+        "duty": 609.57
+       },
+       {
+        "code": "9903.02.69",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 3126
+       }
+      ]
+     },
+     {
+      "line_no": "002",
+      "description": "Wooden picture frames",
+      "hts": [
+       {
+        "code": "4414.90.0000",
+        "entered_value": 14910,
+        "rate": 0,
+        "duty": 0
+       },
+       {
+        "code": "9903.02.69",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 2982
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-3945930-7",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-3945930-7",
+      "check": "'not liquidated' is printed with this entry",
+      "ok": true,
+      "detail": ""
+     },
+     {
+      "entry": "MH3-3945930-7",
+      "check": "IEEPA duty 9903.02.69 $3,126.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-3945930-7",
+      "check": "IEEPA duty 9903.02.69 $2,982.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-3945930-7",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $6,717.57 vs printed $6,717.57"
+     },
+     {
+      "entry": "MH3-3945930-7",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-3945930-7",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-6625651-4",
+    "route": "EXCLUDED_SURETY",
+    "label": "Not via CAPE: surety paid",
+    "bucket": "broker",
+    "ieepa_duty": 5187.5,
+    "refund_amount": 5187.5,
+    "deadline": null,
+    "days_left": null,
+    "urgent": false,
+    "reason": "CBP says not to file a CAPE declaration for entries where a surety paid the IEEPA duties.",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 65,
+    "entry_type": "01",
+    "entry_date": "2025-10-10",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-08-20",
+    "evidence": {
+     "entry": "MH3-6625651-4 01 ABI",
+     "liquidation": "MH3-6625651-4 01 10/10/2025 Liquidated 08/20/2026 5,365.42 5,187.50",
+     "flags": "MH3-6625651-4 01 10/10/2025 Liquidated 08/20/2026 5,365.42 5,187.50 | Note: Duties incl. IEEPA paid by surety after missed ACH; surety claim open",
+     "ieepa_statement": "MH3-6625651-4 01 10/10/2025 Liquidated 08/20/2026 5,365.42 5,187.50"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p2",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Wool area rugs",
+      "hts": [
+       {
+        "code": "5701.10.9000",
+        "entered_value": 15190,
+        "rate": 0,
+        "duty": 0
+       },
+       {
+        "code": "9903.02.26",
+        "entered_value": null,
+        "rate": 0.25,
+        "duty": 3797.5
+       }
+      ]
+     },
+     {
+      "line_no": "002",
+      "description": "Bamboo cutting boards",
+      "hts": [
+       {
+        "code": "4419.11.0000",
+        "entered_value": 5560,
+        "rate": 0.032,
+        "duty": 177.92
+       },
+       {
+        "code": "9903.02.26",
+        "entered_value": null,
+        "rate": 0.25,
+        "duty": 1390
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-6625651-4",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-6625651-4",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-08-20"
+     },
+     {
+      "entry": "MH3-6625651-4",
+      "check": "flags are quoted next to this entry",
+      "ok": true,
+      "detail": "surety_paid_ieepa / quote: MH3-6625651-4 01 10/10/2025 Liquidated 08/20/2026 5,365.42 5,187.50 | Note: Duties incl. I"
+     },
+     {
+      "entry": "MH3-6625651-4",
+      "check": "IEEPA duty 9903.02.26 $3,797.50 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-6625651-4",
+      "check": "IEEPA duty 9903.02.26 $1,390.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-6625651-4",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $5,365.42 vs printed $5,365.42"
+     },
+     {
+      "entry": "MH3-6625651-4",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-6625651-4",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-3443941-7",
+    "route": "CAPE_NOW",
+    "label": "File in CAPE now",
+    "bucket": "file_now",
+    "ieepa_duty": 4190.0,
+    "refund_amount": 4190.0,
+    "deadline": null,
+    "days_left": null,
+    "urgent": false,
+    "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+    "flags": [],
+    "in_cape_csv": true,
+    "days_since_liquidation": null,
+    "entry_type": "01",
+    "entry_date": "2026-01-02",
+    "liquidation_status": "unliquidated",
+    "liquidation_date": null,
+    "evidence": {
+     "entry": "MH3-3443941-7 01 ABI",
+     "liquidation": "MH3-3443941-7 01 01/02/2026 Open - 5,447.00 4,190.00",
+     "flags": null,
+     "ieepa_statement": "MH3-3443941-7 01 01/02/2026 Open - 5,447.00 4,190.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p7",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Glass storage jars",
+      "hts": [
+       {
+        "code": "7013.49.6000",
+        "entered_value": 11280,
+        "rate": 0.06,
+        "duty": 676.8
+       },
+       {
+        "code": "9903.02.69",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 2256
+       }
+      ]
+     },
+     {
+      "line_no": "002",
+      "description": "Stoneware dinner plates",
+      "hts": [
+       {
+        "code": "6912.00.4400",
+        "entered_value": 9670,
+        "rate": 0.06,
+        "duty": 580.2
+       },
+       {
+        "code": "9903.02.69",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 1934
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-3443941-7",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-3443941-7",
+      "check": "'not liquidated' is printed with this entry",
+      "ok": true,
+      "detail": ""
+     },
+     {
+      "entry": "MH3-3443941-7",
+      "check": "IEEPA duty 9903.02.69 $2,256.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-3443941-7",
+      "check": "IEEPA duty 9903.02.69 $1,934.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-3443941-7",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $5,447.00 vs printed $5,447.00"
+     },
+     {
+      "entry": "MH3-3443941-7",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-3443941-7",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-3322302-8",
+    "route": "EXCLUDED_DRAWBACK",
+    "label": "Not via CAPE: drawback",
+    "bucket": "broker",
+    "ieepa_duty": 4053.0,
+    "refund_amount": 4053.0,
+    "deadline": null,
+    "days_left": null,
+    "urgent": false,
+    "reason": "Entries linked to a drawback claim (or type 47) are excluded from CAPE.",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 18,
+    "entry_type": "01",
+    "entry_date": "2025-11-22",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-10-06",
+    "evidence": {
+     "entry": "MH3-3322302-8 01 ABI",
+     "liquidation": "MH3-3322302-8 01 11/22/2025 Liquidated 10/06/2026 11,642.28 4,053.00",
+     "flags": "MH3-3322302-8 01 11/22/2025 Liquidated 10/06/2026 11,642.28 4,053.00 | Note: Drawback claim filed against this entry",
+     "ieepa_statement": "MH3-3322302-8 01 11/22/2025 Liquidated 10/06/2026 11,642.28 4,053.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p8",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Bamboo cutting boards",
+      "hts": [
+       {
+        "code": "4419.11.0000",
+        "entered_value": 13240,
+        "rate": 0.032,
+        "duty": 423.68
+       },
+       {
+        "code": "9903.02.20",
+        "entered_value": null,
+        "rate": 0.15,
+        "duty": 1986
+       }
+      ]
+     },
+     {
+      "line_no": "002",
+      "description": "Steel cookware sets",
+      "hts": [
+       {
+        "code": "7323.93.0045",
+        "entered_value": 13780,
+        "rate": 0.02,
+        "duty": 275.6
+       },
+       {
+        "code": "9903.81.91",
+        "entered_value": null,
+        "rate": 0.5,
+        "duty": 6890
+       },
+       {
+        "code": "9903.02.20",
+        "entered_value": null,
+        "rate": 0.15,
+        "duty": 2067
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-3322302-8",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-3322302-8",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-10-06"
+     },
+     {
+      "entry": "MH3-3322302-8",
+      "check": "flags are quoted next to this entry",
+      "ok": true,
+      "detail": "drawback / quote: MH3-3322302-8 01 11/22/2025 Liquidated 10/06/2026 11,642.28 4,053.00 | Note: Drawback clai"
+     },
+     {
+      "entry": "MH3-3322302-8",
+      "check": "IEEPA duty 9903.02.20 $1,986.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-3322302-8",
+      "check": "IEEPA duty 9903.02.20 $2,067.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-3322302-8",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $11,642.28 vs printed $11,642.28"
+     },
+     {
+      "entry": "MH3-3322302-8",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-3322302-8",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-4117807-5",
+    "route": "CLASS_PENDING",
+    "label": "Class member, refund pending",
+    "bucket": "no_route",
+    "ieepa_duty": 4047.0,
+    "refund_amount": 4047.0,
+    "deadline": null,
+    "days_left": null,
+    "urgent": false,
+    "reason": "Finally liquidated (more than 180 days, no protest). The Court of International Trade certified a class of importers who have not sued (Freestyle World, Oct 8, 2026), but there is no refund order yet, and CAPE Phase 3 is only for importers with their own suit. The class may not cover IEEPA duties on goods from Brazil or India. For a large balance, ask a customs attorney about your own suit (the deadline is about two years after payment, from Feb 2027 at the earliest).",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 207,
+    "entry_type": "01",
+    "entry_date": "2025-05-20",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-03-31",
+    "evidence": {
+     "entry": "MH3-4117807-5 01 ABI",
+     "liquidation": "MH3-4117807-5 01 05/20/2025 Liquidated 03/31/2026 8,818.97 4,047.00",
+     "flags": null,
+     "ieepa_statement": "MH3-4117807-5 01 05/20/2025 Liquidated 03/31/2026 8,818.97 4,047.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p5",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Ceramic vases",
+      "hts": [
+       {
+        "code": "6913.90.5000",
+        "entered_value": 10820,
+        "rate": 0.06,
+        "duty": 649.2
+       },
+       {
+        "code": "9903.88.03",
+        "entered_value": null,
+        "rate": 0.25,
+        "duty": 2705
+       },
+       {
+        "code": "9903.01.24",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 2164
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 1082
+       }
+      ]
+     },
+     {
+      "line_no": "002",
+      "description": "Aluminum baking sheets",
+      "hts": [
+       {
+        "code": "7615.10.7125",
+        "entered_value": 2670,
+        "rate": 0.031,
+        "duty": 82.77
+       },
+       {
+        "code": "9903.88.03",
+        "entered_value": null,
+        "rate": 0.25,
+        "duty": 667.5
+       },
+       {
+        "code": "9903.85.08",
+        "entered_value": null,
+        "rate": 0.25,
+        "duty": 667.5
+       },
+       {
+        "code": "9903.01.24",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 534
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 267
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-4117807-5",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-4117807-5",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-03-31"
+     },
+     {
+      "entry": "MH3-4117807-5",
+      "check": "IEEPA duty 9903.01.24 $2,164.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-4117807-5",
+      "check": "IEEPA duty 9903.01.25 $1,082.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-4117807-5",
+      "check": "IEEPA duty 9903.01.24 $534.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-4117807-5",
+      "check": "IEEPA duty 9903.01.25 $267.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-4117807-5",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $8,818.97 vs printed $8,818.97"
+     },
+     {
+      "entry": "MH3-4117807-5",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-4117807-5",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-1046792-9",
+    "route": "PROTEST_OPEN",
+    "label": "Protest already open",
+    "bucket": "protest",
+    "ieepa_duty": 3390.0,
+    "refund_amount": 3390.0,
+    "deadline": null,
+    "days_left": null,
+    "urgent": false,
+    "reason": "A protest is already open and the entry is past 80 days, so it stays on the protest route. CAPE rejects entries with an open protest.",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 150,
+    "entry_type": "01",
+    "entry_date": "2025-10-06",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-05-27",
+    "evidence": {
+     "entry": "MH3-1046792-9 01 ABI",
+     "liquidation": "MH3-1046792-9 01 10/06/2025 Liquidated 05/27/2026 12,091.00 3,390.00",
+     "flags": "MH3-1046792-9 01 10/06/2025 Liquidated 05/27/2026 12,091.00 3,390.00 | Note: Protest filed 07/26/2026 (IEEPA duties only); status OPEN",
+     "ieepa_statement": "MH3-1046792-9 01 10/06/2025 Liquidated 05/27/2026 12,091.00 3,390.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p.30",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Steel cookware sets",
+      "hts": [
+       {
+        "code": "7323.93.0045",
+        "entered_value": 11300,
+        "rate": 0.02,
+        "duty": 226
+       },
+       {
+        "code": "9903.88.03",
+        "entered_value": null,
+        "rate": 0.25,
+        "duty": 2825
+       },
+       {
+        "code": "9903.81.91",
+        "entered_value": null,
+        "rate": 0.5,
+        "duty": 5650
+       },
+       {
+        "code": "9903.01.24",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 2260
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 1130
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-1046792-9",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-1046792-9",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-05-27"
+     },
+     {
+      "entry": "MH3-1046792-9",
+      "check": "flags are quoted next to this entry",
+      "ok": true,
+      "detail": "open_protest, protest_ieepa_only / quote: MH3-1046792-9 01 10/06/2025 Liquidated 05/27/2026 12,091.00 3,390.00 | Note: Protest filed"
+     },
+     {
+      "entry": "MH3-1046792-9",
+      "check": "IEEPA duty 9903.01.24 $2,260.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-1046792-9",
+      "check": "IEEPA duty 9903.01.25 $1,130.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-1046792-9",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $12,091.00 vs printed $12,091.00"
+     },
+     {
+      "entry": "MH3-1046792-9",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-1046792-9",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-2526883-7",
+    "route": "CLASS_PENDING",
+    "label": "Class member, refund pending",
+    "bucket": "no_route",
+    "ieepa_duty": 3280.0,
+    "refund_amount": 3280.0,
+    "deadline": null,
+    "days_left": null,
+    "urgent": false,
+    "reason": "Finally liquidated (more than 180 days, no protest). The Court of International Trade certified a class of importers who have not sued (Freestyle World, Oct 8, 2026), but there is no refund order yet, and CAPE Phase 3 is only for importers with their own suit. The class may not cover IEEPA duties on goods from Brazil or India. For a large balance, ask a customs attorney about your own suit (the deadline is about two years after payment, from Feb 2027 at the earliest).",
+    "flags": [
+     "amount_from_statement_only"
+    ],
+    "in_cape_csv": false,
+    "days_since_liquidation": 182,
+    "entry_type": "01",
+    "entry_date": "2025-06-11",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-04-25",
+    "evidence": {
+     "entry": "MH3-2526883-7 01 06/11/2025 Liquidated 04/25/2026 3,699.84 3,280.00",
+     "liquidation": "MH3-2526883-7 01 06/11/2025 Liquidated 04/25/2026 3,699.84 3,280.00",
+     "flags": null,
+     "ieepa_statement": "MH3-2526883-7 01 06/11/2025 Liquidated 04/25/2026 3,699.84 3,280.00 | Note: 7501 copy not yet sent to client"
+    },
+    "source_docs": [
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [],
+    "checks": [
+     {
+      "entry": "MH3-2526883-7",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 1 page(s)"
+     },
+     {
+      "entry": "MH3-2526883-7",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-04-25"
+     },
+     {
+      "entry": "MH3-2526883-7",
+      "check": "stated IEEPA amount is printed with this entry",
+      "ok": true,
+      "detail": "$3,280.00"
+     },
+     {
+      "entry": "MH3-2526883-7",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-2526883-7",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-9692647-6",
+    "route": "ASK_BROKER",
+    "label": "Ask your broker",
+    "bucket": "broker",
+    "ieepa_duty": 2824.0,
+    "refund_amount": 2824.0,
+    "deadline": null,
+    "days_left": null,
+    "urgent": false,
+    "reason": "Not in CAPE today: AD/CVD entries (still under evaluation by CBP), warehouse entries (types 21 and 22, rejected since July 7, 2026), temporary importation under bond (type 23), or reconciliation entries (type 09). Ask your broker how CBP is treating it.",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": null,
+    "entry_type": "21",
+    "entry_date": "2025-08-23",
+    "liquidation_status": "unliquidated",
+    "liquidation_date": null,
+    "evidence": {
+     "entry": "MH3-9692647-6 21 ABI | MH3-9692647-6 21 08/23/2025 Open - 2,824.00 2,824.00",
+     "liquidation": "MH3-9692647-6 21 08/23/2025 Open - 2,824.00 2,824.00 | Note: Warehouse entry; withdrawals ongoing",
+     "flags": null,
+     "ieepa_statement": "MH3-9692647-6 21 08/23/2025 Open - 2,824.00 2,824.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Wooden picture frames",
+      "hts": [
+       {
+        "code": "4414.90.0000",
+        "entered_value": 14120,
+        "rate": 0,
+        "duty": 0
+       },
+       {
+        "code": "9903.02.69",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 2824
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-9692647-6",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-9692647-6",
+      "check": "'not liquidated' is printed with this entry",
+      "ok": true,
+      "detail": ""
+     },
+     {
+      "entry": "MH3-9692647-6",
+      "check": "IEEPA duty 9903.02.69 $2,824.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-9692647-6",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $2,824.00 vs printed $2,824.00"
+     },
+     {
+      "entry": "MH3-9692647-6",
+      "check": "entry type 21 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-9692647-6",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-1563732-5",
+    "route": "CLASS_PENDING",
+    "label": "Class member, refund pending",
+    "bucket": "no_route",
+    "ieepa_duty": 2806.0,
+    "refund_amount": 2806.0,
+    "deadline": null,
+    "days_left": null,
+    "urgent": false,
+    "reason": "Finally liquidated (more than 180 days, no protest). The Court of International Trade certified a class of importers who have not sued (Freestyle World, Oct 8, 2026), but there is no refund order yet, and CAPE Phase 3 is only for importers with their own suit. The class may not cover IEEPA duties on goods from Brazil or India. For a large balance, ask a customs attorney about your own suit (the deadline is about two years after payment, from Feb 2027 at the earliest).",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 261,
+    "entry_type": "01",
+    "entry_date": "2025-03-27",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-02-05",
+    "evidence": {
+     "entry": "MH3-1563732-5 01 ABI",
+     "liquidation": "MH3-1563732-5 01 03/27/2025 Liquidated 02/05/2026 7,590.23 2,806.00",
+     "flags": null,
+     "ieepa_statement": "MH3-1563732-5 01 03/27/2025 Liquidated 02/05/2026 7,590.23 2,806.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p.17",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Cotton bath towels",
+      "hts": [
+       {
+        "code": "6302.60.0020",
+        "entered_value": 14030,
+        "rate": 0.091,
+        "duty": 1276.73
+       },
+       {
+        "code": "9903.88.03",
+        "entered_value": null,
+        "rate": 0.25,
+        "duty": 3507.5
+       },
+       {
+        "code": "9903.01.24",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 2806
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-1563732-5",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-1563732-5",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-02-05"
+     },
+     {
+      "entry": "MH3-1563732-5",
+      "check": "IEEPA duty 9903.01.24 $2,806.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-1563732-5",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $7,590.23 vs printed $7,590.23"
+     },
+     {
+      "entry": "MH3-1563732-5",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-1563732-5",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-2681042-2",
+    "route": "CAPE_NOW",
+    "label": "File in CAPE now",
+    "bucket": "file_now",
+    "ieepa_duty": 2258.0,
+    "refund_amount": 2258.0,
+    "deadline": null,
+    "days_left": null,
+    "urgent": false,
+    "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+    "flags": [],
+    "in_cape_csv": true,
+    "days_since_liquidation": null,
+    "entry_type": "01",
+    "entry_date": "2025-12-19",
+    "liquidation_status": "unliquidated",
+    "liquidation_date": null,
+    "evidence": {
+     "entry": "MH3-2681042-2 01 ABI",
+     "liquidation": "MH3-2681042-2 01 12/19/2025 Open - 2,698.31 2,258.00",
+     "flags": null,
+     "ieepa_statement": "MH3-2681042-2 01 12/19/2025 Open - 2,698.31 2,258.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p.35",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "LED table lamps",
+      "hts": [
+       {
+        "code": "9405.21.8000",
+        "entered_value": 11290,
+        "rate": 0.039,
+        "duty": 440.31
+       },
+       {
+        "code": "9903.01.24",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 1129
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 1129
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-2681042-2",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-2681042-2",
+      "check": "'not liquidated' is printed with this entry",
+      "ok": true,
+      "detail": ""
+     },
+     {
+      "entry": "MH3-2681042-2",
+      "check": "IEEPA duty 9903.01.24 $1,129.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-2681042-2",
+      "check": "IEEPA duty 9903.01.25 $1,129.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-2681042-2",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $2,698.31 vs printed $2,698.31"
+     },
+     {
+      "entry": "MH3-2681042-2",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-2681042-2",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-4595406-7",
+    "route": "CLASS_PENDING",
+    "label": "Class member, refund pending",
+    "bucket": "no_route",
+    "ieepa_duty": 1947.5,
+    "refund_amount": 1947.5,
+    "deadline": null,
+    "days_left": null,
+    "urgent": false,
+    "reason": "Finally liquidated (more than 180 days, no protest). The Court of International Trade certified a class of importers who have not sued (Freestyle World, Oct 8, 2026), but there is no refund order yet, and CAPE Phase 3 is only for importers with their own suit. The class may not cover IEEPA duties on goods from Brazil or India. For a large balance, ask a customs attorney about your own suit (the deadline is about two years after payment, from Feb 2027 at the earliest).",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 198,
+    "entry_type": "01",
+    "entry_date": "2025-05-27",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-04-09",
+    "evidence": {
+     "entry": "MH3-4595406-7 01 ABI",
+     "liquidation": "MH3-4595406-7 01 05/27/2025 Liquidated 04/09/2026 3,618.61 1,947.50",
+     "flags": null,
+     "ieepa_statement": "MH3-4595406-7 01 05/27/2025 Liquidated 04/09/2026 3,618.61 1,947.50"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p.42",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Aluminum baking sheets",
+      "hts": [
+       {
+        "code": "7615.10.7125",
+        "entered_value": 5650,
+        "rate": 0.031,
+        "duty": 175.15
+       },
+       {
+        "code": "9903.85.08",
+        "entered_value": null,
+        "rate": 0.25,
+        "duty": 1412.5
+       },
+       {
+        "code": "9903.01.01",
+        "entered_value": null,
+        "rate": 0.25,
+        "duty": 1412.5
+       }
+      ]
+     },
+     {
+      "line_no": "002",
+      "description": "LED table lamps",
+      "hts": [
+       {
+        "code": "9405.21.8000",
+        "entered_value": 2140,
+        "rate": 0.039,
+        "duty": 83.46
+       },
+       {
+        "code": "9903.01.01",
+        "entered_value": null,
+        "rate": 0.25,
+        "duty": 535
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-4595406-7",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-4595406-7",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-04-09"
+     },
+     {
+      "entry": "MH3-4595406-7",
+      "check": "IEEPA duty 9903.01.01 $1,412.50 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-4595406-7",
+      "check": "IEEPA duty 9903.01.01 $535.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-4595406-7",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $3,618.61 vs printed $3,618.61"
+     },
+     {
+      "entry": "MH3-4595406-7",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-4595406-7",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-4095525-2",
+    "route": "CLASS_PENDING",
+    "label": "Class member, refund pending",
+    "bucket": "no_route",
+    "ieepa_duty": 1838.0,
+    "refund_amount": 1838.0,
+    "deadline": null,
+    "days_left": null,
+    "urgent": false,
+    "reason": "Finally liquidated (more than 180 days, no protest). The Court of International Trade certified a class of importers who have not sued (Freestyle World, Oct 8, 2026), but there is no refund order yet, and CAPE Phase 3 is only for importers with their own suit. The class may not cover IEEPA duties on goods from Brazil or India. For a large balance, ask a customs attorney about your own suit (the deadline is about two years after payment, from Feb 2027 at the earliest).",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 259,
+    "entry_type": "01",
+    "entry_date": "2025-03-28",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-02-07",
+    "evidence": {
+     "entry": "MH3-4095525-2 01 ABI",
+     "liquidation": "MH3-4095525-2 01 03/28/2025 Liquidated 02/07/2026 4,429.58 1,838.00",
+     "flags": null,
+     "ieepa_statement": "MH3-4095525-2 01 03/28/2025 Liquidated 02/07/2026 4,429.58 1,838.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p.22",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Bamboo cutting boards",
+      "hts": [
+       {
+        "code": "4419.11.0000",
+        "entered_value": 9190,
+        "rate": 0.032,
+        "duty": 294.08
+       },
+       {
+        "code": "9903.88.03",
+        "entered_value": null,
+        "rate": 0.25,
+        "duty": 2297.5
+       },
+       {
+        "code": "9903.01.24",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 1838
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-4095525-2",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-4095525-2",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-02-07"
+     },
+     {
+      "entry": "MH3-4095525-2",
+      "check": "IEEPA duty 9903.01.24 $1,838.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-4095525-2",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $4,429.58 vs printed $4,429.58"
+     },
+     {
+      "entry": "MH3-4095525-2",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-4095525-2",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-7719597-5",
+    "route": "CAPE_NOW",
+    "label": "File in CAPE now",
+    "bucket": "file_now",
+    "ieepa_duty": 1735.5,
+    "refund_amount": 1735.5,
+    "deadline": null,
+    "days_left": null,
+    "urgent": false,
+    "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+    "flags": [],
+    "in_cape_csv": true,
+    "days_since_liquidation": null,
+    "entry_type": "01",
+    "entry_date": "2026-01-17",
+    "liquidation_status": "unliquidated",
+    "liquidation_date": null,
+    "evidence": {
+     "entry": "MH3-7719597-5 01 ABI",
+     "liquidation": "MH3-7719597-5 01 01/17/2026 Open - 6,302.10 1,735.50",
+     "flags": null,
+     "ieepa_statement": "MH3-7719597-5 01 01/17/2026 Open - 6,302.10 1,735.50"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p9",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Wooden picture frames",
+      "hts": [
+       {
+        "code": "4414.90.0000",
+        "entered_value": 2970,
+        "rate": 0,
+        "duty": 0
+       },
+       {
+        "code": "9903.02.20",
+        "entered_value": null,
+        "rate": 0.15,
+        "duty": 445.5
+       }
+      ]
+     },
+     {
+      "line_no": "002",
+      "description": "Aluminum baking sheets",
+      "hts": [
+       {
+        "code": "7615.10.7125",
+        "entered_value": 8600,
+        "rate": 0.031,
+        "duty": 266.6
+       },
+       {
+        "code": "9903.85.08",
+        "entered_value": null,
+        "rate": 0.5,
+        "duty": 4300
+       },
+       {
+        "code": "9903.02.20",
+        "entered_value": null,
+        "rate": 0.15,
+        "duty": 1290
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-7719597-5",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-7719597-5",
+      "check": "'not liquidated' is printed with this entry",
+      "ok": true,
+      "detail": ""
+     },
+     {
+      "entry": "MH3-7719597-5",
+      "check": "IEEPA duty 9903.02.20 $445.50 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-7719597-5",
+      "check": "IEEPA duty 9903.02.20 $1,290.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-7719597-5",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $6,302.10 vs printed $6,302.10"
+     },
+     {
+      "entry": "MH3-7719597-5",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-7719597-5",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-3613699-1",
+    "route": "CLASS_PENDING",
+    "label": "Class member, refund pending",
+    "bucket": "no_route",
+    "ieepa_duty": 1380.0,
+    "refund_amount": 1380.0,
+    "deadline": null,
+    "days_left": null,
+    "urgent": false,
+    "reason": "Finally liquidated (more than 180 days, no protest). The Court of International Trade certified a class of importers who have not sued (Freestyle World, Oct 8, 2026), but there is no refund order yet, and CAPE Phase 3 is only for importers with their own suit. The class may not cover IEEPA duties on goods from Brazil or India. For a large balance, ask a customs attorney about your own suit (the deadline is about two years after payment, from Feb 2027 at the earliest).",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 200,
+    "entry_type": "01",
+    "entry_date": "2025-05-24",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-04-07",
+    "evidence": {
+     "entry": "MH3-3613699-1 01 ABI",
+     "liquidation": "MH3-3613699-1 01 05/24/2025 Liquidated 04/07/2026 1,634.15 1,380.00",
+     "flags": null,
+     "ieepa_statement": "MH3-3613699-1 01 05/24/2025 Liquidated 04/07/2026 1,634.15 1,380.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p.23",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Polyester throw blankets",
+      "hts": [
+       {
+        "code": "6301.40.0020",
+        "entered_value": 2990,
+        "rate": 0.085,
+        "duty": 254.15
+       },
+       {
+        "code": "9903.01.01",
+        "entered_value": null,
+        "rate": 0.25,
+        "duty": 747.5
+       }
+      ]
+     },
+     {
+      "line_no": "002",
+      "description": "Wooden picture frames",
+      "hts": [
+       {
+        "code": "4414.90.0000",
+        "entered_value": 2530,
+        "rate": 0,
+        "duty": 0
+       },
+       {
+        "code": "9903.01.01",
+        "entered_value": null,
+        "rate": 0.25,
+        "duty": 632.5
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-3613699-1",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-3613699-1",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-04-07"
+     },
+     {
+      "entry": "MH3-3613699-1",
+      "check": "IEEPA duty 9903.01.01 $747.50 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-3613699-1",
+      "check": "IEEPA duty 9903.01.01 $632.50 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-3613699-1",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $1,634.15 vs printed $1,634.15"
+     },
+     {
+      "entry": "MH3-3613699-1",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-3613699-1",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-6032881-1",
+    "route": "CAPE_NOW",
+    "label": "File in CAPE now",
+    "bucket": "file_now",
+    "ieepa_duty": 1166.0,
+    "refund_amount": 1166.0,
+    "deadline": null,
+    "days_left": null,
+    "urgent": false,
+    "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+    "flags": [],
+    "in_cape_csv": true,
+    "days_since_liquidation": null,
+    "entry_type": "01",
+    "entry_date": "2026-01-27",
+    "liquidation_status": "unliquidated",
+    "liquidation_date": null,
+    "evidence": {
+     "entry": "MH3-6032881-1 01 ABI",
+     "liquidation": "MH3-6032881-1 01 01/27/2026 Open - 4,261.73 1,166.00",
+     "flags": null,
+     "ieepa_statement": "MH3-6032881-1 01 01/27/2026 Open - 4,261.73 1,166.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p.36",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Aluminum baking sheets",
+      "hts": [
+       {
+        "code": "7615.10.7125",
+        "entered_value": 5830,
+        "rate": 0.031,
+        "duty": 180.73
+       },
+       {
+        "code": "9903.85.08",
+        "entered_value": null,
+        "rate": 0.5,
+        "duty": 2915
+       },
+       {
+        "code": "9903.02.61",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 1166
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-6032881-1",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-6032881-1",
+      "check": "'not liquidated' is printed with this entry",
+      "ok": true,
+      "detail": ""
+     },
+     {
+      "entry": "MH3-6032881-1",
+      "check": "IEEPA duty 9903.02.61 $1,166.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-6032881-1",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $4,261.73 vs printed $4,261.73"
+     },
+     {
+      "entry": "MH3-6032881-1",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-6032881-1",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-9662859-1",
+    "route": "CLASS_PENDING",
+    "label": "Class member, refund pending",
+    "bucket": "no_route",
+    "ieepa_duty": 845.0,
+    "refund_amount": 845.0,
+    "deadline": null,
+    "days_left": null,
+    "urgent": false,
+    "reason": "Finally liquidated (more than 180 days, no protest). The Court of International Trade certified a class of importers who have not sued (Freestyle World, Oct 8, 2026), but there is no refund order yet, and CAPE Phase 3 is only for importers with their own suit. The class may not cover IEEPA duties on goods from Brazil or India. For a large balance, ask a customs attorney about your own suit (the deadline is about two years after payment, from Feb 2027 at the earliest).",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 181,
+    "entry_type": "01",
+    "entry_date": "2025-06-16",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-04-26",
+    "evidence": {
+     "entry": "MH3-9662859-1 01 ABI",
+     "liquidation": "MH3-9662859-1 01 06/16/2025 Liquidated 04/26/2026 1,115.40 845.00",
+     "flags": null,
+     "ieepa_statement": "MH3-9662859-1 01 06/16/2025 Liquidated 04/26/2026 1,115.40 845.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p.20",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Bamboo cutting boards",
+      "hts": [
+       {
+        "code": "4419.11.0000",
+        "entered_value": 8450,
+        "rate": 0.032,
+        "duty": 270.4
+       },
+       {
+        "code": "9903.01.25",
+        "entered_value": null,
+        "rate": 0.1,
+        "duty": 845
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-9662859-1",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-9662859-1",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-04-26"
+     },
+     {
+      "entry": "MH3-9662859-1",
+      "check": "IEEPA duty 9903.01.25 $845.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-9662859-1",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $1,115.40 vs printed $1,115.40"
+     },
+     {
+      "entry": "MH3-9662859-1",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-9662859-1",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-9578758-7",
+    "route": "CAPE_NOW",
+    "label": "File in CAPE now",
+    "bucket": "file_now",
+    "ieepa_duty": 795.0,
+    "refund_amount": 795.0,
+    "deadline": null,
+    "days_left": null,
+    "urgent": false,
+    "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+    "flags": [],
+    "in_cape_csv": true,
+    "days_since_liquidation": null,
+    "entry_type": "01",
+    "entry_date": "2026-01-23",
+    "liquidation_status": "unliquidated",
+    "liquidation_date": null,
+    "evidence": {
+     "entry": "MH3-9578758-7 01 ABI",
+     "liquidation": "MH3-9578758-7 01 01/23/2026 Open - 795.00 795.00",
+     "flags": null,
+     "ieepa_statement": "MH3-9578758-7 01 01/23/2026 Open - 795.00 795.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p.45",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Wool area rugs",
+      "hts": [
+       {
+        "code": "5701.10.9000",
+        "entered_value": 5300,
+        "rate": 0,
+        "duty": 0
+       },
+       {
+        "code": "9903.02.20",
+        "entered_value": null,
+        "rate": 0.15,
+        "duty": 795
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-9578758-7",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-9578758-7",
+      "check": "'not liquidated' is printed with this entry",
+      "ok": true,
+      "detail": ""
+     },
+     {
+      "entry": "MH3-9578758-7",
+      "check": "IEEPA duty 9903.02.20 $795.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-9578758-7",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $795.00 vs printed $795.00"
+     },
+     {
+      "entry": "MH3-9578758-7",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-9578758-7",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-9465174-6",
+    "route": "CAPE_NOW",
+    "label": "File in CAPE now",
+    "bucket": "file_now",
+    "ieepa_duty": 430.0,
+    "refund_amount": 430.0,
+    "deadline": null,
+    "days_left": null,
+    "urgent": false,
+    "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+    "flags": [],
+    "in_cape_csv": true,
+    "days_since_liquidation": null,
+    "entry_type": "01",
+    "entry_date": "2026-01-22",
+    "liquidation_status": "unliquidated",
+    "liquidation_date": null,
+    "evidence": {
+     "entry": "MH3-9465174-6 01 ABI",
+     "liquidation": "MH3-9465174-6 01 01/22/2026 Open - 513.85 430.00",
+     "flags": null,
+     "ieepa_statement": "MH3-9465174-6 01 01/22/2026 Open - 513.85 430.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p.18",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "LED table lamps",
+      "hts": [
+       {
+        "code": "9405.21.8000",
+        "entered_value": 2150,
+        "rate": 0.039,
+        "duty": 83.85
+       },
+       {
+        "code": "9903.02.69",
+        "entered_value": null,
+        "rate": 0.2,
+        "duty": 430
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-9465174-6",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-9465174-6",
+      "check": "'not liquidated' is printed with this entry",
+      "ok": true,
+      "detail": ""
+     },
+     {
+      "entry": "MH3-9465174-6",
+      "check": "IEEPA duty 9903.02.69 $430.00 printed and adds up",
+      "ok": true,
+      "detail": "printed=True, value x rate ok=True"
+     },
+     {
+      "entry": "MH3-9465174-6",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $513.85 vs printed $513.85"
+     },
+     {
+      "entry": "MH3-9465174-6",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-9465174-6",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-9429817-2",
+    "route": "NO_IEEPA",
+    "label": "Nothing to refund",
+    "bucket": "not_refundable",
+    "ieepa_duty": 0.0,
+    "refund_amount": 0.0,
+    "deadline": null,
+    "days_left": null,
+    "urgent": false,
+    "reason": "No IEEPA duty was paid on this entry (Section 301 and 232 duties are not part of this refund).",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 284,
+    "entry_type": "01",
+    "entry_date": "2025-03-04",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-01-13",
+    "evidence": {
+     "entry": "MH3-9429817-2 01 ABI",
+     "liquidation": "MH3-9429817-2 01 03/04/2025 Liquidated 01/13/2026 843.60 0.00",
+     "flags": null,
+     "ieepa_statement": "MH3-9429817-2 01 03/04/2025 Liquidated 01/13/2026 843.60 0.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p3",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Glass storage jars",
+      "hts": [
+       {
+        "code": "7013.49.6000",
+        "entered_value": 14060,
+        "rate": 0.06,
+        "duty": 843.6
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-9429817-2",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-9429817-2",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-01-13"
+     },
+     {
+      "entry": "MH3-9429817-2",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $843.60 vs printed $843.60"
+     },
+     {
+      "entry": "MH3-9429817-2",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-9429817-2",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-7756834-7",
+    "route": "NO_IEEPA",
+    "label": "Nothing to refund",
+    "bucket": "not_refundable",
+    "ieepa_duty": 0.0,
+    "refund_amount": 0.0,
+    "deadline": null,
+    "days_left": null,
+    "urgent": false,
+    "reason": "No IEEPA duty was paid on this entry (Section 301 and 232 duties are not part of this refund).",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 286,
+    "entry_type": "01",
+    "entry_date": "2025-02-27",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-01-11",
+    "evidence": {
+     "entry": "MH3-7756834-7 01 ABI",
+     "liquidation": "MH3-7756834-7 01 02/27/2025 Liquidated 01/11/2026 474.00 0.00",
+     "flags": null,
+     "ieepa_statement": "MH3-7756834-7 01 02/27/2025 Liquidated 01/11/2026 474.00 0.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p.13",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Stoneware dinner plates",
+      "hts": [
+       {
+        "code": "6912.00.4400",
+        "entered_value": 7900,
+        "rate": 0.06,
+        "duty": 474
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-7756834-7",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-7756834-7",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-01-11"
+     },
+     {
+      "entry": "MH3-7756834-7",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $474.00 vs printed $474.00"
+     },
+     {
+      "entry": "MH3-7756834-7",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-7756834-7",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-5108360-1",
+    "route": "NO_IEEPA",
+    "label": "Nothing to refund",
+    "bucket": "not_refundable",
+    "ieepa_duty": 0.0,
+    "refund_amount": 0.0,
+    "deadline": null,
+    "days_left": null,
+    "urgent": false,
+    "reason": "No IEEPA duty was paid on this entry (Section 301 and 232 duties are not part of this refund).",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 296,
+    "entry_type": "01",
+    "entry_date": "2025-02-20",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-01-01",
+    "evidence": {
+     "entry": "MH3-5108360-1 01 ABI",
+     "liquidation": "MH3-5108360-1 01 02/20/2025 Liquidated 01/01/2026 404.16 0.00",
+     "flags": null,
+     "ieepa_statement": "MH3-5108360-1 01 02/20/2025 Liquidated 01/01/2026 404.16 0.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p.37",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Bamboo cutting boards",
+      "hts": [
+       {
+        "code": "4419.11.0000",
+        "entered_value": 12630,
+        "rate": 0.032,
+        "duty": 404.16
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-5108360-1",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-5108360-1",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-01-01"
+     },
+     {
+      "entry": "MH3-5108360-1",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $404.16 vs printed $404.16"
+     },
+     {
+      "entry": "MH3-5108360-1",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-5108360-1",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-1540944-9",
+    "route": "NO_IEEPA",
+    "label": "Nothing to refund",
+    "bucket": "not_refundable",
+    "ieepa_duty": 0.0,
+    "refund_amount": 0.0,
+    "deadline": null,
+    "days_left": null,
+    "urgent": false,
+    "reason": "No IEEPA duty was paid on this entry (Section 301 and 232 duties are not part of this refund).",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 263,
+    "entry_type": "01",
+    "entry_date": "2025-03-24",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2026-02-03",
+    "evidence": {
+     "entry": "MH3-1540944-9 01 ABI",
+     "liquidation": "MH3-1540944-9 01 03/24/2025 Liquidated 02/03/2026 0.00 0.00",
+     "flags": null,
+     "ieepa_statement": "MH3-1540944-9 01 03/24/2025 Liquidated 02/03/2026 0.00 0.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p.41",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Stainless flatware",
+      "hts": [
+       {
+        "code": "8215.20.0000",
+        "entered_value": 10210,
+        "rate": 0,
+        "duty": 0
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-1540944-9",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-1540944-9",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2026-02-03"
+     },
+     {
+      "entry": "MH3-1540944-9",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $0.00 vs printed $0.00"
+     },
+     {
+      "entry": "MH3-1540944-9",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-1540944-9",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-0401187-3",
+    "route": "NO_IEEPA",
+    "label": "Nothing to refund",
+    "bucket": "not_refundable",
+    "ieepa_duty": 0.0,
+    "refund_amount": 0.0,
+    "deadline": null,
+    "days_left": null,
+    "urgent": false,
+    "reason": "No IEEPA duty was paid on this entry (Section 301 and 232 duties are not part of this refund).",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 332,
+    "entry_type": "01",
+    "entry_date": "2025-01-14",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2025-11-26",
+    "evidence": {
+     "entry": "MH3-0401187-3 01 ABI",
+     "liquidation": "MH3-0401187-3 01 01/14/2025 Liquidated 11/26/2025 4,968.00 0.00",
+     "flags": null,
+     "ieepa_statement": "MH3-0401187-3 01 01/14/2025 Liquidated 11/26/2025 4,968.00 0.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p.46",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Steel cookware sets",
+      "hts": [
+       {
+        "code": "7323.93.0045",
+        "entered_value": 18400,
+        "rate": 0.02,
+        "duty": 368
+       },
+       {
+        "code": "9903.88.03",
+        "entered_value": null,
+        "rate": 0.25,
+        "duty": 4600
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-0401187-3",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-0401187-3",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2025-11-26"
+     },
+     {
+      "entry": "MH3-0401187-3",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $4,968.00 vs printed $4,968.00"
+     },
+     {
+      "entry": "MH3-0401187-3",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-0401187-3",
+    "repaired": false
+   },
+   {
+    "entry_number": "MH3-0411187-4",
+    "route": "NO_IEEPA",
+    "label": "Nothing to refund",
+    "bucket": "not_refundable",
+    "ieepa_duty": 0.0,
+    "refund_amount": 0.0,
+    "deadline": null,
+    "days_left": null,
+    "urgent": false,
+    "reason": "No IEEPA duty was paid on this entry (Section 301 and 232 duties are not part of this refund).",
+    "flags": [],
+    "in_cape_csv": false,
+    "days_since_liquidation": 318,
+    "entry_type": "01",
+    "entry_date": "2025-01-28",
+    "liquidation_status": "liquidated",
+    "liquidation_date": "2025-12-10",
+    "evidence": {
+     "entry": "MH3-0411187-4 01 ABI",
+     "liquidation": "MH3-0411187-4 01 01/28/2025 Liquidated 12/10/2025 5,589.00 0.00",
+     "flags": null,
+     "ieepa_statement": "MH3-0411187-4 01 01/28/2025 Liquidated 12/10/2025 5,589.00 0.00"
+    },
+    "source_docs": [
+     "1_cbp7501_entry_summaries.pdf p.47",
+     "2_broker_duty_statement.pdf"
+    ],
+    "lines": [
+     {
+      "line_no": "001",
+      "description": "Steel cookware sets",
+      "hts": [
+       {
+        "code": "7323.93.0045",
+        "entered_value": 20700,
+        "rate": 0.02,
+        "duty": 414
+       },
+       {
+        "code": "9903.88.03",
+        "entered_value": null,
+        "rate": 0.25,
+        "duty": 5175
+       }
+      ]
+     }
+    ],
+    "checks": [
+     {
+      "entry": "MH3-0411187-4",
+      "check": "entry number is in the documents",
+      "ok": true,
+      "detail": "found on 2 page(s)"
+     },
+     {
+      "entry": "MH3-0411187-4",
+      "check": "liquidation date is printed with this entry",
+      "ok": true,
+      "detail": "2025-12-10"
+     },
+     {
+      "entry": "MH3-0411187-4",
+      "check": "duty lines add up to the 7501 duty total",
+      "ok": true,
+      "detail": "lines $5,589.00 vs printed $5,589.00"
+     },
+     {
+      "entry": "MH3-0411187-4",
+      "check": "entry type 01 is printed next to this entry",
+      "ok": true,
+      "detail": ""
+     }
+    ],
+    "missed_signs": [],
+    "printed_entry_number": "MH3-0411187-4",
+    "repaired": false
+   }
+  ],
+  "plan": {
+   "headline": "Meridian Home Goods: 48 entries reviewed, and 7 (about $21,024.00) have deadlines within days. Start with those.",
+   "steps": [
+    {
+     "title": "Act today on 3 entries due Oct 24, 2026",
+     "detail": "These results are as of Oct 24, 2026, so call your broker right away to confirm these can still be filed. One goes in CAPE (CBP's refund portal for IEEPA duties). The other two need a protest (a formal request to CBP to correct an entry).",
+     "deadline": "2026-10-24",
+     "entries": []
+    },
+    {
+     "title": "File 2 CAPE claims due Oct 25, 2026",
+     "detail": "These entries appear eligible for CAPE and the deadline is the next day.",
+     "deadline": "2026-10-25",
+     "entries": []
+    },
+    {
+     "title": "File a protest by Oct 26, 2026",
+     "detail": "CAPE will reject this entry because it was liquidated (CBP's final calculation of duties) more than 80 days ago. It is still inside the 180-day protest window.",
+     "deadline": "2026-10-26",
+     "entries": []
+    },
+    {
+     "title": "File a protest by Oct 30, 2026",
+     "detail": "This entry is past CAPE's 80-day limit but still inside the protest window.",
+     "deadline": "2026-10-30",
+     "entries": []
+    },
+    {
+     "title": "File 4 more protests between Nov 6 and Nov 26, 2026",
+     "detail": "These are all past CAPE's 80-day limit but still inside the protest window. The first deadline is Nov 6, 2026.",
+     "deadline": "2026-11-06",
+     "entries": []
+    },
+    {
+     "title": "Withdraw one protest, then file in CAPE by Dec 3, 2026",
+     "detail": "This entry's protest was filed only for the IEEPA refund. It can be withdrawn so the entry can go into CAPE while it is still within 80 days of liquidation.",
+     "deadline": "2026-12-03",
+     "entries": []
+    },
+    {
+     "title": "Fix one entry, then file in CAPE by Dec 10, 2026",
+     "detail": "A goods value is reported on a Chapter 99 line, and CAPE rejects the entry until your broker moves it to the Chapter 1-97 line.",
+     "deadline": "2026-12-10",
+     "entries": []
+    },
+    {
+     "title": "File in CAPE by Dec 23, 2026",
+     "detail": "This entry appears eligible for CAPE now.",
+     "deadline": "2026-12-23",
+     "entries": []
+    },
+    {
+     "title": "File a protest by Dec 24, 2026",
+     "detail": "This entry is past CAPE's 80-day limit but still inside the protest window.",
+     "deadline": "2026-12-24",
+     "entries": []
+    },
+    {
+     "title": "File 5 protests between Jan 9 and Jan 31, 2027",
+     "detail": "These are past CAPE's 80-day limit but still inside the protest window. Your broker can file them with the earlier protests.",
+     "deadline": "2027-01-09",
+     "entries": []
+    },
+    {
+     "title": "File 2 CAPE claims by Jan 10 and Jan 11, 2027",
+     "detail": "These entries appear eligible for CAPE. Filing them early with your other CAPE claims is simpler.",
+     "deadline": "2027-01-10",
+     "entries": []
+    },
+    {
+     "title": "File 7 more CAPE claims with no deadline given",
+     "detail": "These appear eligible for CAPE now. Your CAPE file lists 14 entries worth $58,592.50 in total, including the CAPE entries above.",
+     "deadline": null,
+     "entries": []
+    },
+    {
+     "title": "File one entry in CAPE Phase 2",
+     "detail": "This entry is flagged for reconciliation (a later duty adjustment) with no type 09 filed yet. It appears covered by CAPE Phase 2, open since Jun 29, 2026.",
+     "deadline": null,
+     "entries": []
+    },
+    {
+     "title": "Talk to your broker about 4 entries that don't fit CAPE",
+     "detail": "Two may be AD/CVD, warehouse, bonded or reconciliation entries, so ask how CBP is treating them. One was paid by a surety (a bond company), and CBP says not to file those in CAPE. One is tied to a drawback claim, which is excluded from CAPE. Together these four are $19,795.50.",
+     "deadline": null,
+     "entries": []
+    },
+    {
+     "title": "Leave one open protest where it is",
+     "detail": "A protest is already open and the entry is past 80 days. It stays on the protest route, and CAPE rejects entries with an open protest.",
+     "deadline": null,
+     "entries": []
+    },
+    {
+     "title": "Wait on 7 finally liquidated entries (court class action)",
+     "detail": "These entries can't use CAPE or a protest. A court certified a class of importers who haven't sued (Freestyle World, Oct 8, 2026), but there is no refund order yet. The class may not cover goods from Brazil or India. For a large balance, ask a customs attorney about your own suit. These total $16,143.50, and MH3-2526883-7's amount comes from a statement only, so have your broker check it.",
+     "deadline": null,
+     "entries": []
+    },
+    {
+     "title": "Nothing to do on 6 entries",
+     "detail": "No IEEPA duty was paid on these, so there's nothing to refund. Section 301 and 232 duties aren't part of this refund. This is not legal advice, and entries only \"appear eligible\", so confirm everything with your broker.",
+     "deadline": null,
+     "entries": [
+      "MH3-9429817-2",
+      "MH3-7756834-7",
+      "MH3-5108360-1",
+      "MH3-1540944-9",
+      "MH3-0401187-3",
+      "MH3-0411187-4"
+     ]
+    }
+   ],
+   "broker_email_subject": "URGENT: IEEPA refund filings for Meridian Home Goods, deadlines Oct 24-30, 2026",
+   "broker_email_body": "Hi,\n\nWe ran our entries through a refund check as of Oct 24, 2026. Several deadlines are right now, so I need your help today.\n\nDeadline Oct 24, 2026. Please confirm these can still be filed:\n- MH3-7844589-8 (CAPE, $6,450.00)\n- MH3-8879176-4 (protest, $1,963.00)\n- MH3-8887739-0 (protest, $1,255.00)\n\nDeadline Oct 25, 2026 (CAPE):\n- MH3-4166789-8 ($5,643.00)\n- MH3-8623443-3 ($1,365.00)\n\nProtests due soon:\n- MH3-5093576-0 by Oct 26, 2026 ($1,796.00)\n- MH3-9708001-4 by Oct 30, 2026 ($2,552.00)\n- Four more protests are due between Nov 6 and Nov 26, 2026: MH3-1610153-4, MH3-1945236-0, MH3-5335406-1 and MH3-6829430-9.\n\nOther items I need your help with:\n1. MH3-5397498-2 ($2,610.00): please withdraw the protest so it can go in CAPE, by Dec 3, 2026.\n2. MH3-9005801-3 ($1,474.50): a goods value is on a Chapter 99 line, and CAPE will reject it until it is moved to the Chapter 1-97 line. Please fix it by Dec 10, 2026.\n3. MH3-6191079-5 ($7,731.00) and MH3-9692647-6 ($2,824.00) are not in CAPE today. How is CBP treating them?\n4. MH3-6625651-4 (surety paid) and MH3-3322302-8 (drawback) are not eligible for CAPE. Is there another route?\n5. MH3-2222500-3 ($8,096.00) looks covered by CAPE Phase 2. Can you confirm and file it?\n6. MH3-2526883-7: the amount comes from a statement only. Can you verify it?\n\nI can send a CSV of the 14 entries that appear eligible for CAPE, $58,592.50 in total. Please also tell me which of the remaining CAPE and protest entries you can file, and how long each will take.\n\n\n\nThanks,\nMeridian Home Goods Co."
+  },
+  "plan_removed_sentences": [
+   "I understand these entries only appear eligible and nothing is guaranteed."
+  ],
+  "checker": {
+   "issues": [
+    {
+     "entry_number": "MH3-6191079-5",
+     "kind": "wrong_liquidation",
+     "detail": "The extraction gives the liquidation status as 'unknown'. The broker statement lists the entry as Liquidated on 04/01/2026. The same statement notes that liquidation is suspended for a pending AD/CVD case, so the two statements conflict. The extraction should record the 04/01/2026 date and flag the conflict. It should not drop the status to 'unknown'.",
+     "quote": "MH3-6191079-5 01 05/22/2025 Liquidated 04/01/2026 13,780.80 7,731.00",
+     "grounded": true
+    },
+    {
+     "entry_number": "MH3-6191079-5",
+     "kind": "conflict",
+     "detail": "The statement says the entry is 'Liquidated' with a date, but the note beneath it says liquidation is suspended. A reviewer should check ACE before treating this entry as final.",
+     "quote": "Note: AD/CVD case pending - liquidation suspended",
+     "grounded": true
+    },
+    {
+     "entry_number": "MH3-9692647-6",
+     "kind": "missed_flag",
+     "detail": "This is a type 21 (warehouse) entry. The 7501 shows entry type 21 and the statement notes ongoing withdrawals. The extraction records type 21 but leaves the flags empty, so the warehouse type 21 flag is missing.",
+     "quote": "MH3-9692647-6 21 08/23/2025 Open - 2,824.00 2,824.00 Note: Warehouse entry; withdrawals ongoing",
+     "grounded": true
+    },
+    {
+     "entry_number": "MH3-2526883-7",
+     "kind": "missing_line",
+     "detail": "The extraction has no Chapter 99 lines for this entry, but it states IEEPA of 3280. There is no 7501 page for the entry, so the stated total can't be checked against line detail. The broker statement says the 7501 copy has not been sent. The extraction should mark the line detail as unavailable and the total as unverified.",
+     "quote": "Note: 7501 copy not yet sent to client",
+     "grounded": true
+    }
+   ],
+   "summary": "I compared the 48 extracted entries against the 47 CBP 7501 pages and the 2-page broker statement. All 48 entry numbers are present. For the entries with 7501 pages, the IEEPA line items sum to the statement totals. The Section 301 and 232 labels (9903.88.03, 9903.81.91, 9903.85.08) look correct. The surety-paid, open-protest (IEEPA only), drawback and reconciliation flags are supported by the statement and 7501s. I found four issues. (1) MH3-6191079-5 is extracted as liquidation 'unknown', but the statement shows it liquidated 04/01/2026, and its own note says liquidation is suspended. (2) That same entry therefore carries a conflict inside the statement that should be surfaced. (3) MH3-9692647-6 is a type 21 warehouse entry with no warehouse flag. (4) MH3-2526883-7 has no 7501, so its IEEPA figure of 3280 comes from the statement only and can't be checked against line detail. One further oddity: MH3-8628656-4 shows a liquidation date of 10/23/2026, which is after the statement's 10/22/2026 prepared date. The extraction matches the statement on this, so I did not list it as an issue."
+  },
+  "screen": {
+   "removed_lines": [],
+   "hidden_chars_dropped": 0,
+   "errors": [],
+   "pages": 49,
+   "unreadable_pages": [],
+   "skipped": [],
+   "incomplete": false
+  },
+  "warnings": [],
+  "reader_notes": [
+   "Part 1 of 6: only the 11 CBP 7501 pages in 1_cbp7501_entry_summaries.pdf were read. None of these pages gives a liquidation status, a protest, surety, drawback, AD/CVD or CIT information, or an IEEPA amount from a broker. Those fields are left at unknown, false or null until the other parts are read.",
+   "The Chapter 99 (9903.xx.xx) rows show no entered value of their own, so entered_value is null for them. Their rates and duty amounts are copied as printed.",
+   "MH3-1945236-0: the printed line duties add up to 19,149.06, but boxes 37 and 40 print 19,148.06, a $1.00 difference. The line amounts are copied as printed.",
+   "MH3-4117807-5 line 002: 9903.85.08 is printed at 25%, while other entries print 9903.85.08 at 50%. It is copied as printed.",
+   "MH3-6820604-6 line 004 (Aluminum baking sheets) has no 9903.88.03 row, while line 002 of the same entry does. It is copied as printed.",
+   "MH3-2222500-3: the reconciliation flag is printed as 'Y (NAFTA/value recon flagged)'.",
+   "No document in this part says whether the importer is a plaintiff at the Court of International Trade, so cit_plaintiff is false and the case and date are null.",
+   "Part 2 of 6 covers only CBP 7501 pages 11-21. No broker statement, liquidation notice, protest, surety, drawback or CIT document is on these pages. So for all 11 entries, liquidation status is 'unknown', there is no stated IEEPA amount, and no flag is true except where noted below.",
+   "MH3-2222500-3 has the reconciliation flag marked 'Y (NAFTA/value recon flagged)' on its 7501, so reconciliation_flag is set to true.",
+   "MH3-9692647-6 is entry type 21. All the other entries are type 01.",
+   "The Chapter 99 (9903.xx.xx) rows show no entered value of their own, so entered_value is null on those rows.",
+   "On MH3-6191079-5 (p.21), line 003 shows 9903.81.91 at 25%. On MH3-8367202-1 and MH3-6829430-9 the same code shows 50%. Each rate is copied as printed.",
+   "Line 004 of MH3-8367202-1 (stoneware plates) has no 9903.88.03 row, while line 001 (same product) does. Copied as printed.",
+   "The duty totals in box 37 match the sum of the line duties on every page.",
+   "Part 3 of 6 covers only CBP Form 7501 pages 21-31, so this extract has 11 entries, all type 01, filed by Lakeshore Customs & Logistics (MH3).",
+   "None of these pages say anything about liquidation, surety payment, protests, drawback, reconciliation or AD/CVD. So liquidation_status is 'unknown' and every flag is false. Other parts of the paperwork may mention these entries and should be merged in.",
+   "No broker statement or email in this part gives an IEEPA amount, so ieepa_duty_statement is null for every entry.",
+   "Nothing in this part says the importer is a plaintiff at the Court of International Trade. cit_plaintiff is false and the case and date fields are null.",
+   "Chapter 99 rows show no entered value of their own, so entered_value is null for those rows. Their rates and duty amounts are copied as printed.",
+   "9903.81.91 is printed at 25% on MH3-6191079-5 but at 50% on MH3-5335406-1 and MH3-1046792-9. Each is copied as printed.",
+   "Part 4 of 6 covers only CBP Form 7501 pages 31\u201341 (11 entries). There are no broker statements, liquidation notices, protests or CIT documents in this part. So every liquidation status is 'unknown', every flag is false, and no IEEPA amounts are filled in. Other parts may change this.",
+   "Only one Chapter 99 row has its own entered value: 9903.02.20 on MH3-9005801-3 (9,830.00). Every other 9903.xx.xx row shows none, so its entered value is null.",
+   "MH3-5108360-1 (MX) and MH3-1540944-9 (VN) have no Chapter 99 rows. MH3-1540944-9 shows total duty of 0.00.",
+   "These pages do not say whether the importer is a plaintiff at the Court of International Trade, so cit_plaintiff is false, with no case or date.",
+   "This is Part 5 of 6 and covers 7501 pages 41-47. None of these pages say anything about liquidation, protests, surety payment, drawback, reconciliation, AD/CVD, IEEPA amounts or the Court of International Trade, so those fields are left as unknown, false or null. Other parts may have this information.",
+   "Chapter 99 rows show no entered value of their own, so entered_value is null for them. Rates and duties are copied as printed.",
+   "MH3-0401187-3 (page 46) and MH3-0411187-4 (page 47) have very similar numbers but are separate entries with different dates and values.",
+   "The printed line duties add up to the box 37 duty total on every page.",
+   "MH3-9578758-7 has an entry date of 01/23/2026 and a summary date of 02/02/2026.",
+   "Part 6 contains only the broker duty statement (2 pages, 48 entries). It shows no HTS line detail, so lines are empty for every entry. Line detail, if any, would be on 7501 pages in other parts.",
+   "For each entry, ieepa_duty_statement is the broker's 'IEEPA (9903.01/.02)' column. The statement says this column leaves out Section 301 and Section 232 duties.",
+   "The statement contradicts itself on MH3-6191079-5. Its row says 'Liquidated 04/01/2026', but the note under it says 'AD/CVD case pending - liquidation suspended'. Because of this, liquidation_status is set to unknown and the date to null. adcvd is set to true based on the note.",
+   "Notes were linked to the entry row right above each one.",
+   "MH3-5397498-2 has a protest filed 10/04/2026 (IEEPA duties only), status OPEN. MH3-1046792-9 has a protest filed 07/26/2026 (IEEPA duties only), status OPEN.",
+   "MH3-6625651-4: surety paid the duties, including IEEPA, after a missed ACH payment, and the surety claim is open.",
+   "MH3-2222500-3 is flagged for reconciliation, and no type 09 has been filed yet. MH3-3322302-8 has a drawback claim filed against it.",
+   "MH3-9692647-6 is a type 21 warehouse entry, listed as Open with withdrawals ongoing. MH3-2526883-7 has a note saying '7501 copy not yet sent to client'. That note isn't one of the flags tracked here.",
+   "Some liquidation dates come before later entries' dates or out of the usual order, for example MH3-1046792-9 and MH3-9005801-3. They were copied exactly as printed.",
+   "Nothing in this part says the importer is a plaintiff at the Court of International Trade, so cit_plaintiff is false and the case details are null."
+  ],
+  "incomplete": false,
+  "files": {
+   "cape_csv": "Entry Number\nMH378445898\nMH341667898\nMH386234433\nMH336635343\nMH368206046\nMH386286564\nMH322225003\nMH339459307\nMH334439417\nMH326810422\nMH377195975\nMH360328811\nMH395787587\nMH394651746\n",
+   "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//DutyBack//IEEPA refund deadlines//EN\r\nCALSCALE:GREGORIAN\r\nX-WR-CALNAME:Tariff refund deadlines - Meridian Home Goods Co.\r\nBEGIN:VEVENT\r\nUID:MH3-7844589-8-CAPE_NOW@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20261024\r\nDTEND;VALUE=DATE:20261025\r\nSUMMARY:Last day for CAPE: entry MH3-7844589-8 ($6\\,450.00)\r\nDESCRIPTION:File in CAPE now. Eligible for CAPE: unliquidated\\, or liquidated 80 days ago or less (CSMS #68340863). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-7844589-8\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-7844589-8\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-8879176-4-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20261024\r\nDTEND;VALUE=DATE:20261025\r\nSUMMARY:Protest deadline: entry MH3-8879176-4 ($1\\,963.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-8879176-4\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-8879176-4\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-8887739-0-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20261024\r\nDTEND;VALUE=DATE:20261025\r\nSUMMARY:Protest deadline: entry MH3-8887739-0 ($1\\,255.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-8887739-0\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-8887739-0\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-4166789-8-CAPE_NOW@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20261025\r\nDTEND;VALUE=DATE:20261026\r\nSUMMARY:Last day for CAPE: entry MH3-4166789-8 ($5\\,643.00)\r\nDESCRIPTION:File in CAPE now. Eligible for CAPE: unliquidated\\, or liquidated 80 days ago or less (CSMS #68340863). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-4166789-8\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-4166789-8\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-8623443-3-CAPE_NOW@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20261025\r\nDTEND;VALUE=DATE:20261026\r\nSUMMARY:Last day for CAPE: entry MH3-8623443-3 ($1\\,365.00)\r\nDESCRIPTION:File in CAPE now. Eligible for CAPE: unliquidated\\, or liquidated 80 days ago or less (CSMS #68340863). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-8623443-3\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-8623443-3\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-5093576-0-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20261026\r\nDTEND;VALUE=DATE:20261027\r\nSUMMARY:Protest deadline: entry MH3-5093576-0 ($1\\,796.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-5093576-0\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-5093576-0\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-9708001-4-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20261030\r\nDTEND;VALUE=DATE:20261031\r\nSUMMARY:Protest deadline: entry MH3-9708001-4 ($2\\,552.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-9708001-4\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-9708001-4\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-1610153-4-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20261106\r\nDTEND;VALUE=DATE:20261107\r\nSUMMARY:Protest deadline: entry MH3-1610153-4 ($1\\,190.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-1610153-4\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-1610153-4\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-1945236-0-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20261107\r\nDTEND;VALUE=DATE:20261108\r\nSUMMARY:Protest deadline: entry MH3-1945236-0 ($5\\,349.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-1945236-0\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-1945236-0\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-5335406-1-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20261110\r\nDTEND;VALUE=DATE:20261111\r\nSUMMARY:Protest deadline: entry MH3-5335406-1 ($3\\,939.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-5335406-1\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-5335406-1\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-6829430-9-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20261126\r\nDTEND;VALUE=DATE:20261127\r\nSUMMARY:Protest deadline: entry MH3-6829430-9 ($1\\,356.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-6829430-9\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-6829430-9\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-5397498-2-WITHDRAW_PROTEST_THEN_CAPE@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20261203\r\nDTEND;VALUE=DATE:20261204\r\nSUMMARY:Last day for CAPE: entry MH3-5397498-2 ($2\\,610.00)\r\nDESCRIPTION:Withdraw protest\\, then CAPE. A protest filed only for the IEEPA refund can be withdrawn so the entry can go in CAPE\\, while it is within 80 days of liquidation. Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-5397498-2\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-5397498-2\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-9005801-3-FIX_THEN_CAPE@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20261210\r\nDTEND;VALUE=DATE:20261211\r\nSUMMARY:Last day for CAPE: entry MH3-9005801-3 ($1\\,474.50)\r\nDESCRIPTION:Fix\\, then file in CAPE. A goods value is reported on a Chapter 99 line. CAPE rejects that entry until the value sits on the Chapter 1-97 line. Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-9005801-3\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-9005801-3\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-3663534-3-CAPE_NOW@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20261223\r\nDTEND;VALUE=DATE:20261224\r\nSUMMARY:Last day for CAPE: entry MH3-3663534-3 ($9\\,314.00)\r\nDESCRIPTION:File in CAPE now. Eligible for CAPE: unliquidated\\, or liquidated 80 days ago or less (CSMS #68340863). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-3663534-3\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-3663534-3\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-6919989-3-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20261224\r\nDTEND;VALUE=DATE:20261225\r\nSUMMARY:Protest deadline: entry MH3-6919989-3 ($2\\,215.50)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-6919989-3\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-6919989-3\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-8367202-1-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20270109\r\nDTEND;VALUE=DATE:20270110\r\nSUMMARY:Protest deadline: entry MH3-8367202-1 ($11\\,067.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-8367202-1\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-8367202-1\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-6820604-6-CAPE_NOW@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20270110\r\nDTEND;VALUE=DATE:20270111\r\nSUMMARY:Last day for CAPE: entry MH3-6820604-6 ($8\\,840.00)\r\nDESCRIPTION:File in CAPE now. Eligible for CAPE: unliquidated\\, or liquidated 80 days ago or less (CSMS #68340863). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-6820604-6\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-6820604-6\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-8628656-4-CAPE_NOW@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20270111\r\nDTEND;VALUE=DATE:20270112\r\nSUMMARY:Last day for CAPE: entry MH3-8628656-4 ($2\\,202.00)\r\nDESCRIPTION:File in CAPE now. Eligible for CAPE: unliquidated\\, or liquidated 80 days ago or less (CSMS #68340863). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-8628656-4\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-8628656-4\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-2437037-2-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20270116\r\nDTEND;VALUE=DATE:20270117\r\nSUMMARY:Protest deadline: entry MH3-2437037-2 ($4\\,366.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-2437037-2\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-2437037-2\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-5190509-4-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20270118\r\nDTEND;VALUE=DATE:20270119\r\nSUMMARY:Protest deadline: entry MH3-5190509-4 ($7\\,485.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-5190509-4\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-5190509-4\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-4925392-8-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20270126\r\nDTEND;VALUE=DATE:20270127\r\nSUMMARY:Protest deadline: entry MH3-4925392-8 ($2\\,733.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-4925392-8\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-4925392-8\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-7059891-5-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20270131\r\nDTEND;VALUE=DATE:20270201\r\nSUMMARY:Protest deadline: entry MH3-7059891-5 ($6\\,770.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-7059891-5\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-7059891-5\r\nEND:VALARM\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+  },
+  "agents": [
+   {
+    "agent": "reader 1/6",
+    "model": "opus",
+    "seconds": 52.4,
+    "input_tokens": 2,
+    "output_tokens": 7681,
+    "cache_read_tokens": 2307,
+    "cache_write_tokens": 6571,
+    "cost_usd": 0.2067,
+    "turns": 2,
+    "tool_calls": [],
+    "ok": true,
+    "error": null,
+    "model_id": "claude-opus-5-5"
+   },
+   {
+    "agent": "reader 2/6",
+    "model": "opus",
+    "seconds": 45.3,
+    "input_tokens": 2,
+    "output_tokens": 6543,
+    "cache_read_tokens": 2307,
+    "cache_write_tokens": 6201,
+    "cost_usd": 0.1809,
+    "turns": 2,
+    "tool_calls": [],
+    "ok": true,
+    "error": null,
+    "model_id": "claude-opus-5-5"
+   },
+   {
+    "agent": "reader 3/6",
+    "model": "opus",
+    "seconds": 43.2,
+    "input_tokens": 2,
+    "output_tokens": 6355,
+    "cache_read_tokens": 2307,
+    "cache_write_tokens": 6389,
+    "cost_usd": 0.1787,
+    "turns": 2,
+    "tool_calls": [],
+    "ok": true,
+    "error": null,
+    "model_id": "claude-opus-5-5"
+   },
+   {
+    "agent": "reader 4/6",
+    "model": "opus",
+    "seconds": 35.3,
+    "input_tokens": 2,
+    "output_tokens": 5155,
+    "cache_read_tokens": 2307,
+    "cache_write_tokens": 5835,
+    "cost_usd": 0.1502,
+    "turns": 2,
+    "tool_calls": [],
+    "ok": true,
+    "error": null,
+    "model_id": "claude-opus-5-5"
+   },
+   {
+    "agent": "reader 5/6",
+    "model": "opus",
+    "seconds": 26.1,
+    "input_tokens": 2,
+    "output_tokens": 3628,
+    "cache_read_tokens": 2307,
+    "cache_write_tokens": 3834,
+    "cost_usd": 0.1037,
+    "turns": 2,
+    "tool_calls": [],
+    "ok": true,
+    "error": null,
+    "model_id": "claude-opus-5-5"
+   },
+   {
+    "agent": "reader 6/6",
+    "model": "opus",
+    "seconds": 117.3,
+    "input_tokens": 2,
+    "output_tokens": 17920,
+    "cache_read_tokens": 2307,
+    "cache_write_tokens": 3305,
+    "cost_usd": 0.3853,
+    "turns": 2,
+    "tool_calls": [],
+    "ok": true,
+    "error": null,
+    "model_id": "claude-opus-5-5"
+   },
+   {
+    "agent": "checker",
+    "model": "sonnet",
+    "seconds": 47.1,
+    "input_tokens": 14,
+    "output_tokens": 7454,
+    "cache_read_tokens": 118049,
+    "cache_write_tokens": 41644,
+    "cost_usd": 0.2529,
+    "turns": 53,
+    "tool_calls": [
+     {
+      "tool": "get_extraction",
+      "input": {}
+     },
+     {
+      "tool": "list_entry_numbers_in_documents",
+      "input": {}
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "2_broker_duty_statement.pdf",
+       "page": 1
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "2_broker_duty_statement.pdf",
+       "page": 2
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 1
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 2
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 3
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 4
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 5
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 6
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 7
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 8
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 9
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 10
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 11
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 12
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 13
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 14
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 15
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 16
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 17
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 18
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 19
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 20
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 21
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 22
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 23
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 24
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 25
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 26
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 27
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 28
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 29
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 30
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 31
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 32
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 33
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 34
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 35
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 36
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 37
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 38
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 39
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 40
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 41
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 42
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 43
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 44
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 45
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 46
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 47
+      }
+     }
+    ],
+    "ok": true,
+    "error": null,
+    "model_id": "claude-sonnet-5-5"
+   },
+   {
+    "agent": "reader (repair)",
+    "model": "opus",
+    "seconds": 30.7,
+    "input_tokens": 2,
+    "output_tokens": 3974,
+    "cache_read_tokens": 2307,
+    "cache_write_tokens": 27097,
+    "cost_usd": 0.2967,
+    "turns": 2,
+    "tool_calls": [],
+    "ok": true,
+    "error": null,
+    "model_id": "claude-opus-5-5"
+   },
+   {
+    "agent": "advisor",
+    "model": "sonnet",
+    "seconds": 31.8,
+    "input_tokens": 2,
+    "output_tokens": 5201,
+    "cache_read_tokens": 905,
+    "cache_write_tokens": 8394,
+    "cost_usd": 0.0857,
+    "turns": 2,
+    "tool_calls": [],
+    "ok": true,
+    "error": null,
+    "model_id": "claude-sonnet-5-5"
+   }
+  ],
+  "totals": {
+   "seconds": 227.6,
+   "cost_usd": 1.8408,
+   "input_tokens": 244403,
+   "output_tokens": 63911,
+   "tool_calls": 51
+  },
+  "steps": [
+   {
+    "key": "screen",
+    "title": "Safety screen",
+    "who": "Code"
+   },
+   {
+    "key": "read",
+    "title": "Read the paperwork",
+    "who": "Reader agent"
+   },
+   {
+    "key": "verify",
+    "title": "Match the extracted facts to the documents",
+    "who": "Code"
+   },
+   {
+    "key": "check",
+    "title": "Double-check with tools",
+    "who": "Checker agent"
+   },
+   {
+    "key": "repair",
+    "title": "Re-read anything flagged",
+    "who": "Reader agent + code"
+   },
+   {
+    "key": "route",
+    "title": "Sort entries and compute refunds",
+    "who": "Rules engine (code)"
+   },
+   {
+    "key": "plan",
+    "title": "Write the action plan",
+    "who": "Advisor agent + code"
+   }
+  ]
+ }
+}

@@ -1,0 +1,25 @@
+[screen] running 
+[screen] done 4 pages · 0 suspicious line(s) removed · 0 hidden characters dropped
+[read] running 
+[read] done 8 entries read
+[verify] running 
+[verify] done 6/8 entries fully verified
+[check] running 
+[check] done 8 turns · 6 tool calls · 0 issue(s) with a supporting quote
+[repair] running 
+[repair] done 0 entries corrected or added
+[route] running 
+[route] done $6,070.00 can be claimed in CAPE now
+[plan] running 
+[plan] done 6 steps
+routes:
+  QE8-0413540-6  PROTEST_BY                   $  3,640.00  deadline=2026-11-08  flags=['amount_from_statement_only']
+  QE8-0415250-8  WITHDRAW_PROTEST_THEN_CAPE   $  3,880.00  deadline=2026-11-20  flags=['amount_from_statement_only']
+  QE8-0415702-7  PROTEST_BY                   $  1,600.00  deadline=2027-01-06  flags=[]
+  QE8-0416018-4  EXCLUDED_SURETY              $  4,250.00  deadline=None  flags=['amount_from_statement_only']
+  QE8-0416475-1  CAPE_NOW                     $  3,180.00  deadline=None  flags=['amount_from_statement_only']
+  316-4471902-5  CAPE_NOW                     $  2,890.00  deadline=None  flags=['amount_from_statement_only']
+  QE8-0414106-2  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:liquidation_date']
+  QE8-0414288-6  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:liquidation_status']
+CAPE csv entries: 2 | removed lines: 0 | hidden chars: 0 | warnings: []
+saved stress/robustness/results/r2_numbers_wrap.json | cost 0.2216

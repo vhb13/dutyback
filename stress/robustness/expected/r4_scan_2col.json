@@ -1,0 +1,139 @@
+{
+ "run": "r4_scan_2col",
+ "as_of": "2026-10-24",
+ "notes": "Scanned (image-only) pages and a 2-column statement.",
+ "entries": [
+  {
+   "key": "S1",
+   "case": "control 7501 + 2-column statement",
+   "entry_number": "HL6-0420114-3",
+   "expected_route": "CAPE_NOW",
+   "acceptable": [],
+   "ieepa": 2960.0,
+   "refund": 2960.0,
+   "deadline": "2026-12-04",
+   "liq": "2026-09-15",
+   "why": ""
+  },
+  {
+   "key": "S2",
+   "case": "2-page 7501; page 2 (lines 002-003, IEEPA rows, totals) is a SCANNED IMAGE",
+   "entry_number": "HL6-0420387-0",
+   "expected_route": "CAPE_NOW",
+   "acceptable": [],
+   "ieepa": 4220.0,
+   "refund": 4220.0,
+   "deadline": null,
+   "liq": null,
+   "why": "text layer only shows line 001; statement shows the full IEEPA total"
+  },
+  {
+   "key": "S3",
+   "case": "2-page 7501; page 1 has only a Section 301 line; page 2 (IEEPA line) is SCANNED",
+   "entry_number": "HL6-0420415-8",
+   "expected_route": "CAPE_NOW",
+   "acceptable": [],
+   "ieepa": 3360.0,
+   "refund": 3360.0,
+   "deadline": "2026-11-16",
+   "liq": "2026-08-28",
+   "why": "text layer shows zero IEEPA, statement shows IEEPA total"
+  },
+  {
+   "key": "S4",
+   "case": "appears ONLY on a scanned page (broker's supplemental list), Open",
+   "entry_number": "HL6-0421002-6",
+   "expected_route": "CAPE_NOW",
+   "acceptable": [],
+   "ieepa": 3300.0,
+   "refund": 3300.0,
+   "deadline": null,
+   "liq": null,
+   "why": ""
+  },
+  {
+   "key": "S5",
+   "case": "appears ONLY on a scanned page, liquidated",
+   "entry_number": "HL6-0421077-4",
+   "expected_route": "CAPE_NOW",
+   "acceptable": [],
+   "ieepa": 2760.0,
+   "refund": 2760.0,
+   "deadline": "2026-11-27",
+   "liq": "2026-09-08",
+   "why": ""
+  },
+  {
+   "key": "S6",
+   "case": "2-column block (left), liq 80 days ago",
+   "entry_number": "HL6-0419530-1",
+   "expected_route": "CAPE_NOW",
+   "acceptable": [],
+   "ieepa": 6780.0,
+   "refund": 6780.0,
+   "deadline": "2026-10-24",
+   "liq": "2026-08-05",
+   "why": ""
+  },
+  {
+   "key": "S7",
+   "case": "2-column block (right, beside S6), liq 81 days ago",
+   "entry_number": "HL6-0419544-7",
+   "expected_route": "PROTEST_BY",
+   "acceptable": [],
+   "ieepa": 3750.0,
+   "refund": 3750.0,
+   "deadline": "2027-01-31",
+   "liq": "2026-08-04",
+   "why": ""
+  },
+  {
+   "key": "S8",
+   "case": "2-column block (left), open",
+   "entry_number": "HL6-0419871-2",
+   "expected_route": "CAPE_NOW",
+   "acceptable": [],
+   "ieepa": 2215.0,
+   "refund": 2215.0,
+   "deadline": null,
+   "liq": null,
+   "why": ""
+  },
+  {
+   "key": "S9",
+   "case": "2-column block (right)",
+   "entry_number": "HL6-0419902-5",
+   "expected_route": "CAPE_NOW",
+   "acceptable": [],
+   "ieepa": 4120.0,
+   "refund": 4120.0,
+   "deadline": "2026-12-19",
+   "liq": "2026-09-30",
+   "why": ""
+  },
+  {
+   "key": "S10",
+   "case": "2-column block (left)",
+   "entry_number": "HL6-0418811-0",
+   "expected_route": "PROTEST_BY",
+   "acceptable": [],
+   "ieepa": 5025.0,
+   "refund": 5025.0,
+   "deadline": "2026-11-16",
+   "liq": "2026-05-20",
+   "why": ""
+  },
+  {
+   "key": "S11",
+   "case": "2-column block (right), surety paid remark",
+   "entry_number": "HL6-0420006-9",
+   "expected_route": "EXCLUDED_SURETY",
+   "acceptable": [],
+   "ieepa": 2980.0,
+   "refund": 2980.0,
+   "deadline": null,
+   "liq": "2026-09-10",
+   "why": ""
+  }
+ ]
+}

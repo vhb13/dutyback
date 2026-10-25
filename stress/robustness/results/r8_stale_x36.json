@@ -1,0 +1,4059 @@
+{
+ "importer": {
+  "name": "Driftwood Patio Co.",
+  "ior_number": "58-7713320-00",
+  "cit_plaintiff": false,
+  "cit_case": null,
+  "cit_ior_submitted_date": null,
+  "evidence": "26. Importer of Record No. Importer of Record Name\n58-7713320-00 Driftwood Patio Co."
+ },
+ "as_of": "2026-10-24",
+ "rules_snapshot": "2026-10-24",
+ "summary": {
+  "as_of": "2026-10-24",
+  "rules_snapshot": "2026-10-24",
+  "entries": 40,
+  "ieepa_paid": 123006.0,
+  "buckets": {
+   "file_now": {
+    "label": "Claim in CAPE now",
+    "count": 4,
+    "amount": 12372.0
+   },
+   "fix_first": {
+    "label": "One step first, then CAPE",
+    "count": 0,
+    "amount": 0.0
+   },
+   "protest": {
+    "label": "Protest route",
+    "count": 0,
+    "amount": 0.0
+   },
+   "broker": {
+    "label": "Talk to your broker",
+    "count": 0,
+    "amount": 0.0
+   },
+   "no_route": {
+    "label": "Waiting on the court",
+    "count": 0,
+    "amount": 0.0
+   },
+   "not_refundable": {
+    "label": "Nothing to refund",
+    "count": 0,
+    "amount": 0.0
+   },
+   "review": {
+    "label": "Check by hand",
+    "count": 36,
+    "amount": 0.0
+   }
+  },
+  "at_risk_this_week": {
+   "count": 0,
+   "amount": 0,
+   "entries": []
+  },
+  "cape_csv_count": 4,
+  "cape_csv_amount": 12372.0
+ },
+ "entries": [
+  {
+   "entry_number": "DP1-6449054-3",
+   "route": "CAPE_NOW",
+   "label": "File in CAPE now",
+   "bucket": "file_now",
+   "ieepa_duty": 3864.0,
+   "refund_amount": 3864.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+   "flags": [],
+   "in_cape_csv": true,
+   "days_since_liquidation": null,
+   "entry_type": "01",
+   "entry_date": "2026-01-30",
+   "liquidation_status": "unliquidated",
+   "liquidation_date": null,
+   "evidence": {
+    "entry": "DP1-6449054-3 01 ABI/A",
+    "liquidation": "DP1-6449054-3 01 01/30/2026 Open - 3,864.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6449054-3 01 01/30/2026 Open - 3,864.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf p.38",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 19320,
+       "rate": 0.065,
+       "duty": 1255.8
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3864
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6449054-3",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6449054-3",
+     "check": "'not liquidated' is printed with this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6449054-3",
+     "check": "IEEPA duty 9903.02.69 $3,864.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6449054-3",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "DP1-6833397-5",
+   "route": "CAPE_NOW",
+   "label": "File in CAPE now",
+   "bucket": "file_now",
+   "ieepa_duty": 3692.0,
+   "refund_amount": 3692.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+   "flags": [],
+   "in_cape_csv": true,
+   "days_since_liquidation": null,
+   "entry_type": "01",
+   "entry_date": "2025-12-27",
+   "liquidation_status": "unliquidated",
+   "liquidation_date": null,
+   "evidence": {
+    "entry": "DP1-6833397-5 01 ABI/A",
+    "liquidation": "DP1-6833397-5 01 12/27/2025 Open - 3,692.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6833397-5 01 12/27/2025 Open - 3,692.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf p.40",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 18460,
+       "rate": 0.065,
+       "duty": 1199.9
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3692
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6833397-5",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6833397-5",
+     "check": "'not liquidated' is printed with this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6833397-5",
+     "check": "IEEPA duty 9903.02.69 $3,692.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6833397-5",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "DP1-6290550-0",
+   "route": "CAPE_NOW",
+   "label": "File in CAPE now",
+   "bucket": "file_now",
+   "ieepa_duty": 2730.0,
+   "refund_amount": 2730.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+   "flags": [],
+   "in_cape_csv": true,
+   "days_since_liquidation": null,
+   "entry_type": "01",
+   "entry_date": "2025-12-23",
+   "liquidation_status": "unliquidated",
+   "liquidation_date": null,
+   "evidence": {
+    "entry": "DP1-6290550-0 01 ABI/A",
+    "liquidation": "DP1-6290550-0 01 12/23/2025 Open - 2,730.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6290550-0 01 12/23/2025 Open - 2,730.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf p.39",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 13650,
+       "rate": 0.065,
+       "duty": 887.25
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 2730
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6290550-0",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6290550-0",
+     "check": "'not liquidated' is printed with this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6290550-0",
+     "check": "IEEPA duty 9903.02.69 $2,730.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6290550-0",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "DP1-6750145-7",
+   "route": "CAPE_NOW",
+   "label": "File in CAPE now",
+   "bucket": "file_now",
+   "ieepa_duty": 2086.0,
+   "refund_amount": 2086.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+   "flags": [],
+   "in_cape_csv": true,
+   "days_since_liquidation": null,
+   "entry_type": "01",
+   "entry_date": "2025-12-22",
+   "liquidation_status": "unliquidated",
+   "liquidation_date": null,
+   "evidence": {
+    "entry": "DP1-6750145-7 01 ABI/A",
+    "liquidation": "DP1-6750145-7 01 12/22/2025 Open - 2,086.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6750145-7 01 12/22/2025 Open - 2,086.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf p.37",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 10430,
+       "rate": 0.065,
+       "duty": 677.95
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 2086
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6750145-7",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6750145-7",
+     "check": "'not liquidated' is printed with this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6750145-7",
+     "check": "IEEPA duty 9903.02.69 $2,086.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6750145-7",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "DP1-6183723-6",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 3336.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 81,
+   "entry_type": "01",
+   "entry_date": "2025-09-24",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-08-04",
+   "evidence": {
+    "entry": "DP1-6183723-6 01 ABI/A",
+    "liquidation": "DP1-6183723-6 01 09/24/2025 Liquidated 08/04/2026 3,336.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6183723-6 01 09/24/2025 Liquidated 08/04/2026 3,336.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 16680,
+       "rate": 0.065,
+       "duty": 1084.2
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3336
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6183723-6",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6183723-6",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-08-04"
+    },
+    {
+     "entry": "DP1-6183723-6",
+     "check": "IEEPA duty 9903.02.69 $3,336.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6183723-6",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6183723-6",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6620710-6",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 3520.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 82,
+   "entry_type": "01",
+   "entry_date": "2025-09-23",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-08-03",
+   "evidence": {
+    "entry": "DP1-6620710-6 01 ABI/A",
+    "liquidation": "DP1-6620710-6 01 09/23/2025 Liquidated 08/03/2026 3,520.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6620710-6 01 09/23/2025 Liquidated 08/03/2026 3,520.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 17600,
+       "rate": 0.065,
+       "duty": 1144
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3520
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6620710-6",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6620710-6",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-08-03"
+    },
+    {
+     "entry": "DP1-6620710-6",
+     "check": "IEEPA duty 9903.02.69 $3,520.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6620710-6",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6620710-6",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6667724-6",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 1688.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 83,
+   "entry_type": "01",
+   "entry_date": "2025-09-22",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-08-02",
+   "evidence": {
+    "entry": "DP1-6667724-6 01 ABI/A",
+    "liquidation": "DP1-6667724-6 01 09/22/2025 Liquidated 08/02/2026 1,688.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6667724-6 01 09/22/2025 Liquidated 08/02/2026 1,688.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 8440,
+       "rate": 0.065,
+       "duty": 548.6
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 1688
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6667724-6",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6667724-6",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-08-02"
+    },
+    {
+     "entry": "DP1-6667724-6",
+     "check": "IEEPA duty 9903.02.69 $1,688.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6667724-6",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6667724-6",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6512239-6",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 4016.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 84,
+   "entry_type": "01",
+   "entry_date": "2025-09-21",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-08-01",
+   "evidence": {
+    "entry": "DP1-6512239-6 01 ABI/A",
+    "liquidation": "DP1-6512239-6 01 09/21/2025 Liquidated 08/01/2026 4,016.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6512239-6 01 09/21/2025 Liquidated 08/01/2026 4,016.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 20080,
+       "rate": 0.065,
+       "duty": 1305.2
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 4016
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6512239-6",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6512239-6",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-08-01"
+    },
+    {
+     "entry": "DP1-6512239-6",
+     "check": "IEEPA duty 9903.02.69 $4,016.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6512239-6",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6512239-6",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6553307-4",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 2506.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 85,
+   "entry_type": "01",
+   "entry_date": "2025-09-20",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-31",
+   "evidence": {
+    "entry": "DP1-6553307-4 01 ABI/A",
+    "liquidation": "DP1-6553307-4 01 09/20/2025 Liquidated 07/31/2026 2,506.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6553307-4 01 09/20/2025 Liquidated 07/31/2026 2,506.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 12530,
+       "rate": 0.065,
+       "duty": 814.45
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 2506
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6553307-4",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6553307-4",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-31"
+    },
+    {
+     "entry": "DP1-6553307-4",
+     "check": "IEEPA duty 9903.02.69 $2,506.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6553307-4",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6553307-4",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6111258-9",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 3116.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 86,
+   "entry_type": "01",
+   "entry_date": "2025-09-19",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-30",
+   "evidence": {
+    "entry": "DP1-6111258-9 01 ABI/A",
+    "liquidation": "DP1-6111258-9 01 09/19/2025 Liquidated 07/30/2026 3,116.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6111258-9 01 09/19/2025 Liquidated 07/30/2026 3,116.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 15580,
+       "rate": 0.065,
+       "duty": 1012.7
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3116
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6111258-9",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6111258-9",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-30"
+    },
+    {
+     "entry": "DP1-6111258-9",
+     "check": "IEEPA duty 9903.02.69 $3,116.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6111258-9",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6111258-9",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6966068-5",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 2590.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 87,
+   "entry_type": "01",
+   "entry_date": "2025-09-18",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-29",
+   "evidence": {
+    "entry": "DP1-6966068-5 01 ABI/A",
+    "liquidation": "DP1-6966068-5 01 09/18/2025 Liquidated 07/29/2026 2,590.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6966068-5 01 09/18/2025 Liquidated 07/29/2026 2,590.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 12950,
+       "rate": 0.065,
+       "duty": 841.75
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 2590
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6966068-5",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6966068-5",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-29"
+    },
+    {
+     "entry": "DP1-6966068-5",
+     "check": "IEEPA duty 9903.02.69 $2,590.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6966068-5",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6966068-5",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6428713-4",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 1906.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 88,
+   "entry_type": "01",
+   "entry_date": "2025-09-17",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-28",
+   "evidence": {
+    "entry": "DP1-6428713-4 01 ABI/A",
+    "liquidation": "DP1-6428713-4 01 09/17/2025 Liquidated 07/28/2026 1,906.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6428713-4 01 09/17/2025 Liquidated 07/28/2026 1,906.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 9530,
+       "rate": 0.065,
+       "duty": 619.45
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 1906
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6428713-4",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6428713-4",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-28"
+    },
+    {
+     "entry": "DP1-6428713-4",
+     "check": "IEEPA duty 9903.02.69 $1,906.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6428713-4",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6428713-4",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6738044-4",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 4822.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 89,
+   "entry_type": "01",
+   "entry_date": "2025-09-16",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-27",
+   "evidence": {
+    "entry": "DP1-6738044-4 01 ABI/A",
+    "liquidation": "DP1-6738044-4 01 09/16/2025 Liquidated 07/27/2026 4,822.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6738044-4 01 09/16/2025 Liquidated 07/27/2026 4,822.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 24110,
+       "rate": 0.065,
+       "duty": 1567.15
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 4822
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6738044-4",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6738044-4",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-27"
+    },
+    {
+     "entry": "DP1-6738044-4",
+     "check": "IEEPA duty 9903.02.69 $4,822.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6738044-4",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6738044-4",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6398967-2",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 4104.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 90,
+   "entry_type": "01",
+   "entry_date": "2025-09-15",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-26",
+   "evidence": {
+    "entry": "DP1-6398967-2 01 ABI/A",
+    "liquidation": "DP1-6398967-2 01 09/15/2025 Liquidated 07/26/2026 4,104.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6398967-2 01 09/15/2025 Liquidated 07/26/2026 4,104.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 20520,
+       "rate": 0.065,
+       "duty": 1333.8
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 4104
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6398967-2",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6398967-2",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-26"
+    },
+    {
+     "entry": "DP1-6398967-2",
+     "check": "IEEPA duty 9903.02.69 $4,104.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6398967-2",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6398967-2",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6836376-7",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 1944.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 91,
+   "entry_type": "01",
+   "entry_date": "2025-09-14",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-25",
+   "evidence": {
+    "entry": "DP1-6836376-7 01 ABI/A",
+    "liquidation": "DP1-6836376-7 01 09/14/2025 Liquidated 07/25/2026 1,944.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6836376-7 01 09/14/2025 Liquidated 07/25/2026 1,944.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 9720,
+       "rate": 0.065,
+       "duty": 631.8
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 1944
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6836376-7",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6836376-7",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-25"
+    },
+    {
+     "entry": "DP1-6836376-7",
+     "check": "IEEPA duty 9903.02.69 $1,944.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6836376-7",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6836376-7",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6736493-3",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 3780.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 92,
+   "entry_type": "01",
+   "entry_date": "2025-09-13",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-24",
+   "evidence": {
+    "entry": "DP1-6736493-3 01 ABI/A",
+    "liquidation": "DP1-6736493-3 01 09/13/2025 Liquidated 07/24/2026 3,780.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6736493-3 01 09/13/2025 Liquidated 07/24/2026 3,780.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 18900,
+       "rate": 0.065,
+       "duty": 1228.5
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3780
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6736493-3",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6736493-3",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-24"
+    },
+    {
+     "entry": "DP1-6736493-3",
+     "check": "IEEPA duty 9903.02.69 $3,780.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6736493-3",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6736493-3",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6892809-8",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 4978.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 93,
+   "entry_type": "01",
+   "entry_date": "2025-09-12",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-23",
+   "evidence": {
+    "entry": "DP1-6892809-8 01 ABI/A",
+    "liquidation": "DP1-6892809-8 01 09/12/2025 Liquidated 07/23/2026 4,978.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6892809-8 01 09/12/2025 Liquidated 07/23/2026 4,978.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 24890,
+       "rate": 0.065,
+       "duty": 1617.85
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 4978
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6892809-8",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6892809-8",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-23"
+    },
+    {
+     "entry": "DP1-6892809-8",
+     "check": "IEEPA duty 9903.02.69 $4,978.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6892809-8",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6892809-8",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6642906-7",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 1054.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 94,
+   "entry_type": "01",
+   "entry_date": "2025-09-11",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-22",
+   "evidence": {
+    "entry": "DP1-6642906-7 01 ABI/A",
+    "liquidation": "DP1-6642906-7 01 09/11/2025 Liquidated 07/22/2026 1,054.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6642906-7 01 09/11/2025 Liquidated 07/22/2026 1,054.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 5270,
+       "rate": 0.065,
+       "duty": 342.55
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 1054
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6642906-7",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6642906-7",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-22"
+    },
+    {
+     "entry": "DP1-6642906-7",
+     "check": "IEEPA duty 9903.02.69 $1,054.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6642906-7",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6642906-7",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6870643-7",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 4312.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 95,
+   "entry_type": "01",
+   "entry_date": "2025-09-10",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-21",
+   "evidence": {
+    "entry": "DP1-6870643-7 01 ABI/A",
+    "liquidation": "DP1-6870643-7 01 09/10/2025 Liquidated 07/21/2026 4,312.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6870643-7 01 09/10/2025 Liquidated 07/21/2026 4,312.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 21560,
+       "rate": 0.065,
+       "duty": 1401.4
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 4312
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6870643-7",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6870643-7",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-21"
+    },
+    {
+     "entry": "DP1-6870643-7",
+     "check": "IEEPA duty 9903.02.69 $4,312.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6870643-7",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6870643-7",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6438777-8",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 3978.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 96,
+   "entry_type": "01",
+   "entry_date": "2025-09-09",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-20",
+   "evidence": {
+    "entry": "DP1-6438777-8 01 ABI/A",
+    "liquidation": "DP1-6438777-8 01 09/09/2025 Liquidated 07/20/2026 3,978.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6438777-8 01 09/09/2025 Liquidated 07/20/2026 3,978.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 19890,
+       "rate": 0.065,
+       "duty": 1292.85
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3978
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6438777-8",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6438777-8",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-20"
+    },
+    {
+     "entry": "DP1-6438777-8",
+     "check": "IEEPA duty 9903.02.69 $3,978.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6438777-8",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6438777-8",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6386137-4",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 3936.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 97,
+   "entry_type": "01",
+   "entry_date": "2025-09-08",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-19",
+   "evidence": {
+    "entry": "DP1-6386137-4 01 ABI/A",
+    "liquidation": "DP1-6386137-4 01 09/08/2025 Liquidated 07/19/2026 3,936.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6386137-4 01 09/08/2025 Liquidated 07/19/2026 3,936.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 19680,
+       "rate": 0.065,
+       "duty": 1279.2
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3936
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6386137-4",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6386137-4",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-19"
+    },
+    {
+     "entry": "DP1-6386137-4",
+     "check": "IEEPA duty 9903.02.69 $3,936.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6386137-4",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6386137-4",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6877866-8",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 1602.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 98,
+   "entry_type": "01",
+   "entry_date": "2025-09-07",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-18",
+   "evidence": {
+    "entry": "DP1-6877866-8 01 ABI/A",
+    "liquidation": "DP1-6877866-8 01 09/07/2025 Liquidated 07/18/2026 1,602.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6877866-8 01 09/07/2025 Liquidated 07/18/2026 1,602.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 8010,
+       "rate": 0.065,
+       "duty": 520.65
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 1602
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6877866-8",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6877866-8",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-18"
+    },
+    {
+     "entry": "DP1-6877866-8",
+     "check": "IEEPA duty 9903.02.69 $1,602.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6877866-8",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6877866-8",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6970009-0",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 1884.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 99,
+   "entry_type": "01",
+   "entry_date": "2025-09-06",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-17",
+   "evidence": {
+    "entry": "DP1-6970009-0 01 ABI/A",
+    "liquidation": "DP1-6970009-0 01 09/06/2025 Liquidated 07/17/2026 1,884.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6970009-0 01 09/06/2025 Liquidated 07/17/2026 1,884.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 9420,
+       "rate": 0.065,
+       "duty": 612.3
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 1884
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6970009-0",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6970009-0",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-17"
+    },
+    {
+     "entry": "DP1-6970009-0",
+     "check": "IEEPA duty 9903.02.69 $1,884.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6970009-0",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6970009-0",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6513231-6",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 4976.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 100,
+   "entry_type": "01",
+   "entry_date": "2025-09-05",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-16",
+   "evidence": {
+    "entry": "DP1-6513231-6 01 ABI/A",
+    "liquidation": "DP1-6513231-6 01 09/05/2025 Liquidated 07/16/2026 4,976.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6513231-6 01 09/05/2025 Liquidated 07/16/2026 4,976.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 24880,
+       "rate": 0.065,
+       "duty": 1617.2
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 4976
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6513231-6",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6513231-6",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-16"
+    },
+    {
+     "entry": "DP1-6513231-6",
+     "check": "IEEPA duty 9903.02.69 $4,976.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6513231-6",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6513231-6",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6320420-3",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 3124.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 81,
+   "entry_type": "01",
+   "entry_date": "2025-09-24",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-08-04",
+   "evidence": {
+    "entry": "DP1-6320420-3 01 ABI/A",
+    "liquidation": "DP1-6320420-3 01 09/24/2025 Liquidated 08/04/2026 3,124.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6320420-3 01 09/24/2025 Liquidated 08/04/2026 3,124.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 15620,
+       "rate": 0.065,
+       "duty": 1015.3
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3124
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6320420-3",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6320420-3",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-08-04"
+    },
+    {
+     "entry": "DP1-6320420-3",
+     "check": "IEEPA duty 9903.02.69 $3,124.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6320420-3",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6320420-3",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6928768-4",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 3958.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 82,
+   "entry_type": "01",
+   "entry_date": "2025-09-23",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-08-03",
+   "evidence": {
+    "entry": "DP1-6928768-4 01 ABI/A",
+    "liquidation": "DP1-6928768-4 01 09/23/2025 Liquidated 08/03/2026 3,958.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6928768-4 01 09/23/2025 Liquidated 08/03/2026 3,958.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 19790,
+       "rate": 0.065,
+       "duty": 1286.35
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3958
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6928768-4",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6928768-4",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-08-03"
+    },
+    {
+     "entry": "DP1-6928768-4",
+     "check": "IEEPA duty 9903.02.69 $3,958.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6928768-4",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6928768-4",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6233559-1",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 4912.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 83,
+   "entry_type": "01",
+   "entry_date": "2025-09-22",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-08-02",
+   "evidence": {
+    "entry": "DP1-6233559-1 01 ABI/A",
+    "liquidation": "DP1-6233559-1 01 09/22/2025 Liquidated 08/02/2026 4,912.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6233559-1 01 09/22/2025 Liquidated 08/02/2026 4,912.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 24560,
+       "rate": 0.065,
+       "duty": 1596.4
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 4912
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6233559-1",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6233559-1",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-08-02"
+    },
+    {
+     "entry": "DP1-6233559-1",
+     "check": "IEEPA duty 9903.02.69 $4,912.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6233559-1",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6233559-1",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6216263-8",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 4084.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 84,
+   "entry_type": "01",
+   "entry_date": "2025-09-21",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-08-01",
+   "evidence": {
+    "entry": "DP1-6216263-8 01 ABI/A",
+    "liquidation": "DP1-6216263-8 01 09/21/2025 Liquidated 08/01/2026 4,084.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6216263-8 01 09/21/2025 Liquidated 08/01/2026 4,084.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 20420,
+       "rate": 0.065,
+       "duty": 1327.3
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 4084
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6216263-8",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6216263-8",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-08-01"
+    },
+    {
+     "entry": "DP1-6216263-8",
+     "check": "IEEPA duty 9903.02.69 $4,084.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6216263-8",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6216263-8",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6622537-9",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 1946.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 85,
+   "entry_type": "01",
+   "entry_date": "2025-09-20",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-31",
+   "evidence": {
+    "entry": "DP1-6622537-9 01 ABI/A",
+    "liquidation": "DP1-6622537-9 01 09/20/2025 Liquidated 07/31/2026 1,946.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6622537-9 01 09/20/2025 Liquidated 07/31/2026 1,946.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 9730,
+       "rate": 0.065,
+       "duty": 632.45
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 1946
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6622537-9",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6622537-9",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-31"
+    },
+    {
+     "entry": "DP1-6622537-9",
+     "check": "IEEPA duty 9903.02.69 $1,946.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6622537-9",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6622537-9",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6974768-0",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 3214.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 86,
+   "entry_type": "01",
+   "entry_date": "2025-09-19",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-30",
+   "evidence": {
+    "entry": "DP1-6974768-0 01 ABI/A",
+    "liquidation": "DP1-6974768-0 01 09/19/2025 Liquidated 07/30/2026 3,214.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6974768-0 01 09/19/2025 Liquidated 07/30/2026 3,214.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 16070,
+       "rate": 0.065,
+       "duty": 1044.55
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3214
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6974768-0",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6974768-0",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-30"
+    },
+    {
+     "entry": "DP1-6974768-0",
+     "check": "IEEPA duty 9903.02.69 $3,214.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6974768-0",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6974768-0",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6355303-7",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 3074.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 87,
+   "entry_type": "01",
+   "entry_date": "2025-09-18",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-29",
+   "evidence": {
+    "entry": "DP1-6355303-7 01 ABI/A",
+    "liquidation": "DP1-6355303-7 01 09/18/2025 Liquidated 07/29/2026 3,074.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6355303-7 01 09/18/2025 Liquidated 07/29/2026 3,074.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 15370,
+       "rate": 0.065,
+       "duty": 999.05
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3074
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6355303-7",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6355303-7",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-29"
+    },
+    {
+     "entry": "DP1-6355303-7",
+     "check": "IEEPA duty 9903.02.69 $3,074.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6355303-7",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6355303-7",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6758413-0",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 1408.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 88,
+   "entry_type": "01",
+   "entry_date": "2025-09-17",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-28",
+   "evidence": {
+    "entry": "DP1-6758413-0 01 ABI/A",
+    "liquidation": "DP1-6758413-0 01 09/17/2025 Liquidated 07/28/2026 1,408.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6758413-0 01 09/17/2025 Liquidated 07/28/2026 1,408.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 7040,
+       "rate": 0.065,
+       "duty": 457.6
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 1408
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6758413-0",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6758413-0",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-28"
+    },
+    {
+     "entry": "DP1-6758413-0",
+     "check": "IEEPA duty 9903.02.69 $1,408.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6758413-0",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6758413-0",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6422373-2",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 3602.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 89,
+   "entry_type": "01",
+   "entry_date": "2025-09-16",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-27",
+   "evidence": {
+    "entry": "DP1-6422373-2 01 ABI/A",
+    "liquidation": "DP1-6422373-2 01 09/16/2025 Liquidated 07/27/2026 3,602.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6422373-2 01 09/16/2025 Liquidated 07/27/2026 3,602.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 18010,
+       "rate": 0.065,
+       "duty": 1170.65
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3602
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6422373-2",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6422373-2",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-27"
+    },
+    {
+     "entry": "DP1-6422373-2",
+     "check": "IEEPA duty 9903.02.69 $3,602.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6422373-2",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6422373-2",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6501621-4",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 1540.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 90,
+   "entry_type": "01",
+   "entry_date": "2025-09-15",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-26",
+   "evidence": {
+    "entry": "DP1-6501621-4 01 ABI/A",
+    "liquidation": "DP1-6501621-4 01 09/15/2025 Liquidated 07/26/2026 1,540.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6501621-4 01 09/15/2025 Liquidated 07/26/2026 1,540.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 7700,
+       "rate": 0.065,
+       "duty": 500.5
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 1540
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6501621-4",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6501621-4",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-26"
+    },
+    {
+     "entry": "DP1-6501621-4",
+     "check": "IEEPA duty 9903.02.69 $1,540.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6501621-4",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6501621-4",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6396695-5",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 1990.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 91,
+   "entry_type": "01",
+   "entry_date": "2025-09-14",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-25",
+   "evidence": {
+    "entry": "DP1-6396695-5 01 ABI/A",
+    "liquidation": "DP1-6396695-5 01 09/14/2025 Liquidated 07/25/2026 1,990.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6396695-5 01 09/14/2025 Liquidated 07/25/2026 1,990.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 9950,
+       "rate": 0.065,
+       "duty": 646.75
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 1990
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6396695-5",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6396695-5",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-25"
+    },
+    {
+     "entry": "DP1-6396695-5",
+     "check": "IEEPA duty 9903.02.69 $1,990.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6396695-5",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6396695-5",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6454971-1",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 3736.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 92,
+   "entry_type": "01",
+   "entry_date": "2025-09-13",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-24",
+   "evidence": {
+    "entry": "DP1-6454971-1 01 ABI/A",
+    "liquidation": "DP1-6454971-1 01 09/13/2025 Liquidated 07/24/2026 3,736.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6454971-1 01 09/13/2025 Liquidated 07/24/2026 3,736.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 18680,
+       "rate": 0.065,
+       "duty": 1214.2
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3736
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6454971-1",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6454971-1",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-24"
+    },
+    {
+     "entry": "DP1-6454971-1",
+     "check": "IEEPA duty 9903.02.69 $3,736.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6454971-1",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6454971-1",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6990126-4",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 1272.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 93,
+   "entry_type": "01",
+   "entry_date": "2025-09-12",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-23",
+   "evidence": {
+    "entry": "DP1-6990126-4 01 ABI/A",
+    "liquidation": "DP1-6990126-4 01 09/12/2025 Liquidated 07/23/2026 1,272.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6990126-4 01 09/12/2025 Liquidated 07/23/2026 1,272.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 6360,
+       "rate": 0.065,
+       "duty": 413.4
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 1272
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6990126-4",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6990126-4",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-23"
+    },
+    {
+     "entry": "DP1-6990126-4",
+     "check": "IEEPA duty 9903.02.69 $1,272.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6990126-4",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6990126-4",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6940939-1",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 1406.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 94,
+   "entry_type": "01",
+   "entry_date": "2025-09-11",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-22",
+   "evidence": {
+    "entry": "DP1-6940939-1 01 ABI/A",
+    "liquidation": "DP1-6940939-1 01 09/11/2025 Liquidated 07/22/2026 1,406.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6940939-1 01 09/11/2025 Liquidated 07/22/2026 1,406.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 7030,
+       "rate": 0.065,
+       "duty": 456.95
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 1406
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6940939-1",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6940939-1",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-22"
+    },
+    {
+     "entry": "DP1-6940939-1",
+     "check": "IEEPA duty 9903.02.69 $1,406.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6940939-1",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6940939-1",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6966475-2",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 3370.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 95,
+   "entry_type": "01",
+   "entry_date": "2025-09-10",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-21",
+   "evidence": {
+    "entry": "DP1-6966475-2 01 ABI/A",
+    "liquidation": "DP1-6966475-2 01 09/10/2025 Liquidated 07/21/2026 3,370.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6966475-2 01 09/10/2025 Liquidated 07/21/2026 3,370.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 16850,
+       "rate": 0.065,
+       "duty": 1095.25
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3370
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6966475-2",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6966475-2",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-21"
+    },
+    {
+     "entry": "DP1-6966475-2",
+     "check": "IEEPA duty 9903.02.69 $3,370.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6966475-2",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6966475-2",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6198254-0",
+   "route": "NEEDS_REVIEW",
+   "label": "Check by hand",
+   "bucket": "review",
+   "ieepa_duty": 3950.0,
+   "refund_amount": 0.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "A key fact (liquidation date or IEEPA duty) could not be verified in your documents, so the app will not guess.",
+   "flags": [
+    "unverified:flags"
+   ],
+   "in_cape_csv": false,
+   "days_since_liquidation": 96,
+   "entry_type": "01",
+   "entry_date": "2025-09-09",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-20",
+   "evidence": {
+    "entry": "DP1-6198254-0 01 ABI/A",
+    "liquidation": "DP1-6198254-0 01 09/09/2025 Liquidated 07/20/2026 3,950.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6198254-0 01 09/09/2025 Liquidated 07/20/2026 3,950.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 19750,
+       "rate": 0.065,
+       "duty": 1283.75
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3950
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6198254-0",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6198254-0",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-20"
+    },
+    {
+     "entry": "DP1-6198254-0",
+     "check": "IEEPA duty 9903.02.69 $3,950.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6198254-0",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6198254-0",
+     "check": "no flag words next to this entry that the extraction missed",
+     "ok": false,
+     "detail": "conflict:liquidated and open"
+    }
+   ],
+   "repaired": true
+  }
+ ],
+ "plan": {
+  "headline": "4 of your 40 entries ($12,372.00) appear eligible to claim in CAPE now; the other 36 need a manual check.",
+  "steps": [
+   {
+    "title": "Claim 4 entries in CAPE now",
+    "detail": "These 4 entries appear eligible for refunds totaling $12,372.00. CAPE is the customs portal for claiming IEEPA tariff refunds. No deadline is listed, but filing sooner is better, and your broker can confirm eligibility and help file.",
+    "deadline": null,
+    "entries": [
+     "DP1-6449054-3",
+     "DP1-6833397-5",
+     "DP1-6290550-0",
+     "DP1-6750145-7"
+    ]
+   },
+   {
+    "title": "Get the missing facts for 36 entries",
+    "detail": "For these entries, the liquidation date (when customs finalized the duties) or the IEEPA duty amount couldn't be verified in your documents. The tool won't guess, so ask your broker for the records and check them by hand. Refund amounts for these entries are not counted in the totals above.",
+    "deadline": null,
+    "entries": [
+     "DP1-6183723-6",
+     "DP1-6620710-6",
+     "DP1-6667724-6",
+     "DP1-6512239-6",
+     "DP1-6553307-4",
+     "DP1-6111258-9",
+     "DP1-6966068-5",
+     "DP1-6428713-4",
+     "DP1-6738044-4",
+     "DP1-6398967-2",
+     "DP1-6836376-7",
+     "DP1-6736493-3",
+     "DP1-6892809-8",
+     "DP1-6642906-7",
+     "DP1-6870643-7",
+     "DP1-6438777-8",
+     "DP1-6386137-4",
+     "DP1-6877866-8",
+     "DP1-6970009-0",
+     "DP1-6513231-6",
+     "DP1-6320420-3",
+     "DP1-6928768-4",
+     "DP1-6233559-1",
+     "DP1-6216263-8",
+     "DP1-6622537-9",
+     "DP1-6974768-0",
+     "DP1-6355303-7",
+     "DP1-6758413-0",
+     "DP1-6422373-2",
+     "DP1-6501621-4",
+     "DP1-6396695-5",
+     "DP1-6454971-1",
+     "DP1-6990126-4",
+     "DP1-6940939-1",
+     "DP1-6966475-2",
+     "DP1-6198254-0"
+    ]
+   },
+   {
+    "title": "Confirm with your broker",
+    "detail": "This is not legal advice. Please confirm the routes and amounts with your customs broker before filing anything, and remember that no refund is guaranteed.",
+    "deadline": null,
+    "entries": []
+   }
+  ],
+  "broker_email_subject": "IEEPA tariff refunds: CAPE filing and missing entry records for Driftwood Patio Co.",
+  "broker_email_body": "Hi,\n\nI ran our entries through a refund checker for IEEPA tariffs. It covers 40 entries with $123,006.00 in IEEPA duties paid. Four entries appear eligible for CAPE now, totaling $12,372.00:\n\n- DP1-6449054-3\n- DP1-6833397-5\n- DP1-6290550-0\n- DP1-6750145-7\n\nCould you confirm they're eligible and file them in CAPE, or tell me what you need from me to do that?\n\nThe other 36 entries are flagged \"check by hand.\" The tool couldn't verify the liquidation date or the IEEPA duty amount from our documents. Could you send me the liquidation dates and IEEPA duty amounts for these entries, or tell me how you'd like to handle them?\n\n- DP1-6183723-6\n- DP1-6620710-6\n- DP1-6667724-6\n- DP1-6512239-6\n- DP1-6553307-4\n- DP1-6111258-9\n- DP1-6966068-5\n- DP1-6428713-4\n- DP1-6738044-4\n- DP1-6398967-2\n- DP1-6836376-7\n- DP1-6736493-3\n- DP1-6892809-8\n- DP1-6642906-7\n- DP1-6870643-7\n- DP1-6438777-8\n- DP1-6386137-4\n- DP1-6877866-8\n- DP1-6970009-0\n- DP1-6513231-6\n- DP1-6320420-3\n- DP1-6928768-4\n- DP1-6233559-1\n- DP1-6216263-8\n- DP1-6622537-9\n- DP1-6974768-0\n- DP1-6355303-7\n- DP1-6758413-0\n- DP1-6422373-2\n- DP1-6501621-4\n- DP1-6396695-5\n- DP1-6454971-1\n- DP1-6990126-4\n- DP1-6940939-1\n- DP1-6966475-2\n- DP1-6198254-0\n\nThanks,\nDriftwood Patio Co."
+ },
+ "plan_removed_sentences": [],
+ "checker": {
+  "issues": [
+   {
+    "entry_number": "DP1-6111258-9",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; 10/21/2026 statement shows liquidated 07/30/2026.",
+    "quote": "DP1-6111258-9 01 09/19/2025 Liquidated 07/30/2026 3,116.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6183723-6",
+    "kind": "wrong_liquidation",
+    "detail": "Liquidated 08/04/2026, not unliquidated.",
+    "quote": "DP1-6183723-6 01 09/24/2025 Liquidated 08/04/2026 3,336.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6198254-0",
+    "kind": "wrong_liquidation",
+    "detail": "Liquidated 07/20/2026, not unliquidated.",
+    "quote": "DP1-6198254-0 01 09/09/2025 Liquidated 07/20/2026 3,950.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6216263-8",
+    "kind": "wrong_liquidation",
+    "detail": "Liquidated 08/01/2026, not unliquidated.",
+    "quote": "DP1-6216263-8 01 09/21/2025 Liquidated 08/01/2026 4,084.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6233559-1",
+    "kind": "wrong_liquidation",
+    "detail": "Liquidated 08/02/2026, not unliquidated.",
+    "quote": "DP1-6233559-1 01 09/22/2025 Liquidated 08/02/2026 4,912.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6320420-3",
+    "kind": "wrong_liquidation",
+    "detail": "Liquidated 08/04/2026, not unliquidated.",
+    "quote": "DP1-6320420-3 01 09/24/2025 Liquidated 08/04/2026 3,124.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6355303-7",
+    "kind": "wrong_liquidation",
+    "detail": "Liquidated 07/29/2026, not unliquidated.",
+    "quote": "DP1-6355303-7 01 09/18/2025 Liquidated 07/29/2026 3,074.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6386137-4",
+    "kind": "wrong_liquidation",
+    "detail": "Liquidated 07/19/2026, not unliquidated.",
+    "quote": "DP1-6386137-4 01 09/08/2025 Liquidated 07/19/2026 3,936.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6396695-5",
+    "kind": "wrong_liquidation",
+    "detail": "Liquidated 07/25/2026, not unliquidated.",
+    "quote": "DP1-6396695-5 01 09/14/2025 Liquidated 07/25/2026 1,990.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6398967-2",
+    "kind": "wrong_liquidation",
+    "detail": "Liquidated 07/26/2026, not unliquidated.",
+    "quote": "DP1-6398967-2 01 09/15/2025 Liquidated 07/26/2026 4,104.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6422373-2",
+    "kind": "wrong_liquidation",
+    "detail": "Liquidated 07/27/2026, not unliquidated.",
+    "quote": "DP1-6422373-2 01 09/16/2025 Liquidated 07/27/2026 3,602.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6428713-4",
+    "kind": "wrong_liquidation",
+    "detail": "Liquidated 07/28/2026, not unliquidated.",
+    "quote": "DP1-6428713-4 01 09/17/2025 Liquidated 07/28/2026 1,906.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6438777-8",
+    "kind": "wrong_liquidation",
+    "detail": "Liquidated 07/20/2026, not unliquidated.",
+    "quote": "DP1-6438777-8 01 09/09/2025 Liquidated 07/20/2026 3,978.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6454971-1",
+    "kind": "wrong_liquidation",
+    "detail": "Liquidated 07/24/2026, not unliquidated.",
+    "quote": "DP1-6454971-1 01 09/13/2025 Liquidated 07/24/2026 3,736.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6501621-4",
+    "kind": "wrong_liquidation",
+    "detail": "Liquidated 07/26/2026, not unliquidated.",
+    "quote": "DP1-6501621-4 01 09/15/2025 Liquidated 07/26/2026 1,540.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6512239-6",
+    "kind": "wrong_liquidation",
+    "detail": "Liquidated 08/01/2026, not unliquidated.",
+    "quote": "DP1-6512239-6 01 09/21/2025 Liquidated 08/01/2026 4,016.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6513231-6",
+    "kind": "wrong_liquidation",
+    "detail": "Liquidated 07/16/2026, not unliquidated.",
+    "quote": "DP1-6513231-6 01 09/05/2025 Liquidated 07/16/2026 4,976.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6553307-4",
+    "kind": "wrong_liquidation",
+    "detail": "Liquidated 07/31/2026, not unliquidated.",
+    "quote": "DP1-6553307-4 01 09/20/2025 Liquidated 07/31/2026 2,506.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6620710-6",
+    "kind": "wrong_liquidation",
+    "detail": "Liquidated 08/03/2026, not unliquidated.",
+    "quote": "DP1-6620710-6 01 09/23/2025 Liquidated 08/03/2026 3,520.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6622537-9",
+    "kind": "wrong_liquidation",
+    "detail": "Liquidated 07/31/2026, not unliquidated.",
+    "quote": "DP1-6622537-9 01 09/20/2025 Liquidated 07/31/2026 1,946.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6642906-7",
+    "kind": "wrong_liquidation",
+    "detail": "Liquidated 07/22/2026, not unliquidated.",
+    "quote": "DP1-6642906-7 01 09/11/2025 Liquidated 07/22/2026 1,054.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6667724-6",
+    "kind": "wrong_liquidation",
+    "detail": "Liquidated 08/02/2026, not unliquidated.",
+    "quote": "DP1-6667724-6 01 09/22/2025 Liquidated 08/02/2026 1,688.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6736493-3",
+    "kind": "wrong_liquidation",
+    "detail": "Liquidated 07/24/2026, not unliquidated.",
+    "quote": "DP1-6736493-3 01 09/13/2025 Liquidated 07/24/2026 3,780.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6738044-4",
+    "kind": "wrong_liquidation",
+    "detail": "Liquidated 07/27/2026, not unliquidated.",
+    "quote": "DP1-6738044-4 01 09/16/2025 Liquidated 07/27/2026 4,822.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6758413-0",
+    "kind": "wrong_liquidation",
+    "detail": "Liquidated 07/28/2026, not unliquidated.",
+    "quote": "DP1-6758413-0 01 09/17/2025 Liquidated 07/28/2026 1,408.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6836376-7",
+    "kind": "wrong_liquidation",
+    "detail": "Liquidated 07/25/2026, not unliquidated.",
+    "quote": "DP1-6836376-7 01 09/14/2025 Liquidated 07/25/2026 1,944.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6870643-7",
+    "kind": "wrong_liquidation",
+    "detail": "Liquidated 07/21/2026, not unliquidated.",
+    "quote": "DP1-6870643-7 01 09/10/2025 Liquidated 07/21/2026 4,312.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6877866-8",
+    "kind": "wrong_liquidation",
+    "detail": "Liquidated 07/18/2026, not unliquidated.",
+    "quote": "DP1-6877866-8 01 09/07/2025 Liquidated 07/18/2026 1,602.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6892809-8",
+    "kind": "wrong_liquidation",
+    "detail": "Liquidated 07/23/2026, not unliquidated.",
+    "quote": "DP1-6892809-8 01 09/12/2025 Liquidated 07/23/2026 4,978.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6928768-4",
+    "kind": "wrong_liquidation",
+    "detail": "Liquidated 08/03/2026, not unliquidated.",
+    "quote": "DP1-6928768-4 01 09/23/2025 Liquidated 08/03/2026 3,958.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6940939-1",
+    "kind": "wrong_liquidation",
+    "detail": "Liquidated 07/22/2026, not unliquidated.",
+    "quote": "DP1-6940939-1 01 09/11/2025 Liquidated 07/22/2026 1,406.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6966068-5",
+    "kind": "wrong_liquidation",
+    "detail": "Liquidated 07/29/2026, not unliquidated.",
+    "quote": "DP1-6966068-5 01 09/18/2025 Liquidated 07/29/2026 2,590.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6966475-2",
+    "kind": "wrong_liquidation",
+    "detail": "Liquidated 07/21/2026, not unliquidated.",
+    "quote": "DP1-6966475-2 01 09/10/2025 Liquidated 07/21/2026 3,370.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6970009-0",
+    "kind": "wrong_liquidation",
+    "detail": "Liquidated 07/17/2026, not unliquidated.",
+    "quote": "DP1-6970009-0 01 09/06/2025 Liquidated 07/17/2026 1,884.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6974768-0",
+    "kind": "wrong_liquidation",
+    "detail": "Liquidated 07/30/2026, not unliquidated.",
+    "quote": "DP1-6974768-0 01 09/19/2025 Liquidated 07/30/2026 3,214.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6990126-4",
+    "kind": "wrong_liquidation",
+    "detail": "Liquidated 07/23/2026, not unliquidated.",
+    "quote": "DP1-6990126-4 01 09/12/2025 Liquidated 07/23/2026 1,272.00",
+    "grounded": true
+   }
+  ],
+  "summary": "All 40 entries are in the extraction. The IEEPA 9903.02.69 lines and amounts match the 7501s and both statements. I found no flags in the documents, so none were missed or wrongly set. The one problem is liquidation status. The 10/21/2026 broker statement shows 36 entries as Liquidated, with dates, but the extraction lists all 40 as unliquidated. It appears to rely on the older 07/15/2026 statement, which showed everything Open. Only four entries are still open: DP1-6290550-0, DP1-6449054-3, DP1-6750145-7 and DP1-6833397-5. For these four, unliquidated is correct."
+ },
+ "screen": {
+  "removed_lines": [],
+  "hidden_chars_dropped": 0,
+  "errors": [],
+  "pages": 44
+ },
+ "warnings": [],
+ "reader_notes": [
+  "Part 1 of 6: these are only the 10 CBP 7501 pages in 1_cbp7501_entry_summaries.pdf (pages 1-10). Other parts may add liquidation, protest, IEEPA or CIT details for these entries.",
+  "None of these pages says anything about liquidation, so every entry is marked 'unknown'. None says anything about surety payment, protests, drawback, reconciliation or AD/CVD, so those flags are false.",
+  "No entered value is printed on the 9903.02.69 rows, so entered_value is null there. These pages do not say what program 9903.02.69 is under, so no IEEPA amount is recorded as stated (ieepa_duty_statement is null).",
+  "No document in this part says the importer is a plaintiff at the Court of International Trade.",
+  "The documents are marked 'synthetic test document'.",
+  "Part 2 of 6: covers 1_cbp7501_entry_summaries.pdf pages 11-20, one entry per page (10 entries, all type 01, importer Driftwood Patio Co., IOR 58-7713320-00, filer Tidewater Customs Brokers DP1).",
+  "No liquidation status or date appears on these pages, so all entries are marked 'unknown'. Other parts may contain this information.",
+  "No surety, protest, drawback, reconciliation, AD/CVD, or Court of International Trade plaintiff information appears on these pages.",
+  "The 9903.02.69 rows show no entered value, so entered_value is null; rate 20% and duty copied as printed.",
+  "No broker statement gives an IEEPA amount on these pages, so ieepa_duty_statement is null. The 9903.02.69 duty is not labeled as IEEPA in these documents.",
+  "Part 3 of 6 covers only 7501 pages 21-30. These pages have 10 entries, all type 01 for Driftwood Patio Co. (IOR 58-7713320-00), filed by Tidewater Customs Brokers (DP1) at port 1401.",
+  "None of these pages gives a liquidation status or date, so each entry is 'unknown'. Other parts may say more.",
+  "The 9903.02.69 rows show a rate (20%) and a duty but no entered value, so entered_value is null for those rows.",
+  "These pages don't say which program 9903.02.69 belongs to, and they don't state an IEEPA amount, so ieepa_duty_statement is null.",
+  "These pages don't mention surety payment, protests, drawback, reconciliation, AD/CVD or a Court of International Trade case, so all those flags are false.",
+  "Part 4 of 6: pages 31-40 of 1_cbp7501_entry_summaries.pdf, ten type-01 entries for Driftwood Patio Co. (IOR 58-7713320-00), all filed by Tidewater Customs Brokers (DP1), port 1401.",
+  "None of these pages say anything about liquidation, so every status is 'unknown' and no liquidation date is given. Other parts may have this.",
+  "No broker statement, report or email in this part gives an IEEPA amount, so ieepa_duty_statement is null for every entry. The 9903.02.69 rows are copied exactly as printed, with entered value null because the row shows none.",
+  "Nothing in this part mentions surety payment, protests, drawback, reconciliation, AD/CVD, or a Court of International Trade case, so all those flags are false and the CIT fields are null.",
+  "Pages are out of date order: summary dates on pp.37-40 run 01/01/2026, 02/09/2026, 01/02/2026, 01/06/2026. Dates are copied as printed.",
+  "Part 5 covers only the Tidewater Customs Brokers statement prepared 07/15/2026 (2 pages, 40 entries). All entries are type 01 and every row shows 'Open' with '-' in the liquidation date column, so all are recorded as unliquidated with no liquidation date.",
+  "The IEEPA amount in each row comes from the statement column 'IEEPA (9903.01/.02)'. No 7501 pages were included in this part, so the HTS line details are empty for every entry.",
+  "No document in this part mentions surety payment, protests, drawback, reconciliation, AD/CVD, or a Court of International Trade case, so all those flags are false and cit_plaintiff is false for this part only.",
+  "Several entry dates fall outside September 2025: DP1-6290550-0 (12/23/2025), DP1-6750145-7 (12/22/2025), DP1-6833397-5 (12/27/2025) and DP1-6449054-3 (01/30/2026). They are copied exactly as printed.",
+  "Part 6 of 6: only the Tidewater Customs Brokers statement prepared 10/21/2026 (2 pages, 40 entries) was in this part. There were no 7501 pages, so no line or HTS details are available here. Lines are left empty.",
+  "The IEEPA amounts come from the statement column headed 'IEEPA (9903.01/.02)'.",
+  "Four entries are marked 'Open' with no liquidation date. They are recorded as unliquidated: DP1-6290550-0, DP1-6449054-3, DP1-6750145-7 and DP1-6833397-5.",
+  "None of these pages mention a surety payment, protest, drawback, reconciliation, AD/CVD or a Court of International Trade case. All flags are false and CIT plaintiff is false for this part."
+ ],
+ "files": {
+  "cape_csv": "Entry Number\nDP164490543\nDP168333975\nDP162905500\nDP167501457\n",
+  "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//DutyBack//IEEPA refund deadlines//EN\r\nCALSCALE:GREGORIAN\r\nX-WR-CALNAME:Tariff refund deadlines - Driftwood Patio Co.\r\nEND:VCALENDAR\r\n"
+ },
+ "agents": [
+  {
+   "agent": "reader 1/6",
+   "model": "opus",
+   "seconds": 30.5,
+   "input_tokens": 2,
+   "output_tokens": 4272,
+   "cache_read_tokens": 2307,
+   "cache_write_tokens": 4537,
+   "cost_usd": 0.1222,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-opus-5-5"
+  },
+  {
+   "agent": "reader 2/6",
+   "model": "opus",
+   "seconds": 26.9,
+   "input_tokens": 2,
+   "output_tokens": 3874,
+   "cache_read_tokens": 2307,
+   "cache_write_tokens": 4537,
+   "cost_usd": 0.1142,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-opus-5-5"
+  },
+  {
+   "agent": "reader 3/6",
+   "model": "opus",
+   "seconds": 27.4,
+   "input_tokens": 2,
+   "output_tokens": 3922,
+   "cache_read_tokens": 2307,
+   "cache_write_tokens": 4537,
+   "cost_usd": 0.1152,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-opus-5-5"
+  },
+  {
+   "agent": "reader 4/6",
+   "model": "opus",
+   "seconds": 30.2,
+   "input_tokens": 2,
+   "output_tokens": 4211,
+   "cache_read_tokens": 2307,
+   "cache_write_tokens": 4535,
+   "cost_usd": 0.121,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-opus-5-5"
+  },
+  {
+   "agent": "reader 5/6",
+   "model": "opus",
+   "seconds": 82.9,
+   "input_tokens": 2,
+   "output_tokens": 12633,
+   "cache_read_tokens": 2307,
+   "cache_write_tokens": 2105,
+   "cost_usd": 0.27,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-opus-5-5"
+  },
+  {
+   "agent": "reader 6/6",
+   "model": "opus",
+   "seconds": 87.6,
+   "input_tokens": 2,
+   "output_tokens": 13579,
+   "cache_read_tokens": 2307,
+   "cache_write_tokens": 2429,
+   "cost_usd": 0.2915,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-opus-5-5"
+  },
+  {
+   "agent": "checker",
+   "model": "sonnet",
+   "seconds": 27.8,
+   "input_tokens": 10,
+   "output_tokens": 5010,
+   "cache_read_tokens": 44803,
+   "cache_write_tokens": 19864,
+   "cost_usd": 0.1341,
+   "turns": 15,
+   "tool_calls": [
+    {
+     "tool": "get_extraction",
+     "input": {}
+    },
+    {
+     "tool": "list_entry_numbers_in_documents",
+     "input": {}
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "2_broker_statement_2026-07-15.pdf",
+      "page": 1
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "2_broker_statement_2026-07-15.pdf",
+      "page": 2
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "3_broker_statement_2026-10-21.pdf",
+      "page": 1
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "3_broker_statement_2026-10-21.pdf",
+      "page": 2
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 1
+     }
+    },
+    {
+     "tool": "search_documents",
+     "input": {
+      "text": "protest"
+     }
+    },
+    {
+     "tool": "search_documents",
+     "input": {
+      "text": "surety"
+     }
+    },
+    {
+     "tool": "search_documents",
+     "input": {
+      "text": "9903.01"
+     }
+    },
+    {
+     "tool": "search_documents",
+     "input": {
+      "text": "drawback"
+     }
+    },
+    {
+     "tool": "search_documents",
+     "input": {
+      "text": "9903.88"
+     }
+    },
+    {
+     "tool": "search_documents",
+     "input": {
+      "text": "9903."
+     }
+    }
+   ],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-sonnet-5-5"
+  },
+  {
+   "agent": "reader (repair)",
+   "model": "opus",
+   "seconds": 122.3,
+   "input_tokens": 2,
+   "output_tokens": 18895,
+   "cache_read_tokens": 2307,
+   "cache_write_tokens": 22707,
+   "cost_usd": 0.56,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-opus-5-5"
+  },
+  {
+   "agent": "advisor",
+   "model": "sonnet",
+   "seconds": 10.6,
+   "input_tokens": 2,
+   "output_tokens": 1594,
+   "cache_read_tokens": 905,
+   "cache_write_tokens": 6357,
+   "cost_usd": 0.0415,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-sonnet-5-5"
+  }
+ ],
+ "totals": {
+  "seconds": 248.9,
+  "cost_usd": 1.7697,
+  "input_tokens": 133491,
+  "output_tokens": 67990,
+  "tool_calls": 13
+ },
+ "steps": [
+  {
+   "key": "screen",
+   "title": "Safety screen",
+   "who": "Code"
+  },
+  {
+   "key": "read",
+   "title": "Read the paperwork",
+   "who": "Reader agent"
+  },
+  {
+   "key": "verify",
+   "title": "Match the extracted facts to the documents",
+   "who": "Code"
+  },
+  {
+   "key": "check",
+   "title": "Double-check with tools",
+   "who": "Checker agent"
+  },
+  {
+   "key": "repair",
+   "title": "Re-read anything flagged",
+   "who": "Reader agent + code"
+  },
+  {
+   "key": "route",
+   "title": "Sort entries and compute refunds",
+   "who": "Rules engine (code)"
+  },
+  {
+   "key": "plan",
+   "title": "Write the action plan",
+   "who": "Advisor agent + code"
+  }
+ ]
+}

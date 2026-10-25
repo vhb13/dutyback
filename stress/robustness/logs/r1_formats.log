@@ -1,0 +1,27 @@
+[screen] running 
+[screen] done 10 pages · 0 suspicious line(s) removed · 0 hidden characters dropped
+[read] running 
+[read] done 10 entries read
+[verify] running 
+[verify] done 2/10 entries fully verified
+[check] running 
+[check] done 14 turns · 12 tool calls · 0 issue(s) with a supporting quote
+[repair] running 
+[repair] done 0 entries corrected or added
+[route] running 
+[route] done $4,410.00 can be claimed in CAPE now
+[plan] running 
+[plan] done 4 steps · 1 sentence(s) removed by the number check
+routes:
+  ZT5-0412988-1  PROTEST_BY                   $  2,860.00  deadline=2027-01-23  flags=[]
+  ZT5-0415702-7  CAPE_NOW                     $  4,410.00  deadline=None  flags=['amount_from_statement_only']
+  ZT5-0414106-2  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:liquidation_date']
+  ZT5-0414288-6  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:liquidation_date']
+  ZT5-0413540-6  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:liquidation_date']
+  ZT5-0414533-5  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:liquidation_date']
+  ZT5-0414879-0  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:liquidation_date']
+  ZT5-0415250-8  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['unverified:liquidation_date']
+  ZT5-0416018-4  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['amount_from_statement_only', 'unverified:ieepa_duty']
+  ZT5-0416475-1  NEEDS_REVIEW                 $      0.00  deadline=None  flags=['amount_from_statement_only', 'unverified:ieepa_duty', 'unverified:liquidation_date']
+CAPE csv entries: 1 | removed lines: 0 | hidden chars: 0 | warnings: []
+saved stress/robustness/results/r1_formats.json | cost 0.3618

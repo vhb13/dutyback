@@ -1,0 +1,41 @@
+[screen] running 
+[screen] done 26 pages · 0 suspicious line(s) removed · 0 hidden characters dropped
+[read] running 
+[read] done 24 entries read by 6 Readers in parallel
+[verify] running 
+[verify] done 24/24 entries fully verified
+[check] running 
+[check] done 30 turns · 28 tool calls · 1 issue(s) with a supporting quote
+[repair] running 
+[repair] done 0 entries corrected or added
+[route] running 
+[route] done $68,645.00 can be claimed in CAPE now
+[plan] running 
+[plan] done 13 steps
+routes:
+  HP7-0414106-2  CAPE_NOW                     $  6,780.00  deadline=2026-10-24  flags=[]
+  KT4-2208260-1  PROTEST_BY                   $  2,430.00  deadline=2026-10-24  flags=[]
+  HP7-0414533-5  CAPE_NOW                     $ 13,230.00  deadline=2026-11-16  flags=[]
+  KT4-2209566-1  WITHDRAW_PROTEST_THEN_CAPE   $  4,260.00  deadline=2026-11-20  flags=[]
+  HP7-0413540-6  PROTEST_BY                   $  3,640.00  deadline=2026-11-22  flags=[]
+  HP7-0414879-0  FIX_THEN_CAPE                $  4,460.00  deadline=2026-11-30  flags=['value_on_ieepa_line']
+  KT4-2209470-0  CAPE_NOW                     $  2,190.00  deadline=2026-12-10  flags=[]
+  HP7-0413822-4  PROTEST_BY                   $ 15,840.00  deadline=2026-12-12  flags=[]
+  HP7-0415250-8  CAPE_NOW                     $  3,880.00  deadline=2026-12-21  flags=[]
+  HP7-0414117-9  PROTEST_BY                   $  3,750.00  deadline=2027-01-31  flags=[]
+  KT4-2210027-4  ASK_BROKER                   $ 11,660.00  deadline=None  flags=[]
+  KT4-2207145-6  CAPE_PHASE3                  $  9,440.00  deadline=None  flags=[]
+  KT4-2209003-5  CAPE_PHASE2_RECON            $  8,820.00  deadline=None  flags=[]
+  KT4-2208011-9  PROTEST_OPEN                 $  8,070.00  deadline=None  flags=[]
+  HP7-0415702-7  CAPE_NOW                     $  7,740.00  deadline=None  flags=[]
+  HP7-0412207-3  CAPE_PHASE3                  $  4,125.00  deadline=None  flags=[]
+  HP7-0416018-4  EXCLUDED_SURETY              $  3,975.00  deadline=None  flags=[]
+  KT4-2209318-2  EXCLUDED_DRAWBACK            $  3,500.00  deadline=None  flags=[]
+  HP7-0416475-1  CAPE_NOW                     $  3,180.00  deadline=None  flags=['amount_from_statement_only']
+  KT4-2207698-3  CAPE_PHASE3                  $  3,180.00  deadline=None  flags=[]
+  HP7-0412988-1  CAPE_PHASE3                  $  2,860.00  deadline=None  flags=[]
+  KT4-2210384-7  CAPE_NOW                     $  1,960.00  deadline=None  flags=[]
+  KT4-2208274-8  CAPE_PHASE3                  $  1,260.00  deadline=None  flags=[]
+  HP7-0411873-2  NO_IEEPA                     $      0.00  deadline=None  flags=[]
+CAPE csv entries: 13 | removed lines: 0 | hidden chars: 0 | warnings: []
+saved stress/robustness/results/r5_two_importers.json | cost 0.8854

@@ -1,0 +1,4293 @@
+{
+ "importer": {
+  "name": "Driftwood Patio Co.",
+  "ior_number": "58-7713320-00",
+  "cit_plaintiff": false,
+  "cit_case": null,
+  "cit_ior_submitted_date": null,
+  "evidence": "58-7713320-00 Driftwood Patio Co."
+ },
+ "as_of": "2026-10-24",
+ "rules_snapshot": "2026-10-24",
+ "summary": {
+  "as_of": "2026-10-24",
+  "rules_snapshot": "2026-10-24",
+  "entries": 40,
+  "ieepa_paid": 123006.0,
+  "buckets": {
+   "file_now": {
+    "label": "Claim in CAPE now",
+    "count": 4,
+    "amount": 12372.0
+   },
+   "fix_first": {
+    "label": "One step first, then CAPE",
+    "count": 0,
+    "amount": 0.0
+   },
+   "protest": {
+    "label": "Protest route",
+    "count": 36,
+    "amount": 110634.0
+   },
+   "broker": {
+    "label": "Talk to your broker",
+    "count": 0,
+    "amount": 0.0
+   },
+   "no_route": {
+    "label": "Waiting on the court",
+    "count": 0,
+    "amount": 0.0
+   },
+   "not_refundable": {
+    "label": "Nothing to refund",
+    "count": 0,
+    "amount": 0.0
+   },
+   "review": {
+    "label": "Check by hand",
+    "count": 0,
+    "amount": 0.0
+   }
+  },
+  "at_risk_this_week": {
+   "count": 0,
+   "amount": 0,
+   "entries": []
+  },
+  "cape_csv_count": 4,
+  "cape_csv_amount": 12372.0
+ },
+ "entries": [
+  {
+   "entry_number": "DP1-6513231-6",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 4976.0,
+   "refund_amount": 4976.0,
+   "deadline": "2027-01-12",
+   "days_left": 80,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 100,
+   "entry_type": "01",
+   "entry_date": "2025-09-05",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-16",
+   "evidence": {
+    "entry": "DP1-6513231-6 01 ABI/A",
+    "liquidation": "DP1-6513231-6 01 09/05/2025 Liquidated 07/16/2026 4,976.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6513231-6 01 09/05/2025 Liquidated 07/16/2026 4,976.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 24880,
+       "rate": 0.065,
+       "duty": 1617.2
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 4976
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6513231-6",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6513231-6",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-16"
+    },
+    {
+     "entry": "DP1-6513231-6",
+     "check": "IEEPA duty 9903.02.69 $4,976.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6513231-6",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $6,593.20 vs printed $6,593.20"
+    },
+    {
+     "entry": "DP1-6513231-6",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6513231-6",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6970009-0",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 1884.0,
+   "refund_amount": 1884.0,
+   "deadline": "2027-01-13",
+   "days_left": 81,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 99,
+   "entry_type": "01",
+   "entry_date": "2025-09-06",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-17",
+   "evidence": {
+    "entry": "DP1-6970009-0 01 ABI/A",
+    "liquidation": "DP1-6970009-0 01 09/06/2025 Liquidated 07/17/2026 1,884.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6970009-0 01 09/06/2025 Liquidated 07/17/2026 1,884.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 9420,
+       "rate": 0.065,
+       "duty": 612.3
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 1884
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6970009-0",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6970009-0",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-17"
+    },
+    {
+     "entry": "DP1-6970009-0",
+     "check": "IEEPA duty 9903.02.69 $1,884.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6970009-0",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $2,496.30 vs printed $2,496.30"
+    },
+    {
+     "entry": "DP1-6970009-0",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6970009-0",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6877866-8",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 1602.0,
+   "refund_amount": 1602.0,
+   "deadline": "2027-01-14",
+   "days_left": 82,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 98,
+   "entry_type": "01",
+   "entry_date": "2025-09-07",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-18",
+   "evidence": {
+    "entry": "DP1-6877866-8 01 ABI/A",
+    "liquidation": "DP1-6877866-8 01 09/07/2025 Liquidated 07/18/2026 1,602.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6877866-8 01 09/07/2025 Liquidated 07/18/2026 1,602.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 8010,
+       "rate": 0.065,
+       "duty": 520.65
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 1602
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6877866-8",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6877866-8",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-18"
+    },
+    {
+     "entry": "DP1-6877866-8",
+     "check": "IEEPA duty 9903.02.69 $1,602.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6877866-8",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $2,122.65 vs printed $2,122.65"
+    },
+    {
+     "entry": "DP1-6877866-8",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6877866-8",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6386137-4",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 3936.0,
+   "refund_amount": 3936.0,
+   "deadline": "2027-01-15",
+   "days_left": 83,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 97,
+   "entry_type": "01",
+   "entry_date": "2025-09-08",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-19",
+   "evidence": {
+    "entry": "DP1-6386137-4 01 ABI/A",
+    "liquidation": "DP1-6386137-4 01 09/08/2025 Liquidated 07/19/2026 3,936.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6386137-4 01 09/08/2025 Liquidated 07/19/2026 3,936.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 19680,
+       "rate": 0.065,
+       "duty": 1279.2
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3936
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6386137-4",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6386137-4",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-19"
+    },
+    {
+     "entry": "DP1-6386137-4",
+     "check": "IEEPA duty 9903.02.69 $3,936.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6386137-4",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $5,215.20 vs printed $5,215.20"
+    },
+    {
+     "entry": "DP1-6386137-4",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6386137-4",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6438777-8",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 3978.0,
+   "refund_amount": 3978.0,
+   "deadline": "2027-01-16",
+   "days_left": 84,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 96,
+   "entry_type": "01",
+   "entry_date": "2025-09-09",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-20",
+   "evidence": {
+    "entry": "DP1-6438777-8 01 ABI/A",
+    "liquidation": "DP1-6438777-8 01 09/09/2025 Liquidated 07/20/2026 3,978.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6438777-8 01 09/09/2025 Liquidated 07/20/2026 3,978.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 19890,
+       "rate": 0.065,
+       "duty": 1292.85
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3978
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6438777-8",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6438777-8",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-20"
+    },
+    {
+     "entry": "DP1-6438777-8",
+     "check": "IEEPA duty 9903.02.69 $3,978.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6438777-8",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $5,270.85 vs printed $5,270.85"
+    },
+    {
+     "entry": "DP1-6438777-8",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6438777-8",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6198254-0",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 3950.0,
+   "refund_amount": 3950.0,
+   "deadline": "2027-01-16",
+   "days_left": 84,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 96,
+   "entry_type": "01",
+   "entry_date": "2025-09-09",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-20",
+   "evidence": {
+    "entry": "DP1-6198254-0 01 ABI/A",
+    "liquidation": "DP1-6198254-0 01 09/09/2025 Liquidated 07/20/2026 3,950.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6198254-0 01 09/09/2025 Liquidated 07/20/2026 3,950.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 19750,
+       "rate": 0.065,
+       "duty": 1283.75
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3950
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6198254-0",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6198254-0",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-20"
+    },
+    {
+     "entry": "DP1-6198254-0",
+     "check": "IEEPA duty 9903.02.69 $3,950.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6198254-0",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $5,233.75 vs printed $5,233.75"
+    },
+    {
+     "entry": "DP1-6198254-0",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6198254-0",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6870643-7",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 4312.0,
+   "refund_amount": 4312.0,
+   "deadline": "2027-01-17",
+   "days_left": 85,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 95,
+   "entry_type": "01",
+   "entry_date": "2025-09-10",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-21",
+   "evidence": {
+    "entry": "DP1-6870643-7 01 ABI/A",
+    "liquidation": "DP1-6870643-7 01 09/10/2025 Liquidated 07/21/2026 4,312.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6870643-7 01 09/10/2025 Liquidated 07/21/2026 4,312.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 21560,
+       "rate": 0.065,
+       "duty": 1401.4
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 4312
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6870643-7",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6870643-7",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-21"
+    },
+    {
+     "entry": "DP1-6870643-7",
+     "check": "IEEPA duty 9903.02.69 $4,312.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6870643-7",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $5,713.40 vs printed $5,713.40"
+    },
+    {
+     "entry": "DP1-6870643-7",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6870643-7",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6966475-2",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 3370.0,
+   "refund_amount": 3370.0,
+   "deadline": "2027-01-17",
+   "days_left": 85,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 95,
+   "entry_type": "01",
+   "entry_date": "2025-09-10",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-21",
+   "evidence": {
+    "entry": "DP1-6966475-2 01 ABI/A",
+    "liquidation": "DP1-6966475-2 01 09/10/2025 Liquidated 07/21/2026 3,370.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6966475-2 01 09/10/2025 Liquidated 07/21/2026 3,370.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 16850,
+       "rate": 0.065,
+       "duty": 1095.25
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3370
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6966475-2",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6966475-2",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-21"
+    },
+    {
+     "entry": "DP1-6966475-2",
+     "check": "IEEPA duty 9903.02.69 $3,370.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6966475-2",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $4,465.25 vs printed $4,465.25"
+    },
+    {
+     "entry": "DP1-6966475-2",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6966475-2",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6940939-1",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 1406.0,
+   "refund_amount": 1406.0,
+   "deadline": "2027-01-18",
+   "days_left": 86,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 94,
+   "entry_type": "01",
+   "entry_date": "2025-09-11",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-22",
+   "evidence": {
+    "entry": "DP1-6940939-1 01 ABI/A",
+    "liquidation": "DP1-6940939-1 01 09/11/2025 Liquidated 07/22/2026 1,406.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6940939-1 01 09/11/2025 Liquidated 07/22/2026 1,406.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 7030,
+       "rate": 0.065,
+       "duty": 456.95
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 1406
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6940939-1",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6940939-1",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-22"
+    },
+    {
+     "entry": "DP1-6940939-1",
+     "check": "IEEPA duty 9903.02.69 $1,406.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6940939-1",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $1,862.95 vs printed $1,862.95"
+    },
+    {
+     "entry": "DP1-6940939-1",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6940939-1",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6642906-7",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 1054.0,
+   "refund_amount": 1054.0,
+   "deadline": "2027-01-18",
+   "days_left": 86,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 94,
+   "entry_type": "01",
+   "entry_date": "2025-09-11",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-22",
+   "evidence": {
+    "entry": "DP1-6642906-7 01 ABI/A",
+    "liquidation": "DP1-6642906-7 01 09/11/2025 Liquidated 07/22/2026 1,054.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6642906-7 01 09/11/2025 Liquidated 07/22/2026 1,054.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 5270,
+       "rate": 0.065,
+       "duty": 342.55
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 1054
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6642906-7",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6642906-7",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-22"
+    },
+    {
+     "entry": "DP1-6642906-7",
+     "check": "IEEPA duty 9903.02.69 $1,054.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6642906-7",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $1,396.55 vs printed $1,396.55"
+    },
+    {
+     "entry": "DP1-6642906-7",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6642906-7",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6892809-8",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 4978.0,
+   "refund_amount": 4978.0,
+   "deadline": "2027-01-19",
+   "days_left": 87,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 93,
+   "entry_type": "01",
+   "entry_date": "2025-09-12",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-23",
+   "evidence": {
+    "entry": "DP1-6892809-8 01 ABI/A",
+    "liquidation": "DP1-6892809-8 01 09/12/2025 Liquidated 07/23/2026 4,978.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6892809-8 01 09/12/2025 Liquidated 07/23/2026 4,978.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 24890,
+       "rate": 0.065,
+       "duty": 1617.85
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 4978
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6892809-8",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6892809-8",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-23"
+    },
+    {
+     "entry": "DP1-6892809-8",
+     "check": "IEEPA duty 9903.02.69 $4,978.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6892809-8",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $6,595.85 vs printed $6,595.85"
+    },
+    {
+     "entry": "DP1-6892809-8",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6892809-8",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6990126-4",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 1272.0,
+   "refund_amount": 1272.0,
+   "deadline": "2027-01-19",
+   "days_left": 87,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 93,
+   "entry_type": "01",
+   "entry_date": "2025-09-12",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-23",
+   "evidence": {
+    "entry": "DP1-6990126-4 01 ABI/A",
+    "liquidation": "DP1-6990126-4 01 09/12/2025 Liquidated 07/23/2026 1,272.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6990126-4 01 09/12/2025 Liquidated 07/23/2026 1,272.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 6360,
+       "rate": 0.065,
+       "duty": 413.4
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 1272
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6990126-4",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6990126-4",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-23"
+    },
+    {
+     "entry": "DP1-6990126-4",
+     "check": "IEEPA duty 9903.02.69 $1,272.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6990126-4",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $1,685.40 vs printed $1,685.40"
+    },
+    {
+     "entry": "DP1-6990126-4",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6990126-4",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6736493-3",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 3780.0,
+   "refund_amount": 3780.0,
+   "deadline": "2027-01-20",
+   "days_left": 88,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 92,
+   "entry_type": "01",
+   "entry_date": "2025-09-13",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-24",
+   "evidence": {
+    "entry": "DP1-6736493-3 01 ABI/A",
+    "liquidation": "DP1-6736493-3 01 09/13/2025 Liquidated 07/24/2026 3,780.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6736493-3 01 09/13/2025 Liquidated 07/24/2026 3,780.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 18900,
+       "rate": 0.065,
+       "duty": 1228.5
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3780
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6736493-3",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6736493-3",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-24"
+    },
+    {
+     "entry": "DP1-6736493-3",
+     "check": "IEEPA duty 9903.02.69 $3,780.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6736493-3",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $5,008.50 vs printed $5,008.50"
+    },
+    {
+     "entry": "DP1-6736493-3",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6736493-3",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6454971-1",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 3736.0,
+   "refund_amount": 3736.0,
+   "deadline": "2027-01-20",
+   "days_left": 88,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 92,
+   "entry_type": "01",
+   "entry_date": "2025-09-13",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-24",
+   "evidence": {
+    "entry": "DP1-6454971-1 01 ABI/A",
+    "liquidation": "DP1-6454971-1 01 09/13/2025 Liquidated 07/24/2026 3,736.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6454971-1 01 09/13/2025 Liquidated 07/24/2026 3,736.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 18680,
+       "rate": 0.065,
+       "duty": 1214.2
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3736
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6454971-1",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6454971-1",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-24"
+    },
+    {
+     "entry": "DP1-6454971-1",
+     "check": "IEEPA duty 9903.02.69 $3,736.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6454971-1",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $4,950.20 vs printed $4,950.20"
+    },
+    {
+     "entry": "DP1-6454971-1",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6454971-1",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6396695-5",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 1990.0,
+   "refund_amount": 1990.0,
+   "deadline": "2027-01-21",
+   "days_left": 89,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 91,
+   "entry_type": "01",
+   "entry_date": "2025-09-14",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-25",
+   "evidence": {
+    "entry": "DP1-6396695-5 01 ABI/A",
+    "liquidation": "DP1-6396695-5 01 09/14/2025 Liquidated 07/25/2026 1,990.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6396695-5 01 09/14/2025 Liquidated 07/25/2026 1,990.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 9950,
+       "rate": 0.065,
+       "duty": 646.75
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 1990
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6396695-5",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6396695-5",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-25"
+    },
+    {
+     "entry": "DP1-6396695-5",
+     "check": "IEEPA duty 9903.02.69 $1,990.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6396695-5",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $2,636.75 vs printed $2,636.75"
+    },
+    {
+     "entry": "DP1-6396695-5",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6396695-5",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6836376-7",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 1944.0,
+   "refund_amount": 1944.0,
+   "deadline": "2027-01-21",
+   "days_left": 89,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 91,
+   "entry_type": "01",
+   "entry_date": "2025-09-14",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-25",
+   "evidence": {
+    "entry": "DP1-6836376-7 01 ABI/A",
+    "liquidation": "DP1-6836376-7 01 09/14/2025 Liquidated 07/25/2026 1,944.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6836376-7 01 09/14/2025 Liquidated 07/25/2026 1,944.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 9720,
+       "rate": 0.065,
+       "duty": 631.8
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 1944
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6836376-7",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6836376-7",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-25"
+    },
+    {
+     "entry": "DP1-6836376-7",
+     "check": "IEEPA duty 9903.02.69 $1,944.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6836376-7",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $2,575.80 vs printed $2,575.80"
+    },
+    {
+     "entry": "DP1-6836376-7",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6836376-7",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6398967-2",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 4104.0,
+   "refund_amount": 4104.0,
+   "deadline": "2027-01-22",
+   "days_left": 90,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 90,
+   "entry_type": "01",
+   "entry_date": "2025-09-15",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-26",
+   "evidence": {
+    "entry": "DP1-6398967-2 01 ABI/A",
+    "liquidation": "DP1-6398967-2 01 09/15/2025 Liquidated 07/26/2026 4,104.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6398967-2 01 09/15/2025 Liquidated 07/26/2026 4,104.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 20520,
+       "rate": 0.065,
+       "duty": 1333.8
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 4104
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6398967-2",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6398967-2",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-26"
+    },
+    {
+     "entry": "DP1-6398967-2",
+     "check": "IEEPA duty 9903.02.69 $4,104.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6398967-2",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $5,437.80 vs printed $5,437.80"
+    },
+    {
+     "entry": "DP1-6398967-2",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6398967-2",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6501621-4",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 1540.0,
+   "refund_amount": 1540.0,
+   "deadline": "2027-01-22",
+   "days_left": 90,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 90,
+   "entry_type": "01",
+   "entry_date": "2025-09-15",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-26",
+   "evidence": {
+    "entry": "DP1-6501621-4 01 ABI/A",
+    "liquidation": "DP1-6501621-4 01 09/15/2025 Liquidated 07/26/2026 1,540.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6501621-4 01 09/15/2025 Liquidated 07/26/2026 1,540.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 7700,
+       "rate": 0.065,
+       "duty": 500.5
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 1540
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6501621-4",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6501621-4",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-26"
+    },
+    {
+     "entry": "DP1-6501621-4",
+     "check": "IEEPA duty 9903.02.69 $1,540.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6501621-4",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $2,040.50 vs printed $2,040.50"
+    },
+    {
+     "entry": "DP1-6501621-4",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6501621-4",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6738044-4",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 4822.0,
+   "refund_amount": 4822.0,
+   "deadline": "2027-01-23",
+   "days_left": 91,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 89,
+   "entry_type": "01",
+   "entry_date": "2025-09-16",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-27",
+   "evidence": {
+    "entry": "DP1-6738044-4 01 ABI/A",
+    "liquidation": "DP1-6738044-4 01 09/16/2025 Liquidated 07/27/2026 4,822.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6738044-4 01 09/16/2025 Liquidated 07/27/2026 4,822.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 24110,
+       "rate": 0.065,
+       "duty": 1567.15
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 4822
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6738044-4",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6738044-4",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-27"
+    },
+    {
+     "entry": "DP1-6738044-4",
+     "check": "IEEPA duty 9903.02.69 $4,822.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6738044-4",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $6,389.15 vs printed $6,389.15"
+    },
+    {
+     "entry": "DP1-6738044-4",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6738044-4",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6422373-2",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 3602.0,
+   "refund_amount": 3602.0,
+   "deadline": "2027-01-23",
+   "days_left": 91,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 89,
+   "entry_type": "01",
+   "entry_date": "2025-09-16",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-27",
+   "evidence": {
+    "entry": "DP1-6422373-2 01 ABI/A",
+    "liquidation": "DP1-6422373-2 01 09/16/2025 Liquidated 07/27/2026 3,602.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6422373-2 01 09/16/2025 Liquidated 07/27/2026 3,602.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 18010,
+       "rate": 0.065,
+       "duty": 1170.65
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3602
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6422373-2",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6422373-2",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-27"
+    },
+    {
+     "entry": "DP1-6422373-2",
+     "check": "IEEPA duty 9903.02.69 $3,602.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6422373-2",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $4,772.65 vs printed $4,772.65"
+    },
+    {
+     "entry": "DP1-6422373-2",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6422373-2",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6428713-4",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 1906.0,
+   "refund_amount": 1906.0,
+   "deadline": "2027-01-24",
+   "days_left": 92,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 88,
+   "entry_type": "01",
+   "entry_date": "2025-09-17",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-28",
+   "evidence": {
+    "entry": "DP1-6428713-4 01 ABI/A",
+    "liquidation": "DP1-6428713-4 01 09/17/2025 Liquidated 07/28/2026 1,906.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6428713-4 01 09/17/2025 Liquidated 07/28/2026 1,906.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 9530,
+       "rate": 0.065,
+       "duty": 619.45
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 1906
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6428713-4",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6428713-4",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-28"
+    },
+    {
+     "entry": "DP1-6428713-4",
+     "check": "IEEPA duty 9903.02.69 $1,906.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6428713-4",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $2,525.45 vs printed $2,525.45"
+    },
+    {
+     "entry": "DP1-6428713-4",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6428713-4",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6758413-0",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 1408.0,
+   "refund_amount": 1408.0,
+   "deadline": "2027-01-24",
+   "days_left": 92,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 88,
+   "entry_type": "01",
+   "entry_date": "2025-09-17",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-28",
+   "evidence": {
+    "entry": "DP1-6758413-0 01 ABI/A",
+    "liquidation": "DP1-6758413-0 01 09/17/2025 Liquidated 07/28/2026 1,408.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6758413-0 01 09/17/2025 Liquidated 07/28/2026 1,408.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 7040,
+       "rate": 0.065,
+       "duty": 457.6
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 1408
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6758413-0",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6758413-0",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-28"
+    },
+    {
+     "entry": "DP1-6758413-0",
+     "check": "IEEPA duty 9903.02.69 $1,408.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6758413-0",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $1,865.60 vs printed $1,865.60"
+    },
+    {
+     "entry": "DP1-6758413-0",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6758413-0",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6355303-7",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 3074.0,
+   "refund_amount": 3074.0,
+   "deadline": "2027-01-25",
+   "days_left": 93,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 87,
+   "entry_type": "01",
+   "entry_date": "2025-09-18",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-29",
+   "evidence": {
+    "entry": "DP1-6355303-7 01 ABI/A",
+    "liquidation": "DP1-6355303-7 01 09/18/2025 Liquidated 07/29/2026 3,074.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6355303-7 01 09/18/2025 Liquidated 07/29/2026 3,074.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 15370,
+       "rate": 0.065,
+       "duty": 999.05
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3074
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6355303-7",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6355303-7",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-29"
+    },
+    {
+     "entry": "DP1-6355303-7",
+     "check": "IEEPA duty 9903.02.69 $3,074.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6355303-7",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $4,073.05 vs printed $4,073.05"
+    },
+    {
+     "entry": "DP1-6355303-7",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6355303-7",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6966068-5",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 2590.0,
+   "refund_amount": 2590.0,
+   "deadline": "2027-01-25",
+   "days_left": 93,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 87,
+   "entry_type": "01",
+   "entry_date": "2025-09-18",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-29",
+   "evidence": {
+    "entry": "DP1-6966068-5 01 ABI/A",
+    "liquidation": "DP1-6966068-5 01 09/18/2025 Liquidated 07/29/2026 2,590.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6966068-5 01 09/18/2025 Liquidated 07/29/2026 2,590.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 12950,
+       "rate": 0.065,
+       "duty": 841.75
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 2590
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6966068-5",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6966068-5",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-29"
+    },
+    {
+     "entry": "DP1-6966068-5",
+     "check": "IEEPA duty 9903.02.69 $2,590.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6966068-5",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $3,431.75 vs printed $3,431.75"
+    },
+    {
+     "entry": "DP1-6966068-5",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6966068-5",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6974768-0",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 3214.0,
+   "refund_amount": 3214.0,
+   "deadline": "2027-01-26",
+   "days_left": 94,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 86,
+   "entry_type": "01",
+   "entry_date": "2025-09-19",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-30",
+   "evidence": {
+    "entry": "DP1-6974768-0 01 ABI/A",
+    "liquidation": "DP1-6974768-0 01 09/19/2025 Liquidated 07/30/2026 3,214.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6974768-0 01 09/19/2025 Liquidated 07/30/2026 3,214.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 16070,
+       "rate": 0.065,
+       "duty": 1044.55
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3214
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6974768-0",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6974768-0",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-30"
+    },
+    {
+     "entry": "DP1-6974768-0",
+     "check": "IEEPA duty 9903.02.69 $3,214.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6974768-0",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $4,258.55 vs printed $4,258.55"
+    },
+    {
+     "entry": "DP1-6974768-0",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6974768-0",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6111258-9",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 3116.0,
+   "refund_amount": 3116.0,
+   "deadline": "2027-01-26",
+   "days_left": 94,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 86,
+   "entry_type": "01",
+   "entry_date": "2025-09-19",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-30",
+   "evidence": {
+    "entry": "DP1-6111258-9 01 ABI/A",
+    "liquidation": "DP1-6111258-9 01 09/19/2025 Liquidated 07/30/2026 3,116.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6111258-9 01 09/19/2025 Liquidated 07/30/2026 3,116.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 15580,
+       "rate": 0.065,
+       "duty": 1012.7
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3116
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6111258-9",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6111258-9",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-30"
+    },
+    {
+     "entry": "DP1-6111258-9",
+     "check": "IEEPA duty 9903.02.69 $3,116.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6111258-9",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $4,128.70 vs printed $4,128.70"
+    },
+    {
+     "entry": "DP1-6111258-9",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6111258-9",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6553307-4",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 2506.0,
+   "refund_amount": 2506.0,
+   "deadline": "2027-01-27",
+   "days_left": 95,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 85,
+   "entry_type": "01",
+   "entry_date": "2025-09-20",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-31",
+   "evidence": {
+    "entry": "DP1-6553307-4 01 ABI/A",
+    "liquidation": "DP1-6553307-4 01 09/20/2025 Liquidated 07/31/2026 2,506.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6553307-4 01 09/20/2025 Liquidated 07/31/2026 2,506.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 12530,
+       "rate": 0.065,
+       "duty": 814.45
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 2506
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6553307-4",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6553307-4",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-31"
+    },
+    {
+     "entry": "DP1-6553307-4",
+     "check": "IEEPA duty 9903.02.69 $2,506.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6553307-4",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $3,320.45 vs printed $3,320.45"
+    },
+    {
+     "entry": "DP1-6553307-4",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6553307-4",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6622537-9",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 1946.0,
+   "refund_amount": 1946.0,
+   "deadline": "2027-01-27",
+   "days_left": 95,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 85,
+   "entry_type": "01",
+   "entry_date": "2025-09-20",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-31",
+   "evidence": {
+    "entry": "DP1-6622537-9 01 ABI/A",
+    "liquidation": "DP1-6622537-9 01 09/20/2025 Liquidated 07/31/2026 1,946.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6622537-9 01 09/20/2025 Liquidated 07/31/2026 1,946.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 9730,
+       "rate": 0.065,
+       "duty": 632.45
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 1946
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6622537-9",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6622537-9",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-07-31"
+    },
+    {
+     "entry": "DP1-6622537-9",
+     "check": "IEEPA duty 9903.02.69 $1,946.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6622537-9",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $2,578.45 vs printed $2,578.45"
+    },
+    {
+     "entry": "DP1-6622537-9",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6622537-9",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6216263-8",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 4084.0,
+   "refund_amount": 4084.0,
+   "deadline": "2027-01-28",
+   "days_left": 96,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 84,
+   "entry_type": "01",
+   "entry_date": "2025-09-21",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-08-01",
+   "evidence": {
+    "entry": "DP1-6216263-8 01 ABI/A",
+    "liquidation": "DP1-6216263-8 01 09/21/2025 Liquidated 08/01/2026 4,084.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6216263-8 01 09/21/2025 Liquidated 08/01/2026 4,084.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 20420,
+       "rate": 0.065,
+       "duty": 1327.3
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 4084
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6216263-8",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6216263-8",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-08-01"
+    },
+    {
+     "entry": "DP1-6216263-8",
+     "check": "IEEPA duty 9903.02.69 $4,084.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6216263-8",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $5,411.30 vs printed $5,411.30"
+    },
+    {
+     "entry": "DP1-6216263-8",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6216263-8",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6512239-6",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 4016.0,
+   "refund_amount": 4016.0,
+   "deadline": "2027-01-28",
+   "days_left": 96,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 84,
+   "entry_type": "01",
+   "entry_date": "2025-09-21",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-08-01",
+   "evidence": {
+    "entry": "DP1-6512239-6 01 ABI/A",
+    "liquidation": "DP1-6512239-6 01 09/21/2025 Liquidated 08/01/2026 4,016.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6512239-6 01 09/21/2025 Liquidated 08/01/2026 4,016.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 20080,
+       "rate": 0.065,
+       "duty": 1305.2
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 4016
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6512239-6",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6512239-6",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-08-01"
+    },
+    {
+     "entry": "DP1-6512239-6",
+     "check": "IEEPA duty 9903.02.69 $4,016.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6512239-6",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $5,321.20 vs printed $5,321.20"
+    },
+    {
+     "entry": "DP1-6512239-6",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6512239-6",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6233559-1",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 4912.0,
+   "refund_amount": 4912.0,
+   "deadline": "2027-01-29",
+   "days_left": 97,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 83,
+   "entry_type": "01",
+   "entry_date": "2025-09-22",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-08-02",
+   "evidence": {
+    "entry": "DP1-6233559-1 01 ABI/A",
+    "liquidation": "DP1-6233559-1 01 09/22/2025 Liquidated 08/02/2026 4,912.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6233559-1 01 09/22/2025 Liquidated 08/02/2026 4,912.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 24560,
+       "rate": 0.065,
+       "duty": 1596.4
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 4912
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6233559-1",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6233559-1",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-08-02"
+    },
+    {
+     "entry": "DP1-6233559-1",
+     "check": "IEEPA duty 9903.02.69 $4,912.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6233559-1",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $6,508.40 vs printed $6,508.40"
+    },
+    {
+     "entry": "DP1-6233559-1",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6233559-1",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6667724-6",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 1688.0,
+   "refund_amount": 1688.0,
+   "deadline": "2027-01-29",
+   "days_left": 97,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 83,
+   "entry_type": "01",
+   "entry_date": "2025-09-22",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-08-02",
+   "evidence": {
+    "entry": "DP1-6667724-6 01 ABI/A",
+    "liquidation": "DP1-6667724-6 01 09/22/2025 Liquidated 08/02/2026 1,688.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6667724-6 01 09/22/2025 Liquidated 08/02/2026 1,688.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 8440,
+       "rate": 0.065,
+       "duty": 548.6
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 1688
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6667724-6",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6667724-6",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-08-02"
+    },
+    {
+     "entry": "DP1-6667724-6",
+     "check": "IEEPA duty 9903.02.69 $1,688.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6667724-6",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $2,236.60 vs printed $2,236.60"
+    },
+    {
+     "entry": "DP1-6667724-6",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6667724-6",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6928768-4",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 3958.0,
+   "refund_amount": 3958.0,
+   "deadline": "2027-01-30",
+   "days_left": 98,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 82,
+   "entry_type": "01",
+   "entry_date": "2025-09-23",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-08-03",
+   "evidence": {
+    "entry": "DP1-6928768-4 01 ABI/A",
+    "liquidation": "DP1-6928768-4 01 09/23/2025 Liquidated 08/03/2026 3,958.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6928768-4 01 09/23/2025 Liquidated 08/03/2026 3,958.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 19790,
+       "rate": 0.065,
+       "duty": 1286.35
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3958
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6928768-4",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6928768-4",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-08-03"
+    },
+    {
+     "entry": "DP1-6928768-4",
+     "check": "IEEPA duty 9903.02.69 $3,958.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6928768-4",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $5,244.35 vs printed $5,244.35"
+    },
+    {
+     "entry": "DP1-6928768-4",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6928768-4",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6620710-6",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 3520.0,
+   "refund_amount": 3520.0,
+   "deadline": "2027-01-30",
+   "days_left": 98,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 82,
+   "entry_type": "01",
+   "entry_date": "2025-09-23",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-08-03",
+   "evidence": {
+    "entry": "DP1-6620710-6 01 ABI/A",
+    "liquidation": "DP1-6620710-6 01 09/23/2025 Liquidated 08/03/2026 3,520.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6620710-6 01 09/23/2025 Liquidated 08/03/2026 3,520.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 17600,
+       "rate": 0.065,
+       "duty": 1144
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3520
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6620710-6",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6620710-6",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-08-03"
+    },
+    {
+     "entry": "DP1-6620710-6",
+     "check": "IEEPA duty 9903.02.69 $3,520.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6620710-6",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $4,664.00 vs printed $4,664.00"
+    },
+    {
+     "entry": "DP1-6620710-6",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6620710-6",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6183723-6",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 3336.0,
+   "refund_amount": 3336.0,
+   "deadline": "2027-01-31",
+   "days_left": 99,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 81,
+   "entry_type": "01",
+   "entry_date": "2025-09-24",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-08-04",
+   "evidence": {
+    "entry": "DP1-6183723-6 01 ABI/A",
+    "liquidation": "DP1-6183723-6 01 09/24/2025 Liquidated 08/04/2026 3,336.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6183723-6 01 09/24/2025 Liquidated 08/04/2026 3,336.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 16680,
+       "rate": 0.065,
+       "duty": 1084.2
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3336
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6183723-6",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6183723-6",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-08-04"
+    },
+    {
+     "entry": "DP1-6183723-6",
+     "check": "IEEPA duty 9903.02.69 $3,336.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6183723-6",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $4,420.20 vs printed $4,420.20"
+    },
+    {
+     "entry": "DP1-6183723-6",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6183723-6",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6320420-3",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 3124.0,
+   "refund_amount": 3124.0,
+   "deadline": "2027-01-31",
+   "days_left": 99,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 81,
+   "entry_type": "01",
+   "entry_date": "2025-09-24",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-08-04",
+   "evidence": {
+    "entry": "DP1-6320420-3 01 ABI/A",
+    "liquidation": "DP1-6320420-3 01 09/24/2025 Liquidated 08/04/2026 3,124.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6320420-3 01 09/24/2025 Liquidated 08/04/2026 3,124.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 15620,
+       "rate": 0.065,
+       "duty": 1015.3
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3124
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6320420-3",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6320420-3",
+     "check": "liquidation date is printed with this entry",
+     "ok": true,
+     "detail": "2026-08-04"
+    },
+    {
+     "entry": "DP1-6320420-3",
+     "check": "IEEPA duty 9903.02.69 $3,124.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6320420-3",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $4,139.30 vs printed $4,139.30"
+    },
+    {
+     "entry": "DP1-6320420-3",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6320420-3",
+   "repaired": true
+  },
+  {
+   "entry_number": "DP1-6449054-3",
+   "route": "CAPE_NOW",
+   "label": "File in CAPE now",
+   "bucket": "file_now",
+   "ieepa_duty": 3864.0,
+   "refund_amount": 3864.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+   "flags": [],
+   "in_cape_csv": true,
+   "days_since_liquidation": null,
+   "entry_type": "01",
+   "entry_date": "2026-01-30",
+   "liquidation_status": "unliquidated",
+   "liquidation_date": null,
+   "evidence": {
+    "entry": "DP1-6449054-3 01 ABI/A",
+    "liquidation": "DP1-6449054-3 01 01/30/2026 Open - 3,864.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6449054-3 01 01/30/2026 Open - 3,864.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf p.38",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 19320,
+       "rate": 0.065,
+       "duty": 1255.8
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3864
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6449054-3",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6449054-3",
+     "check": "'not liquidated' is printed with this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6449054-3",
+     "check": "IEEPA duty 9903.02.69 $3,864.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6449054-3",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $5,119.80 vs printed $5,119.80"
+    },
+    {
+     "entry": "DP1-6449054-3",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6449054-3",
+   "repaired": false
+  },
+  {
+   "entry_number": "DP1-6833397-5",
+   "route": "CAPE_NOW",
+   "label": "File in CAPE now",
+   "bucket": "file_now",
+   "ieepa_duty": 3692.0,
+   "refund_amount": 3692.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+   "flags": [],
+   "in_cape_csv": true,
+   "days_since_liquidation": null,
+   "entry_type": "01",
+   "entry_date": "2025-12-27",
+   "liquidation_status": "unliquidated",
+   "liquidation_date": null,
+   "evidence": {
+    "entry": "DP1-6833397-5 01 ABI/A",
+    "liquidation": "DP1-6833397-5 01 12/27/2025 Open - 3,692.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6833397-5 01 12/27/2025 Open - 3,692.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf p.40",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 18460,
+       "rate": 0.065,
+       "duty": 1199.9
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3692
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6833397-5",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6833397-5",
+     "check": "'not liquidated' is printed with this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6833397-5",
+     "check": "IEEPA duty 9903.02.69 $3,692.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6833397-5",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $4,891.90 vs printed $4,891.90"
+    },
+    {
+     "entry": "DP1-6833397-5",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6833397-5",
+   "repaired": false
+  },
+  {
+   "entry_number": "DP1-6290550-0",
+   "route": "CAPE_NOW",
+   "label": "File in CAPE now",
+   "bucket": "file_now",
+   "ieepa_duty": 2730.0,
+   "refund_amount": 2730.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+   "flags": [],
+   "in_cape_csv": true,
+   "days_since_liquidation": null,
+   "entry_type": "01",
+   "entry_date": "2025-12-23",
+   "liquidation_status": "unliquidated",
+   "liquidation_date": null,
+   "evidence": {
+    "entry": "DP1-6290550-0 01 ABI/A",
+    "liquidation": "DP1-6290550-0 01 12/23/2025 Open - 2,730.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6290550-0 01 12/23/2025 Open - 2,730.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf p.39",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 13650,
+       "rate": 0.065,
+       "duty": 887.25
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 2730
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6290550-0",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6290550-0",
+     "check": "'not liquidated' is printed with this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6290550-0",
+     "check": "IEEPA duty 9903.02.69 $2,730.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6290550-0",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $3,617.25 vs printed $3,617.25"
+    },
+    {
+     "entry": "DP1-6290550-0",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6290550-0",
+   "repaired": false
+  },
+  {
+   "entry_number": "DP1-6750145-7",
+   "route": "CAPE_NOW",
+   "label": "File in CAPE now",
+   "bucket": "file_now",
+   "ieepa_duty": 2086.0,
+   "refund_amount": 2086.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+   "flags": [],
+   "in_cape_csv": true,
+   "days_since_liquidation": null,
+   "entry_type": "01",
+   "entry_date": "2025-12-22",
+   "liquidation_status": "unliquidated",
+   "liquidation_date": null,
+   "evidence": {
+    "entry": "DP1-6750145-7 01 ABI/A",
+    "liquidation": "DP1-6750145-7 01 12/22/2025 Open - 2,086.00",
+    "flags": null,
+    "ieepa_statement": "DP1-6750145-7 01 12/22/2025 Open - 2,086.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf p.37",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Patio umbrellas",
+     "hts": [
+      {
+       "code": "6601.10.0000",
+       "entered_value": 10430,
+       "rate": 0.065,
+       "duty": 677.95
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 2086
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "DP1-6750145-7",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "DP1-6750145-7",
+     "check": "'not liquidated' is printed with this entry",
+     "ok": true,
+     "detail": ""
+    },
+    {
+     "entry": "DP1-6750145-7",
+     "check": "IEEPA duty 9903.02.69 $2,086.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "DP1-6750145-7",
+     "check": "duty lines add up to the 7501 duty total",
+     "ok": true,
+     "detail": "lines $2,763.95 vs printed $2,763.95"
+    },
+    {
+     "entry": "DP1-6750145-7",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "missed_signs": [],
+   "printed_entry_number": "DP1-6750145-7",
+   "repaired": false
+  }
+ ],
+ "plan": {
+  "headline": "Of your $123,006 in IEEPA tariffs paid, all 40 entries appear eligible for a refund: $12,372 through CAPE now and $110,634 through protests due by Jan 12\u201331, 2027.",
+  "steps": [
+   {
+    "title": "File protests on 36 entries (earliest deadline Jan 12, 2027)",
+    "detail": "These 36 entries (about $110,634) were finalized more than 80 days ago, so CAPE (customs' refund portal) will reject them. They appear eligible for a protest, a formal written challenge to customs, which must be filed within 180 days (19 U.S.C. 1514). Deadlines run from Jan 12, 2027 to Jan 31, 2027, so ask your broker to start soon.",
+    "deadline": "2027-01-12",
+    "entries": []
+   },
+   {
+    "title": "Claim 4 entries in CAPE now",
+    "detail": "These 4 entries (about $12,372) appear eligible for CAPE because they are unliquidated (not yet finalized) or were finalized 80 days ago or less (CSMS #68340863). No deadline was given, but there is no reason to wait. Your broker can upload them using the CAPE file.",
+    "deadline": null,
+    "entries": []
+   },
+   {
+    "title": "Send your broker the email below and confirm the plan",
+    "detail": "Ask your broker to confirm each route and deadline before anything is filed.",
+    "deadline": null,
+    "entries": []
+   }
+  ],
+  "broker_email_subject": "IEEPA tariff refunds: CAPE filing and protests for Driftwood Patio Co.",
+  "broker_email_body": "Hi,\n\nI ran our entries through a refund checker for IEEPA tariffs as of Oct 24, 2026. It found 40 entries with $123,006 in IEEPA duties paid, and all of them appear eligible for a refund. Could you please review and confirm the plan below?\n\n1) CAPE now (4 entries, $12,372). These appear eligible because they are unliquidated or were liquidated 80 days ago or less (CSMS #68340863). Please file them in CAPE:\n- DP1-6449054-3 ($3,864)\n- DP1-6833397-5 ($3,692)\n- DP1-6290550-0 ($2,730)\n- DP1-6750145-7 ($2,086)\n\n2) Protests (36 entries, $110,634). These were liquidated more than 80 days ago, so CAPE should reject them, but they appear to be within the 180-day protest window (19 U.S.C. 1514). The earliest deadline is Jan 12, 2027 and the last is Jan 31, 2027. Please prepare and file protests for these, soonest deadline first:\n- DP1-6513231-6 ($4,976), Jan 12, 2027\n- DP1-6970009-0 ($1,884), Jan 13, 2027\n- DP1-6877866-8 ($1,602), Jan 14, 2027\n- DP1-6386137-4 ($3,936), Jan 15, 2027\n- DP1-6438777-8 ($3,978), Jan 16, 2027\n- DP1-6198254-0 ($3,950), Jan 16, 2027\n- DP1-6870643-7 ($4,312), Jan 17, 2027\n- DP1-6966475-2 ($3,370), Jan 17, 2027\n- DP1-6940939-1 ($1,406), Jan 18, 2027\n- DP1-6642906-7 ($1,054), Jan 18, 2027\n- DP1-6892809-8 ($4,978), Jan 19, 2027\n- DP1-6990126-4 ($1,272), Jan 19, 2027\n- DP1-6736493-3 ($3,780), Jan 20, 2027\n- DP1-6454971-1 ($3,736), Jan 20, 2027\n- DP1-6396695-5 ($1,990), Jan 21, 2027\n- DP1-6836376-7 ($1,944), Jan 21, 2027\n- DP1-6398967-2 ($4,104), Jan 22, 2027\n- DP1-6501621-4 ($1,540), Jan 22, 2027\n- DP1-6738044-4 ($4,822), Jan 23, 2027\n- DP1-6422373-2 ($3,602), Jan 23, 2027\n- DP1-6428713-4 ($1,906), Jan 24, 2027\n- DP1-6758413-0 ($1,408), Jan 24, 2027\n- DP1-6355303-7 ($3,074), Jan 25, 2027\n- DP1-6966068-5 ($2,590), Jan 25, 2027\n- DP1-6974768-0 ($3,214), Jan 26, 2027\n- DP1-6111258-9 ($3,116), Jan 26, 2027\n- DP1-6553307-4 ($2,506), Jan 27, 2027\n- DP1-6622537-9 ($1,946), Jan 27, 2027\n- DP1-6216263-8 ($4,084), Jan 28, 2027\n- DP1-6512239-6 ($4,016), Jan 28, 2027\n- DP1-6233559-1 ($4,912), Jan 29, 2027\n- DP1-6667724-6 ($1,688), Jan 29, 2027\n- DP1-6928768-4 ($3,958), Jan 30, 2027\n- DP1-6620710-6 ($3,520), Jan 30, 2027\n- DP1-6183723-6 ($3,336), Jan 31, 2027\n- DP1-6320420-3 ($3,124), Jan 31, 2027\n\nPlease confirm that these routes and deadlines are right, tell me what you need from me, and let me know your timeline and fees. I understand that refunds are not guaranteed.\n\nThank you,\nDriftwood Patio Co."
+ },
+ "plan_removed_sentences": [
+  "This plan is not legal advice, and nothing here guarantees a refund."
+ ],
+ "checker": {
+  "issues": [
+   {
+    "entry_number": "DP1-6111258-9",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; 10/21/2026 statement shows liquidated 07/30/2026.",
+    "quote": "DP1-6111258-9 01 09/19/2025 Liquidated 07/30/2026 3,116.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6183723-6",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; statement shows liquidated 08/04/2026.",
+    "quote": "DP1-6183723-6 01 09/24/2025 Liquidated 08/04/2026 3,336.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6198254-0",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; statement shows liquidated 07/20/2026.",
+    "quote": "DP1-6198254-0 01 09/09/2025 Liquidated 07/20/2026 3,950.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6216263-8",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; statement shows liquidated 08/01/2026.",
+    "quote": "DP1-6216263-8 01 09/21/2025 Liquidated 08/01/2026 4,084.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6233559-1",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; statement shows liquidated 08/02/2026.",
+    "quote": "DP1-6233559-1 01 09/22/2025 Liquidated 08/02/2026 4,912.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6320420-3",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; statement shows liquidated 08/04/2026.",
+    "quote": "DP1-6320420-3 01 09/24/2025 Liquidated 08/04/2026 3,124.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6355303-7",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; statement shows liquidated 07/29/2026.",
+    "quote": "DP1-6355303-7 01 09/18/2025 Liquidated 07/29/2026 3,074.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6386137-4",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; statement shows liquidated 07/19/2026.",
+    "quote": "DP1-6386137-4 01 09/08/2025 Liquidated 07/19/2026 3,936.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6396695-5",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; statement shows liquidated 07/25/2026.",
+    "quote": "DP1-6396695-5 01 09/14/2025 Liquidated 07/25/2026 1,990.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6398967-2",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; statement shows liquidated 07/26/2026.",
+    "quote": "DP1-6398967-2 01 09/15/2025 Liquidated 07/26/2026 4,104.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6422373-2",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; statement shows liquidated 07/27/2026.",
+    "quote": "DP1-6422373-2 01 09/16/2025 Liquidated 07/27/2026 3,602.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6428713-4",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; statement shows liquidated 07/28/2026.",
+    "quote": "DP1-6428713-4 01 09/17/2025 Liquidated 07/28/2026 1,906.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6438777-8",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; statement shows liquidated 07/20/2026.",
+    "quote": "DP1-6438777-8 01 09/09/2025 Liquidated 07/20/2026 3,978.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6454971-1",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; statement shows liquidated 07/24/2026.",
+    "quote": "DP1-6454971-1 01 09/13/2025 Liquidated 07/24/2026 3,736.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6501621-4",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; statement shows liquidated 07/26/2026.",
+    "quote": "DP1-6501621-4 01 09/15/2025 Liquidated 07/26/2026 1,540.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6512239-6",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; statement shows liquidated 08/01/2026.",
+    "quote": "DP1-6512239-6 01 09/21/2025 Liquidated 08/01/2026 4,016.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6513231-6",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; statement shows liquidated 07/16/2026.",
+    "quote": "DP1-6513231-6 01 09/05/2025 Liquidated 07/16/2026 4,976.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6553307-4",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; statement shows liquidated 07/31/2026.",
+    "quote": "DP1-6553307-4 01 09/20/2025 Liquidated 07/31/2026 2,506.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6620710-6",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; statement shows liquidated 08/03/2026.",
+    "quote": "DP1-6620710-6 01 09/23/2025 Liquidated 08/03/2026 3,520.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6622537-9",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; statement shows liquidated 07/31/2026.",
+    "quote": "DP1-6622537-9 01 09/20/2025 Liquidated 07/31/2026 1,946.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6642906-7",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; statement shows liquidated 07/22/2026.",
+    "quote": "DP1-6642906-7 01 09/11/2025 Liquidated 07/22/2026 1,054.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6667724-6",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; statement shows liquidated 08/02/2026.",
+    "quote": "DP1-6667724-6 01 09/22/2025 Liquidated 08/02/2026 1,688.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6736493-3",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; statement shows liquidated 07/24/2026.",
+    "quote": "DP1-6736493-3 01 09/13/2025 Liquidated 07/24/2026 3,780.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6738044-4",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; statement shows liquidated 07/27/2026.",
+    "quote": "DP1-6738044-4 01 09/16/2025 Liquidated 07/27/2026 4,822.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6758413-0",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; statement shows liquidated 07/28/2026.",
+    "quote": "DP1-6758413-0 01 09/17/2025 Liquidated 07/28/2026 1,408.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6836376-7",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; statement shows liquidated 07/25/2026.",
+    "quote": "DP1-6836376-7 01 09/14/2025 Liquidated 07/25/2026 1,944.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6870643-7",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; statement shows liquidated 07/21/2026.",
+    "quote": "DP1-6870643-7 01 09/10/2025 Liquidated 07/21/2026 4,312.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6877866-8",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; statement shows liquidated 07/18/2026.",
+    "quote": "DP1-6877866-8 01 09/07/2025 Liquidated 07/18/2026 1,602.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6892809-8",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; statement shows liquidated 07/23/2026.",
+    "quote": "DP1-6892809-8 01 09/12/2025 Liquidated 07/23/2026 4,978.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6928768-4",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; statement shows liquidated 08/03/2026.",
+    "quote": "DP1-6928768-4 01 09/23/2025 Liquidated 08/03/2026 3,958.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6940939-1",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; statement shows liquidated 07/22/2026.",
+    "quote": "DP1-6940939-1 01 09/11/2025 Liquidated 07/22/2026 1,406.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6966068-5",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; statement shows liquidated 07/29/2026.",
+    "quote": "DP1-6966068-5 01 09/18/2025 Liquidated 07/29/2026 2,590.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6966475-2",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; statement shows liquidated 07/21/2026.",
+    "quote": "DP1-6966475-2 01 09/10/2025 Liquidated 07/21/2026 3,370.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6970009-0",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; statement shows liquidated 07/17/2026.",
+    "quote": "DP1-6970009-0 01 09/06/2025 Liquidated 07/17/2026 1,884.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6974768-0",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; statement shows liquidated 07/30/2026.",
+    "quote": "DP1-6974768-0 01 09/19/2025 Liquidated 07/30/2026 3,214.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "DP1-6990126-4",
+    "kind": "wrong_liquidation",
+    "detail": "Extraction says unliquidated; statement shows liquidated 07/23/2026.",
+    "quote": "DP1-6990126-4 01 09/12/2025 Liquidated 07/23/2026 1,272.00",
+    "grounded": true
+   }
+  ],
+  "summary": "All 40 entries are present. The IEEPA 9903.02.69 lines and amounts match the 7501s and statements, and I found no flags in the documents. The extraction marks every entry unliquidated, but the 10/21/2026 statement shows 36 of them liquidated, with dates between 07/16/2026 and 08/04/2026. The extraction is correct only for the four entries that are still open: DP1-6290550-0, DP1-6449054-3, DP1-6750145-7 and DP1-6833397-5. The 07/15/2026 statement lists all 40 as open, so the extraction matches that older statement and is out of date against the newer one."
+ },
+ "screen": {
+  "removed_lines": [],
+  "hidden_chars_dropped": 0,
+  "errors": [],
+  "pages": 44,
+  "unreadable_pages": [],
+  "skipped": [],
+  "incomplete": false
+ },
+ "warnings": [],
+ "reader_notes": [
+  "Part 1 of 6: covers only 1_cbp7501_entry_summaries.pdf pages 1-11. Liquidation status, flags and IEEPA statement amounts may appear in other parts.",
+  "None of these pages gives a liquidation date or status, so every entry is marked 'unknown'.",
+  "The 9903.02.69 rows show no entered value, so it is left null. The rate (20%) and duty are copied as printed.",
+  "These pages do not say what program 9903.02.69 is under (IEEPA or otherwise). No broker statement gives an IEEPA amount, so ieepa_duty_statement is null.",
+  "These pages say nothing about a Court of International Trade case for the importer.",
+  "All entries were filed by Tidewater Customs Brokers (filer code DP1) at port 1401 under surety no. 457.",
+  "Part 2 of 6: pages 11-21 of 1_cbp7501_entry_summaries.pdf. These pages contain 11 entry summaries (CBP Form 7501), all type 01, IOR 58-7713320-00 Driftwood Patio Co., port 1401, surety no. 457, filed by Tidewater Customs Brokers (DP1).",
+  "None of these pages says anything about liquidation, so every entry is marked 'unknown'. Liquidation details may be in other parts.",
+  "Each 9903.02.69 row shows a rate (20%) and a duty amount but no entered value of its own, so entered_value is null for those rows.",
+  "These pages have no broker statement, protest, surety, drawback, reconciliation, AD/CVD or CIT information. All flags are false, ieepa_duty_statement is null, and cit_plaintiff is false for these pages only.",
+  "Entry summary dates (box 3) range from 09/15/2025 to 10/04/2025. Entry dates are taken from box 7.",
+  "Part 3 of 6: covers pages 21-31 of 1_cbp7501_entry_summaries.pdf. Found 11 entries, all type 01, filed by Tidewater Customs Brokers (DP1) at port 1401.",
+  "None of these pages says anything about liquidation, so every status is 'unknown'. Other parts may contain liquidation details.",
+  "None of these pages mentions surety payment, protests, drawback, reconciliation, AD/CVD or the Court of International Trade, so all flags are false and cit_plaintiff is false for this part.",
+  "The 9903.02.69 rows show no entered value of their own, so entered_value is null. The 20% rate and duty are copied as printed. These pages don't say which program that number belongs to.",
+  "No broker statement or IEEPA amount appears in this part, so ieepa_duty_statement is null.",
+  "This is part 4 of 6 and covers 7501 pages 31-40 only. Liquidation status and flags may be stated in other parts, so they are left unknown/false here.",
+  "On each page the 9903.02.69 row shows only a rate (20%) and a duty, with no entered value, so entered_value is null for those rows.",
+  "None of these pages states the liquidation, a protest, surety payment, drawback, reconciliation, AD/CVD, an IEEPA amount, or Court of International Trade plaintiff status.",
+  "Entries are listed in page order. Their entry dates are not in date order: for example, DP1-6449054-3, entered 2026-01-30, is on page 38, before pages 39-40 with December 2025 dates.",
+  "This part has only the Tidewater Customs Brokers statement prepared 07/15/2026 (2 pages). It lists 40 entries for Driftwood Patio Co., IOR 58-7713320-00, all type 01.",
+  "Every entry shows 'Open' with '-' in the liquidation-date column, so I recorded each as unliquidated with no liquidation date. That status is as of the statement date, 07/15/2026. Nothing in this part says what happened after that.",
+  "The IEEPA amounts come from the statement column 'IEEPA (9903.01/.02)'. These pages have no 7501 line details: no HTS numbers, entered values, rates or line duties. So the lines arrays are empty. Line data may be in other parts.",
+  "Nothing in these pages mentions a surety payment, protest, drawback, reconciliation, AD/CVD or a Court of International Trade case. Those flags are false, and cit_plaintiff is false only because no document here says otherwise.",
+  "Part 6 of 6: only the Tidewater Customs Brokers statement dated 10/21/2026 (2 pages) was provided. It lists 40 entries, all type 01.",
+  "The statement has no HTS line detail, entered values or rates, so 'lines' is empty for every entry. Line detail may be on 7501 pages in other parts.",
+  "The IEEPA amounts come from the statement column 'IEEPA (9903.01/.02)'. The statement does not list the separate Chapter 99 HTS numbers.",
+  "Four entries are marked 'Open' with no liquidation date and are recorded as unliquidated: DP1-6290550-0, DP1-6449054-3, DP1-6750145-7 and DP1-6833397-5.",
+  "These pages say nothing about surety payment, protests, drawback, reconciliation, AD/CVD or a Court of International Trade case, so those values are false or null."
+ ],
+ "incomplete": false,
+ "files": {
+  "cape_csv": "Entry Number\nDP164490543\nDP168333975\nDP162905500\nDP167501457\n",
+  "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//DutyBack//IEEPA refund deadlines//EN\r\nCALSCALE:GREGORIAN\r\nX-WR-CALNAME:Tariff refund deadlines - Driftwood Patio Co.\r\nBEGIN:VEVENT\r\nUID:DP1-6513231-6-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270112\r\nDTEND;VALUE=DATE:20270113\r\nSUMMARY:Protest deadline: entry DP1-6513231-6 ($4\\,976.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6513231-6\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6513231-6\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:DP1-6970009-0-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270113\r\nDTEND;VALUE=DATE:20270114\r\nSUMMARY:Protest deadline: entry DP1-6970009-0 ($1\\,884.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6970009-0\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6970009-0\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:DP1-6877866-8-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270114\r\nDTEND;VALUE=DATE:20270115\r\nSUMMARY:Protest deadline: entry DP1-6877866-8 ($1\\,602.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6877866-8\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6877866-8\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:DP1-6386137-4-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270115\r\nDTEND;VALUE=DATE:20270116\r\nSUMMARY:Protest deadline: entry DP1-6386137-4 ($3\\,936.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6386137-4\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6386137-4\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:DP1-6438777-8-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270116\r\nDTEND;VALUE=DATE:20270117\r\nSUMMARY:Protest deadline: entry DP1-6438777-8 ($3\\,978.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6438777-8\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6438777-8\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:DP1-6198254-0-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270116\r\nDTEND;VALUE=DATE:20270117\r\nSUMMARY:Protest deadline: entry DP1-6198254-0 ($3\\,950.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6198254-0\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6198254-0\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:DP1-6870643-7-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270117\r\nDTEND;VALUE=DATE:20270118\r\nSUMMARY:Protest deadline: entry DP1-6870643-7 ($4\\,312.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6870643-7\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6870643-7\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:DP1-6966475-2-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270117\r\nDTEND;VALUE=DATE:20270118\r\nSUMMARY:Protest deadline: entry DP1-6966475-2 ($3\\,370.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6966475-2\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6966475-2\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:DP1-6940939-1-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270118\r\nDTEND;VALUE=DATE:20270119\r\nSUMMARY:Protest deadline: entry DP1-6940939-1 ($1\\,406.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6940939-1\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6940939-1\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:DP1-6642906-7-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270118\r\nDTEND;VALUE=DATE:20270119\r\nSUMMARY:Protest deadline: entry DP1-6642906-7 ($1\\,054.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6642906-7\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6642906-7\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:DP1-6892809-8-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270119\r\nDTEND;VALUE=DATE:20270120\r\nSUMMARY:Protest deadline: entry DP1-6892809-8 ($4\\,978.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6892809-8\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6892809-8\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:DP1-6990126-4-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270119\r\nDTEND;VALUE=DATE:20270120\r\nSUMMARY:Protest deadline: entry DP1-6990126-4 ($1\\,272.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6990126-4\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6990126-4\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:DP1-6736493-3-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270120\r\nDTEND;VALUE=DATE:20270121\r\nSUMMARY:Protest deadline: entry DP1-6736493-3 ($3\\,780.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6736493-3\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6736493-3\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:DP1-6454971-1-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270120\r\nDTEND;VALUE=DATE:20270121\r\nSUMMARY:Protest deadline: entry DP1-6454971-1 ($3\\,736.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6454971-1\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6454971-1\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:DP1-6396695-5-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270121\r\nDTEND;VALUE=DATE:20270122\r\nSUMMARY:Protest deadline: entry DP1-6396695-5 ($1\\,990.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6396695-5\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6396695-5\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:DP1-6836376-7-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270121\r\nDTEND;VALUE=DATE:20270122\r\nSUMMARY:Protest deadline: entry DP1-6836376-7 ($1\\,944.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6836376-7\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6836376-7\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:DP1-6398967-2-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270122\r\nDTEND;VALUE=DATE:20270123\r\nSUMMARY:Protest deadline: entry DP1-6398967-2 ($4\\,104.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6398967-2\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6398967-2\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:DP1-6501621-4-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270122\r\nDTEND;VALUE=DATE:20270123\r\nSUMMARY:Protest deadline: entry DP1-6501621-4 ($1\\,540.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6501621-4\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6501621-4\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:DP1-6738044-4-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270123\r\nDTEND;VALUE=DATE:20270124\r\nSUMMARY:Protest deadline: entry DP1-6738044-4 ($4\\,822.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6738044-4\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6738044-4\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:DP1-6422373-2-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270123\r\nDTEND;VALUE=DATE:20270124\r\nSUMMARY:Protest deadline: entry DP1-6422373-2 ($3\\,602.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6422373-2\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6422373-2\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:DP1-6428713-4-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270124\r\nDTEND;VALUE=DATE:20270125\r\nSUMMARY:Protest deadline: entry DP1-6428713-4 ($1\\,906.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6428713-4\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6428713-4\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:DP1-6758413-0-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270124\r\nDTEND;VALUE=DATE:20270125\r\nSUMMARY:Protest deadline: entry DP1-6758413-0 ($1\\,408.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6758413-0\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6758413-0\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:DP1-6355303-7-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270125\r\nDTEND;VALUE=DATE:20270126\r\nSUMMARY:Protest deadline: entry DP1-6355303-7 ($3\\,074.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6355303-7\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6355303-7\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:DP1-6966068-5-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270125\r\nDTEND;VALUE=DATE:20270126\r\nSUMMARY:Protest deadline: entry DP1-6966068-5 ($2\\,590.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6966068-5\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6966068-5\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:DP1-6974768-0-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270126\r\nDTEND;VALUE=DATE:20270127\r\nSUMMARY:Protest deadline: entry DP1-6974768-0 ($3\\,214.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6974768-0\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6974768-0\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:DP1-6111258-9-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270126\r\nDTEND;VALUE=DATE:20270127\r\nSUMMARY:Protest deadline: entry DP1-6111258-9 ($3\\,116.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6111258-9\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6111258-9\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:DP1-6553307-4-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270127\r\nDTEND;VALUE=DATE:20270128\r\nSUMMARY:Protest deadline: entry DP1-6553307-4 ($2\\,506.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6553307-4\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6553307-4\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:DP1-6622537-9-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270127\r\nDTEND;VALUE=DATE:20270128\r\nSUMMARY:Protest deadline: entry DP1-6622537-9 ($1\\,946.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6622537-9\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6622537-9\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:DP1-6216263-8-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270128\r\nDTEND;VALUE=DATE:20270129\r\nSUMMARY:Protest deadline: entry DP1-6216263-8 ($4\\,084.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6216263-8\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6216263-8\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:DP1-6512239-6-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270128\r\nDTEND;VALUE=DATE:20270129\r\nSUMMARY:Protest deadline: entry DP1-6512239-6 ($4\\,016.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6512239-6\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6512239-6\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:DP1-6233559-1-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270129\r\nDTEND;VALUE=DATE:20270130\r\nSUMMARY:Protest deadline: entry DP1-6233559-1 ($4\\,912.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6233559-1\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6233559-1\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:DP1-6667724-6-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270129\r\nDTEND;VALUE=DATE:20270130\r\nSUMMARY:Protest deadline: entry DP1-6667724-6 ($1\\,688.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6667724-6\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6667724-6\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:DP1-6928768-4-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270130\r\nDTEND;VALUE=DATE:20270131\r\nSUMMARY:Protest deadline: entry DP1-6928768-4 ($3\\,958.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6928768-4\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6928768-4\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:DP1-6620710-6-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270130\r\nDTEND;VALUE=DATE:20270131\r\nSUMMARY:Protest deadline: entry DP1-6620710-6 ($3\\,520.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6620710-6\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6620710-6\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:DP1-6183723-6-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270131\r\nDTEND;VALUE=DATE:20270201\r\nSUMMARY:Protest deadline: entry DP1-6183723-6 ($3\\,336.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6183723-6\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6183723-6\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:DP1-6320420-3-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T005613Z\r\nDTSTART;VALUE=DATE:20270131\r\nDTEND;VALUE=DATE:20270201\r\nSUMMARY:Protest deadline: entry DP1-6320420-3 ($3\\,124.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: DP1-6320420-3\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: DP1-6320420-3\r\nEND:VALARM\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+ },
+ "agents": [
+  {
+   "agent": "reader 1/6",
+   "model": "opus",
+   "seconds": 28.9,
+   "input_tokens": 2,
+   "output_tokens": 4155,
+   "cache_read_tokens": 2307,
+   "cache_write_tokens": 5134,
+   "cost_usd": 0.1246,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-opus-5-5"
+  },
+  {
+   "agent": "reader 2/6",
+   "model": "opus",
+   "seconds": 30.2,
+   "input_tokens": 2,
+   "output_tokens": 4282,
+   "cache_read_tokens": 2307,
+   "cache_write_tokens": 4926,
+   "cost_usd": 0.1255,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-opus-5-5"
+  },
+  {
+   "agent": "reader 3/6",
+   "model": "opus",
+   "seconds": 29.4,
+   "input_tokens": 2,
+   "output_tokens": 4200,
+   "cache_read_tokens": 2307,
+   "cache_write_tokens": 4924,
+   "cost_usd": 0.1239,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-opus-5-5"
+  },
+  {
+   "agent": "reader 4/6",
+   "model": "opus",
+   "seconds": 27.5,
+   "input_tokens": 2,
+   "output_tokens": 3884,
+   "cache_read_tokens": 6842,
+   "cache_write_tokens": 0,
+   "cost_usd": 0.0791,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-opus-5-5"
+  },
+  {
+   "agent": "reader 5/6",
+   "model": "opus",
+   "seconds": 88.1,
+   "input_tokens": 2,
+   "output_tokens": 13469,
+   "cache_read_tokens": 4412,
+   "cache_write_tokens": 0,
+   "cost_usd": 0.2703,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-opus-5-5"
+  },
+  {
+   "agent": "reader 6/6",
+   "model": "opus",
+   "seconds": 95.2,
+   "input_tokens": 2,
+   "output_tokens": 14712,
+   "cache_read_tokens": 4736,
+   "cache_write_tokens": 0,
+   "cost_usd": 0.2952,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-opus-5-5"
+  },
+  {
+   "agent": "checker",
+   "model": "sonnet",
+   "seconds": 42.6,
+   "input_tokens": 8,
+   "output_tokens": 8550,
+   "cache_read_tokens": 28049,
+   "cache_write_tokens": 30628,
+   "cost_usd": 0.2108,
+   "turns": 48,
+   "tool_calls": [
+    {
+     "tool": "get_extraction",
+     "input": {}
+    },
+    {
+     "tool": "list_entry_numbers_in_documents",
+     "input": {}
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "2_broker_statement_2026-07-15.pdf",
+      "page": 1
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "2_broker_statement_2026-07-15.pdf",
+      "page": 2
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "3_broker_statement_2026-10-21.pdf",
+      "page": 1
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "3_broker_statement_2026-10-21.pdf",
+      "page": 2
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 1
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 2
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 3
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 4
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 5
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 6
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 7
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 8
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 9
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 10
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 11
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 12
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 13
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 14
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 15
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 16
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 17
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 18
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 19
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 20
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 21
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 22
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 23
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 24
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 25
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 26
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 27
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 28
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 29
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 30
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 31
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 32
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 33
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 34
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 35
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 36
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 37
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 38
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 39
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 40
+     }
+    }
+   ],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-sonnet-5-5"
+  },
+  {
+   "agent": "reader (repair)",
+   "model": "opus",
+   "seconds": 121.4,
+   "input_tokens": 2,
+   "output_tokens": 18792,
+   "cache_read_tokens": 2307,
+   "cache_write_tokens": 22520,
+   "cost_usd": 0.5565,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-opus-5-5"
+  },
+  {
+   "agent": "advisor",
+   "model": "sonnet",
+   "seconds": 26.8,
+   "input_tokens": 2,
+   "output_tokens": 4446,
+   "cache_read_tokens": 905,
+   "cache_write_tokens": 6538,
+   "cost_usd": 0.0707,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-sonnet-5-5"
+  }
+ ],
+ "totals": {
+  "seconds": 286.8,
+  "cost_usd": 1.8566,
+  "input_tokens": 128866,
+  "output_tokens": 76490,
+  "tool_calls": 46
+ },
+ "steps": [
+  {
+   "key": "screen",
+   "title": "Safety screen",
+   "who": "Code"
+  },
+  {
+   "key": "read",
+   "title": "Read the paperwork",
+   "who": "Reader agent"
+  },
+  {
+   "key": "verify",
+   "title": "Match the extracted facts to the documents",
+   "who": "Code"
+  },
+  {
+   "key": "check",
+   "title": "Double-check with tools",
+   "who": "Checker agent"
+  },
+  {
+   "key": "repair",
+   "title": "Re-read anything flagged",
+   "who": "Reader agent + code"
+  },
+  {
+   "key": "route",
+   "title": "Sort entries and compute refunds",
+   "who": "Rules engine (code)"
+  },
+  {
+   "key": "plan",
+   "title": "Write the action plan",
+   "who": "Advisor agent + code"
+  }
+ ]
+}

@@ -1,0 +1,2888 @@
+{
+ "importer": {
+  "name": "Cobalt Garden Supply LLC",
+  "ior_number": "38-5521906-00",
+  "cit_plaintiff": false,
+  "cit_case": null,
+  "cit_ior_submitted_date": null,
+  "evidence": "26. Importer of Record No. Importer of Record Name\n38-5521906-00 Cobalt Garden Supply LLC"
+ },
+ "as_of": "2026-10-24",
+ "rules_snapshot": "2026-10-24",
+ "summary": {
+  "as_of": "2026-10-24",
+  "rules_snapshot": "2026-10-24",
+  "entries": 30,
+  "ieepa_paid": 86433.0,
+  "buckets": {
+   "file_now": {
+    "label": "Claim in CAPE now",
+    "count": 8,
+    "amount": 22005.0
+   },
+   "fix_first": {
+    "label": "One step first, then CAPE",
+    "count": 0,
+    "amount": 0.0
+   },
+   "protest": {
+    "label": "Protest route",
+    "count": 18,
+    "amount": 51932.0
+   },
+   "broker": {
+    "label": "Talk to your broker",
+    "count": 0,
+    "amount": 0.0
+   },
+   "no_route": {
+    "label": "Waiting on the court",
+    "count": 4,
+    "amount": 12496.0
+   },
+   "not_refundable": {
+    "label": "Nothing to refund",
+    "count": 0,
+    "amount": 0.0
+   },
+   "review": {
+    "label": "Check by hand",
+    "count": 0,
+    "amount": 0.0
+   }
+  },
+  "at_risk_this_week": {
+   "count": 0,
+   "amount": 0,
+   "entries": []
+  },
+  "cape_csv_count": 8,
+  "cape_csv_amount": 22005.0
+ },
+ "entries": [
+  {
+   "entry_number": "CG4-5501889-1",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 2506.0,
+   "refund_amount": 2506.0,
+   "deadline": "2027-01-14",
+   "days_left": 82,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 98,
+   "entry_type": "01",
+   "entry_date": "2025-09-07",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-18",
+   "evidence": {
+    "entry": "CG4-5501889-1 01 ABI/A",
+    "liquidation": "CG4-5501889-1 01 09/07/2025 Liquidated 07/18/2026 2,506.00",
+    "flags": null,
+    "ieepa_statement": "CG4-5501889-1 01 09/07/2025 Liquidated 07/18/2026 2,506.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Garden hose reels",
+     "hts": [
+      {
+       "code": "8424.90.9080",
+       "entered_value": 12530,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 2506
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "CG4-5501889-1",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "CG4-5501889-1",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-07-18 / quote: CG4-5501889-1 01 09/07/2025 Liquidated 07/18/2026 2,506.00"
+    },
+    {
+     "entry": "CG4-5501889-1",
+     "check": "IEEPA duty 9903.02.69 $2,506.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "CG4-5501889-1",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "CG4-5368929-3",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 3640.0,
+   "refund_amount": 3640.0,
+   "deadline": "2027-01-15",
+   "days_left": 83,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 97,
+   "entry_type": "01",
+   "entry_date": "2025-09-08",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-19",
+   "evidence": {
+    "entry": "CG4-5368929-3 01 ABI/A",
+    "liquidation": "CG4-5368929-3 01 09/08/2025 Liquidated 07/19/2026 3,640.00",
+    "flags": null,
+    "ieepa_statement": "CG4-5368929-3 01 09/08/2025 Liquidated 07/19/2026 3,640.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Garden hose reels",
+     "hts": [
+      {
+       "code": "8424.90.9080",
+       "entered_value": 18200,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3640
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "CG4-5368929-3",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "CG4-5368929-3",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-07-19 / quote: CG4-5368929-3 01 09/08/2025 Liquidated 07/19/2026 3,640.00"
+    },
+    {
+     "entry": "CG4-5368929-3",
+     "check": "IEEPA duty 9903.02.69 $3,640.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "CG4-5368929-3",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "CG4-5572165-2",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 1044.0,
+   "refund_amount": 1044.0,
+   "deadline": "2027-01-16",
+   "days_left": 84,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 96,
+   "entry_type": "01",
+   "entry_date": "2025-09-09",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-20",
+   "evidence": {
+    "entry": "CG4-5572165-2 01 ABI/A",
+    "liquidation": "CG4-5572165-2 01 09/09/2025 Liquidated 07/20/2026 1,044.00",
+    "flags": null,
+    "ieepa_statement": "CG4-5572165-2 01 09/09/2025 Liquidated 07/20/2026 1,044.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Garden hose reels",
+     "hts": [
+      {
+       "code": "8424.90.9080",
+       "entered_value": 5220,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 1044
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "CG4-5572165-2",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "CG4-5572165-2",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-07-20 / quote: CG4-5572165-2 01 09/09/2025 Liquidated 07/20/2026 1,044.00"
+    },
+    {
+     "entry": "CG4-5572165-2",
+     "check": "IEEPA duty 9903.02.69 $1,044.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "CG4-5572165-2",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "CG4-5823538-7",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 1378.0,
+   "refund_amount": 1378.0,
+   "deadline": "2027-01-17",
+   "days_left": 85,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 95,
+   "entry_type": "01",
+   "entry_date": "2025-09-10",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-21",
+   "evidence": {
+    "entry": "CG4-5823538-7 01 ABI/A",
+    "liquidation": "CG4-5823538-7 01 09/10/2025 Liquidated 07/21/2026 1,378.00",
+    "flags": null,
+    "ieepa_statement": "CG4-5823538-7 01 09/10/2025 Liquidated 07/21/2026 1,378.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Garden hose reels",
+     "hts": [
+      {
+       "code": "8424.90.9080",
+       "entered_value": 6890,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 1378
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "CG4-5823538-7",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "CG4-5823538-7",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-07-21 / quote: CG4-5823538-7 01 09/10/2025 Liquidated 07/21/2026 1,378.00"
+    },
+    {
+     "entry": "CG4-5823538-7",
+     "check": "IEEPA duty 9903.02.69 $1,378.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "CG4-5823538-7",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "CG4-5672950-4",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 4476.0,
+   "refund_amount": 4476.0,
+   "deadline": "2027-01-18",
+   "days_left": 86,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 94,
+   "entry_type": "01",
+   "entry_date": "2025-09-11",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-22",
+   "evidence": {
+    "entry": "CG4-5672950-4 01 ABI/A",
+    "liquidation": "CG4-5672950-4 01 09/11/2025 Liquidated 07/22/2026 4,476.00",
+    "flags": null,
+    "ieepa_statement": "CG4-5672950-4 01 09/11/2025 Liquidated 07/22/2026 4,476.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Garden hose reels",
+     "hts": [
+      {
+       "code": "8424.90.9080",
+       "entered_value": 22380,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 4476
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "CG4-5672950-4",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "CG4-5672950-4",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-07-22 / quote: CG4-5672950-4 01 09/11/2025 Liquidated 07/22/2026 4,476.00"
+    },
+    {
+     "entry": "CG4-5672950-4",
+     "check": "IEEPA duty 9903.02.69 $4,476.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "CG4-5672950-4",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "CG4-5704628-8",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 1306.0,
+   "refund_amount": 1306.0,
+   "deadline": "2027-01-19",
+   "days_left": 87,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 93,
+   "entry_type": "01",
+   "entry_date": "2025-09-12",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-23",
+   "evidence": {
+    "entry": "CG4-5704628-8 01 ABI/A",
+    "liquidation": "CG4-5704628-8 01 09/12/2025 Liquidated 07/23/2026 1,306.00",
+    "flags": null,
+    "ieepa_statement": "CG4-5704628-8 01 09/12/2025 Liquidated 07/23/2026 1,306.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Garden hose reels",
+     "hts": [
+      {
+       "code": "8424.90.9080",
+       "entered_value": 6530,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 1306
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "CG4-5704628-8",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "CG4-5704628-8",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-07-23 / quote: CG4-5704628-8 01 09/12/2025 Liquidated 07/23/2026 1,306.00"
+    },
+    {
+     "entry": "CG4-5704628-8",
+     "check": "IEEPA duty 9903.02.69 $1,306.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "CG4-5704628-8",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "CG4-5135762-5",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 3438.0,
+   "refund_amount": 3438.0,
+   "deadline": "2027-01-20",
+   "days_left": 88,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 92,
+   "entry_type": "01",
+   "entry_date": "2025-09-13",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-24",
+   "evidence": {
+    "entry": "CG4-5135762-5 01 ABI/A",
+    "liquidation": "CG4-5135762-5 01 09/13/2025 Liquidated 07/24/2026 3,438.00",
+    "flags": null,
+    "ieepa_statement": "CG4-5135762-5 01 09/13/2025 Liquidated 07/24/2026 3,438.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Garden hose reels",
+     "hts": [
+      {
+       "code": "8424.90.9080",
+       "entered_value": 17190,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3438
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "CG4-5135762-5",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "CG4-5135762-5",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-07-24 / quote: CG4-5135762-5 01 09/13/2025 Liquidated 07/24/2026 3,438.00"
+    },
+    {
+     "entry": "CG4-5135762-5",
+     "check": "IEEPA duty 9903.02.69 $3,438.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "CG4-5135762-5",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "CG4-5231709-6",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 3348.0,
+   "refund_amount": 3348.0,
+   "deadline": "2027-01-21",
+   "days_left": 89,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 91,
+   "entry_type": "01",
+   "entry_date": "2025-09-14",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-25",
+   "evidence": {
+    "entry": "CG4-5231709-6 01 ABI/A",
+    "liquidation": "CG4-5231709-6 01 09/14/2025 Liquidated 07/25/2026 3,348.00",
+    "flags": null,
+    "ieepa_statement": "CG4-5231709-6 01 09/14/2025 Liquidated 07/25/2026 3,348.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Garden hose reels",
+     "hts": [
+      {
+       "code": "8424.90.9080",
+       "entered_value": 16740,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3348
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "CG4-5231709-6",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "CG4-5231709-6",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-07-25 / quote: CG4-5231709-6 01 09/14/2025 Liquidated 07/25/2026 3,348.00"
+    },
+    {
+     "entry": "CG4-5231709-6",
+     "check": "IEEPA duty 9903.02.69 $3,348.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "CG4-5231709-6",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "CG4-5798418-3",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 2250.0,
+   "refund_amount": 2250.0,
+   "deadline": "2027-01-22",
+   "days_left": 90,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 90,
+   "entry_type": "01",
+   "entry_date": "2025-09-15",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-26",
+   "evidence": {
+    "entry": "CG4-5798418-3 01 ABI/A",
+    "liquidation": "CG4-5798418-3 01 09/15/2025 Liquidated 07/26/2026 2,250.00",
+    "flags": null,
+    "ieepa_statement": "CG4-5798418-3 01 09/15/2025 Liquidated 07/26/2026 2,250.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Garden hose reels",
+     "hts": [
+      {
+       "code": "8424.90.9080",
+       "entered_value": 11250,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 2250
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "CG4-5798418-3",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "CG4-5798418-3",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-07-26 / quote: CG4-5798418-3 01 09/15/2025 Liquidated 07/26/2026 2,250.00"
+    },
+    {
+     "entry": "CG4-5798418-3",
+     "check": "IEEPA duty 9903.02.69 $2,250.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "CG4-5798418-3",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "CG4-5712851-4",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 1428.0,
+   "refund_amount": 1428.0,
+   "deadline": "2027-01-23",
+   "days_left": 91,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 89,
+   "entry_type": "01",
+   "entry_date": "2025-09-16",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-27",
+   "evidence": {
+    "entry": "CG4-5712851-4 01 ABI/A",
+    "liquidation": "CG4-5712851-4 01 09/16/2025 Liquidated 07/27/2026 1,428.00",
+    "flags": null,
+    "ieepa_statement": "CG4-5712851-4 01 09/16/2025 Liquidated 07/27/2026 1,428.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Garden hose reels",
+     "hts": [
+      {
+       "code": "8424.90.9080",
+       "entered_value": 7140,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 1428
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "CG4-5712851-4",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "CG4-5712851-4",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-07-27 / quote: CG4-5712851-4 01 09/16/2025 Liquidated 07/27/2026 1,428.00"
+    },
+    {
+     "entry": "CG4-5712851-4",
+     "check": "IEEPA duty 9903.02.69 $1,428.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "CG4-5712851-4",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "CG4-5101287-9",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 2354.0,
+   "refund_amount": 2354.0,
+   "deadline": "2027-01-24",
+   "days_left": 92,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 88,
+   "entry_type": "01",
+   "entry_date": "2025-09-17",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-28",
+   "evidence": {
+    "entry": "CG4-5101287-9 01 ABI/A",
+    "liquidation": "CG4-5101287-9 01 09/17/2025 Liquidated 07/28/2026 2,354.00",
+    "flags": null,
+    "ieepa_statement": "CG4-5101287-9 01 09/17/2025 Liquidated 07/28/2026 2,354.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Garden hose reels",
+     "hts": [
+      {
+       "code": "8424.90.9080",
+       "entered_value": 11770,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 2354
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "CG4-5101287-9",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "CG4-5101287-9",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-07-28 / quote: CG4-5101287-9 01 09/17/2025 Liquidated 07/28/2026 2,354.00"
+    },
+    {
+     "entry": "CG4-5101287-9",
+     "check": "IEEPA duty 9903.02.69 $2,354.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "CG4-5101287-9",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "CG4-5449332-1",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 4428.0,
+   "refund_amount": 4428.0,
+   "deadline": "2027-01-25",
+   "days_left": 93,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 87,
+   "entry_type": "01",
+   "entry_date": "2025-09-18",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-29",
+   "evidence": {
+    "entry": "CG4-5449332-1 01 ABI/A",
+    "liquidation": "CG4-5449332-1 01 09/18/2025 Liquidated 07/29/2026 4,428.00",
+    "flags": null,
+    "ieepa_statement": "CG4-5449332-1 01 09/18/2025 Liquidated 07/29/2026 4,428.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Garden hose reels",
+     "hts": [
+      {
+       "code": "8424.90.9080",
+       "entered_value": 22140,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 4428
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "CG4-5449332-1",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "CG4-5449332-1",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-07-29 / quote: CG4-5449332-1 01 09/18/2025 Liquidated 07/29/2026 4,428.00"
+    },
+    {
+     "entry": "CG4-5449332-1",
+     "check": "IEEPA duty 9903.02.69 $4,428.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "CG4-5449332-1",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "CG4-5226715-1",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 3768.0,
+   "refund_amount": 3768.0,
+   "deadline": "2027-01-26",
+   "days_left": 94,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 86,
+   "entry_type": "01",
+   "entry_date": "2025-09-19",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-30",
+   "evidence": {
+    "entry": "CG4-5226715-1 01 ABI/A",
+    "liquidation": "CG4-5226715-1 01 09/19/2025 Liquidated 07/30/2026 3,768.00",
+    "flags": null,
+    "ieepa_statement": "CG4-5226715-1 01 09/19/2025 Liquidated 07/30/2026 3,768.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Garden hose reels",
+     "hts": [
+      {
+       "code": "8424.90.9080",
+       "entered_value": 18840,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3768
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "CG4-5226715-1",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "CG4-5226715-1",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-07-30 / quote: CG4-5226715-1 01 09/19/2025 Liquidated 07/30/2026 3,768.00"
+    },
+    {
+     "entry": "CG4-5226715-1",
+     "check": "IEEPA duty 9903.02.69 $3,768.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "CG4-5226715-1",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "CG4-5730710-4",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 4506.0,
+   "refund_amount": 4506.0,
+   "deadline": "2027-01-27",
+   "days_left": 95,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 85,
+   "entry_type": "01",
+   "entry_date": "2025-09-20",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-07-31",
+   "evidence": {
+    "entry": "CG4-5730710-4 01 ABI/A",
+    "liquidation": "CG4-5730710-4 01 09/20/2025 Liquidated 07/31/2026 4,506.00",
+    "flags": null,
+    "ieepa_statement": "CG4-5730710-4 01 09/20/2025 Liquidated 07/31/2026 4,506.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Garden hose reels",
+     "hts": [
+      {
+       "code": "8424.90.9080",
+       "entered_value": 22530,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 4506
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "CG4-5730710-4",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "CG4-5730710-4",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-07-31 / quote: CG4-5730710-4 01 09/20/2025 Liquidated 07/31/2026 4,506.00"
+    },
+    {
+     "entry": "CG4-5730710-4",
+     "check": "IEEPA duty 9903.02.69 $4,506.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "CG4-5730710-4",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "CG4-5567341-9",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 3190.0,
+   "refund_amount": 3190.0,
+   "deadline": "2027-01-28",
+   "days_left": 96,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 84,
+   "entry_type": "01",
+   "entry_date": "2025-09-21",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-08-01",
+   "evidence": {
+    "entry": "CG4-5567341-9 01 ABI/A",
+    "liquidation": "CG4-5567341-9 01 09/21/2025 Liquidated 08/01/2026 3,190.00",
+    "flags": null,
+    "ieepa_statement": "CG4-5567341-9 01 09/21/2025 Liquidated 08/01/2026 3,190.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Garden hose reels",
+     "hts": [
+      {
+       "code": "8424.90.9080",
+       "entered_value": 15950,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3190
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "CG4-5567341-9",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "CG4-5567341-9",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-08-01 / quote: CG4-5567341-9 01 09/21/2025 Liquidated 08/01/2026 3,190.00"
+    },
+    {
+     "entry": "CG4-5567341-9",
+     "check": "IEEPA duty 9903.02.69 $3,190.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "CG4-5567341-9",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "CG4-5452472-8",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 4010.0,
+   "refund_amount": 4010.0,
+   "deadline": "2027-01-29",
+   "days_left": 97,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 83,
+   "entry_type": "01",
+   "entry_date": "2025-09-22",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-08-02",
+   "evidence": {
+    "entry": "CG4-5452472-8 01 ABI/A",
+    "liquidation": "CG4-5452472-8 01 09/22/2025 Liquidated 08/02/2026 4,010.00",
+    "flags": null,
+    "ieepa_statement": "CG4-5452472-8 01 09/22/2025 Liquidated 08/02/2026 4,010.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Garden hose reels",
+     "hts": [
+      {
+       "code": "8424.90.9080",
+       "entered_value": 20050,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 4010
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "CG4-5452472-8",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "CG4-5452472-8",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-08-02 / quote: CG4-5452472-8 01 09/22/2025 Liquidated 08/02/2026 4,010.00"
+    },
+    {
+     "entry": "CG4-5452472-8",
+     "check": "IEEPA duty 9903.02.69 $4,010.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "CG4-5452472-8",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "CG4-5486503-9",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 2080.0,
+   "refund_amount": 2080.0,
+   "deadline": "2027-01-30",
+   "days_left": 98,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 82,
+   "entry_type": "01",
+   "entry_date": "2025-09-23",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-08-03",
+   "evidence": {
+    "entry": "CG4-5486503-9 01 ABI/A",
+    "liquidation": "CG4-5486503-9 01 09/23/2025 Liquidated 08/03/2026 2,080.00",
+    "flags": null,
+    "ieepa_statement": "CG4-5486503-9 01 09/23/2025 Liquidated 08/03/2026 2,080.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Garden hose reels",
+     "hts": [
+      {
+       "code": "8424.90.9080",
+       "entered_value": 10400,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 2080
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "CG4-5486503-9",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "CG4-5486503-9",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-08-03 / quote: CG4-5486503-9 01 09/23/2025 Liquidated 08/03/2026 2,080.00"
+    },
+    {
+     "entry": "CG4-5486503-9",
+     "check": "IEEPA duty 9903.02.69 $2,080.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "CG4-5486503-9",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "CG4-5340474-7",
+   "route": "PROTEST_BY",
+   "label": "File a protest",
+   "bucket": "protest",
+   "ieepa_duty": 2782.0,
+   "refund_amount": 2782.0,
+   "deadline": "2027-01-31",
+   "days_left": 99,
+   "urgent": false,
+   "reason": "Liquidated more than 80 days ago, so CAPE will reject it, but still inside the 180-day protest window (19 U.S.C. 1514).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 81,
+   "entry_type": "01",
+   "entry_date": "2025-09-24",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-08-04",
+   "evidence": {
+    "entry": "CG4-5340474-7 01 ABI/A",
+    "liquidation": "CG4-5340474-7 01 09/24/2025 Liquidated 08/04/2026 2,782.00",
+    "flags": null,
+    "ieepa_statement": "CG4-5340474-7 01 09/24/2025 Liquidated 08/04/2026 2,782.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Garden hose reels",
+     "hts": [
+      {
+       "code": "8424.90.9080",
+       "entered_value": 13910,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 2782
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "CG4-5340474-7",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "CG4-5340474-7",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-08-04 / quote: CG4-5340474-7 01 09/24/2025 Liquidated 08/04/2026 2,782.00"
+    },
+    {
+     "entry": "CG4-5340474-7",
+     "check": "IEEPA duty 9903.02.69 $2,782.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "CG4-5340474-7",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "CG4-5710382-0",
+   "route": "CAPE_NOW",
+   "label": "File in CAPE now",
+   "bucket": "file_now",
+   "ieepa_duty": 4906.0,
+   "refund_amount": 4906.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+   "flags": [],
+   "in_cape_csv": true,
+   "days_since_liquidation": null,
+   "entry_type": "01",
+   "entry_date": "2025-12-01",
+   "liquidation_status": "unliquidated",
+   "liquidation_date": null,
+   "evidence": {
+    "entry": "CG4-5710382-0 01 ABI/A",
+    "liquidation": "CG4-5710382-0 01 12/01/2025 Open - 4,906.00",
+    "flags": null,
+    "ieepa_statement": "CG4-5710382-0 01 12/01/2025 Open - 4,906.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf p.22",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Garden hose reels",
+     "hts": [
+      {
+       "code": "8424.90.9080",
+       "entered_value": 24530,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 4906
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "CG4-5710382-0",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "CG4-5710382-0",
+     "check": "'not liquidated' is quoted next to this entry",
+     "ok": true,
+     "detail": "quote: CG4-5710382-0 01 12/01/2025 Open - 4,906.00"
+    },
+    {
+     "entry": "CG4-5710382-0",
+     "check": "IEEPA duty 9903.02.69 $4,906.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "CG4-5710382-0",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "CG4-5715043-4",
+   "route": "CAPE_NOW",
+   "label": "File in CAPE now",
+   "bucket": "file_now",
+   "ieepa_duty": 4304.0,
+   "refund_amount": 4304.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+   "flags": [],
+   "in_cape_csv": true,
+   "days_since_liquidation": null,
+   "entry_type": "01",
+   "entry_date": "2026-01-04",
+   "liquidation_status": "unliquidated",
+   "liquidation_date": null,
+   "evidence": {
+    "entry": "CG4-5715043-4 01 ABI/A",
+    "liquidation": "CG4-5715043-4 01 01/04/2026 Open - 4,304.00",
+    "flags": null,
+    "ieepa_statement": "CG4-5715043-4 01 01/04/2026 Open - 4,304.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf p.23",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Garden hose reels",
+     "hts": [
+      {
+       "code": "8424.90.9080",
+       "entered_value": 21520,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 4304
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "CG4-5715043-4",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "CG4-5715043-4",
+     "check": "'not liquidated' is quoted next to this entry",
+     "ok": true,
+     "detail": "quote: CG4-5715043-4 01 01/04/2026 Open - 4,304.00"
+    },
+    {
+     "entry": "CG4-5715043-4",
+     "check": "IEEPA duty 9903.02.69 $4,304.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "CG4-5715043-4",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "CG4-5785470-7",
+   "route": "CLASS_PENDING",
+   "label": "Class member, refund pending",
+   "bucket": "no_route",
+   "ieepa_duty": 4266.0,
+   "refund_amount": 4266.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "Finally liquidated (more than 180 days, no protest). The Court of International Trade certified a class of importers who have not sued (Freestyle World, Oct 8, 2026), but there is no refund order yet, and CAPE Phase 3 is only for importers with their own suit. The class may not cover IEEPA duties on goods from Brazil or India. For a large balance, ask a customs attorney about your own suit (the deadline is about two years after payment, from Feb 2027 at the earliest).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 192,
+   "entry_type": "01",
+   "entry_date": "2025-06-05",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-04-15",
+   "evidence": {
+    "entry": "CG4-5785470-7 01 ABI/A",
+    "liquidation": "CG4-5785470-7 01 06/05/2025 Liquidated 04/15/2026 4,266.00",
+    "flags": null,
+    "ieepa_statement": "CG4-5785470-7 01 06/05/2025 Liquidated 04/15/2026 4,266.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf p.25",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Garden hose reels",
+     "hts": [
+      {
+       "code": "8424.90.9080",
+       "entered_value": 21330,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 4266
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "CG4-5785470-7",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "CG4-5785470-7",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-04-15 / quote: CG4-5785470-7 01 06/05/2025 Liquidated 04/15/2026 4,266.00"
+    },
+    {
+     "entry": "CG4-5785470-7",
+     "check": "IEEPA duty 9903.02.69 $4,266.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "CG4-5785470-7",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "CG4-5950874-7",
+   "route": "CAPE_NOW",
+   "label": "File in CAPE now",
+   "bucket": "file_now",
+   "ieepa_duty": 3144.0,
+   "refund_amount": 3144.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+   "flags": [],
+   "in_cape_csv": true,
+   "days_since_liquidation": null,
+   "entry_type": "01",
+   "entry_date": "2025-12-09",
+   "liquidation_status": "unliquidated",
+   "liquidation_date": null,
+   "evidence": {
+    "entry": "CG4-5950874-7 01 ABI/A",
+    "liquidation": "CG4-5950874-7 01 12/09/2025 Open - 3,144.00",
+    "flags": null,
+    "ieepa_statement": "CG4-5950874-7 01 12/09/2025 Open - 3,144.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf p.19",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Garden hose reels",
+     "hts": [
+      {
+       "code": "8424.90.9080",
+       "entered_value": 15720,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3144
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "CG4-5950874-7",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "CG4-5950874-7",
+     "check": "'not liquidated' is quoted next to this entry",
+     "ok": true,
+     "detail": "quote: CG4-5950874-7 01 12/09/2025 Open - 3,144.00"
+    },
+    {
+     "entry": "CG4-5950874-7",
+     "check": "IEEPA duty 9903.02.69 $3,144.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "CG4-5950874-7",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "CG4-5667806-9",
+   "route": "CLASS_PENDING",
+   "label": "Class member, refund pending",
+   "bucket": "no_route",
+   "ieepa_duty": 3024.0,
+   "refund_amount": 3024.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "Finally liquidated (more than 180 days, no protest). The Court of International Trade certified a class of importers who have not sued (Freestyle World, Oct 8, 2026), but there is no refund order yet, and CAPE Phase 3 is only for importers with their own suit. The class may not cover IEEPA duties on goods from Brazil or India. For a large balance, ask a customs attorney about your own suit (the deadline is about two years after payment, from Feb 2027 at the earliest).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 201,
+   "entry_type": "01",
+   "entry_date": "2025-05-27",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-04-06",
+   "evidence": {
+    "entry": "CG4-5667806-9 01 ABI/A",
+    "liquidation": "CG4-5667806-9 01 05/27/2025 Liquidated 04/06/2026 3,024.00",
+    "flags": null,
+    "ieepa_statement": "CG4-5667806-9 01 05/27/2025 Liquidated 04/06/2026 3,024.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf p.28",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Garden hose reels",
+     "hts": [
+      {
+       "code": "8424.90.9080",
+       "entered_value": 15120,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 3024
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "CG4-5667806-9",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "CG4-5667806-9",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-04-06 / quote: CG4-5667806-9 01 05/27/2025 Liquidated 04/06/2026 3,024.00"
+    },
+    {
+     "entry": "CG4-5667806-9",
+     "check": "IEEPA duty 9903.02.69 $3,024.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "CG4-5667806-9",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "CG4-5542816-6",
+   "route": "CLASS_PENDING",
+   "label": "Class member, refund pending",
+   "bucket": "no_route",
+   "ieepa_duty": 2780.0,
+   "refund_amount": 2780.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "Finally liquidated (more than 180 days, no protest). The Court of International Trade certified a class of importers who have not sued (Freestyle World, Oct 8, 2026), but there is no refund order yet, and CAPE Phase 3 is only for importers with their own suit. The class may not cover IEEPA duties on goods from Brazil or India. For a large balance, ask a customs attorney about your own suit (the deadline is about two years after payment, from Feb 2027 at the earliest).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 195,
+   "entry_type": "01",
+   "entry_date": "2025-06-02",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-04-12",
+   "evidence": {
+    "entry": "CG4-5542816-6 01 ABI/A",
+    "liquidation": "CG4-5542816-6 01 06/02/2025 Liquidated 04/12/2026 2,780.00",
+    "flags": null,
+    "ieepa_statement": "CG4-5542816-6 01 06/02/2025 Liquidated 04/12/2026 2,780.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf p.26",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Garden hose reels",
+     "hts": [
+      {
+       "code": "8424.90.9080",
+       "entered_value": 13900,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 2780
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "CG4-5542816-6",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "CG4-5542816-6",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-04-12 / quote: CG4-5542816-6 01 06/02/2025 Liquidated 04/12/2026 2,780.00"
+    },
+    {
+     "entry": "CG4-5542816-6",
+     "check": "IEEPA duty 9903.02.69 $2,780.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "CG4-5542816-6",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "CG4-5276691-1",
+   "route": "CAPE_NOW",
+   "label": "File in CAPE now",
+   "bucket": "file_now",
+   "ieepa_duty": 2542.0,
+   "refund_amount": 2542.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+   "flags": [],
+   "in_cape_csv": true,
+   "days_since_liquidation": null,
+   "entry_type": "01",
+   "entry_date": "2026-02-02",
+   "liquidation_status": "unliquidated",
+   "liquidation_date": null,
+   "evidence": {
+    "entry": "CG4-5276691-1 01 ABI/A",
+    "liquidation": "CG4-5276691-1 01 02/02/2026 Open - 2,542.00",
+    "flags": null,
+    "ieepa_statement": "CG4-5276691-1 01 02/02/2026 Open - 2,542.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf p.24",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Garden hose reels",
+     "hts": [
+      {
+       "code": "8424.90.9080",
+       "entered_value": 12710,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 2542
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "CG4-5276691-1",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "CG4-5276691-1",
+     "check": "'not liquidated' is quoted next to this entry",
+     "ok": true,
+     "detail": "quote: CG4-5276691-1 01 02/02/2026 Open - 2,542.00"
+    },
+    {
+     "entry": "CG4-5276691-1",
+     "check": "IEEPA duty 9903.02.69 $2,542.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "CG4-5276691-1",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "CG4-5718104-8",
+   "route": "CLASS_PENDING",
+   "label": "Class member, refund pending",
+   "bucket": "no_route",
+   "ieepa_duty": 2426.0,
+   "refund_amount": 2426.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "Finally liquidated (more than 180 days, no protest). The Court of International Trade certified a class of importers who have not sued (Freestyle World, Oct 8, 2026), but there is no refund order yet, and CAPE Phase 3 is only for importers with their own suit. The class may not cover IEEPA duties on goods from Brazil or India. For a large balance, ask a customs attorney about your own suit (the deadline is about two years after payment, from Feb 2027 at the earliest).",
+   "flags": [],
+   "in_cape_csv": false,
+   "days_since_liquidation": 198,
+   "entry_type": "01",
+   "entry_date": "2025-05-30",
+   "liquidation_status": "liquidated",
+   "liquidation_date": "2026-04-09",
+   "evidence": {
+    "entry": "CG4-5718104-8 01 ABI/A",
+    "liquidation": "CG4-5718104-8 01 05/30/2025 Liquidated 04/09/2026 2,426.00",
+    "flags": null,
+    "ieepa_statement": "CG4-5718104-8 01 05/30/2025 Liquidated 04/09/2026 2,426.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf p.27",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Garden hose reels",
+     "hts": [
+      {
+       "code": "8424.90.9080",
+       "entered_value": 12130,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 2426
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "CG4-5718104-8",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "CG4-5718104-8",
+     "check": "liquidation date is quoted next to this entry",
+     "ok": true,
+     "detail": "2026-04-09 / quote: CG4-5718104-8 01 05/30/2025 Liquidated 04/09/2026 2,426.00"
+    },
+    {
+     "entry": "CG4-5718104-8",
+     "check": "IEEPA duty 9903.02.69 $2,426.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "CG4-5718104-8",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "CG4-5740127-0",
+   "route": "CAPE_NOW",
+   "label": "File in CAPE now",
+   "bucket": "file_now",
+   "ieepa_duty": 2146.0,
+   "refund_amount": 2146.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+   "flags": [],
+   "in_cape_csv": true,
+   "days_since_liquidation": null,
+   "entry_type": "01",
+   "entry_date": "2026-01-17",
+   "liquidation_status": "unliquidated",
+   "liquidation_date": null,
+   "evidence": {
+    "entry": "CG4-5740127-0 01 ABI/A",
+    "liquidation": "CG4-5740127-0 01 01/17/2026 Open - 2,146.00",
+    "flags": null,
+    "ieepa_statement": "CG4-5740127-0 01 01/17/2026 Open - 2,146.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf p.29",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Garden hose reels",
+     "hts": [
+      {
+       "code": "8424.90.9080",
+       "entered_value": 10730,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 2146
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "CG4-5740127-0",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "CG4-5740127-0",
+     "check": "'not liquidated' is quoted next to this entry",
+     "ok": true,
+     "detail": "quote: CG4-5740127-0 01 01/17/2026 Open - 2,146.00"
+    },
+    {
+     "entry": "CG4-5740127-0",
+     "check": "IEEPA duty 9903.02.69 $2,146.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "CG4-5740127-0",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "CG4-5688071-5",
+   "route": "CAPE_NOW",
+   "label": "File in CAPE now",
+   "bucket": "file_now",
+   "ieepa_duty": 1752.0,
+   "refund_amount": 1752.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+   "flags": [],
+   "in_cape_csv": true,
+   "days_since_liquidation": null,
+   "entry_type": "01",
+   "entry_date": "2026-01-09",
+   "liquidation_status": "unliquidated",
+   "liquidation_date": null,
+   "evidence": {
+    "entry": "CG4-5688071-5 01 ABI/A",
+    "liquidation": "CG4-5688071-5 01 01/09/2026 Open - 1,752.00",
+    "flags": null,
+    "ieepa_statement": "CG4-5688071-5 01 01/09/2026 Open - 1,752.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf p.20",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Garden hose reels",
+     "hts": [
+      {
+       "code": "8424.90.9080",
+       "entered_value": 8760,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 1752
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "CG4-5688071-5",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "CG4-5688071-5",
+     "check": "'not liquidated' is quoted next to this entry",
+     "ok": true,
+     "detail": "quote: CG4-5688071-5 01 01/09/2026 Open - 1,752.00"
+    },
+    {
+     "entry": "CG4-5688071-5",
+     "check": "IEEPA duty 9903.02.69 $1,752.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "CG4-5688071-5",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false
+  },
+  {
+   "entry_number": "CG4-5199160-2",
+   "route": "CAPE_NOW",
+   "label": "File in CAPE now",
+   "bucket": "file_now",
+   "ieepa_duty": 1609.0,
+   "refund_amount": 1609.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+   "flags": [],
+   "in_cape_csv": true,
+   "days_since_liquidation": null,
+   "entry_type": "01",
+   "entry_date": "2025-12-16",
+   "liquidation_status": "unliquidated",
+   "liquidation_date": null,
+   "evidence": {
+    "entry": "CBP Form 7501 (synthetic test document) POST SUMMARY CORRECTION filed 09/12/2026 - replaces the original entry summary | CG4-5199160-2 01 ABI/A | 9903.01.25 10% 1,609.00",
+    "liquidation": "CG4-5199160-2 01 12/16/2025 Open - 1,609.00",
+    "flags": null,
+    "ieepa_statement": "CG4-5199160-2 01 12/16/2025 Open - 1,609.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Garden hose reels",
+     "hts": [
+      {
+       "code": "8424.90.9080",
+       "entered_value": 16090,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "9903.01.25",
+       "entered_value": null,
+       "rate": 0.1,
+       "duty": 1609
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "CG4-5199160-2",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 4 page(s)"
+    },
+    {
+     "entry": "CG4-5199160-2",
+     "check": "'not liquidated' is quoted next to this entry",
+     "ok": true,
+     "detail": "quote: CG4-5199160-2 01 12/16/2025 Open - 1,609.00"
+    },
+    {
+     "entry": "CG4-5199160-2",
+     "check": "IEEPA duty 9903.01.25 $1,609.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "CG4-5199160-2",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": true
+  },
+  {
+   "entry_number": "CG4-5709773-8",
+   "route": "CAPE_NOW",
+   "label": "File in CAPE now",
+   "bucket": "file_now",
+   "ieepa_duty": 1602.0,
+   "refund_amount": 1602.0,
+   "deadline": null,
+   "days_left": null,
+   "urgent": false,
+   "reason": "Eligible for CAPE: unliquidated, or liquidated 80 days ago or less (CSMS #68340863).",
+   "flags": [],
+   "in_cape_csv": true,
+   "days_since_liquidation": null,
+   "entry_type": "01",
+   "entry_date": "2026-01-25",
+   "liquidation_status": "unliquidated",
+   "liquidation_date": null,
+   "evidence": {
+    "entry": "CG4-5709773-8 01 ABI/A",
+    "liquidation": "CG4-5709773-8 01 01/25/2026 Open - 1,602.00",
+    "flags": null,
+    "ieepa_statement": "CG4-5709773-8 01 01/25/2026 Open - 1,602.00"
+   },
+   "source_docs": [
+    "1_cbp7501_entry_summaries.pdf p.30",
+    "2_broker_statement_2026-07-15.pdf",
+    "3_broker_statement_2026-10-21.pdf"
+   ],
+   "lines": [
+    {
+     "line_no": "001",
+     "description": "Garden hose reels",
+     "hts": [
+      {
+       "code": "8424.90.9080",
+       "entered_value": 8010,
+       "rate": 0,
+       "duty": 0
+      },
+      {
+       "code": "9903.02.69",
+       "entered_value": null,
+       "rate": 0.2,
+       "duty": 1602
+      }
+     ]
+    }
+   ],
+   "checks": [
+    {
+     "entry": "CG4-5709773-8",
+     "check": "entry number is in the documents",
+     "ok": true,
+     "detail": "found on 3 page(s)"
+    },
+    {
+     "entry": "CG4-5709773-8",
+     "check": "'not liquidated' is quoted next to this entry",
+     "ok": true,
+     "detail": "quote: CG4-5709773-8 01 01/25/2026 Open - 1,602.00"
+    },
+    {
+     "entry": "CG4-5709773-8",
+     "check": "IEEPA duty 9903.02.69 $1,602.00 printed and adds up",
+     "ok": true,
+     "detail": "printed=True, value x rate ok=True"
+    },
+    {
+     "entry": "CG4-5709773-8",
+     "check": "entry type 01 is printed next to this entry",
+     "ok": true,
+     "detail": ""
+    }
+   ],
+   "repaired": false
+  }
+ ],
+ "plan": {
+  "headline": "Cobalt Garden Supply: 26 of your 30 entries appear eligible for IEEPA tariff refunds, and 18 of them have protest deadlines starting Jan 14, 2027.",
+  "steps": [
+   {
+    "title": "File protests on 18 entries (earliest deadline Jan 14, 2027)",
+    "detail": "These entries appear eligible for $51,932 in total, but they were finalized too long ago for CAPE (the customs refund portal). A protest is a formal written challenge filed with Customs, and each one has its own deadline running from Jan 14, 2027 to Jan 31, 2027. Ask your broker to file them now and don't wait for the deadlines.",
+    "deadline": "2027-01-14",
+    "entries": [
+     "CG4-5501889-1",
+     "CG4-5368929-3",
+     "CG4-5572165-2",
+     "CG4-5823538-7",
+     "CG4-5672950-4",
+     "CG4-5704628-8",
+     "CG4-5135762-5",
+     "CG4-5231709-6",
+     "CG4-5798418-3",
+     "CG4-5712851-4",
+     "CG4-5101287-9",
+     "CG4-5449332-1",
+     "CG4-5226715-1",
+     "CG4-5730710-4",
+     "CG4-5567341-9",
+     "CG4-5452472-8",
+     "CG4-5486503-9",
+     "CG4-5340474-7"
+    ]
+   },
+   {
+    "title": "Claim 8 entries in CAPE now",
+    "detail": "These entries appear eligible for $22,005 in total through CAPE. No deadline was given, but there's no reason to wait, so have your broker submit them. Your broker has a CAPE file ready with all 8.",
+    "deadline": null,
+    "entries": [
+     "CG4-5710382-0",
+     "CG4-5715043-4",
+     "CG4-5950874-7",
+     "CG4-5276691-1",
+     "CG4-5740127-0",
+     "CG4-5688071-5",
+     "CG4-5199160-2",
+     "CG4-5709773-8"
+    ]
+   },
+   {
+    "title": "Wait on 4 entries tied up in court",
+    "detail": "These entries are worth $12,496 in total. They were finalized with no protest, so neither CAPE nor a protest works. A court has certified a class of importers who haven't sued, but there is no refund order yet. If the balance matters to you, ask a customs attorney about filing your own suit; the deadline is about two years after payment, from Feb 2027 at the earliest.",
+    "deadline": null,
+    "entries": [
+     "CG4-5785470-7",
+     "CG4-5667806-9",
+     "CG4-5542816-6",
+     "CG4-5718104-8"
+    ]
+   }
+  ],
+  "broker_email_subject": "IEEPA refunds: protests and CAPE filings for Cobalt Garden Supply LLC",
+  "broker_email_body": "Hello,\n\nI reviewed our IEEPA tariff entries as of Oct 24, 2026. Could you please help with the following?\n\n1) Protests (earliest deadline Jan 14, 2027; the rest run through Jan 31, 2027). These 18 entries were liquidated more than 80 days ago, so CAPE will reject them, but they appear to be inside the 180-day protest window. They total $51,932. Please file protests on:\nCG4-5501889-1, CG4-5368929-3, CG4-5572165-2, CG4-5823538-7, CG4-5672950-4, CG4-5704628-8, CG4-5135762-5, CG4-5231709-6, CG4-5798418-3, CG4-5712851-4, CG4-5101287-9, CG4-5449332-1, CG4-5226715-1, CG4-5730710-4, CG4-5567341-9, CG4-5452472-8, CG4-5486503-9, CG4-5340474-7\n\n2) CAPE. These 8 entries appear eligible now, totaling $22,005. Please submit them:\nCG4-5710382-0, CG4-5715043-4, CG4-5950874-7, CG4-5276691-1, CG4-5740127-0, CG4-5688071-5, CG4-5199160-2, CG4-5709773-8\n\n3) Finally liquidated entries (no protest). These 4 entries total $12,496 and don't have a current route. I understand a class action (Freestyle World) has been certified but there is no refund order yet. Please let me know if you see any other option:\nCG4-5785470-7, CG4-5667806-9, CG4-5542816-6, CG4-5718104-8\n\nPlease confirm the filing dates and let me know if you need anything from me. I understand this isn't a guarantee of refunds.\n\nThank you,\nCobalt Garden Supply LLC"
+ },
+ "plan_removed_sentences": [],
+ "checker": {
+  "issues": [
+   {
+    "entry_number": "CG4-5199160-2",
+    "kind": "wrong_amount",
+    "detail": "The extraction uses the original summary's 9903.02.69 line at $3,218. A post summary correction filed 09/12/2026 replaces that summary. The corrected line is 9903.01.25 at 10%, $1,609. The extraction's stated_ieepa of 1609 matches the correction, but its chapter99 line contradicts it. It should be 9903.01.25=$1609.",
+    "quote": "9903.01.25 10% 1,609.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "CG4-5199160-2",
+    "kind": "conflict",
+    "detail": "The original 7501 (p21) shows 9903.02.69 at $3,218. The PSC (p31) and both broker statements show $1,609. The extraction mixes the two sources. The PSC supersedes the original.",
+    "quote": "POST SUMMARY CORRECTION filed 09/12/2026 - replaces the original entry summary",
+    "grounded": true
+   },
+   {
+    "entry_number": "CG4-5101287-9",
+    "kind": "wrong_liquidation",
+    "detail": "The 10/21/2026 statement shows this entry liquidated 07/28/2026. The extraction says unliquidated.",
+    "quote": "CG4-5101287-9 01 09/17/2025 Liquidated 07/28/2026 2,354.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "CG4-5135762-5",
+    "kind": "wrong_liquidation",
+    "detail": "The latest statement shows this entry liquidated 07/24/2026. The extraction says unliquidated.",
+    "quote": "CG4-5135762-5 01 09/13/2025 Liquidated 07/24/2026 3,438.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "CG4-5226715-1",
+    "kind": "wrong_liquidation",
+    "detail": "The latest statement shows this entry liquidated 07/30/2026. The extraction says unliquidated.",
+    "quote": "CG4-5226715-1 01 09/19/2025 Liquidated 07/30/2026 3,768.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "CG4-5231709-6",
+    "kind": "wrong_liquidation",
+    "detail": "The latest statement shows this entry liquidated 07/25/2026. The extraction says unliquidated.",
+    "quote": "CG4-5231709-6 01 09/14/2025 Liquidated 07/25/2026 3,348.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "CG4-5340474-7",
+    "kind": "wrong_liquidation",
+    "detail": "The latest statement shows this entry liquidated 08/04/2026. The extraction says unliquidated.",
+    "quote": "CG4-5340474-7 01 09/24/2025 Liquidated 08/04/2026 2,782.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "CG4-5368929-3",
+    "kind": "wrong_liquidation",
+    "detail": "The latest statement shows this entry liquidated 07/19/2026. The extraction says unliquidated.",
+    "quote": "CG4-5368929-3 01 09/08/2025 Liquidated 07/19/2026 3,640.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "CG4-5449332-1",
+    "kind": "wrong_liquidation",
+    "detail": "The latest statement shows this entry liquidated 07/29/2026. The extraction says unliquidated.",
+    "quote": "CG4-5449332-1 01 09/18/2025 Liquidated 07/29/2026 4,428.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "CG4-5452472-8",
+    "kind": "wrong_liquidation",
+    "detail": "The latest statement shows this entry liquidated 08/02/2026. The extraction says unliquidated.",
+    "quote": "CG4-5452472-8 01 09/22/2025 Liquidated 08/02/2026 4,010.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "CG4-5486503-9",
+    "kind": "wrong_liquidation",
+    "detail": "The latest statement shows this entry liquidated 08/03/2026. The extraction says unliquidated.",
+    "quote": "CG4-5486503-9 01 09/23/2025 Liquidated 08/03/2026 2,080.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "CG4-5501889-1",
+    "kind": "wrong_liquidation",
+    "detail": "The latest statement shows this entry liquidated 07/18/2026. The extraction says unliquidated.",
+    "quote": "CG4-5501889-1 01 09/07/2025 Liquidated 07/18/2026 2,506.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "CG4-5567341-9",
+    "kind": "wrong_liquidation",
+    "detail": "The latest statement shows this entry liquidated 08/01/2026. The extraction says unliquidated.",
+    "quote": "CG4-5567341-9 01 09/21/2025 Liquidated 08/01/2026 3,190.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "CG4-5572165-2",
+    "kind": "wrong_liquidation",
+    "detail": "The latest statement shows this entry liquidated 07/20/2026. The extraction says unliquidated.",
+    "quote": "CG4-5572165-2 01 09/09/2025 Liquidated 07/20/2026 1,044.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "CG4-5672950-4",
+    "kind": "wrong_liquidation",
+    "detail": "The latest statement shows this entry liquidated 07/22/2026. The extraction says unliquidated.",
+    "quote": "CG4-5672950-4 01 09/11/2025 Liquidated 07/22/2026 4,476.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "CG4-5704628-8",
+    "kind": "wrong_liquidation",
+    "detail": "The latest statement shows this entry liquidated 07/23/2026. The extraction says unliquidated.",
+    "quote": "CG4-5704628-8 01 09/12/2025 Liquidated 07/23/2026 1,306.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "CG4-5712851-4",
+    "kind": "wrong_liquidation",
+    "detail": "The latest statement shows this entry liquidated 07/27/2026. The extraction says unliquidated.",
+    "quote": "CG4-5712851-4 01 09/16/2025 Liquidated 07/27/2026 1,428.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "CG4-5730710-4",
+    "kind": "wrong_liquidation",
+    "detail": "The latest statement shows this entry liquidated 07/31/2026. The extraction says unliquidated.",
+    "quote": "CG4-5730710-4 01 09/20/2025 Liquidated 07/31/2026 4,506.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "CG4-5798418-3",
+    "kind": "wrong_liquidation",
+    "detail": "The latest statement shows this entry liquidated 07/26/2026. The extraction says unliquidated.",
+    "quote": "CG4-5798418-3 01 09/15/2025 Liquidated 07/26/2026 2,250.00",
+    "grounded": true
+   },
+   {
+    "entry_number": "CG4-5823538-7",
+    "kind": "wrong_liquidation",
+    "detail": "The latest statement shows this entry liquidated 07/21/2026. The extraction says unliquidated.",
+    "quote": "CG4-5823538-7 01 09/10/2025 Liquidated 07/21/2026 1,378.00",
+    "grounded": true
+   }
+  ],
+  "summary": "All 30 entries in the documents appear in the extraction. I found 19 problems.\n\n- **CG4-5199160-2:** The extraction lists the Chapter 99 line from the original 7501 (9903.02.69=$3,218). A post summary correction filed 09/12/2026 replaces that summary. The corrected line is 9903.01.25 at 10%, $1,609.\n- **Stale liquidation status:** The extraction marks 18 entries unliquidated, apparently from the 07/15/2026 statement. The 10/21/2026 statement shows them liquidated between 07/18/2026 and 08/04/2026.\n\nThe other 11 entries need no change. Four were already liquidated in April 2026. CG4-5740127-0 and CG4-5709773-8 are unliquidated as extracted. The other five are open on the latest statement: CG4-5276691-1, CG4-5688071-5, CG4-5710382-0, CG4-5715043-4 and CG4-5950874-7. CG4-5740127-0 shows \"Liquidation extended\", and CG4-5709773-8 is scheduled to liquidate 11/06/2026.\n\nI found no surety-paid, protest, drawback, reconciliation, AD/CVD, type 21 or type 08 mentions anywhere in the documents. No Section 301 or 232 lines appear either. The other 29 entries' Chapter 99 lines and amounts match their 7501s and the statements. The statement IEEPA amounts agree with the line detail for all 30."
+ },
+ "screen": {
+  "removed_lines": [],
+  "hidden_chars_dropped": 0,
+  "errors": [],
+  "pages": 35
+ },
+ "warnings": [],
+ "reader_notes": [
+  "Part 1 of 6 has 10 CBP 7501 pages. Each one is a type 01 entry for Cobalt Garden Supply LLC (IOR 38-5521906-00), filed by Chesapeake Customs Brokers (CG4) at port 1303.",
+  "None of these pages say anything about liquidation, so every entry is marked 'unknown'. The other parts may have this information.",
+  "None of these pages mention surety payment, a protest, drawback, reconciliation, AD/CVD, an IEEPA amount from a broker, or a CIT case. All of those fields are left false or null.",
+  "Each 9903.02.69 row shows no entered value, so it is recorded as null. The rate (20%) and duty are copied as printed. These pages don't say which program 9903.02.69 belongs to, so it isn't labelled.",
+  "Part 2 of 6: covers pages 11-20 of 1_cbp7501_entry_summaries.pdf only. Ten type-01 entries, all for Cobalt Garden Supply LLC (IOR 38-5521906-00), all filed by Chesapeake Customs Brokers (CG4) at port 1303.",
+  "None of these pages say anything about liquidation, protests, surety payment, drawback, reconciliation, AD/CVD, or IEEPA amounts in a broker statement, so liquidation is 'unknown', all flags are false, and ieepa_duty_statement is null. Other parts may add these details.",
+  "None of these pages say whether the importer is a plaintiff at the Court of International Trade, so cit_plaintiff is false and the CIT case and date are null.",
+  "The 9903.02.69 rows have no entered value, so entered_value is null for them. The rate and duty are copied as printed (20%). These pages don't label the 9903 number as IEEPA, Section 301 or Section 232, so it is not labeled here.",
+  "The entry dates are the 7501 Entry Date (box 7), not the Summary Date (box 3).",
+  "Part 3 of 6: pages 21-30 of 1_cbp7501_entry_summaries.pdf. Each page is one single-line 7501 entry summary (type 01) for Cobalt Garden Supply LLC, filed by Chesapeake Customs Brokers (filer code CG4).",
+  "None of these pages says anything about liquidation, so every entry is marked liquidation_status 'unknown'.",
+  "None of these pages mentions a surety payment, protest, drawback, reconciliation flag, AD/CVD, or the Court of International Trade, so those fields are false or null. Other parts of the paperwork may say more.",
+  "The 9903.02.69 rows show no entered value of their own, so entered_value is null. The value appears only on the 8424.90.9080 row.",
+  "No broker statement or email in this part gives an IEEPA amount, so ieepa_duty_statement is null. The pages do not name the 9903.02.69 duty as IEEPA.",
+  "Page 31 is marked 'POST SUMMARY CORRECTION filed 09/12/2026 - replaces the original entry summary' for entry CG4-5199160-2. The amounts recorded here are from the correction. The original entry summary was not on these pages.",
+  "No document on this page gives a liquidation status or date for CG4-5199160-2, so the status is recorded as unknown.",
+  "On the 9903.01.25 row, no entered value is printed. The 10% rate and 1,609.00 duty were copied as printed.",
+  "No broker statement, report or email gives an IEEPA amount for this entry. No surety, protest, drawback, reconciliation or AD/CVD flags are stated, and nothing says the importer is a Court of International Trade plaintiff.",
+  "This is part 4 of 6. Other parts may have more information about this entry (for example, the original summary or its liquidation status).",
+  "This part (part 5 of 6) contains only the Chesapeake Customs Brokers statement prepared 07/15/2026, 2 pages. It lists 30 entries, all type 01. There are no 7501 pages here, so no HTS lines, entered values, rates or line-level duties are given; 'lines' is left empty for every entry. If 7501 pages for these entries are in other parts, they should be merged in.",
+  "The liquidation status comes from the broker statement as of 07/15/2026. Entries marked 'Open' were recorded as unliquidated. Their status may have changed after that date, but no document in this part says so.",
+  "The IEEPA amounts are from the statement column headed 'IEEPA (9903.01/.02)'. They are copied as stated.",
+  "No document in this part mentions a surety payment, protest, drawback, reconciliation, AD/CVD, or a Court of International Trade case or plaintiff status. Those flags are false, and cit_plaintiff is false with no case or date.",
+  "Part 6 of 6: this part has only the Chesapeake Customs Brokers statement prepared 10/21/2026 (2 pages, 30 entries). There are no 7501 pages here, so no HTS lines, entered values, rates or duties could be copied. Lines are left empty.",
+  "IEEPA amounts come from the statement column headed 'IEEPA (9903.01/.02)'.",
+  "CG4-5709773-8 says 'Unliquidated - scheduled 11/06/2026'. I recorded it as unliquidated with no liquidation date, because 11/06/2026 is a scheduled date, not an actual liquidation.",
+  "CG4-5740127-0 says only 'Liquidation extended' and gives no date. I recorded it as unliquidated because an extension means it has not liquidated yet, but the statement does not say 'open' or 'unliquidated' in so many words. Please check.",
+  "Entries marked 'Open' were recorded as unliquidated.",
+  "Nothing in this part mentions surety payment, protests, drawback, reconciliation, AD/CVD, or the Court of International Trade, so all those flags are false and CIT plaintiff is false."
+ ],
+ "files": {
+  "cape_csv": "Entry Number\nCG457103820\nCG457150434\nCG459508747\nCG452766911\nCG457401270\nCG456880715\nCG451991602\nCG457097738\n",
+  "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//DutyBack//IEEPA refund deadlines//EN\r\nCALSCALE:GREGORIAN\r\nX-WR-CALNAME:Tariff refund deadlines - Cobalt Garden Supply LLC\r\nBEGIN:VEVENT\r\nUID:CG4-5501889-1-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T003935Z\r\nDTSTART;VALUE=DATE:20270114\r\nDTEND;VALUE=DATE:20270115\r\nSUMMARY:Protest deadline: entry CG4-5501889-1 ($2\\,506.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: CG4-5501889-1\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: CG4-5501889-1\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:CG4-5368929-3-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T003935Z\r\nDTSTART;VALUE=DATE:20270115\r\nDTEND;VALUE=DATE:20270116\r\nSUMMARY:Protest deadline: entry CG4-5368929-3 ($3\\,640.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: CG4-5368929-3\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: CG4-5368929-3\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:CG4-5572165-2-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T003935Z\r\nDTSTART;VALUE=DATE:20270116\r\nDTEND;VALUE=DATE:20270117\r\nSUMMARY:Protest deadline: entry CG4-5572165-2 ($1\\,044.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: CG4-5572165-2\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: CG4-5572165-2\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:CG4-5823538-7-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T003935Z\r\nDTSTART;VALUE=DATE:20270117\r\nDTEND;VALUE=DATE:20270118\r\nSUMMARY:Protest deadline: entry CG4-5823538-7 ($1\\,378.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: CG4-5823538-7\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: CG4-5823538-7\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:CG4-5672950-4-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T003935Z\r\nDTSTART;VALUE=DATE:20270118\r\nDTEND;VALUE=DATE:20270119\r\nSUMMARY:Protest deadline: entry CG4-5672950-4 ($4\\,476.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: CG4-5672950-4\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: CG4-5672950-4\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:CG4-5704628-8-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T003935Z\r\nDTSTART;VALUE=DATE:20270119\r\nDTEND;VALUE=DATE:20270120\r\nSUMMARY:Protest deadline: entry CG4-5704628-8 ($1\\,306.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: CG4-5704628-8\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: CG4-5704628-8\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:CG4-5135762-5-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T003935Z\r\nDTSTART;VALUE=DATE:20270120\r\nDTEND;VALUE=DATE:20270121\r\nSUMMARY:Protest deadline: entry CG4-5135762-5 ($3\\,438.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: CG4-5135762-5\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: CG4-5135762-5\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:CG4-5231709-6-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T003935Z\r\nDTSTART;VALUE=DATE:20270121\r\nDTEND;VALUE=DATE:20270122\r\nSUMMARY:Protest deadline: entry CG4-5231709-6 ($3\\,348.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: CG4-5231709-6\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: CG4-5231709-6\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:CG4-5798418-3-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T003935Z\r\nDTSTART;VALUE=DATE:20270122\r\nDTEND;VALUE=DATE:20270123\r\nSUMMARY:Protest deadline: entry CG4-5798418-3 ($2\\,250.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: CG4-5798418-3\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: CG4-5798418-3\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:CG4-5712851-4-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T003935Z\r\nDTSTART;VALUE=DATE:20270123\r\nDTEND;VALUE=DATE:20270124\r\nSUMMARY:Protest deadline: entry CG4-5712851-4 ($1\\,428.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: CG4-5712851-4\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: CG4-5712851-4\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:CG4-5101287-9-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T003935Z\r\nDTSTART;VALUE=DATE:20270124\r\nDTEND;VALUE=DATE:20270125\r\nSUMMARY:Protest deadline: entry CG4-5101287-9 ($2\\,354.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: CG4-5101287-9\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: CG4-5101287-9\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:CG4-5449332-1-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T003935Z\r\nDTSTART;VALUE=DATE:20270125\r\nDTEND;VALUE=DATE:20270126\r\nSUMMARY:Protest deadline: entry CG4-5449332-1 ($4\\,428.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: CG4-5449332-1\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: CG4-5449332-1\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:CG4-5226715-1-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T003935Z\r\nDTSTART;VALUE=DATE:20270126\r\nDTEND;VALUE=DATE:20270127\r\nSUMMARY:Protest deadline: entry CG4-5226715-1 ($3\\,768.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: CG4-5226715-1\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: CG4-5226715-1\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:CG4-5730710-4-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T003935Z\r\nDTSTART;VALUE=DATE:20270127\r\nDTEND;VALUE=DATE:20270128\r\nSUMMARY:Protest deadline: entry CG4-5730710-4 ($4\\,506.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: CG4-5730710-4\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: CG4-5730710-4\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:CG4-5567341-9-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T003935Z\r\nDTSTART;VALUE=DATE:20270128\r\nDTEND;VALUE=DATE:20270129\r\nSUMMARY:Protest deadline: entry CG4-5567341-9 ($3\\,190.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: CG4-5567341-9\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: CG4-5567341-9\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:CG4-5452472-8-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T003935Z\r\nDTSTART;VALUE=DATE:20270129\r\nDTEND;VALUE=DATE:20270130\r\nSUMMARY:Protest deadline: entry CG4-5452472-8 ($4\\,010.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: CG4-5452472-8\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: CG4-5452472-8\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:CG4-5486503-9-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T003935Z\r\nDTSTART;VALUE=DATE:20270130\r\nDTEND;VALUE=DATE:20270131\r\nSUMMARY:Protest deadline: entry CG4-5486503-9 ($2\\,080.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: CG4-5486503-9\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: CG4-5486503-9\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:CG4-5340474-7-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T003935Z\r\nDTSTART;VALUE=DATE:20270131\r\nDTEND;VALUE=DATE:20270201\r\nSUMMARY:Protest deadline: entry CG4-5340474-7 ($2\\,782.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: CG4-5340474-7\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: CG4-5340474-7\r\nEND:VALARM\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+ },
+ "agents": [
+  {
+   "agent": "reader 1/6",
+   "model": "opus",
+   "seconds": 28.5,
+   "input_tokens": 2,
+   "output_tokens": 4091,
+   "cache_read_tokens": 2307,
+   "cache_write_tokens": 4535,
+   "cost_usd": 0.1186,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-opus-5-5"
+  },
+  {
+   "agent": "reader 2/6",
+   "model": "opus",
+   "seconds": 28.1,
+   "input_tokens": 2,
+   "output_tokens": 3983,
+   "cache_read_tokens": 2307,
+   "cache_write_tokens": 4535,
+   "cost_usd": 0.1164,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-opus-5-5"
+  },
+  {
+   "agent": "reader 3/6",
+   "model": "opus",
+   "seconds": 27.2,
+   "input_tokens": 2,
+   "output_tokens": 3909,
+   "cache_read_tokens": 2307,
+   "cache_write_tokens": 4535,
+   "cost_usd": 0.1149,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-opus-5-5"
+  },
+  {
+   "agent": "reader 4/6",
+   "model": "opus",
+   "seconds": 9.5,
+   "input_tokens": 2,
+   "output_tokens": 999,
+   "cache_read_tokens": 2307,
+   "cache_write_tokens": 1077,
+   "cost_usd": 0.0291,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-opus-5-5"
+  },
+  {
+   "agent": "reader 5/6",
+   "model": "opus",
+   "seconds": 69.6,
+   "input_tokens": 2,
+   "output_tokens": 10520,
+   "cache_read_tokens": 2307,
+   "cache_write_tokens": 1859,
+   "cost_usd": 0.2257,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-opus-5-5"
+  },
+  {
+   "agent": "reader 6/6",
+   "model": "opus",
+   "seconds": 70.2,
+   "input_tokens": 2,
+   "output_tokens": 10566,
+   "cache_read_tokens": 2307,
+   "cache_write_tokens": 2041,
+   "cost_usd": 0.2281,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-opus-5-5"
+  },
+  {
+   "agent": "checker",
+   "model": "sonnet",
+   "seconds": 26.1,
+   "input_tokens": 8,
+   "output_tokens": 4385,
+   "cache_read_tokens": 23634,
+   "cache_write_tokens": 17280,
+   "cost_usd": 0.1153,
+   "turns": 16,
+   "tool_calls": [
+    {
+     "tool": "get_extraction",
+     "input": {}
+    },
+    {
+     "tool": "list_entry_numbers_in_documents",
+     "input": {}
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "2_broker_statement_2026-07-15.pdf",
+      "page": 1
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "2_broker_statement_2026-07-15.pdf",
+      "page": 2
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "3_broker_statement_2026-10-21.pdf",
+      "page": 1
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "3_broker_statement_2026-10-21.pdf",
+      "page": 2
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 21
+     }
+    },
+    {
+     "tool": "read_page",
+     "input": {
+      "doc": "1_cbp7501_entry_summaries.pdf",
+      "page": 31
+     }
+    },
+    {
+     "tool": "search_documents",
+     "input": {
+      "text": "protest"
+     }
+    },
+    {
+     "tool": "search_documents",
+     "input": {
+      "text": "surety"
+     }
+    },
+    {
+     "tool": "search_documents",
+     "input": {
+      "text": "9903.01"
+     }
+    },
+    {
+     "tool": "search_documents",
+     "input": {
+      "text": "9903."
+     }
+    },
+    {
+     "tool": "search_documents",
+     "input": {
+      "text": "drawback"
+     }
+    },
+    {
+     "tool": "search_documents",
+     "input": {
+      "text": "reconcil"
+     }
+    }
+   ],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-sonnet-5-5"
+  },
+  {
+   "agent": "reader (repair)",
+   "model": "opus",
+   "seconds": 66.0,
+   "input_tokens": 2,
+   "output_tokens": 9913,
+   "cache_read_tokens": 2307,
+   "cache_write_tokens": 16679,
+   "cost_usd": 0.3322,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-opus-5-5"
+  },
+  {
+   "agent": "advisor",
+   "model": "sonnet",
+   "seconds": 14.5,
+   "input_tokens": 2,
+   "output_tokens": 2083,
+   "cache_read_tokens": 905,
+   "cache_write_tokens": 5544,
+   "cost_usd": 0.0431,
+   "turns": 2,
+   "tool_calls": [],
+   "ok": true,
+   "error": null,
+   "model_id": "claude-sonnet-5-5"
+  }
+ ],
+ "totals": {
+  "seconds": 177.2,
+  "cost_usd": 1.3234,
+  "input_tokens": 98797,
+  "output_tokens": 50449,
+  "tool_calls": 14
+ },
+ "steps": [
+  {
+   "key": "screen",
+   "title": "Safety screen",
+   "who": "Code"
+  },
+  {
+   "key": "read",
+   "title": "Read the paperwork",
+   "who": "Reader agent"
+  },
+  {
+   "key": "verify",
+   "title": "Match the extracted facts to the documents",
+   "who": "Code"
+  },
+  {
+   "key": "check",
+   "title": "Double-check with tools",
+   "who": "Checker agent"
+  },
+  {
+   "key": "repair",
+   "title": "Re-read anything flagged",
+   "who": "Reader agent + code"
+  },
+  {
+   "key": "route",
+   "title": "Sort entries and compute refunds",
+   "who": "Rules engine (code)"
+  },
+  {
+   "key": "plan",
+   "title": "Write the action plan",
+   "who": "Advisor agent + code"
+  }
+ ]
+}
