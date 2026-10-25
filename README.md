@@ -4,6 +4,8 @@
 
 DutyBack reads a small importer's customs paperwork (CBP Form 7501 entry summaries, broker statements, ACE reports, broker emails) and sorts every customs entry into a refund route: file in CBP's CAPE system now, fix one thing first, file a protest, wait on the court, or ask your broker. For each entry it gives the refund amount and the exact deadline. You leave with a CAPE upload list, a deadline calendar, an action plan and a draft email to your broker.
 
+**Author:** Vy Bui (vb473) · AI Agents final project, October 2026
+
 > Student project for an AI agents course. Not legal advice, not affiliated with CBP. All sample companies and paperwork are synthetic. Rules snapshot: **October 24, 2026**.
 
 ## Why

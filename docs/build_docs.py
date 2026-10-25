@@ -23,7 +23,7 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
 SHOTS = HERE / "shots"
 
-AUTHOR = "Vy Bui"
+AUTHOR = "Vy Bui (vb473)"
 COURSE = "AI Agents · Final project"
 DATE = "October 2026"
 REPO = "https://github.com/vhb13/dutyback"

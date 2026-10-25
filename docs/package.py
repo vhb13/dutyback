@@ -31,7 +31,7 @@ email = (DOCS / "professor_email.md").read_text(encoding="utf-8").replace("**", 
     "Setup: pip install -r requirements.txt, then python run.py and open http://localhost:8010. "
     "With no key it opens in a labeled demo mode that replays recorded runs. "
     "In the video, waits are sped up and the narration is a synthetic voice. All sample companies and documents are synthetic.\n\n"
-    "Thank you,\nVy Bui\n", encoding="utf-8")
+    "Thank you,\nVy Bui (vb473)\n", encoding="utf-8")
 guide_md = (DOCS / "HOW_TO_SUBMIT.md").read_text(encoding="utf-8")
 (e / "HOW_TO_SUBMIT.md").write_text(guide_md, encoding="utf-8")
 html = markdown.markdown(guide_md, extensions=["tables", "fenced_code"])
@@ -101,7 +101,7 @@ code_files = [f for f in files if f.endswith((".py", ".js", ".css", ".html")) an
 
 readme = f"""DUTYBACK: SUBMISSION FOLDER
 ===========================
-Vy Bui's AI Agents final project. DutyBack helps small importers claim refunds of the IEEPA tariffs the Supreme Court struck down:
+Vy Bui (vb473), AI Agents final project. DutyBack helps small importers claim refunds of the IEEPA tariffs the Supreme Court struck down:
 it reads their customs paperwork, sorts every entry into a refund route with its deadline, and prepares the CAPE file,
 a deadline calendar, an action plan and an email to their broker.
 
