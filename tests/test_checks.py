@@ -82,9 +82,10 @@ def test_value_times_rate_must_match():
 def test_flag_needs_a_quote():
     c = Corpus([FORM, STATEMENT])
     e = good_entry()
-    e["drawback"] = True
-    verify_entry(e, c)
-    assert "flags" in e["unverified_fields"]
+    e["drawback"] = True                      # no drawback words anywhere near this entry: the flag is dropped
+    log = verify_entry(e, c)
+    assert e["drawback"] is False and "flags" not in e["unverified_fields"]
+    assert any("drawback dropped" in r["check"] for r in log)
     s = {"entry_number": "ABC-7654321-0", "entry_type": "01", "liquidation_status": "unliquidated",
          "liquidation_date": None, "surety_paid_ieepa": True, "ieepa_duty_statement": 3975.0, "lines": [],
          "evidence": {"entry": "ABC-7654321-0 01 01/15/2026 Open - 6,227.50 3,975.00",
@@ -260,3 +261,34 @@ def test_fallback_plan_uses_only_engine_facts():
     plan = fallback_plan("Test Co", [d], summ)
     checked, removed = check_plan(plan, [d], summ, AS_OF)
     assert plan["steps"] and not removed and checked["steps"][0]["entries"] == ["ABC-1234567-1"]
+
+
+def test_surety_note_under_one_row_is_not_borrowed_by_the_row_above():
+    """A 'paid by surety' note printed under ABC-7654321-0 must not exclude ABC-1234567-1 from CAPE."""
+    c = Corpus([FORM, STATEMENT])
+    e = good_entry()
+    e["surety_paid_ieepa"] = True
+    e["evidence"]["flags"] = "ABC-1234567-1 01 09/09/2025 Liquidated 08/05/2026 9,661.50 6,780.00 | Duties incl. IEEPA paid by surety"
+    verify_entry(e, c)
+    assert e["surety_paid_ieepa"] is False
+    assert decide(e, {}, AS_OF).route == "CAPE_NOW"
+
+
+def test_plaintiff_claim_verified_from_its_own_sentence_and_date_filled_by_code():
+    """North Trail case: the quote joins form labels (not verbatim) with the plaintiff sentence (verbatim),
+    and the Reader left the importer-number date blank."""
+    page = Page("letter.pdf", 1, "Please note that Acme Inc. is a plaintiff in Acme Inc. v. United States, Ct. No. 26-01417 at the "
+                "U.S. Court of International Trade. Your importer of record number was submitted to CBP on July 22, 2026, per counsel.")
+    c = Corpus([page])
+    q = ("Importer of Record No.\nImporter of Record Name | Please note that Acme Inc. is a plaintiff in Acme Inc. v. United States, "
+         "Ct. No. 26-01417 at the U.S. Court of International Trade. Your importer of record number was submitted to CBP on July 22, 2026, per counsel.")
+    imp, warn = verify_importer({"cit_plaintiff": True, "cit_ior_submitted_date": None, "evidence": q}, c)
+    assert imp["cit_plaintiff"] is True and not warn
+    assert imp["cit_ior_submitted_date"] == "2026-07-22"
+
+
+def test_flag_quote_spanning_two_lines_is_found():
+    """The Reader often quotes the entry's header line and the flag line together, joined by a line break."""
+    page = Page("letter.pdf", 1, "Entry ABC-2208011-9 (type 01, entered 2025-06-17)\nProtest filed 06/01/2026 (IEEPA duties only); status OPEN.")
+    c = Corpus([page])
+    assert c.found("Entry ABC-2208011-9 (type 01, entered 2025-06-17)\nProtest filed 06/01/2026 (IEEPA duties only); status OPEN.")

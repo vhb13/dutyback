@@ -225,7 +225,10 @@ def _tool_spec(t) -> dict:
 def _client(be: str):
     from openai import AsyncOpenAI
     if be == "portkey":
-        return AsyncOpenAI(api_key=os.environ["PORTKEY_API_KEY"], base_url=PORTKEY_BASE_URL, max_retries=3)
+        # DUTYBACK_NO_CACHE=1 asks Portkey for a fresh answer (used when recording runs, so timings are real)
+        headers = {"x-portkey-cache-force-refresh": "true"} if os.environ.get("DUTYBACK_NO_CACHE") == "1" else None
+        return AsyncOpenAI(api_key=os.environ["PORTKEY_API_KEY"], base_url=PORTKEY_BASE_URL, max_retries=3,
+                           default_headers=headers)
     return AsyncOpenAI(api_key=os.environ["OPENAI_API_KEY"], max_retries=3)
 
 

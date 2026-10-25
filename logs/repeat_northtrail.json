@@ -1,0 +1,46 @@
+[
+ {
+  "run": 1,
+  "route_ok": 11,
+  "entries": 11,
+  "false_files": [],
+  "review": [],
+  "failed_checks": {},
+  "cost": 0.0042,
+  "seconds": 71.5,
+  "agent_errors": []
+ },
+ {
+  "run": 2,
+  "route_ok": 11,
+  "entries": 11,
+  "false_files": [],
+  "review": [],
+  "failed_checks": {},
+  "cost": 0.0059,
+  "seconds": 58.6,
+  "agent_errors": []
+ },
+ {
+  "run": 3,
+  "route_ok": 11,
+  "entries": 11,
+  "false_files": [],
+  "review": [],
+  "failed_checks": {},
+  "cost": 0.0061,
+  "seconds": 64.2,
+  "agent_errors": []
+ },
+ {
+  "run": 4,
+  "route_ok": 11,
+  "entries": 11,
+  "false_files": [],
+  "review": [],
+  "failed_checks": {},
+  "cost": 0.0061,
+  "seconds": 58.1,
+  "agent_errors": []
+ }
+]

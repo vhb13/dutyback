@@ -39,7 +39,7 @@ async def record(slug: str):
            "step_seconds": seconds, "step_details": details, "result": res}
     path = ROOT / "data" / "recorded" / f"{slug}.json"
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(out, indent=1))
+    path.write_text(json.dumps(out, indent=1), encoding="utf-8")
     print(f"recorded {slug}: {len(res['entries'])} entries, ${res['totals']['cost_usd']:.2f}, {res['totals']['seconds']}s")
 
 

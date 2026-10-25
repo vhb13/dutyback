@@ -1,24 +1,24 @@
 {
  "slug": "meridian",
- "recorded_at": "2026-10-25 07:44",
+ "recorded_at": "2026-10-25 11:49",
  "as_of": "2026-10-24",
  "step_seconds": {
-  "screen": 0.7,
-  "read": 117.3,
-  "verify": 0.0,
-  "check": 47.1,
-  "repair": 30.7,
+  "screen": 5.3,
+  "read": 58.4,
+  "verify": 0.2,
+  "check": 32.0,
+  "repair": 9.7,
   "route": 0.0,
-  "plan": 31.9
+  "plan": 17.8
  },
  "step_details": {
   "screen": "49 pages \u00b7 0 suspicious line(s) removed \u00b7 0 hidden characters dropped",
   "read": "48 entries read by 6 Readers in parallel",
-  "verify": "47/48 entries fully verified",
-  "check": "53 turns \u00b7 51 tool calls \u00b7 4 issue(s) with a supporting quote",
-  "repair": "1 entry corrected or added",
+  "verify": "48/48 entries fully verified",
+  "check": "5 turns \u00b7 26 tool calls \u00b7 1 issue(s) with a supporting quote",
+  "repair": "0 entries corrected or added",
   "route": "$58,592.50 can be claimed in CAPE now",
-  "plan": "17 steps \u00b7 1 sentence(s) removed by the number check"
+  "plan": "12 steps \u00b7 3 sentence(s) removed by the number check"
  },
  "result": {
   "importer": {
@@ -27,7 +27,7 @@
    "cit_plaintiff": false,
    "cit_case": null,
    "cit_ior_submitted_date": null,
-   "evidence": "12/07/2025 36-4471902-00 | Importer of Record Name | Meridian Home Goods Co."
+   "evidence": null
   },
   "as_of": "2026-10-24",
   "rules_snapshot": "2026-10-24",
@@ -115,7 +115,7 @@
      "ieepa_statement": "MH3-7844589-8 01 09/25/2025 Liquidated 08/05/2026 7,052.04 6,450.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p6",
+     "1_cbp7501_entry_summaries.pdf",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -125,7 +125,7 @@
       "hts": [
        {
         "code": "6912.00.4400",
-        "entered_value": 7740,
+        "entered_value": 7740.0,
         "rate": 0.06,
         "duty": 464.4
        },
@@ -133,13 +133,13 @@
         "code": "9903.01.24",
         "entered_value": null,
         "rate": 0.2,
-        "duty": 1548
+        "duty": 1548.0
        },
        {
         "code": "9903.01.25",
         "entered_value": null,
         "rate": 0.1,
-        "duty": 774
+        "duty": 774.0
        }
       ]
      },
@@ -149,7 +149,7 @@
       "hts": [
        {
         "code": "7615.10.7125",
-        "entered_value": 4440,
+        "entered_value": 4440.0,
         "rate": 0.031,
         "duty": 137.64
        },
@@ -157,13 +157,13 @@
         "code": "9903.01.24",
         "entered_value": null,
         "rate": 0.2,
-        "duty": 888
+        "duty": 888.0
        },
        {
         "code": "9903.01.25",
         "entered_value": null,
         "rate": 0.1,
-        "duty": 444
+        "duty": 444.0
        }
       ]
      },
@@ -173,21 +173,21 @@
       "hts": [
        {
         "code": "4414.90.0000",
-        "entered_value": 9320,
+        "entered_value": 9320.0,
         "rate": 0,
-        "duty": 0
+        "duty": 0.0
        },
        {
         "code": "9903.01.24",
         "entered_value": null,
         "rate": 0.2,
-        "duty": 1864
+        "duty": 1864.0
        },
        {
         "code": "9903.01.25",
         "entered_value": null,
         "rate": 0.1,
-        "duty": 932
+        "duty": 932.0
        }
       ]
      }
@@ -277,13 +277,13 @@
     "liquidation_status": "liquidated",
     "liquidation_date": "2026-04-27",
     "evidence": {
-     "entry": "MH3-8879176-4 01 ABI",
+     "entry": "MH3-8879176-4 01 ABI\n7. Entry Date 10. Country of Origin\n06/15/2025 VN",
      "liquidation": "MH3-8879176-4 01 06/15/2025 Liquidated 04/27/2026 2,437.00 1,963.00",
      "flags": null,
      "ieepa_statement": "MH3-8879176-4 01 06/15/2025 Liquidated 04/27/2026 2,437.00 1,963.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p.44",
+     "1_cbp7501_entry_summaries.pdf, page 44",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -293,15 +293,15 @@
       "hts": [
        {
         "code": "6912.00.4400",
-        "entered_value": 7900,
+        "entered_value": 7900.0,
         "rate": 0.06,
-        "duty": 474
+        "duty": 474.0
        },
        {
         "code": "9903.01.25",
         "entered_value": null,
         "rate": 0.1,
-        "duty": 790
+        "duty": 790.0
        }
       ]
      },
@@ -311,15 +311,15 @@
       "hts": [
        {
         "code": "8215.20.0000",
-        "entered_value": 11730,
+        "entered_value": 11730.0,
         "rate": 0,
-        "duty": 0
+        "duty": 0.0
        },
        {
         "code": "9903.01.25",
         "entered_value": null,
         "rate": 0.1,
-        "duty": 1173
+        "duty": 1173.0
        }
       ]
      }
@@ -391,7 +391,7 @@
      "ieepa_statement": "MH3-8887739-0 01 06/17/2025 Liquidated 04/27/2026 1,585.33 1,255.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p.15",
+     "1_cbp7501_entry_summaries.pdf | PAGE 15",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -401,7 +401,7 @@
       "hts": [
        {
         "code": "9405.21.8000",
-        "entered_value": 8470,
+        "entered_value": 8470.0,
         "rate": 0.039,
         "duty": 330.33
        },
@@ -409,7 +409,7 @@
         "code": "9903.01.25",
         "entered_value": null,
         "rate": 0.1,
-        "duty": 847
+        "duty": 847.0
        }
       ]
      },
@@ -419,15 +419,15 @@
       "hts": [
        {
         "code": "4414.90.0000",
-        "entered_value": 4080,
+        "entered_value": 4080.0,
         "rate": 0,
-        "duty": 0
+        "duty": 0.0
        },
        {
         "code": "9903.01.25",
         "entered_value": null,
         "rate": 0.1,
-        "duty": 408
+        "duty": 408.0
        }
       ]
      }
@@ -493,13 +493,13 @@
     "liquidation_status": "liquidated",
     "liquidation_date": "2026-08-06",
     "evidence": {
-     "entry": "MH3-4166789-8 01 ABI",
+     "entry": "MH3-4166789-8 01 ABI\n7. Entry Date 10. Country of Origin\n09/26/2025 IT",
      "liquidation": "MH3-4166789-8 01 09/26/2025 Liquidated 08/06/2026 6,803.50 5,643.00",
      "flags": null,
      "ieepa_statement": "MH3-4166789-8 01 09/26/2025 Liquidated 08/06/2026 6,803.50 5,643.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p.24",
+     "1_cbp7501_entry_summaries.pdf | PAGE 24",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -649,13 +649,13 @@
     "liquidation_status": "liquidated",
     "liquidation_date": "2026-08-06",
     "evidence": {
-     "entry": "MH3-8623443-3 01 ABI",
+     "entry": "1. Filer Code/Entry No. 2. Entry Type\nMH3-8623443-3 01 ABI",
      "liquidation": "MH3-8623443-3 01 09/23/2025 Liquidated 08/06/2026 1,692.60 1,365.00",
      "flags": null,
      "ieepa_statement": "MH3-8623443-3 01 09/23/2025 Liquidated 08/06/2026 1,692.60 1,365.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p.33",
+     "1_cbp7501_entry_summaries.pdf",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -665,7 +665,7 @@
       "hts": [
        {
         "code": "7013.49.6000",
-        "entered_value": 5460,
+        "entered_value": 5460.0,
         "rate": 0.06,
         "duty": 327.6
        },
@@ -673,7 +673,7 @@
         "code": "9903.02.26",
         "entered_value": null,
         "rate": 0.25,
-        "duty": 1365
+        "duty": 1365.0
        }
       ]
      }
@@ -733,13 +733,13 @@
     "liquidation_status": "liquidated",
     "liquidation_date": "2026-04-29",
     "evidence": {
-     "entry": "MH3-5093576-0 01 ABI",
+     "entry": "MH3-5093576-0 01 ABI\n7. Entry Date 10. Country of Origin\n06/17/2025 IT",
      "liquidation": "MH3-5093576-0 01 06/17/2025 Liquidated 04/29/2026 7,310.42 1,796.00",
      "flags": null,
      "ieepa_statement": "MH3-5093576-0 01 06/17/2025 Liquidated 04/29/2026 7,310.42 1,796.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p.43",
+     "1_cbp7501_entry_summaries.pdf, page 43",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -749,7 +749,7 @@
       "hts": [
        {
         "code": "7615.10.7125",
-        "entered_value": 9420,
+        "entered_value": 9420.0,
         "rate": 0.031,
         "duty": 292.02
        },
@@ -757,13 +757,13 @@
         "code": "9903.85.08",
         "entered_value": null,
         "rate": 0.5,
-        "duty": 4710
+        "duty": 4710.0
        },
        {
         "code": "9903.01.25",
         "entered_value": null,
         "rate": 0.1,
-        "duty": 942
+        "duty": 942.0
        }
       ]
      },
@@ -773,7 +773,7 @@
       "hts": [
        {
         "code": "6913.90.5000",
-        "entered_value": 8540,
+        "entered_value": 8540.0,
         "rate": 0.06,
         "duty": 512.4
        },
@@ -781,7 +781,7 @@
         "code": "9903.01.25",
         "entered_value": null,
         "rate": 0.1,
-        "duty": 854
+        "duty": 854.0
        }
       ]
      }
@@ -847,13 +847,13 @@
     "liquidation_status": "liquidated",
     "liquidation_date": "2026-05-03",
     "evidence": {
-     "entry": "MH3-9708001-4 01 ABI",
+     "entry": "1. Filer Code/Entry No. 2. Entry Type\nMH3-9708001-4 01 ABI",
      "liquidation": "MH3-9708001-4 01 06/23/2025 Liquidated 05/03/2026 4,083.20 2,552.00",
      "flags": null,
      "ieepa_statement": "MH3-9708001-4 01 06/23/2025 Liquidated 05/03/2026 4,083.20 2,552.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p.32",
+     "1_cbp7501_entry_summaries.pdf",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -863,7 +863,7 @@
       "hts": [
        {
         "code": "7013.49.6000",
-        "entered_value": 14980,
+        "entered_value": 14980.0,
         "rate": 0.06,
         "duty": 898.8
        },
@@ -871,7 +871,7 @@
         "code": "9903.01.25",
         "entered_value": null,
         "rate": 0.1,
-        "duty": 1498
+        "duty": 1498.0
        }
       ]
      },
@@ -881,7 +881,7 @@
       "hts": [
        {
         "code": "7013.49.6000",
-        "entered_value": 10540,
+        "entered_value": 10540.0,
         "rate": 0.06,
         "duty": 632.4
        },
@@ -889,7 +889,7 @@
         "code": "9903.01.25",
         "entered_value": null,
         "rate": 0.1,
-        "duty": 1054
+        "duty": 1054.0
        }
       ]
      }
@@ -955,13 +955,13 @@
     "liquidation_status": "liquidated",
     "liquidation_date": "2026-05-10",
     "evidence": {
-     "entry": "MH3-1610153-4 01 ABI",
+     "entry": "MH3-1610153-4 01 ABI\n7. Entry Date 10. Country of Origin\n06/26/2025 VN",
      "liquidation": "MH3-1610153-4 01 06/26/2025 Liquidated 05/10/2026 1,190.00 1,190.00",
      "flags": null,
      "ieepa_statement": "MH3-1610153-4 01 06/26/2025 Liquidated 05/10/2026 1,190.00 1,190.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p.27",
+     "1_cbp7501_entry_summaries.pdf | PAGE 27",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -1069,7 +1069,7 @@
      "ieepa_statement": "MH3-1945236-0 01 06/28/2025 Liquidated 05/11/2026 19,148.06 5,349.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p4",
+     "1_cbp7501_entry_summaries.pdf",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -1079,7 +1079,7 @@
       "hts": [
        {
         "code": "7323.93.0045",
-        "entered_value": 11470,
+        "entered_value": 11470.0,
         "rate": 0.02,
         "duty": 229.4
        },
@@ -1093,19 +1093,19 @@
         "code": "9903.81.91",
         "entered_value": null,
         "rate": 0.5,
-        "duty": 5735
+        "duty": 5735.0
        },
        {
         "code": "9903.01.24",
         "entered_value": null,
         "rate": 0.2,
-        "duty": 2294
+        "duty": 2294.0
        },
        {
         "code": "9903.01.25",
         "entered_value": null,
         "rate": 0.1,
-        "duty": 1147
+        "duty": 1147.0
        }
       ]
      },
@@ -1115,7 +1115,7 @@
       "hts": [
        {
         "code": "7615.10.7125",
-        "entered_value": 6360,
+        "entered_value": 6360.0,
         "rate": 0.031,
         "duty": 197.16
        },
@@ -1123,25 +1123,25 @@
         "code": "9903.88.03",
         "entered_value": null,
         "rate": 0.25,
-        "duty": 1590
+        "duty": 1590.0
        },
        {
         "code": "9903.85.08",
         "entered_value": null,
         "rate": 0.5,
-        "duty": 3180
+        "duty": 3180.0
        },
        {
         "code": "9903.01.24",
         "entered_value": null,
         "rate": 0.2,
-        "duty": 1272
+        "duty": 1272.0
        },
        {
         "code": "9903.01.25",
         "entered_value": null,
         "rate": 0.1,
-        "duty": 636
+        "duty": 636.0
        }
       ]
      }
@@ -1219,13 +1219,13 @@
     "liquidation_status": "liquidated",
     "liquidation_date": "2026-05-14",
     "evidence": {
-     "entry": "MH3-5335406-1 01 ABI",
+     "entry": "MH3-5335406-1 01 ABI\n7. Entry Date 10. Country of Origin\n06/30/2025 IT",
      "liquidation": "MH3-5335406-1 01 06/30/2025 Liquidated 05/14/2026 11,570.88 3,939.00",
      "flags": null,
      "ieepa_statement": "MH3-5335406-1 01 06/30/2025 Liquidated 05/14/2026 11,570.88 3,939.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p.26",
+     "1_cbp7501_entry_summaries.pdf | PAGE 26",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -1363,7 +1363,7 @@
      "ieepa_statement": "MH3-6829430-9 01 07/16/2025 Liquidated 05/30/2026 2,588.40 1,356.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p.19",
+     "1_cbp7501_entry_summaries.pdf | PAGE 19",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -1373,7 +1373,7 @@
       "hts": [
        {
         "code": "7323.93.0045",
-        "entered_value": 2370,
+        "entered_value": 2370.0,
         "rate": 0.02,
         "duty": 47.4
        },
@@ -1381,13 +1381,13 @@
         "code": "9903.81.91",
         "entered_value": null,
         "rate": 0.5,
-        "duty": 1185
+        "duty": 1185.0
        },
        {
         "code": "9903.01.25",
         "entered_value": null,
         "rate": 0.1,
-        "duty": 237
+        "duty": 237.0
        }
       ]
      },
@@ -1397,15 +1397,15 @@
       "hts": [
        {
         "code": "5701.10.9000",
-        "entered_value": 11190,
+        "entered_value": 11190.0,
         "rate": 0,
-        "duty": 0
+        "duty": 0.0
        },
        {
         "code": "9903.01.25",
         "entered_value": null,
         "rate": 0.1,
-        "duty": 1119
+        "duty": 1119.0
        }
       ]
      }
@@ -1471,13 +1471,13 @@
     "liquidation_status": "liquidated",
     "liquidation_date": "2026-09-14",
     "evidence": {
-     "entry": "MH3-5397498-2 01 ABI",
+     "entry": "MH3-5397498-2 01 ABI\n7. Entry Date 10. Country of Origin\n08/05/2025 VN",
      "liquidation": "MH3-5397498-2 01 08/05/2025 Liquidated 09/14/2026 3,449.28 2,610.00",
-     "flags": "MH3-5397498-2 01 08/05/2025 Liquidated 09/14/2026 3,449.28 2,610.00 | Note: Protest filed 10/04/2026 (IEEPA duties only); status OPEN",
+     "flags": "Note: Protest filed 10/04/2026 (IEEPA duties only); status OPEN",
      "ieepa_statement": "MH3-5397498-2 01 08/05/2025 Liquidated 09/14/2026 3,449.28 2,610.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p.25",
+     "1_cbp7501_entry_summaries.pdf | PAGE 25",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -1553,7 +1553,7 @@
       "entry": "MH3-5397498-2",
       "check": "flags are quoted next to this entry",
       "ok": true,
-      "detail": "open_protest, protest_ieepa_only / quote: MH3-5397498-2 01 08/05/2025 Liquidated 09/14/2026 3,449.28 2,610.00 | Note: Protest filed "
+      "detail": "open_protest, protest_ieepa_only / quote: Note: Protest filed 10/04/2026 (IEEPA duties only); status OPEN"
      },
      {
       "entry": "MH3-5397498-2",
@@ -1611,13 +1611,13 @@
     "liquidation_status": "liquidated",
     "liquidation_date": "2026-09-21",
     "evidence": {
-     "entry": "MH3-9005801-3 01 ABI",
+     "entry": "1. Filer Code/Entry No. 2. Entry Type\nMH3-9005801-3 01 ABI",
      "liquidation": "MH3-9005801-3 01 12/18/2025 Liquidated 09/21/2026 1,474.50 1,474.50",
      "flags": null,
      "ieepa_statement": "MH3-9005801-3 01 12/18/2025 Liquidated 09/21/2026 1,474.50 1,474.50"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p.34",
+     "1_cbp7501_entry_summaries.pdf",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -1627,13 +1627,13 @@
       "hts": [
        {
         "code": "8215.20.0000",
-        "entered_value": 9830,
+        "entered_value": 9830.0,
         "rate": 0,
-        "duty": 0
+        "duty": 0.0
        },
        {
         "code": "9903.02.20",
-        "entered_value": 9830,
+        "entered_value": 9830.0,
         "rate": 0.15,
         "duty": 1474.5
        }
@@ -1695,13 +1695,14 @@
     "liquidation_status": "liquidated",
     "liquidation_date": "2026-10-04",
     "evidence": {
-     "entry": "MH3-3663534-3 01 ABI",
+     "entry": "MH3-3663534-3 01 ABI\n7. Entry Date 11/23/2025 TW",
      "liquidation": "MH3-3663534-3 01 11/23/2025 Liquidated 10/04/2026 11,330.60 9,314.00",
      "flags": null,
      "ieepa_statement": "MH3-3663534-3 01 11/23/2025 Liquidated 10/04/2026 11,330.60 9,314.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p.31",
+     "1_cbp7501_entry_summaries.pdf",
+     "1_cbp7501_entry_summaries.pdf | PAGE 31",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -1857,7 +1858,7 @@
      "ieepa_statement": "MH3-6919989-3 01 08/15/2025 Liquidated 06/27/2026 3,040.85 2,215.50"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p.14",
+     "1_cbp7501_entry_summaries.pdf | PAGE 14",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -1867,7 +1868,7 @@
       "hts": [
        {
         "code": "9405.21.8000",
-        "entered_value": 9350,
+        "entered_value": 9350.0,
         "rate": 0.039,
         "duty": 364.65
        },
@@ -1885,7 +1886,7 @@
       "hts": [
        {
         "code": "6301.40.0020",
-        "entered_value": 5420,
+        "entered_value": 5420.0,
         "rate": 0.085,
         "duty": 460.7
        },
@@ -1893,7 +1894,7 @@
         "code": "9903.02.20",
         "entered_value": null,
         "rate": 0.15,
-        "duty": 813
+        "duty": 813.0
        }
       ]
      }
@@ -1965,7 +1966,7 @@
      "ieepa_statement": "MH3-8367202-1 01 09/01/2025 Liquidated 07/13/2026 22,499.25 11,067.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p.12",
+     "1_cbp7501_entry_summaries.pdf | PAGE 12",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -1975,7 +1976,7 @@
       "hts": [
        {
         "code": "6912.00.4400",
-        "entered_value": 13210,
+        "entered_value": 13210.0,
         "rate": 0.06,
         "duty": 792.6
        },
@@ -1989,13 +1990,13 @@
         "code": "9903.01.24",
         "entered_value": null,
         "rate": 0.2,
-        "duty": 2642
+        "duty": 2642.0
        },
        {
         "code": "9903.01.25",
         "entered_value": null,
         "rate": 0.1,
-        "duty": 1321
+        "duty": 1321.0
        }
       ]
      },
@@ -2005,7 +2006,7 @@
       "hts": [
        {
         "code": "7323.93.0045",
-        "entered_value": 8210,
+        "entered_value": 8210.0,
         "rate": 0.02,
         "duty": 164.2
        },
@@ -2019,19 +2020,19 @@
         "code": "9903.81.91",
         "entered_value": null,
         "rate": 0.5,
-        "duty": 4105
+        "duty": 4105.0
        },
        {
         "code": "9903.01.24",
         "entered_value": null,
         "rate": 0.2,
-        "duty": 1642
+        "duty": 1642.0
        },
        {
         "code": "9903.01.25",
         "entered_value": null,
         "rate": 0.1,
-        "duty": 821
+        "duty": 821.0
        }
       ]
      },
@@ -2041,7 +2042,7 @@
       "hts": [
        {
         "code": "6301.40.0020",
-        "entered_value": 3490,
+        "entered_value": 3490.0,
         "rate": 0.085,
         "duty": 296.65
        },
@@ -2049,13 +2050,13 @@
         "code": "9903.01.24",
         "entered_value": null,
         "rate": 0.2,
-        "duty": 698
+        "duty": 698.0
        },
        {
         "code": "9903.01.25",
         "entered_value": null,
         "rate": 0.1,
-        "duty": 349
+        "duty": 349.0
        }
       ]
      },
@@ -2065,7 +2066,7 @@
       "hts": [
        {
         "code": "6912.00.4400",
-        "entered_value": 11980,
+        "entered_value": 11980.0,
         "rate": 0.06,
         "duty": 718.8
        },
@@ -2073,13 +2074,13 @@
         "code": "9903.01.24",
         "entered_value": null,
         "rate": 0.2,
-        "duty": 2396
+        "duty": 2396.0
        },
        {
         "code": "9903.01.25",
         "entered_value": null,
         "rate": 0.1,
-        "duty": 1198
+        "duty": 1198.0
        }
       ]
      }
@@ -2187,7 +2188,7 @@
      "ieepa_statement": "MH3-6820604-6 01 12/08/2025 Liquidated 10/22/2026 31,882.48 8,840.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p1",
+     "1_cbp7501_entry_summaries.pdf",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -2197,7 +2198,7 @@
       "hts": [
        {
         "code": "6302.60.0020",
-        "entered_value": 6320,
+        "entered_value": 6320.0,
         "rate": 0.091,
         "duty": 575.12
        },
@@ -2205,19 +2206,19 @@
         "code": "9903.88.03",
         "entered_value": null,
         "rate": 0.25,
-        "duty": 1580
+        "duty": 1580.0
        },
        {
         "code": "9903.01.24",
         "entered_value": null,
         "rate": 0.1,
-        "duty": 632
+        "duty": 632.0
        },
        {
         "code": "9903.01.25",
         "entered_value": null,
         "rate": 0.1,
-        "duty": 632
+        "duty": 632.0
        }
       ]
      },
@@ -2227,7 +2228,7 @@
       "hts": [
        {
         "code": "7615.10.7125",
-        "entered_value": 14130,
+        "entered_value": 14130.0,
         "rate": 0.031,
         "duty": 438.03
        },
@@ -2241,19 +2242,19 @@
         "code": "9903.85.08",
         "entered_value": null,
         "rate": 0.5,
-        "duty": 7065
+        "duty": 7065.0
        },
        {
         "code": "9903.01.24",
         "entered_value": null,
         "rate": 0.1,
-        "duty": 1413
+        "duty": 1413.0
        },
        {
         "code": "9903.01.25",
         "entered_value": null,
         "rate": 0.1,
-        "duty": 1413
+        "duty": 1413.0
        }
       ]
      },
@@ -2263,27 +2264,27 @@
       "hts": [
        {
         "code": "8215.20.0000",
-        "entered_value": 9820,
+        "entered_value": 9820.0,
         "rate": 0,
-        "duty": 0
+        "duty": 0.0
        },
        {
         "code": "9903.88.03",
         "entered_value": null,
         "rate": 0.25,
-        "duty": 2455
+        "duty": 2455.0
        },
        {
         "code": "9903.01.24",
         "entered_value": null,
         "rate": 0.1,
-        "duty": 982
+        "duty": 982.0
        },
        {
         "code": "9903.01.25",
         "entered_value": null,
         "rate": 0.1,
-        "duty": 982
+        "duty": 982.0
        }
       ]
      },
@@ -2293,7 +2294,7 @@
       "hts": [
        {
         "code": "7615.10.7125",
-        "entered_value": 13930,
+        "entered_value": 13930.0,
         "rate": 0.031,
         "duty": 431.83
        },
@@ -2301,19 +2302,19 @@
         "code": "9903.85.08",
         "entered_value": null,
         "rate": 0.5,
-        "duty": 6965
+        "duty": 6965.0
        },
        {
         "code": "9903.01.24",
         "entered_value": null,
         "rate": 0.1,
-        "duty": 1393
+        "duty": 1393.0
        },
        {
         "code": "9903.01.25",
         "entered_value": null,
         "rate": 0.1,
-        "duty": 1393
+        "duty": 1393.0
        }
       ]
      }
@@ -2415,13 +2416,13 @@
     "liquidation_status": "liquidated",
     "liquidation_date": "2026-10-23",
     "evidence": {
-     "entry": "MH3-8628656-4 01 ABI",
+     "entry": "MH3-8628656-4 01 ABI\n7. Entry Date 10. Country of Origin\n12/13/2025 DE",
      "liquidation": "MH3-8628656-4 01 12/13/2025 Liquidated 10/23/2026 2,495.60 2,202.00",
      "flags": null,
      "ieepa_statement": "MH3-8628656-4 01 12/13/2025 Liquidated 10/23/2026 2,495.60 2,202.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p.28",
+     "1_cbp7501_entry_summaries.pdf | PAGE 28",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -2523,13 +2524,13 @@
     "liquidation_status": "liquidated",
     "liquidation_date": "2026-07-20",
     "evidence": {
-     "entry": "MH3-2437037-2 01 ABI",
+     "entry": "1. Filer Code/Entry No. 2. Entry Type\nMH3-2437037-2 01 ABI",
      "liquidation": "MH3-2437037-2 01 09/07/2025 Liquidated 07/20/2026 9,845.77 4,366.00",
      "flags": null,
      "ieepa_statement": "MH3-2437037-2 01 09/07/2025 Liquidated 07/20/2026 9,845.77 4,366.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p.38",
+     "1_cbp7501_entry_summaries.pdf",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -2539,21 +2540,21 @@
       "hts": [
        {
         "code": "7323.93.0045",
-        "entered_value": 2850,
+        "entered_value": 2850.0,
         "rate": 0.02,
-        "duty": 57
+        "duty": 57.0
        },
        {
         "code": "9903.81.91",
         "entered_value": null,
         "rate": 0.5,
-        "duty": 1425
+        "duty": 1425.0
        },
        {
         "code": "9903.02.69",
         "entered_value": null,
         "rate": 0.2,
-        "duty": 570
+        "duty": 570.0
        }
       ]
      },
@@ -2563,7 +2564,7 @@
       "hts": [
        {
         "code": "7615.10.7125",
-        "entered_value": 6070,
+        "entered_value": 6070.0,
         "rate": 0.031,
         "duty": 188.17
        },
@@ -2571,13 +2572,13 @@
         "code": "9903.85.08",
         "entered_value": null,
         "rate": 0.5,
-        "duty": 3035
+        "duty": 3035.0
        },
        {
         "code": "9903.02.69",
         "entered_value": null,
         "rate": 0.2,
-        "duty": 1214
+        "duty": 1214.0
        }
       ]
      },
@@ -2587,7 +2588,7 @@
       "hts": [
        {
         "code": "6913.90.5000",
-        "entered_value": 12910,
+        "entered_value": 12910.0,
         "rate": 0.06,
         "duty": 774.6
        },
@@ -2595,7 +2596,7 @@
         "code": "9903.02.69",
         "entered_value": null,
         "rate": 0.2,
-        "duty": 2582
+        "duty": 2582.0
        }
       ]
      }
@@ -2667,13 +2668,13 @@
     "liquidation_status": "liquidated",
     "liquidation_date": "2026-07-22",
     "evidence": {
-     "entry": "MH3-5190509-4 01 ABI",
+     "entry": "MH3-5190509-4 01 ABI\n7. Entry Date 10. Country of Origin\n09/07/2025 IN",
      "liquidation": "MH3-5190509-4 01 09/07/2025 Liquidated 07/22/2026 8,103.00 7,485.00",
      "flags": null,
      "ieepa_statement": "MH3-5190509-4 01 09/07/2025 Liquidated 07/22/2026 8,103.00 7,485.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p.29",
+     "1_cbp7501_entry_summaries.pdf | PAGE 29",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -2799,13 +2800,13 @@
     "liquidation_status": "liquidated",
     "liquidation_date": "2026-07-30",
     "evidence": {
-     "entry": "MH3-4925392-8 01 ABI",
+     "entry": "1. Filer Code/Entry No. 2. Entry Type\nMH3-4925392-8 01 ABI",
      "liquidation": "MH3-4925392-8 01 09/16/2025 Liquidated 07/30/2026 3,023.29 2,733.00",
      "flags": null,
      "ieepa_statement": "MH3-4925392-8 01 09/16/2025 Liquidated 07/30/2026 3,023.29 2,733.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p.40",
+     "1_cbp7501_entry_summaries.pdf",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -2815,7 +2816,7 @@
       "hts": [
        {
         "code": "6302.60.0020",
-        "entered_value": 3190,
+        "entered_value": 3190.0,
         "rate": 0.091,
         "duty": 290.29
        },
@@ -2833,9 +2834,9 @@
       "hts": [
        {
         "code": "5701.10.9000",
-        "entered_value": 15030,
+        "entered_value": 15030.0,
         "rate": 0,
-        "duty": 0
+        "duty": 0.0
        },
        {
         "code": "9903.02.20",
@@ -2913,7 +2914,7 @@
      "ieepa_statement": "MH3-7059891-5 01 09/24/2025 Liquidated 08/04/2026 7,962.48 6,770.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p10",
+     "1_cbp7501_entry_summaries.pdf",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -2923,7 +2924,7 @@
       "hts": [
        {
         "code": "7013.49.6000",
-        "entered_value": 11640,
+        "entered_value": 11640.0,
         "rate": 0.06,
         "duty": 698.4
        },
@@ -2931,7 +2932,7 @@
         "code": "9903.01.01",
         "entered_value": null,
         "rate": 0.25,
-        "duty": 2910
+        "duty": 2910.0
        }
       ]
      },
@@ -2941,7 +2942,7 @@
       "hts": [
        {
         "code": "4419.11.0000",
-        "entered_value": 15440,
+        "entered_value": 15440.0,
         "rate": 0.032,
         "duty": 494.08
        },
@@ -2949,7 +2950,7 @@
         "code": "9903.01.01",
         "entered_value": null,
         "rate": 0.25,
-        "duty": 3860
+        "duty": 3860.0
        }
       ]
      }
@@ -3017,12 +3018,12 @@
     "evidence": {
      "entry": "MH3-2222500-3 01 ABI",
      "liquidation": "MH3-2222500-3 01 11/13/2025 Open - 14,666.75 8,096.00",
-     "flags": "Importer of Record Name Reconciliation flag | Meridian Home Goods Co. Y (NAFTA/value recon flagged)",
+     "flags": "Importer of Record Name Reconciliation flag\nMeridian Home Goods Co. Y (NAFTA/value recon flagged)",
      "ieepa_statement": "MH3-2222500-3 01 11/13/2025 Open - 14,666.75 8,096.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p.11",
-     "1_cbp7501_entry_summaries.pdf p11",
+     "1_cbp7501_entry_summaries.pdf",
+     "1_cbp7501_entry_summaries.pdf | PAGE 11",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -3032,7 +3033,7 @@
       "hts": [
        {
         "code": "4419.11.0000",
-        "entered_value": 3390,
+        "entered_value": 3390.0,
         "rate": 0.032,
         "duty": 108.48
        },
@@ -3040,7 +3041,7 @@
         "code": "9903.02.61",
         "entered_value": null,
         "rate": 0.2,
-        "duty": 678
+        "duty": 678.0
        }
       ]
      },
@@ -3050,15 +3051,15 @@
       "hts": [
        {
         "code": "4414.90.0000",
-        "entered_value": 13000,
+        "entered_value": 13000.0,
         "rate": 0,
-        "duty": 0
+        "duty": 0.0
        },
        {
         "code": "9903.02.61",
         "entered_value": null,
         "rate": 0.2,
-        "duty": 2600
+        "duty": 2600.0
        }
       ]
      },
@@ -3068,7 +3069,7 @@
       "hts": [
        {
         "code": "7615.10.7125",
-        "entered_value": 12170,
+        "entered_value": 12170.0,
         "rate": 0.031,
         "duty": 377.27
        },
@@ -3076,13 +3077,13 @@
         "code": "9903.85.08",
         "entered_value": null,
         "rate": 0.5,
-        "duty": 6085
+        "duty": 6085.0
        },
        {
         "code": "9903.02.61",
         "entered_value": null,
         "rate": 0.2,
-        "duty": 2434
+        "duty": 2434.0
        }
       ]
      },
@@ -3092,15 +3093,15 @@
       "hts": [
        {
         "code": "8215.20.0000",
-        "entered_value": 11920,
+        "entered_value": 11920.0,
         "rate": 0,
-        "duty": 0
+        "duty": 0.0
        },
        {
         "code": "9903.02.61",
         "entered_value": null,
         "rate": 0.2,
-        "duty": 2384
+        "duty": 2384.0
        }
       ]
      }
@@ -3122,7 +3123,7 @@
       "entry": "MH3-2222500-3",
       "check": "flags are quoted next to this entry",
       "ok": true,
-      "detail": "reconciliation_flag / quote: Importer of Record Name Reconciliation flag | Meridian Home Goods Co. Y (NAFTA/value recon"
+      "detail": "reconciliation_flag / quote: Importer of Record Name Reconciliation flag\nMeridian Home Goods Co. Y (NAFTA/value recon f"
      },
      {
       "entry": "MH3-2222500-3",
@@ -3184,13 +3185,13 @@
     "liquidation_status": "liquidated",
     "liquidation_date": "2026-04-01",
     "evidence": {
-     "entry": "MH3-6191079-5 01 ABI | MH3-6191079-5 01 05/22/2025 Liquidated 04/01/2026 13,780.80 7,731.00",
+     "entry": "MH3-6191079-5 01 ABI",
      "liquidation": "MH3-6191079-5 01 05/22/2025 Liquidated 04/01/2026 13,780.80 7,731.00 | Note: AD/CVD case pending - liquidation suspended",
      "flags": "Note: AD/CVD case pending - liquidation suspended",
      "ieepa_statement": "MH3-6191079-5 01 05/22/2025 Liquidated 04/01/2026 13,780.80 7,731.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf",
+     "1_cbp7501_entry_summaries.pdf | PAGE 21",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -3200,27 +3201,27 @@
       "hts": [
        {
         "code": "5701.10.9000",
-        "entered_value": 4980,
+        "entered_value": 4980.0,
         "rate": 0,
-        "duty": 0
+        "duty": 0.0
        },
        {
         "code": "9903.88.03",
         "entered_value": null,
         "rate": 0.25,
-        "duty": 1245
+        "duty": 1245.0
        },
        {
         "code": "9903.01.24",
         "entered_value": null,
         "rate": 0.2,
-        "duty": 996
+        "duty": 996.0
        },
        {
         "code": "9903.01.25",
         "entered_value": null,
         "rate": 0.1,
-        "duty": 498
+        "duty": 498.0
        }
       ]
      },
@@ -3230,21 +3231,21 @@
       "hts": [
        {
         "code": "4414.90.0000",
-        "entered_value": 11550,
+        "entered_value": 11550.0,
         "rate": 0,
-        "duty": 0
+        "duty": 0.0
        },
        {
         "code": "9903.01.24",
         "entered_value": null,
         "rate": 0.2,
-        "duty": 2310
+        "duty": 2310.0
        },
        {
         "code": "9903.01.25",
         "entered_value": null,
         "rate": 0.1,
-        "duty": 1155
+        "duty": 1155.0
        }
       ]
      },
@@ -3254,7 +3255,7 @@
       "hts": [
        {
         "code": "7323.93.0045",
-        "entered_value": 9240,
+        "entered_value": 9240.0,
         "rate": 0.02,
         "duty": 184.8
        },
@@ -3262,25 +3263,25 @@
         "code": "9903.88.03",
         "entered_value": null,
         "rate": 0.25,
-        "duty": 2310
+        "duty": 2310.0
        },
        {
         "code": "9903.81.91",
         "entered_value": null,
         "rate": 0.25,
-        "duty": 2310
+        "duty": 2310.0
        },
        {
         "code": "9903.01.24",
         "entered_value": null,
         "rate": 0.2,
-        "duty": 1848
+        "duty": 1848.0
        },
        {
         "code": "9903.01.25",
         "entered_value": null,
         "rate": 0.1,
-        "duty": 924
+        "duty": 924.0
        }
       ]
      }
@@ -3355,7 +3356,7 @@
     ],
     "missed_signs": [],
     "printed_entry_number": "MH3-6191079-5",
-    "repaired": true
+    "repaired": false
    },
    {
     "entry_number": "MH3-3945930-7",
@@ -3376,13 +3377,13 @@
     "liquidation_status": "unliquidated",
     "liquidation_date": null,
     "evidence": {
-     "entry": "MH3-3945930-7 01 ABI",
+     "entry": "1. Filer Code/Entry No. 2. Entry Type\nMH3-3945930-7 01 ABI",
      "liquidation": "MH3-3945930-7 01 01/25/2026 Open - 6,717.57 6,108.00",
      "flags": null,
      "ieepa_statement": "MH3-3945930-7 01 01/25/2026 Open - 6,717.57 6,108.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p.39",
+     "1_cbp7501_entry_summaries.pdf",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -3392,7 +3393,7 @@
       "hts": [
        {
         "code": "9405.21.8000",
-        "entered_value": 15630,
+        "entered_value": 15630.0,
         "rate": 0.039,
         "duty": 609.57
        },
@@ -3400,7 +3401,7 @@
         "code": "9903.02.69",
         "entered_value": null,
         "rate": 0.2,
-        "duty": 3126
+        "duty": 3126.0
        }
       ]
      },
@@ -3410,15 +3411,15 @@
       "hts": [
        {
         "code": "4414.90.0000",
-        "entered_value": 14910,
+        "entered_value": 14910.0,
         "rate": 0,
-        "duty": 0
+        "duty": 0.0
        },
        {
         "code": "9903.02.69",
         "entered_value": null,
         "rate": 0.2,
-        "duty": 2982
+        "duty": 2982.0
        }
       ]
      }
@@ -3486,11 +3487,11 @@
     "evidence": {
      "entry": "MH3-6625651-4 01 ABI",
      "liquidation": "MH3-6625651-4 01 10/10/2025 Liquidated 08/20/2026 5,365.42 5,187.50",
-     "flags": "MH3-6625651-4 01 10/10/2025 Liquidated 08/20/2026 5,365.42 5,187.50 | Note: Duties incl. IEEPA paid by surety after missed ACH; surety claim open",
+     "flags": "Note: Duties incl. IEEPA paid by surety after missed ACH; surety claim open",
      "ieepa_statement": "MH3-6625651-4 01 10/10/2025 Liquidated 08/20/2026 5,365.42 5,187.50"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p2",
+     "1_cbp7501_entry_summaries.pdf",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -3500,9 +3501,9 @@
       "hts": [
        {
         "code": "5701.10.9000",
-        "entered_value": 15190,
+        "entered_value": 15190.0,
         "rate": 0,
-        "duty": 0
+        "duty": 0.0
        },
        {
         "code": "9903.02.26",
@@ -3518,7 +3519,7 @@
       "hts": [
        {
         "code": "4419.11.0000",
-        "entered_value": 5560,
+        "entered_value": 5560.0,
         "rate": 0.032,
         "duty": 177.92
        },
@@ -3526,7 +3527,7 @@
         "code": "9903.02.26",
         "entered_value": null,
         "rate": 0.25,
-        "duty": 1390
+        "duty": 1390.0
        }
       ]
      }
@@ -3548,7 +3549,7 @@
       "entry": "MH3-6625651-4",
       "check": "flags are quoted next to this entry",
       "ok": true,
-      "detail": "surety_paid_ieepa / quote: MH3-6625651-4 01 10/10/2025 Liquidated 08/20/2026 5,365.42 5,187.50 | Note: Duties incl. I"
+      "detail": "surety_paid_ieepa / quote: Note: Duties incl. IEEPA paid by surety after missed ACH; surety claim open"
      },
      {
       "entry": "MH3-6625651-4",
@@ -3604,7 +3605,7 @@
      "ieepa_statement": "MH3-3443941-7 01 01/02/2026 Open - 5,447.00 4,190.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p7",
+     "1_cbp7501_entry_summaries.pdf",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -3614,7 +3615,7 @@
       "hts": [
        {
         "code": "7013.49.6000",
-        "entered_value": 11280,
+        "entered_value": 11280.0,
         "rate": 0.06,
         "duty": 676.8
        },
@@ -3622,7 +3623,7 @@
         "code": "9903.02.69",
         "entered_value": null,
         "rate": 0.2,
-        "duty": 2256
+        "duty": 2256.0
        }
       ]
      },
@@ -3632,7 +3633,7 @@
       "hts": [
        {
         "code": "6912.00.4400",
-        "entered_value": 9670,
+        "entered_value": 9670.0,
         "rate": 0.06,
         "duty": 580.2
        },
@@ -3640,7 +3641,7 @@
         "code": "9903.02.69",
         "entered_value": null,
         "rate": 0.2,
-        "duty": 1934
+        "duty": 1934.0
        }
       ]
      }
@@ -3708,11 +3709,11 @@
     "evidence": {
      "entry": "MH3-3322302-8 01 ABI",
      "liquidation": "MH3-3322302-8 01 11/22/2025 Liquidated 10/06/2026 11,642.28 4,053.00",
-     "flags": "MH3-3322302-8 01 11/22/2025 Liquidated 10/06/2026 11,642.28 4,053.00 | Note: Drawback claim filed against this entry",
+     "flags": "Note: Drawback claim filed against this entry",
      "ieepa_statement": "MH3-3322302-8 01 11/22/2025 Liquidated 10/06/2026 11,642.28 4,053.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p8",
+     "1_cbp7501_entry_summaries.pdf",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -3722,7 +3723,7 @@
       "hts": [
        {
         "code": "4419.11.0000",
-        "entered_value": 13240,
+        "entered_value": 13240.0,
         "rate": 0.032,
         "duty": 423.68
        },
@@ -3730,7 +3731,7 @@
         "code": "9903.02.20",
         "entered_value": null,
         "rate": 0.15,
-        "duty": 1986
+        "duty": 1986.0
        }
       ]
      },
@@ -3740,7 +3741,7 @@
       "hts": [
        {
         "code": "7323.93.0045",
-        "entered_value": 13780,
+        "entered_value": 13780.0,
         "rate": 0.02,
         "duty": 275.6
        },
@@ -3748,13 +3749,13 @@
         "code": "9903.81.91",
         "entered_value": null,
         "rate": 0.5,
-        "duty": 6890
+        "duty": 6890.0
        },
        {
         "code": "9903.02.20",
         "entered_value": null,
         "rate": 0.15,
-        "duty": 2067
+        "duty": 2067.0
        }
       ]
      }
@@ -3776,7 +3777,7 @@
       "entry": "MH3-3322302-8",
       "check": "flags are quoted next to this entry",
       "ok": true,
-      "detail": "drawback / quote: MH3-3322302-8 01 11/22/2025 Liquidated 10/06/2026 11,642.28 4,053.00 | Note: Drawback clai"
+      "detail": "drawback / quote: Note: Drawback claim filed against this entry"
      },
      {
       "entry": "MH3-3322302-8",
@@ -3832,7 +3833,7 @@
      "ieepa_statement": "MH3-4117807-5 01 05/20/2025 Liquidated 03/31/2026 8,818.97 4,047.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p5",
+     "1_cbp7501_entry_summaries.pdf",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -3842,7 +3843,7 @@
       "hts": [
        {
         "code": "6913.90.5000",
-        "entered_value": 10820,
+        "entered_value": 10820.0,
         "rate": 0.06,
         "duty": 649.2
        },
@@ -3850,19 +3851,19 @@
         "code": "9903.88.03",
         "entered_value": null,
         "rate": 0.25,
-        "duty": 2705
+        "duty": 2705.0
        },
        {
         "code": "9903.01.24",
         "entered_value": null,
         "rate": 0.2,
-        "duty": 2164
+        "duty": 2164.0
        },
        {
         "code": "9903.01.25",
         "entered_value": null,
         "rate": 0.1,
-        "duty": 1082
+        "duty": 1082.0
        }
       ]
      },
@@ -3872,7 +3873,7 @@
       "hts": [
        {
         "code": "7615.10.7125",
-        "entered_value": 2670,
+        "entered_value": 2670.0,
         "rate": 0.031,
         "duty": 82.77
        },
@@ -3892,13 +3893,13 @@
         "code": "9903.01.24",
         "entered_value": null,
         "rate": 0.2,
-        "duty": 534
+        "duty": 534.0
        },
        {
         "code": "9903.01.25",
         "entered_value": null,
         "rate": 0.1,
-        "duty": 267
+        "duty": 267.0
        }
       ]
      }
@@ -3976,13 +3977,13 @@
     "liquidation_status": "liquidated",
     "liquidation_date": "2026-05-27",
     "evidence": {
-     "entry": "MH3-1046792-9 01 ABI",
+     "entry": "MH3-1046792-9 01 ABI\n7. Entry Date 10. Country of Origin\n10/06/2025 CN",
      "liquidation": "MH3-1046792-9 01 10/06/2025 Liquidated 05/27/2026 12,091.00 3,390.00",
-     "flags": "MH3-1046792-9 01 10/06/2025 Liquidated 05/27/2026 12,091.00 3,390.00 | Note: Protest filed 07/26/2026 (IEEPA duties only); status OPEN",
+     "flags": "Note: Protest filed 07/26/2026 (IEEPA duties only); status OPEN",
      "ieepa_statement": "MH3-1046792-9 01 10/06/2025 Liquidated 05/27/2026 12,091.00 3,390.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p.30",
+     "1_cbp7501_entry_summaries.pdf | PAGE 30",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -4040,7 +4041,7 @@
       "entry": "MH3-1046792-9",
       "check": "flags are quoted next to this entry",
       "ok": true,
-      "detail": "open_protest, protest_ieepa_only / quote: MH3-1046792-9 01 10/06/2025 Liquidated 05/27/2026 12,091.00 3,390.00 | Note: Protest filed"
+      "detail": "open_protest, protest_ieepa_only / quote: Note: Protest filed 07/26/2026 (IEEPA duties only); status OPEN"
      },
      {
       "entry": "MH3-1046792-9",
@@ -4095,7 +4096,7 @@
      "entry": "MH3-2526883-7 01 06/11/2025 Liquidated 04/25/2026 3,699.84 3,280.00",
      "liquidation": "MH3-2526883-7 01 06/11/2025 Liquidated 04/25/2026 3,699.84 3,280.00",
      "flags": null,
-     "ieepa_statement": "MH3-2526883-7 01 06/11/2025 Liquidated 04/25/2026 3,699.84 3,280.00 | Note: 7501 copy not yet sent to client"
+     "ieepa_statement": "MH3-2526883-7 01 06/11/2025 Liquidated 04/25/2026 3,699.84 3,280.00"
     },
     "source_docs": [
      "2_broker_duty_statement.pdf"
@@ -4150,13 +4151,13 @@
     "liquidation_status": "unliquidated",
     "liquidation_date": null,
     "evidence": {
-     "entry": "MH3-9692647-6 21 ABI | MH3-9692647-6 21 08/23/2025 Open - 2,824.00 2,824.00",
-     "liquidation": "MH3-9692647-6 21 08/23/2025 Open - 2,824.00 2,824.00 | Note: Warehouse entry; withdrawals ongoing",
+     "entry": "MH3-9692647-6 21 ABI",
+     "liquidation": "MH3-9692647-6 21 08/23/2025 Open - 2,824.00 2,824.00",
      "flags": null,
      "ieepa_statement": "MH3-9692647-6 21 08/23/2025 Open - 2,824.00 2,824.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf",
+     "1_cbp7501_entry_summaries.pdf | PAGE 16",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -4166,15 +4167,15 @@
       "hts": [
        {
         "code": "4414.90.0000",
-        "entered_value": 14120,
+        "entered_value": 14120.0,
         "rate": 0,
-        "duty": 0
+        "duty": 0.0
        },
        {
         "code": "9903.02.69",
         "entered_value": null,
         "rate": 0.2,
-        "duty": 2824
+        "duty": 2824.0
        }
       ]
      }
@@ -4240,7 +4241,7 @@
      "ieepa_statement": "MH3-1563732-5 01 03/27/2025 Liquidated 02/05/2026 7,590.23 2,806.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p.17",
+     "1_cbp7501_entry_summaries.pdf | PAGE 17",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -4250,7 +4251,7 @@
       "hts": [
        {
         "code": "6302.60.0020",
-        "entered_value": 14030,
+        "entered_value": 14030.0,
         "rate": 0.091,
         "duty": 1276.73
        },
@@ -4264,7 +4265,7 @@
         "code": "9903.01.24",
         "entered_value": null,
         "rate": 0.2,
-        "duty": 2806
+        "duty": 2806.0
        }
       ]
      }
@@ -4324,13 +4325,13 @@
     "liquidation_status": "unliquidated",
     "liquidation_date": null,
     "evidence": {
-     "entry": "MH3-2681042-2 01 ABI",
+     "entry": "1. Filer Code/Entry No. 2. Entry Type\nMH3-2681042-2 01 ABI",
      "liquidation": "MH3-2681042-2 01 12/19/2025 Open - 2,698.31 2,258.00",
      "flags": null,
      "ieepa_statement": "MH3-2681042-2 01 12/19/2025 Open - 2,698.31 2,258.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p.35",
+     "1_cbp7501_entry_summaries.pdf",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -4340,7 +4341,7 @@
       "hts": [
        {
         "code": "9405.21.8000",
-        "entered_value": 11290,
+        "entered_value": 11290.0,
         "rate": 0.039,
         "duty": 440.31
        },
@@ -4348,13 +4349,13 @@
         "code": "9903.01.24",
         "entered_value": null,
         "rate": 0.1,
-        "duty": 1129
+        "duty": 1129.0
        },
        {
         "code": "9903.01.25",
         "entered_value": null,
         "rate": 0.1,
-        "duty": 1129
+        "duty": 1129.0
        }
       ]
      }
@@ -4420,13 +4421,13 @@
     "liquidation_status": "liquidated",
     "liquidation_date": "2026-04-09",
     "evidence": {
-     "entry": "MH3-4595406-7 01 ABI",
+     "entry": "MH3-4595406-7 01 ABI\n7. Entry Date 10. Country of Origin\n05/27/2025 MX",
      "liquidation": "MH3-4595406-7 01 05/27/2025 Liquidated 04/09/2026 3,618.61 1,947.50",
      "flags": null,
      "ieepa_statement": "MH3-4595406-7 01 05/27/2025 Liquidated 04/09/2026 3,618.61 1,947.50"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p.42",
+     "1_cbp7501_entry_summaries.pdf, page 42",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -4436,7 +4437,7 @@
       "hts": [
        {
         "code": "7615.10.7125",
-        "entered_value": 5650,
+        "entered_value": 5650.0,
         "rate": 0.031,
         "duty": 175.15
        },
@@ -4460,7 +4461,7 @@
       "hts": [
        {
         "code": "9405.21.8000",
-        "entered_value": 2140,
+        "entered_value": 2140.0,
         "rate": 0.039,
         "duty": 83.46
        },
@@ -4468,7 +4469,7 @@
         "code": "9903.01.01",
         "entered_value": null,
         "rate": 0.25,
-        "duty": 535
+        "duty": 535.0
        }
       ]
      }
@@ -4534,13 +4535,13 @@
     "liquidation_status": "liquidated",
     "liquidation_date": "2026-02-07",
     "evidence": {
-     "entry": "MH3-4095525-2 01 ABI",
+     "entry": "MH3-4095525-2 01 ABI\n7. Entry Date 10. Country of Origin\n03/28/2025 CN",
      "liquidation": "MH3-4095525-2 01 03/28/2025 Liquidated 02/07/2026 4,429.58 1,838.00",
      "flags": null,
      "ieepa_statement": "MH3-4095525-2 01 03/28/2025 Liquidated 02/07/2026 4,429.58 1,838.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p.22",
+     "1_cbp7501_entry_summaries.pdf | PAGE 22",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -4630,7 +4631,7 @@
      "ieepa_statement": "MH3-7719597-5 01 01/17/2026 Open - 6,302.10 1,735.50"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p9",
+     "1_cbp7501_entry_summaries.pdf",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -4640,9 +4641,9 @@
       "hts": [
        {
         "code": "4414.90.0000",
-        "entered_value": 2970,
+        "entered_value": 2970.0,
         "rate": 0,
-        "duty": 0
+        "duty": 0.0
        },
        {
         "code": "9903.02.20",
@@ -4658,7 +4659,7 @@
       "hts": [
        {
         "code": "7615.10.7125",
-        "entered_value": 8600,
+        "entered_value": 8600.0,
         "rate": 0.031,
         "duty": 266.6
        },
@@ -4666,13 +4667,13 @@
         "code": "9903.85.08",
         "entered_value": null,
         "rate": 0.5,
-        "duty": 4300
+        "duty": 4300.0
        },
        {
         "code": "9903.02.20",
         "entered_value": null,
         "rate": 0.15,
-        "duty": 1290
+        "duty": 1290.0
        }
       ]
      }
@@ -4738,13 +4739,13 @@
     "liquidation_status": "liquidated",
     "liquidation_date": "2026-04-07",
     "evidence": {
-     "entry": "MH3-3613699-1 01 ABI",
+     "entry": "MH3-3613699-1 01 ABI\n7. Entry Date 10. Country of Origin\n05/24/2025 MX",
      "liquidation": "MH3-3613699-1 01 05/24/2025 Liquidated 04/07/2026 1,634.15 1,380.00",
      "flags": null,
      "ieepa_statement": "MH3-3613699-1 01 05/24/2025 Liquidated 04/07/2026 1,634.15 1,380.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p.23",
+     "1_cbp7501_entry_summaries.pdf | PAGE 23",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -4846,13 +4847,13 @@
     "liquidation_status": "unliquidated",
     "liquidation_date": null,
     "evidence": {
-     "entry": "MH3-6032881-1 01 ABI",
+     "entry": "1. Filer Code/Entry No. 2. Entry Type\nMH3-6032881-1 01 ABI",
      "liquidation": "MH3-6032881-1 01 01/27/2026 Open - 4,261.73 1,166.00",
      "flags": null,
      "ieepa_statement": "MH3-6032881-1 01 01/27/2026 Open - 4,261.73 1,166.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p.36",
+     "1_cbp7501_entry_summaries.pdf",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -4862,7 +4863,7 @@
       "hts": [
        {
         "code": "7615.10.7125",
-        "entered_value": 5830,
+        "entered_value": 5830.0,
         "rate": 0.031,
         "duty": 180.73
        },
@@ -4870,13 +4871,13 @@
         "code": "9903.85.08",
         "entered_value": null,
         "rate": 0.5,
-        "duty": 2915
+        "duty": 2915.0
        },
        {
         "code": "9903.02.61",
         "entered_value": null,
         "rate": 0.2,
-        "duty": 1166
+        "duty": 1166.0
        }
       ]
      }
@@ -4942,7 +4943,7 @@
      "ieepa_statement": "MH3-9662859-1 01 06/16/2025 Liquidated 04/26/2026 1,115.40 845.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p.20",
+     "1_cbp7501_entry_summaries.pdf | PAGE 20",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -4952,7 +4953,7 @@
       "hts": [
        {
         "code": "4419.11.0000",
-        "entered_value": 8450,
+        "entered_value": 8450.0,
         "rate": 0.032,
         "duty": 270.4
        },
@@ -4960,7 +4961,7 @@
         "code": "9903.01.25",
         "entered_value": null,
         "rate": 0.1,
-        "duty": 845
+        "duty": 845.0
        }
       ]
      }
@@ -5020,13 +5021,13 @@
     "liquidation_status": "unliquidated",
     "liquidation_date": null,
     "evidence": {
-     "entry": "MH3-9578758-7 01 ABI",
+     "entry": "MH3-9578758-7 01 ABI\n7. Entry Date 10. Country of Origin\n01/23/2026 DE",
      "liquidation": "MH3-9578758-7 01 01/23/2026 Open - 795.00 795.00",
      "flags": null,
      "ieepa_statement": "MH3-9578758-7 01 01/23/2026 Open - 795.00 795.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p.45",
+     "1_cbp7501_entry_summaries.pdf, page 45",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -5036,15 +5037,15 @@
       "hts": [
        {
         "code": "5701.10.9000",
-        "entered_value": 5300,
+        "entered_value": 5300.0,
         "rate": 0,
-        "duty": 0
+        "duty": 0.0
        },
        {
         "code": "9903.02.20",
         "entered_value": null,
         "rate": 0.15,
-        "duty": 795
+        "duty": 795.0
        }
       ]
      }
@@ -5110,7 +5111,7 @@
      "ieepa_statement": "MH3-9465174-6 01 01/22/2026 Open - 513.85 430.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p.18",
+     "1_cbp7501_entry_summaries.pdf | PAGE 18",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -5120,7 +5121,7 @@
       "hts": [
        {
         "code": "9405.21.8000",
-        "entered_value": 2150,
+        "entered_value": 2150.0,
         "rate": 0.039,
         "duty": 83.85
        },
@@ -5128,7 +5129,7 @@
         "code": "9903.02.69",
         "entered_value": null,
         "rate": 0.2,
-        "duty": 430
+        "duty": 430.0
        }
       ]
      }
@@ -5194,7 +5195,7 @@
      "ieepa_statement": "MH3-9429817-2 01 03/04/2025 Liquidated 01/13/2026 843.60 0.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p3",
+     "1_cbp7501_entry_summaries.pdf",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -5204,7 +5205,7 @@
       "hts": [
        {
         "code": "7013.49.6000",
-        "entered_value": 14060,
+        "entered_value": 14060.0,
         "rate": 0.06,
         "duty": 843.6
        }
@@ -5266,7 +5267,7 @@
      "ieepa_statement": "MH3-7756834-7 01 02/27/2025 Liquidated 01/11/2026 474.00 0.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p.13",
+     "1_cbp7501_entry_summaries.pdf | PAGE 13",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -5276,9 +5277,9 @@
       "hts": [
        {
         "code": "6912.00.4400",
-        "entered_value": 7900,
+        "entered_value": 7900.0,
         "rate": 0.06,
-        "duty": 474
+        "duty": 474.0
        }
       ]
      }
@@ -5332,13 +5333,13 @@
     "liquidation_status": "liquidated",
     "liquidation_date": "2026-01-01",
     "evidence": {
-     "entry": "MH3-5108360-1 01 ABI",
+     "entry": "1. Filer Code/Entry No. 2. Entry Type\nMH3-5108360-1 01 ABI",
      "liquidation": "MH3-5108360-1 01 02/20/2025 Liquidated 01/01/2026 404.16 0.00",
      "flags": null,
      "ieepa_statement": "MH3-5108360-1 01 02/20/2025 Liquidated 01/01/2026 404.16 0.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p.37",
+     "1_cbp7501_entry_summaries.pdf",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -5348,7 +5349,7 @@
       "hts": [
        {
         "code": "4419.11.0000",
-        "entered_value": 12630,
+        "entered_value": 12630.0,
         "rate": 0.032,
         "duty": 404.16
        }
@@ -5404,13 +5405,14 @@
     "liquidation_status": "liquidated",
     "liquidation_date": "2026-02-03",
     "evidence": {
-     "entry": "MH3-1540944-9 01 ABI",
+     "entry": "1. Filer Code/Entry No. 2. Entry Type\nMH3-1540944-9 01 ABI",
      "liquidation": "MH3-1540944-9 01 03/24/2025 Liquidated 02/03/2026 0.00 0.00",
      "flags": null,
      "ieepa_statement": "MH3-1540944-9 01 03/24/2025 Liquidated 02/03/2026 0.00 0.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p.41",
+     "1_cbp7501_entry_summaries.pdf",
+     "1_cbp7501_entry_summaries.pdf, page 41",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -5420,9 +5422,9 @@
       "hts": [
        {
         "code": "8215.20.0000",
-        "entered_value": 10210,
+        "entered_value": 10210.0,
         "rate": 0,
-        "duty": 0
+        "duty": 0.0
        }
       ]
      }
@@ -5476,13 +5478,13 @@
     "liquidation_status": "liquidated",
     "liquidation_date": "2025-11-26",
     "evidence": {
-     "entry": "MH3-0401187-3 01 ABI",
+     "entry": "MH3-0401187-3 01 ABI\n7. Entry Date 10. Country of Origin\n01/14/2025 CN",
      "liquidation": "MH3-0401187-3 01 01/14/2025 Liquidated 11/26/2025 4,968.00 0.00",
      "flags": null,
      "ieepa_statement": "MH3-0401187-3 01 01/14/2025 Liquidated 11/26/2025 4,968.00 0.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p.46",
+     "1_cbp7501_entry_summaries.pdf, page 46",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -5492,15 +5494,15 @@
       "hts": [
        {
         "code": "7323.93.0045",
-        "entered_value": 18400,
+        "entered_value": 18400.0,
         "rate": 0.02,
-        "duty": 368
+        "duty": 368.0
        },
        {
         "code": "9903.88.03",
         "entered_value": null,
         "rate": 0.25,
-        "duty": 4600
+        "duty": 4600.0
        }
       ]
      }
@@ -5554,13 +5556,13 @@
     "liquidation_status": "liquidated",
     "liquidation_date": "2025-12-10",
     "evidence": {
-     "entry": "MH3-0411187-4 01 ABI",
+     "entry": "MH3-0411187-4 01 ABI\n7. Entry Date 10. Country of Origin\n01/28/2025 CN",
      "liquidation": "MH3-0411187-4 01 01/28/2025 Liquidated 12/10/2025 5,589.00 0.00",
      "flags": null,
      "ieepa_statement": "MH3-0411187-4 01 01/28/2025 Liquidated 12/10/2025 5,589.00 0.00"
     },
     "source_docs": [
-     "1_cbp7501_entry_summaries.pdf p.47",
+     "1_cbp7501_entry_summaries.pdf, page 47",
      "2_broker_duty_statement.pdf"
     ],
     "lines": [
@@ -5570,15 +5572,15 @@
       "hts": [
        {
         "code": "7323.93.0045",
-        "entered_value": 20700,
+        "entered_value": 20700.0,
         "rate": 0.02,
-        "duty": 414
+        "duty": 414.0
        },
        {
         "code": "9903.88.03",
         "entered_value": null,
         "rate": 0.25,
-        "duty": 5175
+        "duty": 5175.0
        }
       ]
      }
@@ -5615,156 +5617,121 @@
    }
   ],
   "plan": {
-   "headline": "Meridian Home Goods: 48 entries reviewed, and 7 (about $21,024.00) have deadlines within days. Start with those.",
+   "headline": "Prioritize the entries with deadlines beginning Oct 24, 2026.",
    "steps": [
     {
-     "title": "Act today on 3 entries due Oct 24, 2026",
-     "detail": "These results are as of Oct 24, 2026, so call your broker right away to confirm these can still be filed. One goes in CAPE (CBP's refund portal for IEEPA duties). The other two need a protest (a formal request to CBP to correct an entry).",
+     "title": "Act on the Oct 24 deadlines",
+     "detail": "Ask your broker to file in CAPE for MH3-7844589-8, which appears eligible, and to file protests for MH3-8879176-4 and MH3-8887739-0. The listed amounts are $6,450.00, $1,963.00, and $1,255.00, respectively.",
      "deadline": "2026-10-24",
-     "entries": []
+     "entries": [
+      "MH3-7844589-8",
+      "MH3-8879176-4",
+      "MH3-8887739-0"
+     ]
     },
     {
-     "title": "File 2 CAPE claims due Oct 25, 2026",
-     "detail": "These entries appear eligible for CAPE and the deadline is the next day.",
+     "title": "File the next CAPE entries",
+     "detail": "Ask your broker to file in CAPE for these entries, which appear eligible, before their deadlines.",
      "deadline": "2026-10-25",
      "entries": []
     },
     {
-     "title": "File a protest by Oct 26, 2026",
-     "detail": "CAPE will reject this entry because it was liquidated (CBP's final calculation of duties) more than 80 days ago. It is still inside the 180-day protest window.",
+     "title": "File the next protest",
+     "detail": "Ask your broker to file a protest for MH3-5093576-0 by its deadline; the engine says CAPE is not the route for this entry.",
      "deadline": "2026-10-26",
-     "entries": []
+     "entries": [
+      "MH3-5093576-0"
+     ]
     },
     {
-     "title": "File a protest by Oct 30, 2026",
-     "detail": "This entry is past CAPE's 80-day limit but still inside the protest window.",
+     "title": "File the next protest",
+     "detail": "Ask your broker to file a protest for MH3-9708001-4 by its deadline.",
      "deadline": "2026-10-30",
-     "entries": []
+     "entries": [
+      "MH3-9708001-4"
+     ]
     },
     {
-     "title": "File 4 more protests between Nov 6 and Nov 26, 2026",
-     "detail": "These are all past CAPE's 80-day limit but still inside the protest window. The first deadline is Nov 6, 2026.",
+     "title": "Handle the November protest deadlines",
+     "detail": "Ask your broker to file protests for these entries by their individual deadlines. The engine identifies the protest route for each.",
      "deadline": "2026-11-06",
      "entries": []
     },
     {
-     "title": "Withdraw one protest, then file in CAPE by Dec 3, 2026",
-     "detail": "This entry's protest was filed only for the IEEPA refund. It can be withdrawn so the entry can go into CAPE while it is still within 80 days of liquidation.",
+     "title": "Withdraw the protest, then use CAPE",
+     "detail": "For MH3-5397498-2, ask your broker to confirm and withdraw the protest if it was filed only for the IEEPA refund, then submit the entry in CAPE.",
      "deadline": "2026-12-03",
-     "entries": []
+     "entries": [
+      "MH3-5397498-2"
+     ]
     },
     {
-     "title": "Fix one entry, then file in CAPE by Dec 10, 2026",
-     "detail": "A goods value is reported on a Chapter 99 line, and CAPE rejects the entry until your broker moves it to the Chapter 1-97 line.",
+     "title": "Correct the entry, then use CAPE",
+     "detail": "For MH3-9005801-3, ask your broker to move the goods value from the Chapter 99 line to the Chapter 1\u201397 line, then file in CAPE.",
      "deadline": "2026-12-10",
-     "entries": []
+     "entries": [
+      "MH3-9005801-3"
+     ]
     },
     {
-     "title": "File in CAPE by Dec 23, 2026",
-     "detail": "This entry appears eligible for CAPE now.",
+     "title": "Meet the late-December deadlines",
+     "detail": "Ask your broker to file in CAPE for MH3-3663534-3 and file a protest for MH3-6919989-3 by their respective deadlines.",
      "deadline": "2026-12-23",
      "entries": []
     },
     {
-     "title": "File a protest by Dec 24, 2026",
-     "detail": "This entry is past CAPE's 80-day limit but still inside the protest window.",
-     "deadline": "2026-12-24",
-     "entries": []
-    },
-    {
-     "title": "File 5 protests between Jan 9 and Jan 31, 2027",
-     "detail": "These are past CAPE's 80-day limit but still inside the protest window. Your broker can file them with the earlier protests.",
+     "title": "Handle the January 9\u201311 deadlines",
+     "detail": "Ask your broker to file a protest for MH3-8367202-1 and file in CAPE for MH3-6820604-6 and MH3-8628656-4 by their individual deadlines.",
      "deadline": "2027-01-09",
      "entries": []
     },
     {
-     "title": "File 2 CAPE claims by Jan 10 and Jan 11, 2027",
-     "detail": "These entries appear eligible for CAPE. Filing them early with your other CAPE claims is simpler.",
-     "deadline": "2027-01-10",
+     "title": "Handle the remaining January protest deadlines",
+     "detail": "Ask your broker to file protests for these entries by their individual deadlines.",
+     "deadline": "2027-01-16",
      "entries": []
     },
     {
-     "title": "File 7 more CAPE claims with no deadline given",
-     "detail": "These appear eligible for CAPE now. Your CAPE file lists 14 entries worth $58,592.50 in total, including the CAPE entries above.",
-     "deadline": null,
-     "entries": []
-    },
-    {
-     "title": "File one entry in CAPE Phase 2",
-     "detail": "This entry is flagged for reconciliation (a later duty adjustment) with no type 09 filed yet. It appears covered by CAPE Phase 2, open since Jun 29, 2026.",
-     "deadline": null,
-     "entries": []
-    },
-    {
-     "title": "Talk to your broker about 4 entries that don't fit CAPE",
-     "detail": "Two may be AD/CVD, warehouse, bonded or reconciliation entries, so ask how CBP is treating them. One was paid by a surety (a bond company), and CBP says not to file those in CAPE. One is tied to a drawback claim, which is excluded from CAPE. Together these four are $19,795.50.",
-     "deadline": null,
-     "entries": []
-    },
-    {
-     "title": "Leave one open protest where it is",
-     "detail": "A protest is already open and the entry is past 80 days. It stays on the protest route, and CAPE rejects entries with an open protest.",
-     "deadline": null,
-     "entries": []
-    },
-    {
-     "title": "Wait on 7 finally liquidated entries (court class action)",
-     "detail": "These entries can't use CAPE or a protest. A court certified a class of importers who haven't sued (Freestyle World, Oct 8, 2026), but there is no refund order yet. The class may not cover goods from Brazil or India. For a large balance, ask a customs attorney about your own suit. These total $16,143.50, and MH3-2526883-7's amount comes from a statement only, so have your broker check it.",
-     "deadline": null,
-     "entries": []
-    },
-    {
-     "title": "Nothing to do on 6 entries",
-     "detail": "No IEEPA duty was paid on these, so there's nothing to refund. Section 301 and 232 duties aren't part of this refund. This is not legal advice, and entries only \"appear eligible\", so confirm everything with your broker.",
+     "title": "Coordinate the entries without a listed deadline",
+     "detail": "The engine says 14 entries totaling $58,592.50 appear eligible for CAPE now, 2 entries totaling $4,084.50 need a correction or other step first, and 4 entries totaling $19,795.50 need broker review. It also identifies 15 entries totaling $57,426.50 for the protest route, 7 totaling $16,143.50 as waiting on the court, and 6 with nothing to refund; confirm the routes and entry details with your broker.",
      "deadline": null,
      "entries": [
-      "MH3-9429817-2",
-      "MH3-7756834-7",
-      "MH3-5108360-1",
-      "MH3-1540944-9",
-      "MH3-0401187-3",
-      "MH3-0411187-4"
+      "MH3-6191079-5",
+      "MH3-9692647-6",
+      "MH3-4117807-5",
+      "MH3-2526883-7",
+      "MH3-1563732-5",
+      "MH3-4595406-7",
+      "MH3-4095525-2",
+      "MH3-3613699-1"
      ]
+    },
+    {
+     "title": "Confirm the overall review",
+     "detail": "This is not legal advice, so confirm the routes and deadlines with your customs broker.",
+     "deadline": null,
+     "entries": []
     }
    ],
-   "broker_email_subject": "URGENT: IEEPA refund filings for Meridian Home Goods, deadlines Oct 24-30, 2026",
-   "broker_email_body": "Hi,\n\nWe ran our entries through a refund check as of Oct 24, 2026. Several deadlines are right now, so I need your help today.\n\nDeadline Oct 24, 2026. Please confirm these can still be filed:\n- MH3-7844589-8 (CAPE, $6,450.00)\n- MH3-8879176-4 (protest, $1,963.00)\n- MH3-8887739-0 (protest, $1,255.00)\n\nDeadline Oct 25, 2026 (CAPE):\n- MH3-4166789-8 ($5,643.00)\n- MH3-8623443-3 ($1,365.00)\n\nProtests due soon:\n- MH3-5093576-0 by Oct 26, 2026 ($1,796.00)\n- MH3-9708001-4 by Oct 30, 2026 ($2,552.00)\n- Four more protests are due between Nov 6 and Nov 26, 2026: MH3-1610153-4, MH3-1945236-0, MH3-5335406-1 and MH3-6829430-9.\n\nOther items I need your help with:\n1. MH3-5397498-2 ($2,610.00): please withdraw the protest so it can go in CAPE, by Dec 3, 2026.\n2. MH3-9005801-3 ($1,474.50): a goods value is on a Chapter 99 line, and CAPE will reject it until it is moved to the Chapter 1-97 line. Please fix it by Dec 10, 2026.\n3. MH3-6191079-5 ($7,731.00) and MH3-9692647-6 ($2,824.00) are not in CAPE today. How is CBP treating them?\n4. MH3-6625651-4 (surety paid) and MH3-3322302-8 (drawback) are not eligible for CAPE. Is there another route?\n5. MH3-2222500-3 ($8,096.00) looks covered by CAPE Phase 2. Can you confirm and file it?\n6. MH3-2526883-7: the amount comes from a statement only. Can you verify it?\n\nI can send a CSV of the 14 entries that appear eligible for CAPE, $58,592.50 in total. Please also tell me which of the remaining CAPE and protest entries you can file, and how long each will take.\n\n\n\nThanks,\nMeridian Home Goods Co."
+   "broker_email_subject": "Urgent review and action on IEEPA entries and deadlines",
+   "broker_email_body": "Hello,\n\nPlease review Meridian Home Goods Co.'s IEEPA entries and confirm the route and filing status for each. The rules-engine results show these immediate deadlines:\n\n\u2022 Oct 24, 2026: CAPE for MH3-7844589-8; protests for MH3-8879176-4 and MH3-8887739-0.\n\u2022 Oct 25, 2026: CAPE for MH3-4166789-8 and MH3-8623443-3.\n\u2022 Oct 26, 2026: protest for MH3-5093576-0.\n\u2022 Oct 30, 2026: protest for MH3-9708001-4.\n\nPlease also confirm the November and January protest deadlines, the CAPE deadlines through Jan 10, 2027, and the steps for MH3-5397498-2 (withdraw protest, then CAPE) and MH3-9005801-3 (correct the value line, then CAPE).\n\nPlease advise how CBP is treating the broker-review entries, including MH3-6191079-5 and MH3-9692647-6, and confirm the status and appropriate next steps for MH3-2222500-3 and entries with an open protest or court-related status. Please also confirm the complete entry list and any CAPE-ready file before filing.\n\nThank you,\n[Your name]\nMeridian Home Goods Co."
   },
   "plan_removed_sentences": [
-   "I understand these entries only appear eligible and nothing is guaranteed."
+   "The rules engine identifies several possible routes, but no refund is guaranteed; confirm each step with your customs broker.",
+   "The engine reports $156,042.50 in IEEPA duties paid across 48 entries; that is not a promised refund amount.",
+   "The entries appear eligible under the stated routes, but no refund is guaranteed."
   ],
   "checker": {
    "issues": [
     {
      "entry_number": "MH3-6191079-5",
-     "kind": "wrong_liquidation",
-     "detail": "The extraction gives the liquidation status as 'unknown'. The broker statement lists the entry as Liquidated on 04/01/2026. The same statement notes that liquidation is suspended for a pending AD/CVD case, so the two statements conflict. The extraction should record the 04/01/2026 date and flag the conflict. It should not drop the status to 'unknown'.",
-     "quote": "MH3-6191079-5 01 05/22/2025 Liquidated 04/01/2026 13,780.80 7,731.00",
-     "grounded": true
-    },
-    {
-     "entry_number": "MH3-6191079-5",
      "kind": "conflict",
-     "detail": "The statement says the entry is 'Liquidated' with a date, but the note beneath it says liquidation is suspended. A reviewer should check ACE before treating this entry as final.",
-     "quote": "Note: AD/CVD case pending - liquidation suspended",
-     "grounded": true
-    },
-    {
-     "entry_number": "MH3-9692647-6",
-     "kind": "missed_flag",
-     "detail": "This is a type 21 (warehouse) entry. The 7501 shows entry type 21 and the statement notes ongoing withdrawals. The extraction records type 21 but leaves the flags empty, so the warehouse type 21 flag is missing.",
-     "quote": "MH3-9692647-6 21 08/23/2025 Open - 2,824.00 2,824.00 Note: Warehouse entry; withdrawals ongoing",
-     "grounded": true
-    },
-    {
-     "entry_number": "MH3-2526883-7",
-     "kind": "missing_line",
-     "detail": "The extraction has no Chapter 99 lines for this entry, but it states IEEPA of 3280. There is no 7501 page for the entry, so the stated total can't be checked against line detail. The broker statement says the 7501 copy has not been sent. The extraction should mark the line detail as unavailable and the total as unverified.",
-     "quote": "Note: 7501 copy not yet sent to client",
+     "detail": "The extraction reports this entry as liquidated on 2026-04-01, but the statement also says liquidation is suspended due to a pending AD/CVD case. The status is internally inconsistent and should be flagged for review.",
+     "quote": "MH3-6191079-5 01 05/22/2025 Liquidated 04/01/2026 13,780.80 7,731.00\nNote: AD/CVD case pending - liquidation suspended",
      "grounded": true
     }
    ],
-   "summary": "I compared the 48 extracted entries against the 47 CBP 7501 pages and the 2-page broker statement. All 48 entry numbers are present. For the entries with 7501 pages, the IEEPA line items sum to the statement totals. The Section 301 and 232 labels (9903.88.03, 9903.81.91, 9903.85.08) look correct. The surety-paid, open-protest (IEEPA only), drawback and reconciliation flags are supported by the statement and 7501s. I found four issues. (1) MH3-6191079-5 is extracted as liquidation 'unknown', but the statement shows it liquidated 04/01/2026, and its own note says liquidation is suspended. (2) That same entry therefore carries a conflict inside the statement that should be surfaced. (3) MH3-9692647-6 is a type 21 warehouse entry with no warehouse flag. (4) MH3-2526883-7 has no 7501, so its IEEPA figure of 3280 comes from the statement only and can't be checked against line detail. One further oddity: MH3-8628656-4 shows a liquidation date of 10/23/2026, which is after the statement's 10/22/2026 prepared date. The extraction matches the statement on this, so I did not list it as an issue."
+   "summary": "Found one conflicting liquidation status. The entry list, other flags, and checked IEEPA line amounts did not show additional issues."
   },
   "screen": {
    "removed_lines": [],
@@ -5777,160 +5744,177 @@
   },
   "warnings": [],
   "reader_notes": [
-   "Part 1 of 6: only the 11 CBP 7501 pages in 1_cbp7501_entry_summaries.pdf were read. None of these pages gives a liquidation status, a protest, surety, drawback, AD/CVD or CIT information, or an IEEPA amount from a broker. Those fields are left at unknown, false or null until the other parts are read.",
-   "The Chapter 99 (9903.xx.xx) rows show no entered value of their own, so entered_value is null for them. Their rates and duty amounts are copied as printed.",
-   "MH3-1945236-0: the printed line duties add up to 19,149.06, but boxes 37 and 40 print 19,148.06, a $1.00 difference. The line amounts are copied as printed.",
-   "MH3-4117807-5 line 002: 9903.85.08 is printed at 25%, while other entries print 9903.85.08 at 50%. It is copied as printed.",
-   "MH3-6820604-6 line 004 (Aluminum baking sheets) has no 9903.88.03 row, while line 002 of the same entry does. It is copied as printed.",
-   "MH3-2222500-3: the reconciliation flag is printed as 'Y (NAFTA/value recon flagged)'.",
-   "No document in this part says whether the importer is a plaintiff at the Court of International Trade, so cit_plaintiff is false and the case and date are null.",
-   "Part 2 of 6 covers only CBP 7501 pages 11-21. No broker statement, liquidation notice, protest, surety, drawback or CIT document is on these pages. So for all 11 entries, liquidation status is 'unknown', there is no stated IEEPA amount, and no flag is true except where noted below.",
-   "MH3-2222500-3 has the reconciliation flag marked 'Y (NAFTA/value recon flagged)' on its 7501, so reconciliation_flag is set to true.",
-   "MH3-9692647-6 is entry type 21. All the other entries are type 01.",
-   "The Chapter 99 (9903.xx.xx) rows show no entered value of their own, so entered_value is null on those rows.",
-   "On MH3-6191079-5 (p.21), line 003 shows 9903.81.91 at 25%. On MH3-8367202-1 and MH3-6829430-9 the same code shows 50%. Each rate is copied as printed.",
-   "Line 004 of MH3-8367202-1 (stoneware plates) has no 9903.88.03 row, while line 001 (same product) does. Copied as printed.",
-   "The duty totals in box 37 match the sum of the line duties on every page.",
-   "Part 3 of 6 covers only CBP Form 7501 pages 21-31, so this extract has 11 entries, all type 01, filed by Lakeshore Customs & Logistics (MH3).",
-   "None of these pages say anything about liquidation, surety payment, protests, drawback, reconciliation or AD/CVD. So liquidation_status is 'unknown' and every flag is false. Other parts of the paperwork may mention these entries and should be merged in.",
-   "No broker statement or email in this part gives an IEEPA amount, so ieepa_duty_statement is null for every entry.",
-   "Nothing in this part says the importer is a plaintiff at the Court of International Trade. cit_plaintiff is false and the case and date fields are null.",
-   "Chapter 99 rows show no entered value of their own, so entered_value is null for those rows. Their rates and duty amounts are copied as printed.",
-   "9903.81.91 is printed at 25% on MH3-6191079-5 but at 50% on MH3-5335406-1 and MH3-1046792-9. Each is copied as printed.",
-   "Part 4 of 6 covers only CBP Form 7501 pages 31\u201341 (11 entries). There are no broker statements, liquidation notices, protests or CIT documents in this part. So every liquidation status is 'unknown', every flag is false, and no IEEPA amounts are filled in. Other parts may change this.",
-   "Only one Chapter 99 row has its own entered value: 9903.02.20 on MH3-9005801-3 (9,830.00). Every other 9903.xx.xx row shows none, so its entered value is null.",
-   "MH3-5108360-1 (MX) and MH3-1540944-9 (VN) have no Chapter 99 rows. MH3-1540944-9 shows total duty of 0.00.",
-   "These pages do not say whether the importer is a plaintiff at the Court of International Trade, so cit_plaintiff is false, with no case or date.",
-   "This is Part 5 of 6 and covers 7501 pages 41-47. None of these pages say anything about liquidation, protests, surety payment, drawback, reconciliation, AD/CVD, IEEPA amounts or the Court of International Trade, so those fields are left as unknown, false or null. Other parts may have this information.",
-   "Chapter 99 rows show no entered value of their own, so entered_value is null for them. Rates and duties are copied as printed.",
-   "MH3-0401187-3 (page 46) and MH3-0411187-4 (page 47) have very similar numbers but are separate entries with different dates and values.",
-   "The printed line duties add up to the box 37 duty total on every page.",
-   "MH3-9578758-7 has an entry date of 01/23/2026 and a summary date of 02/02/2026.",
-   "Part 6 contains only the broker duty statement (2 pages, 48 entries). It shows no HTS line detail, so lines are empty for every entry. Line detail, if any, would be on 7501 pages in other parts.",
-   "For each entry, ieepa_duty_statement is the broker's 'IEEPA (9903.01/.02)' column. The statement says this column leaves out Section 301 and Section 232 duties.",
-   "The statement contradicts itself on MH3-6191079-5. Its row says 'Liquidated 04/01/2026', but the note under it says 'AD/CVD case pending - liquidation suspended'. Because of this, liquidation_status is set to unknown and the date to null. adcvd is set to true based on the note.",
-   "Notes were linked to the entry row right above each one.",
-   "MH3-5397498-2 has a protest filed 10/04/2026 (IEEPA duties only), status OPEN. MH3-1046792-9 has a protest filed 07/26/2026 (IEEPA duties only), status OPEN.",
-   "MH3-6625651-4: surety paid the duties, including IEEPA, after a missed ACH payment, and the surety claim is open.",
-   "MH3-2222500-3 is flagged for reconciliation, and no type 09 has been filed yet. MH3-3322302-8 has a drawback claim filed against it.",
-   "MH3-9692647-6 is a type 21 warehouse entry, listed as Open with withdrawals ongoing. MH3-2526883-7 has a note saying '7501 copy not yet sent to client'. That note isn't one of the flags tracked here.",
-   "Some liquidation dates come before later entries' dates or out of the usual order, for example MH3-1046792-9 and MH3-9005801-3. They were copied exactly as printed.",
-   "Nothing in this part says the importer is a plaintiff at the Court of International Trade, so cit_plaintiff is false and the case details are null."
+   "No liquidation status or liquidation dates, entry-specific flags, or broker-stated IEEPA amounts appear on these pages; those fields are left unknown, false, or null as applicable.",
+   "These pages do not state that the importer is a Court of International Trade plaintiff, provide a CIT case, or state a date the importer number was submitted to CBP.",
+   "These pages do not state liquidation status or dates, entry-specific flags, or broker-stated IEEPA amounts; those fields are left unknown, false, or null as applicable.",
+   "These pages identify the importer but do not state whether it is a Court of International Trade plaintiff, a CIT case, or the date its importer number was submitted to CBP.",
+   "These pages show entry-summary dates and duties, but do not state liquidation status or liquidation dates.",
+   "No page in this part states surety payment, protest, drawback, reconciliation, AD/CVD, IEEPA statement amounts, or CIT plaintiff information.",
+   "The statement lists MH3-6191079-5 as liquidated on 04/01/2026 but also says \u201cAD/CVD case pending - liquidation suspended\u201d; the listed status and date were retained as printed, and AD/CVD was flagged from the note.",
+   "No entry-line HTS details or importer CIT plaintiff information appear in these pages."
   ],
   "incomplete": false,
   "files": {
    "cape_csv": "Entry Number\nMH378445898\nMH341667898\nMH386234433\nMH336635343\nMH368206046\nMH386286564\nMH322225003\nMH339459307\nMH334439417\nMH326810422\nMH377195975\nMH360328811\nMH395787587\nMH394651746\n",
-   "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//DutyBack//IEEPA refund deadlines//EN\r\nCALSCALE:GREGORIAN\r\nX-WR-CALNAME:Tariff refund deadlines - Meridian Home Goods Co.\r\nBEGIN:VEVENT\r\nUID:MH3-7844589-8-CAPE_NOW@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20261024\r\nDTEND;VALUE=DATE:20261025\r\nSUMMARY:Last day for CAPE: entry MH3-7844589-8 ($6\\,450.00)\r\nDESCRIPTION:File in CAPE now. Eligible for CAPE: unliquidated\\, or liquidated 80 days ago or less (CSMS #68340863). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-7844589-8\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-7844589-8\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-8879176-4-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20261024\r\nDTEND;VALUE=DATE:20261025\r\nSUMMARY:Protest deadline: entry MH3-8879176-4 ($1\\,963.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-8879176-4\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-8879176-4\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-8887739-0-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20261024\r\nDTEND;VALUE=DATE:20261025\r\nSUMMARY:Protest deadline: entry MH3-8887739-0 ($1\\,255.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-8887739-0\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-8887739-0\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-4166789-8-CAPE_NOW@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20261025\r\nDTEND;VALUE=DATE:20261026\r\nSUMMARY:Last day for CAPE: entry MH3-4166789-8 ($5\\,643.00)\r\nDESCRIPTION:File in CAPE now. Eligible for CAPE: unliquidated\\, or liquidated 80 days ago or less (CSMS #68340863). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-4166789-8\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-4166789-8\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-8623443-3-CAPE_NOW@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20261025\r\nDTEND;VALUE=DATE:20261026\r\nSUMMARY:Last day for CAPE: entry MH3-8623443-3 ($1\\,365.00)\r\nDESCRIPTION:File in CAPE now. Eligible for CAPE: unliquidated\\, or liquidated 80 days ago or less (CSMS #68340863). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-8623443-3\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-8623443-3\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-5093576-0-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20261026\r\nDTEND;VALUE=DATE:20261027\r\nSUMMARY:Protest deadline: entry MH3-5093576-0 ($1\\,796.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-5093576-0\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-5093576-0\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-9708001-4-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20261030\r\nDTEND;VALUE=DATE:20261031\r\nSUMMARY:Protest deadline: entry MH3-9708001-4 ($2\\,552.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-9708001-4\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-9708001-4\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-1610153-4-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20261106\r\nDTEND;VALUE=DATE:20261107\r\nSUMMARY:Protest deadline: entry MH3-1610153-4 ($1\\,190.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-1610153-4\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-1610153-4\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-1945236-0-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20261107\r\nDTEND;VALUE=DATE:20261108\r\nSUMMARY:Protest deadline: entry MH3-1945236-0 ($5\\,349.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-1945236-0\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-1945236-0\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-5335406-1-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20261110\r\nDTEND;VALUE=DATE:20261111\r\nSUMMARY:Protest deadline: entry MH3-5335406-1 ($3\\,939.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-5335406-1\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-5335406-1\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-6829430-9-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20261126\r\nDTEND;VALUE=DATE:20261127\r\nSUMMARY:Protest deadline: entry MH3-6829430-9 ($1\\,356.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-6829430-9\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-6829430-9\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-5397498-2-WITHDRAW_PROTEST_THEN_CAPE@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20261203\r\nDTEND;VALUE=DATE:20261204\r\nSUMMARY:Last day for CAPE: entry MH3-5397498-2 ($2\\,610.00)\r\nDESCRIPTION:Withdraw protest\\, then CAPE. A protest filed only for the IEEPA refund can be withdrawn so the entry can go in CAPE\\, while it is within 80 days of liquidation. Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-5397498-2\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-5397498-2\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-9005801-3-FIX_THEN_CAPE@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20261210\r\nDTEND;VALUE=DATE:20261211\r\nSUMMARY:Last day for CAPE: entry MH3-9005801-3 ($1\\,474.50)\r\nDESCRIPTION:Fix\\, then file in CAPE. A goods value is reported on a Chapter 99 line. CAPE rejects that entry until the value sits on the Chapter 1-97 line. Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-9005801-3\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-9005801-3\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-3663534-3-CAPE_NOW@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20261223\r\nDTEND;VALUE=DATE:20261224\r\nSUMMARY:Last day for CAPE: entry MH3-3663534-3 ($9\\,314.00)\r\nDESCRIPTION:File in CAPE now. Eligible for CAPE: unliquidated\\, or liquidated 80 days ago or less (CSMS #68340863). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-3663534-3\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-3663534-3\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-6919989-3-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20261224\r\nDTEND;VALUE=DATE:20261225\r\nSUMMARY:Protest deadline: entry MH3-6919989-3 ($2\\,215.50)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-6919989-3\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-6919989-3\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-8367202-1-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20270109\r\nDTEND;VALUE=DATE:20270110\r\nSUMMARY:Protest deadline: entry MH3-8367202-1 ($11\\,067.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-8367202-1\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-8367202-1\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-6820604-6-CAPE_NOW@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20270110\r\nDTEND;VALUE=DATE:20270111\r\nSUMMARY:Last day for CAPE: entry MH3-6820604-6 ($8\\,840.00)\r\nDESCRIPTION:File in CAPE now. Eligible for CAPE: unliquidated\\, or liquidated 80 days ago or less (CSMS #68340863). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-6820604-6\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-6820604-6\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-8628656-4-CAPE_NOW@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20270111\r\nDTEND;VALUE=DATE:20270112\r\nSUMMARY:Last day for CAPE: entry MH3-8628656-4 ($2\\,202.00)\r\nDESCRIPTION:File in CAPE now. Eligible for CAPE: unliquidated\\, or liquidated 80 days ago or less (CSMS #68340863). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-8628656-4\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-8628656-4\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-2437037-2-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20270116\r\nDTEND;VALUE=DATE:20270117\r\nSUMMARY:Protest deadline: entry MH3-2437037-2 ($4\\,366.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-2437037-2\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-2437037-2\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-5190509-4-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20270118\r\nDTEND;VALUE=DATE:20270119\r\nSUMMARY:Protest deadline: entry MH3-5190509-4 ($7\\,485.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-5190509-4\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-5190509-4\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-4925392-8-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20270126\r\nDTEND;VALUE=DATE:20270127\r\nSUMMARY:Protest deadline: entry MH3-4925392-8 ($2\\,733.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-4925392-8\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-4925392-8\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-7059891-5-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T114409Z\r\nDTSTART;VALUE=DATE:20270131\r\nDTEND;VALUE=DATE:20270201\r\nSUMMARY:Protest deadline: entry MH3-7059891-5 ($6\\,770.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-7059891-5\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-7059891-5\r\nEND:VALARM\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+   "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//DutyBack//IEEPA refund deadlines//EN\r\nCALSCALE:GREGORIAN\r\nX-WR-CALNAME:Tariff refund deadlines - Meridian Home Goods Co.\r\nBEGIN:VEVENT\r\nUID:MH3-7844589-8-CAPE_NOW@dutyback.local\r\nDTSTAMP:20261025T154937Z\r\nDTSTART;VALUE=DATE:20261024\r\nDTEND;VALUE=DATE:20261025\r\nSUMMARY:Last day for CAPE: entry MH3-7844589-8 ($6\\,450.00)\r\nDESCRIPTION:File in CAPE now. Eligible for CAPE: unliquidated\\, or liquidated 80 days ago or less (CSMS #68340863). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-7844589-8\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-7844589-8\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-8879176-4-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T154937Z\r\nDTSTART;VALUE=DATE:20261024\r\nDTEND;VALUE=DATE:20261025\r\nSUMMARY:Protest deadline: entry MH3-8879176-4 ($1\\,963.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-8879176-4\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-8879176-4\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-8887739-0-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T154937Z\r\nDTSTART;VALUE=DATE:20261024\r\nDTEND;VALUE=DATE:20261025\r\nSUMMARY:Protest deadline: entry MH3-8887739-0 ($1\\,255.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-8887739-0\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-8887739-0\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-4166789-8-CAPE_NOW@dutyback.local\r\nDTSTAMP:20261025T154937Z\r\nDTSTART;VALUE=DATE:20261025\r\nDTEND;VALUE=DATE:20261026\r\nSUMMARY:Last day for CAPE: entry MH3-4166789-8 ($5\\,643.00)\r\nDESCRIPTION:File in CAPE now. Eligible for CAPE: unliquidated\\, or liquidated 80 days ago or less (CSMS #68340863). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-4166789-8\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-4166789-8\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-8623443-3-CAPE_NOW@dutyback.local\r\nDTSTAMP:20261025T154937Z\r\nDTSTART;VALUE=DATE:20261025\r\nDTEND;VALUE=DATE:20261026\r\nSUMMARY:Last day for CAPE: entry MH3-8623443-3 ($1\\,365.00)\r\nDESCRIPTION:File in CAPE now. Eligible for CAPE: unliquidated\\, or liquidated 80 days ago or less (CSMS #68340863). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-8623443-3\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-8623443-3\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-5093576-0-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T154937Z\r\nDTSTART;VALUE=DATE:20261026\r\nDTEND;VALUE=DATE:20261027\r\nSUMMARY:Protest deadline: entry MH3-5093576-0 ($1\\,796.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-5093576-0\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-5093576-0\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-9708001-4-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T154937Z\r\nDTSTART;VALUE=DATE:20261030\r\nDTEND;VALUE=DATE:20261031\r\nSUMMARY:Protest deadline: entry MH3-9708001-4 ($2\\,552.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-9708001-4\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-9708001-4\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-1610153-4-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T154937Z\r\nDTSTART;VALUE=DATE:20261106\r\nDTEND;VALUE=DATE:20261107\r\nSUMMARY:Protest deadline: entry MH3-1610153-4 ($1\\,190.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-1610153-4\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-1610153-4\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-1945236-0-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T154937Z\r\nDTSTART;VALUE=DATE:20261107\r\nDTEND;VALUE=DATE:20261108\r\nSUMMARY:Protest deadline: entry MH3-1945236-0 ($5\\,349.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-1945236-0\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-1945236-0\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-5335406-1-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T154937Z\r\nDTSTART;VALUE=DATE:20261110\r\nDTEND;VALUE=DATE:20261111\r\nSUMMARY:Protest deadline: entry MH3-5335406-1 ($3\\,939.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-5335406-1\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-5335406-1\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-6829430-9-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T154937Z\r\nDTSTART;VALUE=DATE:20261126\r\nDTEND;VALUE=DATE:20261127\r\nSUMMARY:Protest deadline: entry MH3-6829430-9 ($1\\,356.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-6829430-9\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-6829430-9\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-5397498-2-WITHDRAW_PROTEST_THEN_CAPE@dutyback.local\r\nDTSTAMP:20261025T154937Z\r\nDTSTART;VALUE=DATE:20261203\r\nDTEND;VALUE=DATE:20261204\r\nSUMMARY:Last day for CAPE: entry MH3-5397498-2 ($2\\,610.00)\r\nDESCRIPTION:Withdraw protest\\, then CAPE. A protest filed only for the IEEPA refund can be withdrawn so the entry can go in CAPE\\, while it is within 80 days of liquidation. Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-5397498-2\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-5397498-2\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-9005801-3-FIX_THEN_CAPE@dutyback.local\r\nDTSTAMP:20261025T154937Z\r\nDTSTART;VALUE=DATE:20261210\r\nDTEND;VALUE=DATE:20261211\r\nSUMMARY:Last day for CAPE: entry MH3-9005801-3 ($1\\,474.50)\r\nDESCRIPTION:Fix\\, then file in CAPE. A goods value is reported on a Chapter 99 line. CAPE rejects that entry until the value sits on the Chapter 1-97 line. Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-9005801-3\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-9005801-3\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-3663534-3-CAPE_NOW@dutyback.local\r\nDTSTAMP:20261025T154937Z\r\nDTSTART;VALUE=DATE:20261223\r\nDTEND;VALUE=DATE:20261224\r\nSUMMARY:Last day for CAPE: entry MH3-3663534-3 ($9\\,314.00)\r\nDESCRIPTION:File in CAPE now. Eligible for CAPE: unliquidated\\, or liquidated 80 days ago or less (CSMS #68340863). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-3663534-3\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-3663534-3\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-6919989-3-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T154937Z\r\nDTSTART;VALUE=DATE:20261224\r\nDTEND;VALUE=DATE:20261225\r\nSUMMARY:Protest deadline: entry MH3-6919989-3 ($2\\,215.50)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-6919989-3\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-6919989-3\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-8367202-1-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T154937Z\r\nDTSTART;VALUE=DATE:20270109\r\nDTEND;VALUE=DATE:20270110\r\nSUMMARY:Protest deadline: entry MH3-8367202-1 ($11\\,067.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-8367202-1\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-8367202-1\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-6820604-6-CAPE_NOW@dutyback.local\r\nDTSTAMP:20261025T154937Z\r\nDTSTART;VALUE=DATE:20270110\r\nDTEND;VALUE=DATE:20270111\r\nSUMMARY:Last day for CAPE: entry MH3-6820604-6 ($8\\,840.00)\r\nDESCRIPTION:File in CAPE now. Eligible for CAPE: unliquidated\\, or liquidated 80 days ago or less (CSMS #68340863). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-6820604-6\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-6820604-6\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-8628656-4-CAPE_NOW@dutyback.local\r\nDTSTAMP:20261025T154937Z\r\nDTSTART;VALUE=DATE:20270111\r\nDTEND;VALUE=DATE:20270112\r\nSUMMARY:Last day for CAPE: entry MH3-8628656-4 ($2\\,202.00)\r\nDESCRIPTION:File in CAPE now. Eligible for CAPE: unliquidated\\, or liquidated 80 days ago or less (CSMS #68340863). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-8628656-4\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-8628656-4\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-2437037-2-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T154937Z\r\nDTSTART;VALUE=DATE:20270116\r\nDTEND;VALUE=DATE:20270117\r\nSUMMARY:Protest deadline: entry MH3-2437037-2 ($4\\,366.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-2437037-2\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-2437037-2\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-5190509-4-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T154937Z\r\nDTSTART;VALUE=DATE:20270118\r\nDTEND;VALUE=DATE:20270119\r\nSUMMARY:Protest deadline: entry MH3-5190509-4 ($7\\,485.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-5190509-4\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-5190509-4\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-4925392-8-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T154937Z\r\nDTSTART;VALUE=DATE:20270126\r\nDTEND;VALUE=DATE:20270127\r\nSUMMARY:Protest deadline: entry MH3-4925392-8 ($2\\,733.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-4925392-8\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-4925392-8\r\nEND:VALARM\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nUID:MH3-7059891-5-PROTEST_BY@dutyback.local\r\nDTSTAMP:20261025T154937Z\r\nDTSTART;VALUE=DATE:20270131\r\nDTEND;VALUE=DATE:20270201\r\nSUMMARY:Protest deadline: entry MH3-7059891-5 ($6\\,770.00)\r\nDESCRIPTION:File a protest. Liquidated more than 80 days ago\\, so CAPE will reject it\\, but still inside the 180-day protest window (19 U.S.C. 1514). Confirm with your customs broker. Not legal advice.\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P7D\r\nDESCRIPTION:Refund deadline in 7 days: MH3-7059891-5\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nTRIGGER:-P1D\r\nDESCRIPTION:Refund deadline tomorrow: MH3-7059891-5\r\nEND:VALARM\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
   },
   "agents": [
    {
     "agent": "reader 1/6",
-    "model": "opus",
-    "seconds": 52.4,
-    "input_tokens": 2,
-    "output_tokens": 7681,
-    "cache_read_tokens": 2307,
-    "cache_write_tokens": 6571,
-    "cost_usd": 0.2067,
-    "turns": 2,
+    "model": "gpt-6-luna",
+    "seconds": 28.5,
+    "input_tokens": 3,
+    "output_tokens": 6231,
+    "cache_read_tokens": 5264,
+    "cache_write_tokens": 0,
+    "cost_usd": 0.0032,
+    "turns": 1,
     "tool_calls": [],
     "ok": true,
     "error": null,
-    "model_id": "claude-opus-5-5"
+    "model_id": "gpt-6-luna-global"
    },
    {
     "agent": "reader 2/6",
-    "model": "opus",
-    "seconds": 45.3,
-    "input_tokens": 2,
-    "output_tokens": 6543,
-    "cache_read_tokens": 2307,
-    "cache_write_tokens": 6201,
-    "cost_usd": 0.1809,
-    "turns": 2,
+    "model": "gpt-6-luna",
+    "seconds": 23.1,
+    "input_tokens": 3,
+    "output_tokens": 5243,
+    "cache_read_tokens": 4931,
+    "cache_write_tokens": 0,
+    "cost_usd": 0.0027,
+    "turns": 1,
     "tool_calls": [],
     "ok": true,
     "error": null,
-    "model_id": "claude-opus-5-5"
+    "model_id": "gpt-6-luna-global"
    },
    {
     "agent": "reader 3/6",
-    "model": "opus",
-    "seconds": 43.2,
-    "input_tokens": 2,
-    "output_tokens": 6355,
-    "cache_read_tokens": 2307,
-    "cache_write_tokens": 6389,
-    "cost_usd": 0.1787,
-    "turns": 2,
+    "model": "gpt-6-luna",
+    "seconds": 23.2,
+    "input_tokens": 3,
+    "output_tokens": 4444,
+    "cache_read_tokens": 5100,
+    "cache_write_tokens": 0,
+    "cost_usd": 0.0023,
+    "turns": 1,
     "tool_calls": [],
     "ok": true,
     "error": null,
-    "model_id": "claude-opus-5-5"
+    "model_id": "gpt-6-luna-global"
    },
    {
     "agent": "reader 4/6",
-    "model": "opus",
-    "seconds": 35.3,
-    "input_tokens": 2,
-    "output_tokens": 5155,
-    "cache_read_tokens": 2307,
-    "cache_write_tokens": 5835,
-    "cost_usd": 0.1502,
-    "turns": 2,
+    "model": "gpt-6-luna",
+    "seconds": 20.5,
+    "input_tokens": 3,
+    "output_tokens": 3804,
+    "cache_read_tokens": 4608,
+    "cache_write_tokens": 0,
+    "cost_usd": 0.0019,
+    "turns": 1,
     "tool_calls": [],
     "ok": true,
     "error": null,
-    "model_id": "claude-opus-5-5"
+    "model_id": "gpt-6-luna-global"
    },
    {
     "agent": "reader 5/6",
-    "model": "opus",
-    "seconds": 26.1,
-    "input_tokens": 2,
-    "output_tokens": 3628,
-    "cache_read_tokens": 2307,
-    "cache_write_tokens": 3834,
-    "cost_usd": 0.1037,
-    "turns": 2,
+    "model": "gpt-6-luna",
+    "seconds": 18.7,
+    "input_tokens": 3,
+    "output_tokens": 3434,
+    "cache_read_tokens": 3200,
+    "cache_write_tokens": 0,
+    "cost_usd": 0.0017,
+    "turns": 1,
     "tool_calls": [],
     "ok": true,
     "error": null,
-    "model_id": "claude-opus-5-5"
+    "model_id": "gpt-6-luna-global"
    },
    {
     "agent": "reader 6/6",
-    "model": "opus",
-    "seconds": 117.3,
-    "input_tokens": 2,
-    "output_tokens": 17920,
-    "cache_read_tokens": 2307,
-    "cache_write_tokens": 3305,
-    "cost_usd": 0.3853,
-    "turns": 2,
+    "model": "gpt-6-luna",
+    "seconds": 55.6,
+    "input_tokens": 3,
+    "output_tokens": 12303,
+    "cache_read_tokens": 3188,
+    "cache_write_tokens": 0,
+    "cost_usd": 0.0062,
+    "turns": 1,
     "tool_calls": [],
     "ok": true,
     "error": null,
-    "model_id": "claude-opus-5-5"
+    "model_id": "gpt-6-luna-global"
    },
    {
     "agent": "checker",
-    "model": "sonnet",
-    "seconds": 47.1,
-    "input_tokens": 14,
-    "output_tokens": 7454,
-    "cache_read_tokens": 118049,
-    "cache_write_tokens": 41644,
-    "cost_usd": 0.2529,
-    "turns": 53,
+    "model": "gpt-6-luna",
+    "seconds": 32.0,
+    "input_tokens": 18825,
+    "output_tokens": 4056,
+    "cache_read_tokens": 31202,
+    "cache_write_tokens": 0,
+    "cost_usd": 0.0042,
+    "turns": 5,
     "tool_calls": [
+     {
+      "tool": "list_entry_numbers_in_documents",
+      "input": {}
+     },
      {
       "tool": "get_extraction",
       "input": {}
      },
      {
-      "tool": "list_entry_numbers_in_documents",
-      "input": {}
+      "tool": "search_documents",
+      "input": {
+       "text": "surety"
+      }
+     },
+     {
+      "tool": "search_documents",
+      "input": {
+       "text": "protest"
+      }
+     },
+     {
+      "tool": "search_documents",
+      "input": {
+       "text": "drawback"
+      }
+     },
+     {
+      "tool": "search_documents",
+      "input": {
+       "text": "reconcil"
+      }
+     },
+     {
+      "tool": "search_documents",
+      "input": {
+       "text": "AD/CVD"
+      }
+     },
+     {
+      "tool": "search_documents",
+      "input": {
+       "text": "warehouse"
+      }
+     },
+     {
+      "tool": "search_documents",
+      "input": {
+       "text": "deferral"
+      }
+     },
+     {
+      "tool": "search_documents",
+      "input": {
+       "text": "IEEPA total"
+      }
      },
      {
       "tool": "read_page",
@@ -5944,6 +5928,20 @@
       "input": {
        "doc": "2_broker_duty_statement.pdf",
        "page": 2
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 21
+      }
+     },
+     {
+      "tool": "read_page",
+      "input": {
+       "doc": "1_cbp7501_entry_summaries.pdf",
+       "page": 47
       }
      },
      {
@@ -6029,294 +6027,49 @@
        "doc": "1_cbp7501_entry_summaries.pdf",
        "page": 12
       }
-     },
-     {
-      "tool": "read_page",
-      "input": {
-       "doc": "1_cbp7501_entry_summaries.pdf",
-       "page": 13
-      }
-     },
-     {
-      "tool": "read_page",
-      "input": {
-       "doc": "1_cbp7501_entry_summaries.pdf",
-       "page": 14
-      }
-     },
-     {
-      "tool": "read_page",
-      "input": {
-       "doc": "1_cbp7501_entry_summaries.pdf",
-       "page": 15
-      }
-     },
-     {
-      "tool": "read_page",
-      "input": {
-       "doc": "1_cbp7501_entry_summaries.pdf",
-       "page": 16
-      }
-     },
-     {
-      "tool": "read_page",
-      "input": {
-       "doc": "1_cbp7501_entry_summaries.pdf",
-       "page": 17
-      }
-     },
-     {
-      "tool": "read_page",
-      "input": {
-       "doc": "1_cbp7501_entry_summaries.pdf",
-       "page": 18
-      }
-     },
-     {
-      "tool": "read_page",
-      "input": {
-       "doc": "1_cbp7501_entry_summaries.pdf",
-       "page": 19
-      }
-     },
-     {
-      "tool": "read_page",
-      "input": {
-       "doc": "1_cbp7501_entry_summaries.pdf",
-       "page": 20
-      }
-     },
-     {
-      "tool": "read_page",
-      "input": {
-       "doc": "1_cbp7501_entry_summaries.pdf",
-       "page": 21
-      }
-     },
-     {
-      "tool": "read_page",
-      "input": {
-       "doc": "1_cbp7501_entry_summaries.pdf",
-       "page": 22
-      }
-     },
-     {
-      "tool": "read_page",
-      "input": {
-       "doc": "1_cbp7501_entry_summaries.pdf",
-       "page": 23
-      }
-     },
-     {
-      "tool": "read_page",
-      "input": {
-       "doc": "1_cbp7501_entry_summaries.pdf",
-       "page": 24
-      }
-     },
-     {
-      "tool": "read_page",
-      "input": {
-       "doc": "1_cbp7501_entry_summaries.pdf",
-       "page": 25
-      }
-     },
-     {
-      "tool": "read_page",
-      "input": {
-       "doc": "1_cbp7501_entry_summaries.pdf",
-       "page": 26
-      }
-     },
-     {
-      "tool": "read_page",
-      "input": {
-       "doc": "1_cbp7501_entry_summaries.pdf",
-       "page": 27
-      }
-     },
-     {
-      "tool": "read_page",
-      "input": {
-       "doc": "1_cbp7501_entry_summaries.pdf",
-       "page": 28
-      }
-     },
-     {
-      "tool": "read_page",
-      "input": {
-       "doc": "1_cbp7501_entry_summaries.pdf",
-       "page": 29
-      }
-     },
-     {
-      "tool": "read_page",
-      "input": {
-       "doc": "1_cbp7501_entry_summaries.pdf",
-       "page": 30
-      }
-     },
-     {
-      "tool": "read_page",
-      "input": {
-       "doc": "1_cbp7501_entry_summaries.pdf",
-       "page": 31
-      }
-     },
-     {
-      "tool": "read_page",
-      "input": {
-       "doc": "1_cbp7501_entry_summaries.pdf",
-       "page": 32
-      }
-     },
-     {
-      "tool": "read_page",
-      "input": {
-       "doc": "1_cbp7501_entry_summaries.pdf",
-       "page": 33
-      }
-     },
-     {
-      "tool": "read_page",
-      "input": {
-       "doc": "1_cbp7501_entry_summaries.pdf",
-       "page": 34
-      }
-     },
-     {
-      "tool": "read_page",
-      "input": {
-       "doc": "1_cbp7501_entry_summaries.pdf",
-       "page": 35
-      }
-     },
-     {
-      "tool": "read_page",
-      "input": {
-       "doc": "1_cbp7501_entry_summaries.pdf",
-       "page": 36
-      }
-     },
-     {
-      "tool": "read_page",
-      "input": {
-       "doc": "1_cbp7501_entry_summaries.pdf",
-       "page": 37
-      }
-     },
-     {
-      "tool": "read_page",
-      "input": {
-       "doc": "1_cbp7501_entry_summaries.pdf",
-       "page": 38
-      }
-     },
-     {
-      "tool": "read_page",
-      "input": {
-       "doc": "1_cbp7501_entry_summaries.pdf",
-       "page": 39
-      }
-     },
-     {
-      "tool": "read_page",
-      "input": {
-       "doc": "1_cbp7501_entry_summaries.pdf",
-       "page": 40
-      }
-     },
-     {
-      "tool": "read_page",
-      "input": {
-       "doc": "1_cbp7501_entry_summaries.pdf",
-       "page": 41
-      }
-     },
-     {
-      "tool": "read_page",
-      "input": {
-       "doc": "1_cbp7501_entry_summaries.pdf",
-       "page": 42
-      }
-     },
-     {
-      "tool": "read_page",
-      "input": {
-       "doc": "1_cbp7501_entry_summaries.pdf",
-       "page": 43
-      }
-     },
-     {
-      "tool": "read_page",
-      "input": {
-       "doc": "1_cbp7501_entry_summaries.pdf",
-       "page": 44
-      }
-     },
-     {
-      "tool": "read_page",
-      "input": {
-       "doc": "1_cbp7501_entry_summaries.pdf",
-       "page": 45
-      }
-     },
-     {
-      "tool": "read_page",
-      "input": {
-       "doc": "1_cbp7501_entry_summaries.pdf",
-       "page": 46
-      }
-     },
-     {
-      "tool": "read_page",
-      "input": {
-       "doc": "1_cbp7501_entry_summaries.pdf",
-       "page": 47
-      }
      }
     ],
     "ok": true,
     "error": null,
-    "model_id": "claude-sonnet-5-5"
+    "model_id": "gpt-6-luna-global"
    },
    {
     "agent": "reader (repair)",
-    "model": "opus",
-    "seconds": 30.7,
-    "input_tokens": 2,
-    "output_tokens": 3974,
-    "cache_read_tokens": 2307,
-    "cache_write_tokens": 27097,
-    "cost_usd": 0.2967,
-    "turns": 2,
+    "model": "gpt-6-luna",
+    "seconds": 9.7,
+    "input_tokens": 19597,
+    "output_tokens": 1278,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "cost_usd": 0.0026,
+    "turns": 1,
     "tool_calls": [],
     "ok": true,
     "error": null,
-    "model_id": "claude-opus-5-5"
+    "model_id": "gpt-6-luna-global"
    },
    {
     "agent": "advisor",
-    "model": "sonnet",
-    "seconds": 31.8,
-    "input_tokens": 2,
-    "output_tokens": 5201,
-    "cache_read_tokens": 905,
-    "cache_write_tokens": 8394,
-    "cost_usd": 0.0857,
-    "turns": 2,
+    "model": "gpt-6-luna",
+    "seconds": 17.8,
+    "input_tokens": 3,
+    "output_tokens": 3419,
+    "cache_read_tokens": 6070,
+    "cache_write_tokens": 0,
+    "cost_usd": 0.0018,
+    "turns": 1,
     "tool_calls": [],
     "ok": true,
     "error": null,
-    "model_id": "claude-sonnet-5-5"
+    "model_id": "gpt-6-luna-global"
    }
   ],
   "totals": {
-   "seconds": 227.6,
-   "cost_usd": 1.8408,
-   "input_tokens": 244403,
-   "output_tokens": 63911,
-   "tool_calls": 51
+   "seconds": 123.4,
+   "cost_usd": 0.0266,
+   "input_tokens": 102006,
+   "output_tokens": 44212,
+   "tool_calls": 26
   },
   "steps": [
    {

@@ -58,7 +58,9 @@ python -m pytest -q                                # unit tests (rules, checks, 
 python scripts/make_samples.py                     # regenerate the synthetic paperwork and answer keys
 python scripts/run_eval.py --tag final             # DutyBack vs a one-prompt baseline on all 4 importers
 python scripts/run_attack.py                       # the attacked Lotus paperwork
+DUTYBACK_NO_CACHE=1 python scripts/run_repeat.py lotus 6   # repeat fresh runs: how often is each run fully correct?
 ```
+- **Reliability:** repeat runs on gpt-6-luna exposed three verification bugs, now fixed with regression tests; before/after numbers are in `logs/reliability.md`.
 - **Answer keys** (`data/answer_keys/`) are written by hand. Meridian's 48 entries come from an independent reference router in `make_samples.py`.
 - **Stress tests**: separate red-team and robustness agents attacked the app. Their findings and my retest are in `stress/security/FINDINGS.md`, `stress/security/RETEST.md`, `stress/robustness/` and the rules audit in `stress/audit/AUDIT.md`.
 

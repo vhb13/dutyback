@@ -109,8 +109,8 @@ def find_entry_numbers(pages: list[Page]) -> dict[str, list[str]]:
 
 
 def segments(quote: str | None) -> list[str]:
-    """A quote may join text from several places with ' | ' or '...'; check each piece."""
-    parts = re.split(r"\s*\|\s*|\s*(?:\.\.\.|…)\s*", quote or "")
+    """A quote may join text from several places with ' | ', '...' or a line break; check each piece."""
+    parts = re.split(r"\s*\|\s*|\s*(?:\.\.\.|…)\s*|\s*\n\s*", quote or "")
     return [p for p in (x.strip() for x in parts) if len(norm(p)) >= 4]
 
 
@@ -350,6 +350,14 @@ def verify_entry(e: dict, c: Corpus) -> list[dict]:
 
     # 3. flags need a supporting quote
     true_flags = [f for f in FLAG_WORDS if e.get(f)]
+    # A flag whose words never appear in this entry's own text (from its number up to the next entry
+    # number) was borrowed from a neighbouring row, e.g. a "paid by surety" note printed under another
+    # entry. Drop it; if this entry's own text does carry flag words, missed_signs (step 6) sends it to review.
+    own = " ".join(c._segments_for(num))
+    for f in [f for f in true_flags if not any(w in own for w in FLAG_WORDS[f])]:
+        e[f] = False
+        rec(f"{f} dropped: not in this entry's own text", True, "borrowed from another row")
+    true_flags = [f for f in true_flags if e.get(f)]
     if true_flags:
         fq = ev.get("flags") or ""
         found = c.found(fq) and c.tied_to_entry(fq, num)
@@ -417,7 +425,19 @@ def verify_importer(imp: dict, c: Corpus) -> tuple[dict, list[str]]:
     if imp.get("cit_plaintiff"):
         q = imp.get("evidence") or ""
         d = imp.get("cit_ior_submitted_date")
-        ok = c.found(q) and "plaintiff" in norm(q) and (d is None or d in dates_in(q))
+        # the piece of the quote that says "plaintiff" must be printed verbatim; other pieces joined
+        # with " | " (form labels, the IOR number) don't decide this
+        claim = [sg for sg in segments(q) if "plaintiff" in norm(sg) and c.locate(sg)]
+        claim_text = " ".join(claim)
+        if d is None and claim:
+            # the Reader left the date out: take it from the verified sentence, only if exactly one
+            # date follows the word "submitted"/"provided"/"reached"
+            m = re.search(r"\b(submitted|provided|reached|filed with cbp)\b(.{0,80})", norm(claim_text))
+            after = dates_in(m.group(2)) if m else set()
+            if len(after) == 1:
+                d = next(iter(after))
+                imp = dict(imp, cit_ior_submitted_date=d)
+        ok = bool(claim) and (d is None or d in dates_in(claim_text))
         if not ok:
             warnings.append("The documents' claim that you are a court plaintiff could not be verified, "
                             "so finally liquidated entries are treated as having no current route.")

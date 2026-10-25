@@ -16,6 +16,7 @@ import json
 import os
 import shutil
 import subprocess
+import sys
 import time
 from pathlib import Path
 
@@ -33,7 +34,8 @@ APP = "http://localhost:8010"
 MODELS = Path(os.environ.get("KOKORO_MODELS", HERE / "tts_models"))
 VOICE, SPEED = "af_heart", 1.06
 W, H = 1440, 900
-EVAL = json.loads((HERE.parent / "logs" / "eval_final.json").read_text()) if (HERE.parent / "logs" / "eval_final.json").exists() else None
+EVAL_PATH = HERE.parent / "logs" / "eval_luna.json"
+EVAL = json.loads(EVAL_PATH.read_text(encoding="utf-8")) if EVAL_PATH.exists() else None
 
 BADGE = """<div id="vidbadge" style="position:fixed;right:14px;bottom:12px;z-index:99;background:rgba(28,25,23,.88);color:#fff;
 font:12px -apple-system,Segoe UI,Arial;padding:6px 10px;border-radius:8px">Real run · synthetic sample company · agent waits sped up · voice: Kokoro (synthetic)</div>"""
@@ -63,7 +65,7 @@ def eval_card():
       <tr><td>Wrong entries in the CAPE file</td><td class='g'>{p['false_files']}</td><td>{b['false_files']}</td></tr>
       <tr><td>Refunds left out of the CAPE file</td><td class='g'>${p['missed_money']:,.0f}</td><td>${b['missed_money']:,.0f}</td></tr></table>"""
     return card("How well it works", f"{n} entries, 4 synthetic importers, hand-checked answer keys", rows,
-                small="Final run shown. In an identical run the night before, the one-prompt version got 80/82: it miscounted the 180-day protest window twice. Same model (Claude Opus), same rules. Synthetic test data; real paperwork will differ.")
+                small="Run 1 of 3 on the final code; DutyBack was 82/82 in all three. Same model for both (gpt-6-luna on the course key), same rules. Synthetic test data; real paperwork will differ.")
 
 
 NARRATION = {
@@ -81,7 +83,7 @@ NARRATION = {
     "files": "The owner leaves with the CAPE upload list, a deadline calendar, and a summary for the broker.",
     "how": "Every agent, model, token and cost is shown here.",
     "safety": "I had separate agents attack it with hidden text and forged corrections. They broke my first version. After the fixes, the filing matched the clean run under every attack.",
-    "eval": "On four test importers with hand checked answers, DutyBack got every route, amount and deadline right. One strong prompt did nearly as well, but in one run it miscounted the hundred and eighty day window.",
+    "eval": "On four test importers with hand checked answers, DutyBack got every route, amount and deadline right, three runs out of three. One prompt to the same model made mistakes every time, and left about nine thousand dollars of refunds out of the filing.",
     "impact": "For a typical importer with fifty thousand dollars in these tariffs, acting today recovers about thirty five thousand. Waiting a month pushes about four thousand more past a deadline.",
     "close": "DutyBack doesn't replace a customs broker. It makes sure a small business acts before the deadline. Thanks for watching.",
 }
@@ -169,7 +171,7 @@ async def main():
         d.mkdir(parents=True)
     rec = Recorder()
     async with async_playwright() as pw:
-        browser = await pw.chromium.launch()
+        browser = await (pw.chromium.launch(channel="msedge") if sys.platform == "win32" else pw.chromium.launch())
         ctx = await browser.new_context(viewport={"width": W, "height": H}, device_scale_factor=1)
         page = await ctx.new_page()
         await rec.start(page)
@@ -203,8 +205,9 @@ async def main():
             await asyncio.sleep(1.0)
         await rec.scene("run", run, speedup=7.0, max_len=19.0)
         tot = await page.evaluate("({cost: RESULT.totals.cost_usd, tools: RESULT.totals.tool_calls, secs: RESULT.totals.seconds})")
-        cents = round(tot["cost"] * 100)
-        NARRATION["how"] = f"Every agent, model, token and cost is shown here. This run cost about {cents} cents."
+        cents = tot["cost"] * 100
+        NARRATION["how"] = ("Every agent, model, token and cost is shown here. This whole run cost about one cent."
+                            if cents < 1.5 else f"Every agent, model, token and cost is shown here. This run cost about {round(cents)} cents.")
 
         async def results():
             await page.evaluate("window.scrollTo({top: document.querySelector('#results').offsetTop - 10, behavior: 'smooth'})")
@@ -264,7 +267,7 @@ async def main():
 
         attack = HERE.parent / "data" / "attack" / "attack_result.json"
         if attack.exists():
-            res = json.loads(attack.read_text())
+            res = json.loads(attack.read_text(encoding="utf-8"))
 
             async def safety():
                 await page.goto(APP)
@@ -286,16 +289,16 @@ async def main():
                        "<div class='box'><b>$0</b><span>CBP fee to file in CAPE</span></div></div>",
                        small="Illustrative model with stated assumptions (12 entries, 314-day liquidation, 6% interest). See the report for sources."))
         await rec.html("close", card("DutyBack", "Know what you're owed. Act before the deadline.",
-                       "<p>Not legal advice. Built with Claude agents and plain-code rules. Synthetic data throughout.</p>",
+                       "<p>Not legal advice. Agents run on gpt-6-luna through the course key, with plain-code rules. Synthetic data throughout.</p>",
                        small="Real runs recorded on my computer · agent waiting time sped up · narration is a synthetic voice (Kokoro, open source)"), extra=1.5)
         await browser.close()
 
     # assemble video from frames with exact durations
     concat = BUILD / "frames.txt"
-    with concat.open("w") as f:
+    with concat.open("w", encoding="utf-8") as f:
         for dt, p in rec.frames:
-            f.write(f"file '{p}'\nduration {dt:.4f}\n")
-        f.write(f"file '{rec.frames[-1][1]}'\n")
+            f.write(f"file '{p.as_posix()}'\nduration {dt:.4f}\n")
+        f.write(f"file '{rec.frames[-1][1].as_posix()}'\n")
     silent = BUILD / "silent.mp4"
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(concat),
                     "-vf", f"scale={W}:{H}:force_original_aspect_ratio=decrease,pad={W}:{H}:(ow-iw)/2:(oh-ih)/2,fps=30,format=yuv420p",

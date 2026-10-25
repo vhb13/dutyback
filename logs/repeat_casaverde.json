@@ -1,0 +1,35 @@
+[
+ {
+  "run": 1,
+  "route_ok": 10,
+  "entries": 10,
+  "false_files": [],
+  "review": [],
+  "failed_checks": {},
+  "cost": 0.0044,
+  "seconds": 45.7,
+  "agent_errors": []
+ },
+ {
+  "run": 2,
+  "route_ok": 10,
+  "entries": 10,
+  "false_files": [],
+  "review": [],
+  "failed_checks": {},
+  "cost": 0.0054,
+  "seconds": 59.7,
+  "agent_errors": []
+ },
+ {
+  "run": 3,
+  "route_ok": 10,
+  "entries": 10,
+  "false_files": [],
+  "review": [],
+  "failed_checks": {},
+  "cost": 0.0048,
+  "seconds": 47.6,
+  "agent_errors": []
+ }
+]

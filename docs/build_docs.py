@@ -37,10 +37,13 @@ def load(p):
 
 EV = load("logs/eval_final.json")
 EVS = load("logs/eval_sonnet_final.json")
-REC = {s: load(f"data/recorded/{s}.json") for s in ("lotus", "northtrail", "casaverde", "meridian")}
-EVL = load("logs/eval_luna.json")
-LUNA = load("logs/luna_runs_summary.json")
-LUNA_LOT = load("logs/luna_lotus_run.json")
+REC = {s: load(f"data/recorded/{s}.json") for s in ("lotus", "northtrail", "casaverde", "meridian")}          # gpt-6-luna (demo mode)
+RECC = {s: load(f"data/recorded_claude/{s}.json") for s in ("lotus", "northtrail", "casaverde", "meridian")}  # Claude (development)
+EVL = load("logs/eval_luna.json")          # final code, run 1 of 3
+EVL_RUNS = [EVL, load("logs/eval_luna_r2.json"), load("logs/eval_luna_r3.json")]
+LUNA = {s: {"pages": r["result"]["screen"]["pages"], "entries": len(r["result"]["entries"]),
+            "totals": r["result"]["totals"], "agents": r["result"]["agents"]} for s, r in REC.items()}
+LUNA_LOT = REC["lotus"]["result"]
 STRESS = load("stress/summary.json") or {"security": [], "robustness": [], "audit": []}
 
 
@@ -53,6 +56,11 @@ def img(name, cls="shot", alt=""):
 
 def money(x, cents=False):
     return f"${x:,.2f}" if cents else f"${x:,.0f}"
+
+
+def usd(x):
+    """Small costs keep a third decimal so half a cent doesn't print as $0.00."""
+    return f"${x:.3f}" if x < 0.10 else f"${x:.2f}"
 
 
 def esc(s):
@@ -126,7 +134,7 @@ def luna_importer_table():
         rows.append(f"<tr><td>{label}</td><td class='r'>{r['pages']}</td><td class='r'>{n}</td><td class='r'>{readers}</td>"
                     f"<td class='r'>{t['input_tokens'] - cached:,}</td><td class='r'>{cached:,}</td><td class='r'>{t['output_tokens']:,}</td><td class='r'>{t['tool_calls']}</td>"
                     f"<td class='r'>${t['cost_usd']:.4f}</td><td class='r'>{100 * t['cost_usd'] / n:.2f}¢</td></tr>")
-    return ("<table><tr><th>Importer (gpt-6-luna eval run)</th><th class='r'>Pages</th><th class='r'>Entries</th><th class='r'>Readers</th><th class='r'>Input</th>"
+    return ("<table><tr><th>Importer (gpt-6-luna recorded run)</th><th class='r'>Pages</th><th class='r'>Entries</th><th class='r'>Readers</th><th class='r'>Input</th>"
             "<th class='r'>Cached input</th><th class='r'>Output</th><th class='r'>Tool calls</th><th class='r'>Cost</th><th class='r'>Per entry</th></tr>" + "".join(rows) + "</table>")
 
 
@@ -143,6 +151,33 @@ def luna_agent_rows():
     return "".join(rows)
 
 
+def runs_table():
+    out = ["<table><tr><th>Final code, fresh run</th><th class='r'>DutyBack<br><small>routes / amounts / deadlines</small></th>"
+           "<th class='r'>Wrong CAPE entries</th><th class='r'>Left out of CAPE file</th>"
+           "<th class='r'>One prompt<br><small>routes / amounts / deadlines</small></th><th class='r'>Wrong CAPE entries</th><th class='r'>Left out of CAPE file</th></tr>"]
+    for i, ev in enumerate(EVL_RUNS, 1):
+        p, b = ev["total"]["pipeline"], ev["total"]["baseline"]
+        out.append(f"<tr><td>Run {i}</td><td class='r'>{p['route_ok']} / {p['amount_ok']} / {p['deadline_ok']}</td><td class='r'>{p['false_files']}</td>"
+                   f"<td class='r'>{money(p['missed_money'])}</td><td class='r'>{b['route_ok']} / {b['amount_ok']} / {b['deadline_ok']}</td>"
+                   f"<td class='r'>{b['false_files']}</td><td class='r'>{money(b['missed_money'])}</td></tr>")
+    out.append("</table>")
+    return "".join(out)
+
+
+RELIABILITY_ROWS = [
+    ("Lotus, 6 fresh runs, first code", "1 of 6 runs fully correct (13, 12, 12, 12, 12, 9 of 13 routes)",
+     "A 'paid by surety' note printed under one row of the broker statement was attached to the rows above it"),
+    ("Full evaluation after fix 1", "78/82 routes, $0 left out", "The court-plaintiff sentence was quoted together with form labels; the joined quote failed"),
+    ("Full evaluation after fix 2", "78/82 routes, $8,820 left out", "Flag quotes spanning two lines failed the verbatim match, so 4 entries went to Check by hand"),
+    ("After all three fixes", "15/15 single-importer runs and 3/3 full evaluations fully correct", "-"),
+]
+
+
+def reliability_table():
+    return ("<table><tr><th>Test (fresh runs on gpt-6-luna)</th><th>DutyBack</th><th>Cause</th></tr>" +
+            "".join(f"<tr><td>{esc(a)}</td><td>{esc(b)}</td><td>{esc(c)}</td></tr>" for a, b, c in RELIABILITY_ROWS) + "</table>")
+
+
 def eval_table():
     def row(label, key, fmt=lambda v, n: f"{v}/{n}"):
         cells = [fmt(L[key], N), fmt(LB[key], N), fmt(P[key], N), fmt(B[key], N)]
@@ -156,7 +191,7 @@ def eval_table():
             + row("Correct deadline", "deadline_ok")
             + row("Wrong entries put in the CAPE file", "false_files", lambda v, n: str(v))
             + row("Refunds left out of the CAPE file", "missed_money", lambda v, n: money(v))
-            + row("Cost for all four importers", "cost_usd", lambda v, n: f"${v:.2f}"))
+            + row("Cost for all four importers", "cost_usd", lambda v, n: usd(v)))
     return f"<table>{head}{body}</table>"
 
 
@@ -290,14 +325,14 @@ def walkthrough_steps():
 def importer_cost_table():
     rows = []
     for slug, label in (("lotus", "Lotus Tile & Stone"), ("northtrail", "North Trail Cycles"), ("casaverde", "Casa Verde Imports"), ("meridian", "Meridian Home Goods")):
-        r = REC[slug]["result"]
+        r = RECC[slug]["result"]
         t = r["totals"]
         readers = sum(1 for a in r["agents"] if a["agent"].startswith("reader") and "repair" not in a["agent"])
         n = len(r["entries"])
         rows.append(f"<tr><td>{label}</td><td class='r'>{r['screen']['pages']}</td><td class='r'>{n}</td><td class='r'>{readers}</td>"
                     f"<td class='r'>{t['input_tokens']:,}</td><td class='r'>{t['output_tokens']:,}</td><td class='r'>{t['tool_calls']}</td>"
                     f"<td class='r'>{t['seconds']:.0f}s</td><td class='r'>${t['cost_usd']:.2f}</td><td class='r'>{100 * t['cost_usd'] / n:.1f}¢</td></tr>")
-    return ("<table><tr><th>Importer (recorded run)</th><th class='r'>Pages</th><th class='r'>Entries</th><th class='r'>Readers</th><th class='r'>Tokens in</th>"
+    return ("<table><tr><th>Importer (Claude run)</th><th class='r'>Pages</th><th class='r'>Entries</th><th class='r'>Readers</th><th class='r'>Tokens in</th>"
             "<th class='r'>Tokens out</th><th class='r'>Tool calls</th><th class='r'>Time</th><th class='r'>Cost</th><th class='r'>Per entry</th></tr>" + "".join(rows) + "</table>")
 
 
@@ -305,11 +340,11 @@ def model_table():
     rows = [("DutyBack, gpt-6-luna (default, course key)", L), ("One prompt, gpt-6-luna, same rules", LB),
             ("DutyBack, Claude Opus Reader", P), ("DutyBack, Claude Sonnet Reader", S), ("One prompt, Claude Opus, same rules", B)]
     out = ["<table><tr><th>Setup (all 4 importers, 82 entries)</th><th class='r'>Correct routes</th><th class='r'>Cost</th><th class='r'>Per entry</th><th>What you get</th></tr>"]
-    notes = ["Evidence, checks, Checker, plan, files", "A list of routes; 1 wrong entry in the CAPE file", "Same as the default, about 50x the cost",
+    notes = ["Evidence, checks, Checker, plan, files", f"A list of routes; left {money(LB['missed_money'])} out of the CAPE file", "Same as the default, about 50x the cost",
              "Same, cheaper than Opus", "A list of routes; no evidence or checks"]
     for (lbl, d), note in zip(rows, notes):
         if d:
-            out.append(f"<tr><td>{lbl}</td><td class='r'>{d['route_ok']}/{d['entries']}</td><td class='r'>${d['cost_usd']:.2f}</td>"
+            out.append(f"<tr><td>{lbl}</td><td class='r'>{d['route_ok']}/{d['entries']}</td><td class='r'>{usd(d['cost_usd'])}</td>"
                        f"<td class='r'>{100 * d['cost_usd'] / d['entries']:.2f}¢</td><td>{note}</td></tr>")
     out.append("</table>")
     return "".join(out)
@@ -349,14 +384,16 @@ def history_table():
             ("Final code, Oct 24 evening (82)", "82/82", "80/82", "Baseline miscounted the 180-day window twice (missed protests)"),
             ("Final code, Oct 25 (82), this report", f"{P['route_ok']}/{P['entries']}", f"{B['route_ok']}/{B['entries']}", "Both perfect"),
             ("Sonnet Reader, Oct 25 (82)", f"{S['route_ok']}/{S['entries']}" if S else "-", "-", "Same accuracy, lower cost"),
-            ("gpt-6-luna, course key, Oct 25 (82)", f"{L['route_ok']}/{L['entries']}", f"{LB['route_ok']}/{LB['entries']}",
-             "Same model for both. One prompt: 2 wrong deadlines and 1 entry wrongly put in the CAPE file")]
+            ("gpt-6-luna, first code, Oct 25 (82)", "82/82", "81/82", "DutyBack's 82/82 was a good draw; repeat runs found 3 verification bugs (section 6). One prompt put 1 wrong entry in the CAPE file"),
+            ("gpt-6-luna, after fixes 1 and 2", "78/82, 78/82", "81/82, 81/82", "Each sent 4 entries to the wrong safe route or to review; no wrong CAPE entries"),
+            ("gpt-6-luna, final code, 3 runs (82 each)", " / ".join(str(e["total"]["pipeline"]["route_ok"]) for e in EVL_RUNS),
+             " / ".join(str(e["total"]["baseline"]["route_ok"]) for e in EVL_RUNS), "The report's main result")]
     return ("<table><tr><th>Run</th><th class='r'>DutyBack</th><th class='r'>One prompt</th><th>Notes</th></tr>" +
             "".join(f"<tr><td>{a}</td><td class='r'>{b}</td><td class='r'>{c}</td><td>{d}</td></tr>" for a, b, c, d in rows) + "</table>")
 
 
 def report():
-    rows_lot = agent_rows(lot)
+    rows_lot = agent_rows(RECC["lotus"]["result"])
     removed_total = sum(len(REC[s]["result"]["plan_removed_sentences"]) for s in REC if REC[s])
     checks_total = sum(len(e["checks"]) for s in REC if REC[s] for e in REC[s]["result"]["entries"])
     checks_ok = sum(c["ok"] for s in REC if REC[s] for e in REC[s]["result"]["entries"] for c in e["checks"])
@@ -417,10 +454,10 @@ def report():
 </ul>
 <p><b>Which model, and why.</b> Every agent call goes through one function (<span class="mono">app/pipeline/llm.py</span>) with two engines. The default is the course key: <b>gpt-6-luna</b> through Portkey, the only model allowed on that key, with strict JSON-schema output. I first built and tested DutyBack on Claude (Opus Reader, Sonnet Checker and Advisor) through the Claude Agent SDK, and kept that as an option (<span class="mono">DUTYBACK_BACKEND=claude</span>). On my 82 hand-checked entries gpt-6-luna was exactly as accurate as Claude Opus at about 1/50 of the cost (section 5), so it is the default. Because the code does the checking and the deciding, a smaller model is enough for the reading. Either way, agents have no built-in tools at all (no files, shell or web), a spending cap per call and a turn limit. The web app is FastAPI with plain JavaScript.</p>
 <div class="half">{img("drawer_301.png", alt="Entry detail")}<div>{img("how.png", alt="How this was made")}</div></div>
-<p class="cap">Left: an entry's evidence. The broker statement quote, the 7501 duty lines (Section 301 marked "not IEEPA") and the checks code ran. Right: the "How this was made" tab with every agent, model, token count, cost and the Checker's tool calls (this screenshot is from a recorded Claude run; on the course key the same tab shows gpt-6-luna).</p>
+<p class="cap">Left: an entry's evidence. The broker statement quote, the 7501 duty lines (Section 301 marked "not IEEPA") and the checks code ran. Right: the "How this was made" tab with every agent, model, token count, cost and the Checker's tool calls .</p>
 
 <h3>One real run, step by step: Lotus Tile &amp; Stone</h3>
-<p>Lotus is a made-up tile importer in Long Beach with 13 customs entries from Vietnam, China, Italy and Spain. Its paperwork is 12 CBP Form 7501 pages and a one-page broker statement. One entry appears only on the statement. This is the recorded run that demo mode replays (recorded on the Claude engine; a gpt-6-luna run of the same paperwork is in section 5 and gave the same routes and amounts):</p>
+<p>Lotus is a made-up tile importer in Long Beach with 13 customs entries from Vietnam, China, Italy and Spain. Its paperwork is 12 CBP Form 7501 pages and a one-page broker statement. One entry appears only on the statement. This is the recorded gpt-6-luna run that demo mode replays:</p>
 {img("start.png", alt="Start page")}
 <p class="cap">The start page: four synthetic sample importers, each with a different broker paperwork layout, or upload your own PDFs.</p>
 {walkthrough_steps()}
@@ -443,7 +480,7 @@ def report():
 <p><b>Default engine: gpt-6-luna on the course key.</b> Token counts are what the API reported for real runs; cost uses gpt-6-luna list prices ($0.10 per million input tokens, $0.01 cached input, $0.50 output; the app computes it per call and shows it in the "How this was made" tab).</p>
 <table><tr><th>Agent (gpt-6-luna Lotus run, {lot_entries} entries)</th><th>Model</th><th class="r">Time</th><th class="r">Input</th><th class="r">Cached input</th><th class="r">Output</th><th class="r">Tool calls</th><th class="r">Cost</th></tr>{luna_agent_rows()}</table>
 {luna_importer_table()}
-<p class="cap">The eval run's input tokens include cache hits from repeated system prompts and Checker turns. Portkey also returned cached responses for some prompts I had just run, so the eval timings are too short to be meaningful; the Lotus table above is an uncached run ({luna_secs:.0f} s).</p>
+<p class="cap">These are the recorded gpt-6-luna runs that demo mode replays, made with Portkey's response cache turned off so the timings are real. "Cached input" is the provider's prompt cache for repeated system prompts and Checker turns, billed at a tenth of the input price.</p>
 <h3>Cost per user and at scale</h3>
 <p>Assumption: a typical small importer runs a Lotus-sized batch (13 entries) {RUNS_PER_MONTH} times a month, re-checking as new entries liquidate. Per-entry costs are the measured averages over all 82 entries.</p>
 {scale_table()}
@@ -455,7 +492,7 @@ def report():
 <ul>
 <li><b>Per importer on the course key:</b> ${luna_lot_cost:.4f} for Lotus ({lot_entries} entries) and ${luna_mer_cost:.3f} for Meridian ({mer_entries} entries), about <b>{luna_per_entry_c:.2f} cents per entry</b>. Most of it is the Reader's output tokens, because it writes out every line with its quote.</li>
 <li><b>What I did to keep cost down, and whether it hurt:</b> I moved every agent from Claude (${P['cost_usd']:.2f} for the four importers with an Opus Reader, ${S['cost_usd']:.2f} with Sonnet) to gpt-6-luna (${L['cost_usd']:.2f}). Accuracy did not drop: {L['route_ok']}/{N} routes, {L['amount_ok']}/{N} amounts, {L['deadline_ok']}/{N} deadlines and no wrong CAPE entries, the same as Claude Opus (section 7). Big files are split so Readers run in parallel instead of one huge call, the Repair step re-reads only flagged entries, and the Checker reads pages on demand through its tools instead of getting every page in its prompt.</li>
-<li><b>One prompt is cheaper still.</b> On gpt-6-luna one prompt cost ${LB['cost_usd']:.2f} against ${L['cost_usd']:.2f} for DutyBack, but it got {LB['deadline_ok']}/{N} deadlines and put {LB['false_files']} wrong entry into the CAPE file. The extra few cents buy the evidence trail, the verification and the Checker.</li>
+<li><b>One prompt is cheaper still.</b> On gpt-6-luna one prompt cost {usd(LB['cost_usd'])} against {usd(L['cost_usd'])} for DutyBack, but in every run it got routes or deadlines wrong and left {money(min(e['total']['baseline']['missed_money'] for e in EVL_RUNS))}–{money(max(e['total']['baseline']['missed_money'] for e in EVL_RUNS))} of refunds out of the CAPE file (section 7). The extra few cents buy the evidence trail, the verification and the Checker.</li>
 <li><b>Guards:</b> a dollar cap per agent call, a daily run cap, page and file limits, and the Checker's turn limit. Repeated system prompts are cached by the SDK automatically (visible as cache reads in the logs).</li>
 <li><b>Against the value:</b> under 1 cent on gpt-6-luna (about 40 cents on Claude Opus) to sort {money(ls['ieepa_paid'])} of duty. A broker charges roughly $200–$350 per entry according to vendor blogs (weak sources, see research notes). CBP itself estimated about 5 minutes per entry for a specialist [3], so 13 entries is about an hour by hand.</li>
 </ul>
@@ -472,6 +509,10 @@ def report():
 <li>Routes and money come from code. The CAPE file only gets entries backed by 7501 or ACE line detail, from one importer, with no unresolved conflict; statement-only entries and Phase 3 (plaintiff) entries need confirmation first, and look-alike entry numbers are folded and flagged.</li>
 <li>The Advisor's text is filtered against the engine's numbers.</li></ol>
 <p>Across the recorded runs, {checks_ok} of {checks_total} code checks passed; the rest sent entries to a person rather than into a filing.</p>
+<h3>Agent malfunction: what repeat runs on the course model found</h3>
+<p>My first full evaluation on gpt-6-luna scored 82/82, but one good run proves little, so I ran the same paperwork again and again with the response cache off. The results varied, and the variation exposed three bugs in my verification code. In none of these runs did a wrong entry reach the CAPE file; every failure was conservative (an entry went to a person, or to "talk to your broker"), but each one left real refunds out.</p>
+{reliability_table()}
+<p>The fixes: a flag only counts if its words sit in that entry's own text (the rule the liquidation date already followed); the court-plaintiff check verifies the sentence that says "plaintiff" on its own, and code reads the importer-number date from it when the model leaves it blank; and quotes that span two lines are checked line by line. Each has a regression test, and the offline red-team probes give the same output before and after. Details: <span class="mono">logs/reliability.md</span>.</p>
 <h3>A rules audit</h3>
 <p>A separate agent checked my rules against the primary sources (the CBP messages, CBP's refund page and the court's opinion) and my UI's claims against the code. It found these mistakes in my first version, all fixed and covered by tests:</p>
 {audit_table()}
@@ -489,7 +530,9 @@ def report():
 {eval_table()}
 {per_importer_table()}
 {sonnet_line}
-<p><b>On the course model the structure matters.</b> On gpt-6-luna, DutyBack scored {L['route_ok']}/{N} routes, {L['amount_ok']}/{N} amounts and {L['deadline_ok']}/{N} deadlines with no wrong CAPE entries. One prompt to the same model got {LB['route_ok']}/{N} routes and {LB['deadline_ok']}/{N} deadlines, and it put a Lotus entry whose goods value sits on a Chapter 99 line straight into the CAPE file, which CAPE would reject. DutyBack's code checks caught that and routed it to "Fix, then file in CAPE".</p>
+<p><b>On the course model the structure matters.</b> I ran the full evaluation three times on the final code, each time fresh (no cached answers):</p>
+{runs_table()}
+<p>DutyBack was fully correct in all three runs. One prompt to the same model with the same rules made mistakes every time: it called CAPE-eligible entries drawback exclusions or "waiting on the court", miscounted deadlines, and left $9,314 to $13,230 of refunds out of the CAPE file. In my first gpt-6-luna run it also put an entry whose goods value sits on a Chapter 99 line straight into the CAPE file, which CAPE would reject; DutyBack's code checks route that entry to "Fix, then file in CAPE".</p>
 <p><b>The honest result on Claude:</b> on clean digital PDFs, one careful prompt to a strong model is about as accurate as the full pipeline, at about a quarter of the cost. In this final run both were perfect. In an identical run the night before, the one-prompt version got 80 of 82: it miscounted the 180-day window on two entries and called them "waiting on the court" when their protest window was still open, which would have cost the importer those protests. Across all my evaluation runs (<span class="mono">logs/eval_history.md</span>), DutyBack's only miss was one entry sent to "Check by hand" in an early version. DutyBack's advantages are elsewhere. It never put a wrong entry in the CAPE file. Every number traces to a quote and a check. Instructions hidden in a document can't change a result. And when something can't be verified, it goes to a person instead of into a filing. For money and legal deadlines, I think that trade is worth it, and on gpt-6-luna it costs well under a cent an entry.</p>
 <h3>Robustness on messy paperwork</h3>
 {stress_table("robustness")}
@@ -507,7 +550,7 @@ def report():
 <li><b>Synthetic data only.</b> The four importers and their paperwork are made up; real broker paperwork is messier. The stricter checks are cautious with two-column statements (they go to "Check by hand").</li>
 <li><b>Rules snapshot of Oct 24, 2026.</b> The Federal Circuit appeal and the class case can change the routes. Edge cases (warehouse, AD/CVD, type 09) are deliberately sent to "ask your broker" instead of guessed. Interest is not computed.</li>
 <li><b>Not legal advice,</b> and it doesn't file anything. The CAPE CSV should be checked against the template in the ACE Portal.</li>
-<li><b>Two engines, one tested more.</b> The demo-mode recordings and the video are from the Claude engine; the course-key engine (gpt-6-luna) is the default and scored the same on all 82 entries, but has had fewer runs. Without any key it opens in a labeled demo mode with real recorded runs.</li>
+<li><b>Two engines.</b> gpt-6-luna on the course key is the default, and the demo recordings, screenshots and video use it. I developed and red-teamed the app first on Claude; the red-team retests in section 6 ran on that engine, and I re-ran the attacked paperwork on gpt-6-luna with the same result. Without any key the app opens in a labeled demo mode with real recorded runs.</li>
 <li><b>Next:</b> real feedback from a few small importers and a broker; reading ACE reports directly; OCR for scanned pages; interest estimates; tracking rule changes automatically.</li>
 </ul>
 
@@ -548,7 +591,7 @@ def slides():
     ev_rows = (ev("Correct route", "route_ok") + ev("Correct refund amount", "amount_ok") + ev("Correct deadline", "deadline_ok")
                + ev("Wrong entries in the CAPE file", "false_files", str)
                + ev("Refunds left out of the CAPE file", "missed_money", money)
-               + ev("Cost, 4 importers", "cost_usd", lambda v: f"${v:.2f}"))
+               + ev("Cost, 4 importers", "cost_usd", usd))
     sec = STRESS.get("security") or []
     sec_pass = sum(1 for r in sec if r["result"] in ("PASS", "FIXED"))
     flow = DIAGRAM.replace('class="flow"', 'class="flow"').replace("<span>", "<br><span>")
@@ -586,7 +629,7 @@ def slides():
 
 <section><div class="kick">Does it work?</div><h2>{N} entries, 4 importers, hand-checked answers</h2>
 <table><tr><th></th><th>DutyBack<br><small>gpt-6-luna</small></th><th>One prompt<br><small>gpt-6-luna</small></th><th>DutyBack<br><small>Claude Opus</small></th><th>One prompt<br><small>Claude Opus</small></th></tr>{ev_rows}</table>
-<p style="font-size:.55em;text-align:left">On the course model, one prompt put a wrong entry in the CAPE file and missed 2 deadlines; DutyBack's code checks caught both. On Claude Opus both were perfect in the final run (one prompt missed 2 protest windows the night before). DutyBack's edge: date math in code, evidence for every number, and it fails safe under attack.</p></section>
+<p style="font-size:.55em;text-align:left">gpt-6-luna columns: run 1 of 3 on the final code. DutyBack was 82/82 in all three; one prompt to the same model missed routes or deadlines every time and left $9.3k–$13.2k out of the CAPE file. Repeat runs also exposed 3 verification bugs, now fixed and tested. DutyBack's edge: date math in code, evidence for every number, and it fails safe.</p></section>
 
 <section><div class="kick">Tokenomics</div><h2>Under 1 cent to sort {money(ls['ieepa_paid'])} of duty</h2>
 <div class="kpis"><div class="kpi"><b>${luna_lot_cost:.3f}</b><span>Lotus, {lot_entries} entries, gpt-6-luna</span></div>

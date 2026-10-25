@@ -24,11 +24,11 @@ async def inject(page, result, tab="entries", job="recorded"):
 
 async def main():
     OUT.mkdir(exist_ok=True)
-    lotus = json.loads((ROOT / "data" / "recorded" / "lotus.json").read_text())["result"]
+    lotus = json.loads((ROOT / "data" / "recorded" / "lotus.json").read_text(encoding="utf-8"))["result"]
     attack_path = ROOT / "data" / "attack" / "attack_result.json"
-    attack = json.loads(attack_path.read_text()) if attack_path.exists() else None
+    attack = json.loads(attack_path.read_text(encoding="utf-8")) if attack_path.exists() else None
     async with async_playwright() as pw:
-        b = await pw.chromium.launch()
+        b = await pw.chromium.launch(channel="msedge") if __import__("sys").platform == "win32" else await pw.chromium.launch()
         page = await b.new_page(viewport={"width": 1280, "height": 820}, device_scale_factor=2)
 
         await page.goto(APP)
